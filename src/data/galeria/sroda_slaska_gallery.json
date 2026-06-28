@@ -1,0 +1,24 @@
+[
+  {
+    "id": "osadnictwo",
+    "file": "sroda_slaska_osadnictwo.webp",
+    "title": "Osadnictwo okolic (XII–XIV w.)",
+    "date": "b.d.",
+    "mapPin": [
+      16.594408,
+      51.163786
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "stanowiska_archeologiczne",
+    "file": "sroda_slaska_stanowiska_archeologiczne.webp",
+    "title": "Średniowieczne stanowiska archeologiczne",
+    "date": "b.d.",
+    "mapPin": [
+      16.594665,
+      51.163597
+    ],
+    "imgPins": []
+  }
+]

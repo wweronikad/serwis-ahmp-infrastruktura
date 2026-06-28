@@ -1,0 +1,24 @@
+[
+  {
+    "id": "osadnictwo",
+    "file": "strzegom_osadnictwo.webp",
+    "title": "Osadnictwo zaplecza (XII–XIII w.)",
+    "date": "b.d.",
+    "mapPin": [
+      16.346417,
+      50.959816
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "wsie_okrgu",
+    "file": "strzegom_wsie_okrgu.webp",
+    "title": "Wsie okręgu strzegomskiego do końca XV w.",
+    "date": "b.d.",
+    "mapPin": [
+      16.347404,
+      50.959546
+    ],
+    "imgPins": []
+  }
+]

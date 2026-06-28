@@ -1,0 +1,173 @@
+:root {
+  --navy: #1a2942;
+  --navy-light: #253659;
+  --navy-hover: #1d3056;
+  --gold: #b8963e;
+  --gold-light: #d4b26a;
+  --cream: #f5f0e8;
+  --cream-dark: #ece4d0;
+  --text: #1f1f1f;
+  --text-muted: #5c5c5c;
+  --border: #d0c4a8;
+  --border-light: #e5ddd0;
+  --white: #ffffff;
+  --shadow-sm: 0 1px 4px rgba(0,0,0,0.10);
+  --shadow: 0 2px 10px rgba(0,0,0,0.14);
+  --shadow-lg: 0 4px 24px rgba(0,0,0,0.18);
+  --radius: 3px;
+  --font-serif: Georgia, 'Times New Roman', serif;
+  --font-sans: 'Segoe UI', system-ui, -apple-system, sans-serif;
+  --header-h: 72px;
+  --footer-h: 38px;
+}
+
+*, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+html, body, #root { height: 100%; }
+
+body {
+  font-family: var(--font-sans);
+  color: var(--text);
+  background: var(--cream);
+  font-size: 14px;
+  line-height: 1.6;
+  -webkit-font-smoothing: antialiased;
+}
+
+h1, h2, h3, h4 {
+  font-family: var(--font-serif);
+  font-weight: normal;
+  line-height: 1.3;
+  color: var(--navy);
+}
+
+a { color: var(--navy); text-decoration: none; }
+a:hover { color: var(--gold); text-decoration: underline; }
+button { cursor: pointer; font-family: var(--font-sans); }
+
+.app { display: flex; flex-direction: column; height: 100%; }
+.main-content { flex: 1; min-height: 0; }
+
+::-webkit-scrollbar { width: 6px; height: 6px; }
+::-webkit-scrollbar-track { background: var(--cream-dark); }
+::-webkit-scrollbar-thumb { background: var(--border); border-radius: 3px; }
+::-webkit-scrollbar-thumb:hover { background: var(--gold); }
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+/* MapLibre overrides */
+.maplibregl-ctrl-bottom-left { margin-bottom: 8px; margin-left: 8px; }
+.maplibregl-ctrl-attrib { font-size: 11px !important; }
+
+/* Card hover states */
+a[href]:has(+ *) { transition: all 0.15s; }
+
+/* Sidebar map item hover — only background, avoid border-color conflict with inline styles */
+button:hover:not(:disabled) {
+  background: var(--cream-dark) !important;
+}
+
+/* Collapsible panel wrapper — forces flex min-width override */
+.panel-collapse-wrapper {
+  min-width: 0 !important;
+}
+
+/* Panel resize handles */
+.resize-handle,
+.resize-handle-left {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  width: 4px;
+  cursor: col-resize;
+  background: transparent;
+  z-index: 10;
+  transition: background 0.15s;
+}
+.resize-handle { right: -2px; }
+.resize-handle-left { left: -2px; }
+.resize-handle:hover,
+.resize-handle-left:hover {
+  background: var(--gold);
+}
+
+/* External links */
+a[target="_blank"]:hover {
+  text-decoration: underline;
+}
+
+/* ── Ken Burns — płynny, bez pikselizacji ────────────────────────────────── */
+
+/* Scale max 1.25 — wyraźny ale nie degraduje jakości obrazu.
+   Translate w pikselach zamiast % — stabilniejszy rendering na subpixelach.
+   ease-in-out — naturalny, kinowy ruch.
+   10s — wystarczająco wolne żeby nie wyglądało jak trzęsienie. */
+@keyframes kbA {
+  0%   { transform: scale(1.0) translate(0px, 0px);    }
+  100% { transform: scale(1.25) translate(-18px, -10px); }
+}
+@keyframes kbB {
+  0%   { transform: scale(1.0) translate(0px, 0px);    }
+  100% { transform: scale(1.25) translate( 18px, -10px); }
+}
+@keyframes kbC {
+  0%   { transform: scale(1.0) translate(0px, 0px);    }
+  100% { transform: scale(1.22) translate(-14px,  14px); }
+}
+@keyframes kbD {
+  0%   { transform: scale(1.0) translate(0px, 0px);    }
+  100% { transform: scale(1.24) translate( 16px,  12px); }
+}
+
+.kb {
+  will-change: transform;
+  backface-visibility: hidden;        /* eliminuje trzęsienie w Chromium */
+  transform: translateZ(0);           /* wymusza warstwę GPU */
+  animation-duration: 10s;
+  animation-timing-function: ease-in-out;
+  animation-iteration-count: infinite;
+  animation-direction: alternate;
+  animation-play-state: paused;
+}
+.kb-a { animation-name: kbA; }
+.kb-b { animation-name: kbB; }
+.kb-c { animation-name: kbC; }
+.kb-d { animation-name: kbD; }
+
+/* ── City card hover — tylko uniesienie, bez dodatkowego scale ───────────── */
+.city-card {
+  transition: box-shadow 0.25s ease, transform 0.25s ease !important;
+  position: relative;
+}
+.city-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 32px rgba(0, 0, 0, 0.18) !important;
+  z-index: 2;
+}
+.city-card:hover .kb {
+  animation-play-state: running;
+}
+
+/* ── Photo map markers ─────────────────────────────────────────────────── */
+.photo-map-marker {
+  cursor: pointer;
+}
+.photo-marker-dot {
+  width: 26px;
+  height: 26px;
+  background: var(--navy);
+  border: 2px solid var(--gold);
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: var(--gold-light);
+  box-shadow: 0 2px 8px rgba(0,0,0,0.5);
+  transition: transform 0.15s, background 0.15s;
+}
+.photo-map-marker:hover .photo-marker-dot {
+  transform: scale(1.2);
+  background: var(--gold);
+  color: var(--navy);
+}

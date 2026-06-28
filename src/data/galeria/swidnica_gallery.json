@@ -1,0 +1,24 @@
+[
+  {
+    "id": "poczatki_kamienic",
+    "file": "swidnica_poczatki_kamienic.webp",
+    "title": "Początki kamienic — zachodnia pierzeja rynku",
+    "date": "b.d.",
+    "mapPin": [
+      16.486186,
+      50.842826
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "rozwoj_zabudowy",
+    "file": "swidnica_rozwoj_zabudowy.webp",
+    "title": "Rozwój zabudowy bloku rynku (średniowiecze)",
+    "date": "b.d.",
+    "mapPin": [
+      16.487137,
+      50.842423
+    ],
+    "imgPins": []
+  }
+]

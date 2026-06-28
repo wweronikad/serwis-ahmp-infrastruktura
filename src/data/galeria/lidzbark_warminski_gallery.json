@@ -1,0 +1,73 @@
+[
+  {
+    "id": "panorama_od_poludnia_1704",
+    "file": "lidzbark_panorama_od_poludnia_1704.webp",
+    "title": "Panorama miasta od południa",
+    "date": "1704",
+    "mapPin": [
+      20.582979,
+      54.124645
+    ],
+    "imgPins": [
+      {
+        "x": 62.8,
+        "y": 60.6,
+        "label": "Zamek biskupów warmińskich"
+      },
+      {
+        "x": 42.5,
+        "y": 60.1,
+        "label": "Kościół farny pw. św. Apostołów Piotra i Pawła"
+      },
+      {
+        "x": 28.3,
+        "y": 56.9,
+        "label": "Wysoka Brama"
+      }
+    ]
+  },
+  {
+    "id": "widok_na_mlyny_1845",
+    "file": "lidzbark_widok_na_mlyny_1845.webp",
+    "title": "Widok na młyny nad Łysiną",
+    "date": "1845",
+    "mapPin": [
+      20.582416,
+      54.126969
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_na_ratusz_1845",
+    "file": "lidzbark_widok_na_ratusz_1845.webp",
+    "title": "Widok na ratusz",
+    "date": "1845",
+    "mapPin": [
+      20.580505,
+      54.125957
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zdjecia_lotnicze_2019",
+    "file": "lidzbark_zdjecia_lotnicze_2019.webp",
+    "title": "Zdjęcia lotnicze",
+    "date": "2019",
+    "mapPin": [
+      20.559365,
+      54.126508
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zdjecia_lotnicze_2019_2",
+    "file": "lidzbark_zdjecia_lotnicze_2019_2.webp",
+    "title": "Zdjęcia lotnicze",
+    "date": "2019",
+    "mapPin": [
+      20.586489,
+      54.126225
+    ],
+    "imgPins": []
+  }
+]

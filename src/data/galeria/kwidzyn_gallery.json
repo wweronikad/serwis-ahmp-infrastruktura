@@ -1,0 +1,90 @@
+[
+  {
+    "id": "widok_centrum_od_se",
+    "file": "kwidzyn_widok_centrum_od_se.webp",
+    "title": "Widok na centrum od strony płd.-wschodniej",
+    "date": "b.d.",
+    "mapPin": [
+      18.925725,
+      53.733264
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_dworzec",
+    "file": "kwidzyn_widok_dworzec.webp",
+    "title": "Widok na dworzec kolejowy",
+    "date": "b.d.",
+    "mapPin": [
+      18.933508,
+      53.730515
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_poludniowa_czesc",
+    "file": "kwidzyn_widok_poludniowa_czesc.webp",
+    "title": "Widok na południową część miasta",
+    "date": "b.d.",
+    "mapPin": [
+      18.9265,
+      53.731092
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_polnocy_przedmiescie_malborskie",
+    "file": "kwidzyn_widok_od_polnocy_przedmiescie_malborskie.webp",
+    "title": "Widok od północy na dawne przedmieście malborskie",
+    "date": "b.d.",
+    "mapPin": [
+      18.923436,
+      53.736901
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_szkola_podoficerska",
+    "file": "kwidzyn_widok_szkola_podoficerska.webp",
+    "title": "Widok na zabudowania dawnej Szkoły Podoficerskiej",
+    "date": "b.d.",
+    "mapPin": [
+      18.927551,
+      53.728424
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_wschodu_miasto_lokacyjne",
+    "file": "kwidzyn_widok_od_wschodu_miasto_lokacyjne.webp",
+    "title": "Widok od wschodu na średniowieczne miasto lokacyjne",
+    "date": "b.d.",
+    "mapPin": [
+      18.923493,
+      53.734234
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zdjecia_lotnicze_2023",
+    "file": "kwidzyn_zdjecia_lotnicze_2023.webp",
+    "title": "Zdjęcia lotnicze",
+    "date": "2023",
+    "mapPin": [
+      18.937158,
+      53.739137
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zdjecia_lotnicze_2023_2",
+    "file": "kwidzyn_zdjecia_lotnicze_2023_2.webp",
+    "title": "Zdjęcia lotnicze",
+    "date": "2023",
+    "mapPin": [
+      18.930319,
+      53.721198
+    ],
+    "imgPins": []
+  }
+]

@@ -1,0 +1,79 @@
+[
+  {
+    "id": "kolegiata_1800",
+    "file": "tarnow_kolegiata_1800.webp",
+    "title": "Kolegiata",
+    "date": "1800",
+    "mapPin": [
+      20.986768,
+      50.013101
+    ],
+    "imgPins": [
+      {
+        "x": 82.9,
+        "y": 50.5,
+        "label": "Ratusz"
+      },
+      {
+        "x": 33.1,
+        "y": 47.3,
+        "label": "Kolegiata p.w. Narodzenia Najświętszej Maryi Panny"
+      }
+    ]
+  },
+  {
+    "id": "widok_z_lotu_ptaka",
+    "file": "tarnow_widok_z_lotu_ptaka.webp",
+    "title": "Widok z lotu ptaka",
+    "date": "b.d.",
+    "mapPin": [
+      20.989485,
+      50.013529
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "rynek_ratusz_1800",
+    "file": "tarnow_rynek_ratusz_1800.webp",
+    "title": "Rynek i ratusz",
+    "date": "1800",
+    "mapPin": [
+      20.988411,
+      50.012236
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_poludnia_1820",
+    "file": "tarnow_widok_od_poludnia_1820.webp",
+    "title": "Widok od południa",
+    "date": "1820–30",
+    "mapPin": [
+      20.989313,
+      50.011158
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_gory_sw_marcina_1831",
+    "file": "tarnow_widok_gory_sw_marcina_1831.webp",
+    "title": "Widok z Góry św. Marcina",
+    "date": "1831",
+    "mapPin": [
+      20.997156,
+      49.989126
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zamek_gora_sw_marcina",
+    "file": "tarnow_zamek_gora_sw_marcina.webp",
+    "title": "Zamek na Górze św. Marcina",
+    "date": "b.d.",
+    "mapPin": [
+      20.997169,
+      49.988964
+    ],
+    "imgPins": []
+  }
+]

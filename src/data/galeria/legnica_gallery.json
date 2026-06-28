@@ -1,0 +1,35 @@
+[
+  {
+    "id": "zamek_sredniowieczny",
+    "file": "legnica_zamek_sredniowieczny.webp",
+    "title": "Zamek średniowieczny",
+    "date": "b.d.",
+    "mapPin": [
+      16.162079,
+      51.211086
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "relikty_drewniane",
+    "file": "legnica_relikty_drewniane.webp",
+    "title": "Relikty drewniane (zagroda, ulica)",
+    "date": "b.d.",
+    "mapPin": [
+      16.163708,
+      51.208633
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "relikty_zabudowy",
+    "file": "legnica_relikty_zabudowy.webp",
+    "title": "Relikty zabudowy w bloku śródmiejskim",
+    "date": "b.d.",
+    "mapPin": [
+      16.163687,
+      51.208604
+    ],
+    "imgPins": []
+  }
+]

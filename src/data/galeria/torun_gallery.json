@@ -1,0 +1,280 @@
+[
+  {
+    "id": "dwor_artusa_xviii",
+    "file": "torun_dwor_artusa_xviii.webp",
+    "title": "Dwór Artusa (poł. XVIII w.)",
+    "date": "poł. XVIII w.",
+    "mapPin": [
+      18.604444,
+      53.010022
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "plan_wsi_przysiek_1601",
+    "file": "torun_plan_wsi_przysiek_1601.webp",
+    "title": "Plan wsi Przysiek",
+    "date": "1601",
+    "mapPin": [
+      18.498604,
+      53.031115
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "ruiny_zamku",
+    "file": "torun_ruiny_zamku.webp",
+    "title": "Ruiny zamku krzyżackiego",
+    "date": "b.d.",
+    "mapPin": [
+      18.61084,
+      53.009272
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "rynek_nowego_miasta",
+    "file": "torun_rynek_nowego_miasta.webp",
+    "title": "Rynek Nowego Miasta od południa",
+    "date": "b.d.",
+    "mapPin": [
+      18.611118,
+      53.011719
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "rynek_starego_miasta",
+    "file": "torun_rynek_starego_miasta.webp",
+    "title": "Rynek Starego Miasta od płn.-zach.",
+    "date": "b.d.",
+    "mapPin": [
+      18.604403,
+      53.010482
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_ogolny_od_polnocy",
+    "file": "torun_widok_ogolny_od_polnocy.webp",
+    "title": "Widok ogólny od północy",
+    "date": "b.d.",
+    "mapPin": [
+      18.602354,
+      53.024413
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "domy_ul_zeglarska_1783",
+    "file": "torun_domy_ul_zeglarska_1783.webp",
+    "title": "Domy przy ul. Żeglarskiej",
+    "date": "1783",
+    "mapPin": [
+      18.605753,
+      53.009174
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "plan_widok_1641",
+    "file": "torun_plan_widok_1641.webp",
+    "title": "Plan-widok perspektywiczny",
+    "date": "1641",
+    "mapPin": [
+      18.610951,
+      53.009083
+    ],
+    "imgPins": [
+      {
+        "x": 45.5,
+        "y": 65.9,
+        "label": "Kościół pw. św. Jana (katedra)"
+      },
+      {
+        "x": 29.8,
+        "y": 48.3,
+        "label": "Kościół pw. NMP (Mariański)"
+      },
+      {
+        "x": 73.7,
+        "y": 47.6,
+        "label": "Kościół pw. św. Jakuba"
+      },
+      {
+        "x": 51.3,
+        "y": 35.8,
+        "label": "Klasztor franciszkanów"
+      },
+      {
+        "x": 39.3,
+        "y": 20.9,
+        "label": "Kościół pw. św. Wawrzyńca"
+      },
+      {
+        "x": 37.8,
+        "y": 54.7,
+        "label": "Ratusz Starego Miasta"
+      },
+      {
+        "x": 68.9,
+        "y": 49.5,
+        "label": "Ratusz Nowego Miasta"
+      },
+      {
+        "x": 32.8,
+        "y": 80.6,
+        "label": "Klasztor Świętego Ducha"
+      },
+      {
+        "x": 66.4,
+        "y": 69.7,
+        "label": "Wzgórze zrujnowanego zamku (ruiny)"
+      },
+      {
+        "x": 73.7,
+        "y": 71.7,
+        "label": "Miejsce młynów"
+      },
+      {
+        "x": 45.7,
+        "y": 41.2,
+        "label": "Brama Więzienna"
+      },
+      {
+        "x": 77.1,
+        "y": 35.8,
+        "label": "Brama św. Katarzyny"
+      },
+      {
+        "x": 33.9,
+        "y": 29,
+        "label": "Brama Chełmińska"
+      },
+      {
+        "x": 29.1,
+        "y": 54.2,
+        "label": "Dom ekonomiczny"
+      },
+      {
+        "x": 14.1,
+        "y": 66.1,
+        "label": "Stara Brama Toruńska"
+      },
+      {
+        "x": 82,
+        "y": 56.9,
+        "label": "Brama Drewniana"
+      },
+      {
+        "x": 44.5,
+        "y": 78.2,
+        "label": "Brama Pieczętarzy"
+      },
+      {
+        "x": 97.4,
+        "y": 27.2,
+        "label": "Cmentarz"
+      },
+      {
+        "x": 73.7,
+        "y": 75.7,
+        "label": "Brama Zamkowa"
+      },
+      {
+        "x": 64.2,
+        "y": 64.8,
+        "label": "Stary Zamek (ruiny krzyżackie)"
+      }
+    ]
+  },
+  {
+    "id": "widok_od_poludnia_xviii",
+    "file": "torun_widok_od_poludnia_xviii.webp",
+    "title": "Widok od południa (2. poł. XVIII w.)",
+    "date": "2. poł. XVIII w.",
+    "mapPin": [
+      18.610244,
+      53.007712
+    ],
+    "imgPins": [
+      {
+        "x": 72.6,
+        "y": 38.8,
+        "label": "Kościół pw. św. Jakuba"
+      },
+      {
+        "x": 26.8,
+        "y": 34.5,
+        "label": "Kościół NMP"
+      },
+      {
+        "x": 40.8,
+        "y": 38.8,
+        "label": "Bazylika katedralna św. Jana"
+      },
+      {
+        "x": 33.5,
+        "y": 36.8,
+        "label": "Ratusz Starego Miasta"
+      },
+      {
+        "x": 66.5,
+        "y": 45.1,
+        "label": "Klasztor franciszkanów"
+      },
+      {
+        "x": 51.3,
+        "y": 41.1,
+        "label": "Kościół pw. Świętego Jana"
+      }
+    ]
+  },
+  {
+    "id": "widok_od_polnocy_po_1756",
+    "file": "torun_widok_od_polnocy_po_1756.webp",
+    "title": "Widok od północy",
+    "date": "po 1756",
+    "mapPin": [
+      18.603893,
+      53.011508
+    ],
+    "imgPins": [
+      {
+        "x": 14.4,
+        "y": 37.8,
+        "label": "Kościół pw. św. Jakuba"
+      },
+      {
+        "x": 26,
+        "y": 44.6,
+        "label": "Klasztor franciszkanów"
+      },
+      {
+        "x": 43.7,
+        "y": 37.3,
+        "label": "Kościół pw. Świętego Jana"
+      },
+      {
+        "x": 53.5,
+        "y": 37.3,
+        "label": "Bazylika katedralna św. Jana"
+      },
+      {
+        "x": 61.5,
+        "y": 36.6,
+        "label": "Ratusz Starego Miasta"
+      },
+      {
+        "x": 70.7,
+        "y": 35.1,
+        "label": "Kościół NMP"
+      },
+      {
+        "x": 83.8,
+        "y": 47.1,
+        "label": "Kościół pw. św. Wawrzyńca"
+      }
+    ]
+  }
+]

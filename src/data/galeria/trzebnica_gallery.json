@@ -1,0 +1,24 @@
+[
+  {
+    "id": "osadnictwo",
+    "file": "trzebnica_osadnictwo.webp",
+    "title": "Osadnictwo ujazdu trzebnickiego (XII–XIII w.)",
+    "date": "b.d.",
+    "mapPin": [
+      17.063459,
+      51.309288
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "stanowiska_archeologiczne",
+    "file": "trzebnica_stanowiska_archeologiczne.webp",
+    "title": "Średniowieczne stanowiska archeologiczne",
+    "date": "b.d.",
+    "mapPin": [
+      17.063545,
+      51.309262
+    ],
+    "imgPins": []
+  }
+]

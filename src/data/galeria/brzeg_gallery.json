@@ -1,0 +1,170 @@
+[
+  {
+    "id": "widok_lotniczy_1925",
+    "file": "brzeg_pionowy_widok_z_lotu_ptaka_1925.webp",
+    "title": "Widok lotniczy pionowy",
+    "date": "1925",
+    "mapPin": [
+      17.470123,
+      50.861594
+    ],
+    "imgPins": [
+      {
+        "x": 23.9,
+        "y": 44.1,
+        "label": "Zamek Piastów Śląskich"
+      },
+      {
+        "x": 22.9,
+        "y": 49.6,
+        "label": "Kościół zamkowy św. Jadwigi"
+      },
+      {
+        "x": 26.9,
+        "y": 48.1,
+        "label": "Kościół Podwyższenia Krzyża Świętego"
+      },
+      {
+        "x": 42.3,
+        "y": 18.7,
+        "label": "Młyn"
+      },
+      {
+        "x": 40.7,
+        "y": 52.2,
+        "label": "Ratusz"
+      },
+      {
+        "x": 53.3,
+        "y": 63.8,
+        "label": "Kościół św. Mikołaja"
+      },
+      {
+        "x": 25.1,
+        "y": 58.3,
+        "label": "Gimnazjum Piastowskie"
+      },
+      {
+        "x": 19.1,
+        "y": 33.6,
+        "label": "Brama Odrzańska"
+      }
+    ]
+  },
+  {
+    "id": "widok_ukosny_1925",
+    "file": "brzeg_widok_lotniczy_widok_ukosny_od_strony_poludniowej_1925.webp",
+    "title": "Widok lotniczy ukośny od południa",
+    "date": "1925",
+    "mapPin": [
+      17.466421,
+      50.86038
+    ],
+    "imgPins": [
+      {
+        "x": 70.2,
+        "y": 49.2,
+        "label": "Kościół św. Mikołaja"
+      },
+      {
+        "x": 49.7,
+        "y": 43.8,
+        "label": "Ratusz"
+      },
+      {
+        "x": 24.8,
+        "y": 43.4,
+        "label": "Kościół pw. Podwyższenia Krzyża Świętego"
+      },
+      {
+        "x": 18.5,
+        "y": 44.2,
+        "label": "Zamek Piastów Śląskich"
+      },
+      {
+        "x": 18.1,
+        "y": 48.5,
+        "label": "Kościół zamkowy św. Jadwigi"
+      },
+      {
+        "x": 22,
+        "y": 57.5,
+        "label": "Gimnazjum Piastowskie"
+      },
+      {
+        "x": 47.5,
+        "y": 20,
+        "label": "Młyn"
+      }
+    ]
+  },
+  {
+    "id": "plan_widokowy_1758",
+    "file": "brzeg_plan_widokowy_miasta_1758.webp",
+    "title": "Plan widokowy miasta",
+    "date": "1758",
+    "mapPin": [
+      17.474403,
+      50.865473
+    ],
+    "imgPins": [
+      {
+        "x": 44.7,
+        "y": 42.1,
+        "label": "Ratusz"
+      },
+      {
+        "x": 85.1,
+        "y": 61.5,
+        "label": "Zamek Piastów Śląskich"
+      },
+      {
+        "x": 81.2,
+        "y": 52.8,
+        "label": "Kościół zamkowy św. Jadwigi"
+      },
+      {
+        "x": 75.3,
+        "y": 35.9,
+        "label": "Gimnazjum Piastowskie"
+      },
+      {
+        "x": 20.5,
+        "y": 76.2,
+        "label": "Młyn"
+      },
+      {
+        "x": 37.3,
+        "y": 24.5,
+        "label": "Kościół św. Mikołaja"
+      },
+      {
+        "x": 73.3,
+        "y": 61,
+        "label": "Kościół pw. Podwyższenia Krzyża Świętego"
+      }
+    ]
+  },
+  {
+    "id": "przekroj_mlyna_1801",
+    "file": "brzeg_przekroj_mlyna_polskiego_z_palowaniem_1801.webp",
+    "title": "Przekrój młyna polskiego",
+    "date": "1801",
+    "mapPin": [
+      17.472521,
+      50.863573
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "rzut_mlyna_1801",
+    "file": "brzeg_rzut_mlyna_polskiego_z_kolami_napedowymi_1801.webp",
+    "title": "Rzut młyna polskiego",
+    "date": "1801",
+    "mapPin": [
+      17.472469,
+      50.863548
+    ],
+    "imgPins": []
+  }
+]

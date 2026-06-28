@@ -1,0 +1,422 @@
+[
+  {
+    "id": "panorama_1659",
+    "file": "biecz_panorama_od_poludnia_1659.webp",
+    "title": "Panorama od południa",
+    "date": "1659",
+    "mapPin": [
+      21.250758,
+      49.727885
+    ],
+    "imgPins": [
+      {
+        "x": 55.9,
+        "y": 48.4,
+        "label": "Wieża Ratuszowa"
+      },
+      {
+        "x": 57.5,
+        "y": 57.6,
+        "label": "Ratusz"
+      },
+      {
+        "x": 32.3,
+        "y": 54,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      },
+      {
+        "x": 25.7,
+        "y": 55.5,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 39.2,
+        "y": 63.5,
+        "label": "Baszta radziecka"
+      },
+      {
+        "x": 42,
+        "y": 53.5,
+        "label": "Baszta kowalska"
+      }
+    ]
+  },
+  {
+    "id": "panorama_xvii_poczatek",
+    "file": "biecz_panorama_od_poludnia_poczatek_xvii_w.webp",
+    "title": "Panorama od południa",
+    "date": "pocz. XVII w.",
+    "mapPin": [
+      21.252334,
+      49.728148
+    ],
+    "imgPins": [
+      {
+        "x": 32,
+        "y": 47.1,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      },
+      {
+        "x": 25.1,
+        "y": 43.6,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 38.3,
+        "y": 60.4,
+        "label": "Baszta radziecka"
+      },
+      {
+        "x": 41.3,
+        "y": 60.6,
+        "label": "kamienica Barianów Rokickich"
+      },
+      {
+        "x": 41.5,
+        "y": 38.7,
+        "label": "Baszta kowalska"
+      },
+      {
+        "x": 55.4,
+        "y": 38.9,
+        "label": "Wieża Ratuszowa"
+      },
+      {
+        "x": 57.9,
+        "y": 49.8,
+        "label": "Ratusz"
+      }
+    ]
+  },
+  {
+    "id": "od_poludnia_xvii",
+    "file": "biecz_od_poludnia_1_swierc_xvii_wieku.webp",
+    "title": "Od południa, 1. ćwierć XVII w.",
+    "date": "1. ćwierć XVII w.",
+    "mapPin": [
+      21.251562,
+      49.727399
+    ],
+    "imgPins": [
+      {
+        "x": 38.9,
+        "y": 27.2,
+        "label": "Wieża ratuszowa"
+      },
+      {
+        "x": 35.5,
+        "y": 35.3,
+        "label": "Ratusz"
+      }
+    ]
+  },
+  {
+    "id": "widok_1880",
+    "file": "biecz_widok_od_poludniowego_zachodu_ok_1880.webp",
+    "title": "Widok od płd.-zach.",
+    "date": "ok. 1880",
+    "mapPin": [
+      21.245942,
+      49.730157
+    ],
+    "imgPins": [
+      {
+        "x": 39.2,
+        "y": 32.7,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      },
+      {
+        "x": 20.6,
+        "y": 38.3,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 73.8,
+        "y": 30.7,
+        "label": "Wieża Ratuszowa"
+      }
+    ]
+  },
+  {
+    "id": "widok_ogolny_1883",
+    "file": "biecz_widok_ogolny_miasta_od_poludniowego_zachodu_przed_1883.webp",
+    "title": "Widok ogólny od płd.-zach.",
+    "date": "przed 1883",
+    "mapPin": [
+      21.244696,
+      49.729286
+    ],
+    "imgPins": [
+      {
+        "x": 67.7,
+        "y": 53.8,
+        "label": "Wieża Ratuszowa"
+      },
+      {
+        "x": 15.9,
+        "y": 55.3,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 30.1,
+        "y": 59.1,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      },
+      {
+        "x": 43.8,
+        "y": 61.8,
+        "label": "Baszta radziecka"
+      }
+    ]
+  },
+  {
+    "id": "widok_1894",
+    "file": "biecz_widok_miasta_od_poludniowego_zachodu_1894-1900.webp",
+    "title": "Widok od płd.-zach.",
+    "date": "1894–1900",
+    "mapPin": [
+      21.244696,
+      49.72923
+    ],
+    "imgPins": [
+      {
+        "x": 24.9,
+        "y": 35.8,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 35.3,
+        "y": 39.1,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      },
+      {
+        "x": 47.4,
+        "y": 43.8,
+        "label": "Baszta radziecka"
+      },
+      {
+        "x": 66.1,
+        "y": 34,
+        "label": "Wieża ratuszowa"
+      },
+      {
+        "x": 94.8,
+        "y": 42,
+        "label": "Klasztor i Parafia Rzymskokatolicka pw. św. Anny"
+      }
+    ]
+  },
+  {
+    "id": "widok_1896",
+    "file": "biecz_widok_od_poludniowego_zachodu_1896.webp",
+    "title": "Widok od płd.-zach.",
+    "date": "1896",
+    "mapPin": [
+      21.245821,
+      49.729833
+    ],
+    "imgPins": [
+      {
+        "x": 49.9,
+        "y": 51.1,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      },
+      {
+        "x": 22.6,
+        "y": 36.6,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 85.1,
+        "y": 52.3,
+        "label": "Wieża ratuszowa"
+      },
+      {
+        "x": 92.7,
+        "y": 63.6,
+        "label": "Baszta radziecka"
+      }
+    ]
+  },
+  {
+    "id": "kolegiata_1865",
+    "file": "biecz_kolegiata_bozego_ciala_widok_od_poludniowego_zachodu_1865-1866.webp",
+    "title": "Kolegiata Bożego Ciała",
+    "date": "1865–1866",
+    "mapPin": [
+      21.245699,
+      49.729653
+    ],
+    "imgPins": [
+      {
+        "x": 70,
+        "y": 48.9,
+        "label": "Baszta radziecka"
+      },
+      {
+        "x": 32.9,
+        "y": 38.4,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 49.4,
+        "y": 45.4,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      }
+    ]
+  },
+  {
+    "id": "kolegiata_1892",
+    "file": "biecz_kolegiata_bozego_ciala_widok_od_poludniowego_zachodu_przed_1892.webp",
+    "title": "Kolegiata Bożego Ciała",
+    "date": "przed 1892",
+    "mapPin": [
+      21.245581,
+      49.72986
+    ],
+    "imgPins": [
+      {
+        "x": 46.4,
+        "y": 34.5,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      },
+      {
+        "x": 23.8,
+        "y": 16.9,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 72.4,
+        "y": 35.5,
+        "label": "Wieża ratuszowa"
+      },
+      {
+        "x": 87.5,
+        "y": 42.1,
+        "label": "Baszta radziecka"
+      }
+    ]
+  },
+  {
+    "id": "kolegiata_1894",
+    "file": "biecz_kolegiata_bozego_ciala_widok_od_poludniowego_zachou_1894-1900.webp",
+    "title": "Kolegiata od płd.-zach.",
+    "date": "1894–1900",
+    "mapPin": null,
+    "imgPins": [
+      {
+        "x": 22.4,
+        "y": 32.4,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 48.5,
+        "y": 49.2,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      },
+      {
+        "x": 83.2,
+        "y": 46.3,
+        "label": "Wieża ratuszowa"
+      },
+      {
+        "x": 91.6,
+        "y": 61.9,
+        "label": "Baszta radziecka"
+      }
+    ]
+  },
+  {
+    "id": "kosciol_1920",
+    "file": "biecz_kosciol_bozego_ciala_ok_1920.webp",
+    "title": "Kościół Bożego Ciała",
+    "date": "ok. 1920",
+    "mapPin": [
+      21.247574,
+      49.730152
+    ],
+    "imgPins": [
+      {
+        "x": 62.7,
+        "y": 36,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      }
+    ]
+  },
+  {
+    "id": "kosciol_1930",
+    "file": "kosciol_parafialny_i_dzwonnica_w_bieczu_ok_1930.webp",
+    "title": "Kościół parafialny i dzwonnica",
+    "date": "ok. 1930",
+    "mapPin": [
+      21.246162,
+      49.729533
+    ],
+    "imgPins": [
+      {
+        "x": 56.7,
+        "y": 47.9,
+        "label": "baszta radziecka"
+      },
+      {
+        "x": 32.5,
+        "y": 34.8,
+        "label": "Kościół Bożego Ciała w Bieczu"
+      },
+      {
+        "x": 10.9,
+        "y": 33.3,
+        "label": "Zespół kolegiaty - późnogotycka dzwonnica z XV w."
+      },
+      {
+        "x": 87.7,
+        "y": 39.6,
+        "label": "Wieża Ratuszowa"
+      }
+    ]
+  },
+  {
+    "id": "ratusz_1894",
+    "file": "biecz_ratusz_1894-1900.webp",
+    "title": "Ratusz",
+    "date": "1894–1900",
+    "mapPin": [
+      21.25021,
+      49.730522
+    ],
+    "imgPins": [
+      {
+        "x": 67.8,
+        "y": 27.9,
+        "label": "Wieża ratuszowa"
+      },
+      {
+        "x": 53.1,
+        "y": 61.4,
+        "label": "Ratusz"
+      },
+      {
+        "x": 18.7,
+        "y": 55.4,
+        "label": "Wieża Ratuszowa"
+      }
+    ]
+  },
+  {
+    "id": "wieza_1895",
+    "file": "biecz_wieza_ratuszowa_przed_1895.webp",
+    "title": "Wieża ratuszowa",
+    "date": "przed 1895",
+    "mapPin": [
+      21.248773,
+      49.73074
+    ],
+    "imgPins": [
+      {
+        "x": 57.4,
+        "y": 34.2,
+        "label": "Wieża ratuszowa"
+      }
+    ]
+  }
+]

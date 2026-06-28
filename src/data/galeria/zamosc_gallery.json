@@ -1,0 +1,151 @@
+[
+  {
+    "id": "novum_zamoscium_1642",
+    "file": "zamosc_novum_zamoscium_1642.webp",
+    "title": "Novum Zamoscium",
+    "date": "ok. 1642",
+    "mapPin": [
+      23.252687,
+      50.717074
+    ],
+    "imgPins": [
+      { "x": 65.4, "y": 50.4, "label": "Zbrojownia / Arsenał" },
+      { "x": 64.8, "y": 43.8, "label": "Zamek" },
+      { "x": 61.8, "y": 55.7, "label": "Kolegium" },
+      { "x": 59.6, "y": 60.8, "label": "Bursa (internat)" },
+      { "x": 44.7, "y": 34.1, "label": "Giełda / rynek" },
+      { "x": 62.1, "y": 35.6, "label": "Kościół św. Tomasza" },
+      { "x": 44.8, "y": 50.8, "label": "Kościół św. Krzyża" },
+      { "x": 43.9, "y": 44.7, "label": "Kościół Ormiański" },
+      { "x": 65.9, "y": 35.3, "label": "Brama Lubelska" },
+      { "x": 40.2, "y": 32.9, "label": "Brama Lwowska" },
+      { "x": 64.7, "y": 55.8, "label": "Brama Janowiecka" },
+      { "x": 57.6, "y": 55,   "label": "Rynek Solny" },
+      { "x": 50.2, "y": 25,   "label": "Cerkiew" },
+      { "x": 58.3, "y": 48.1, "label": "Ratusz" }
+    ]
+  },
+  {
+    "id": "widok_od_poludnia_1662",
+    "file": "zamosc_widok_od_poludnia_1662.webp",
+    "title": "Widok od południa",
+    "date": "ok. 1662",
+    "mapPin": [
+      23.250713,
+      50.713324
+    ],
+    "imgPins": [
+      { "x": 55.5, "y": 46.7, "label": "Ratusz" },
+      { "x": 13.1, "y": 51.7, "label": "Św. Jan Kanty" },
+      { "x": 90.2, "y": 53.9, "label": "Św. Antoni z Padwy" },
+      { "x": 82,   "y": 43,   "label": "Kościół Franciszkanów (pw. Zwiastowania NMP)" },
+      { "x": 42.3, "y": 55.6, "label": "Parafia Zmartwychwstania Pańskiego i św. Tomasza Apostoła" },
+      { "x": 22.7, "y": 46.2, "label": "Pałac Zamoyskich w Zamościu" },
+      { "x": 72.1, "y": 35.5, "label": "Kościół ormiański (nieistniejący)" },
+      { "x": 43.2, "y": 42.9, "label": "Gmach Akademii Zamojskiej" }
+    ]
+  },
+  {
+    "id": "widok_bramy_szczebrzeskiej_1821",
+    "file": "zamosc_widok_bramy_szczebrzeskiej_1821.webp",
+    "title": "Widok od strony Bramy Szczebrzeskiej",
+    "date": "1821",
+    "mapPin": [
+      23.249111,
+      50.716176
+    ],
+    "imgPins": [
+      { "x": 23.7, "y": 59.8, "label": "Pałac Zamoyskich" },
+      { "x": 40.8, "y": 58.7, "label": "wieża ratusza" },
+      { "x": 44.8, "y": 59.1, "label": "Dzwonnica katedralna i Kolegiata Zamojska (Katedra)" },
+      { "x": 56,   "y": 67.7, "label": "Brama Szczebrzeska" },
+      { "x": 51.5, "y": 60,   "label": "kościół Klarysek" },
+      { "x": 70.7, "y": 61,   "label": "kościół i klasztor Franciszkanów" },
+      { "x": 83.2, "y": 63.8, "label": "cerkiew św. Mikołaja" }
+    ]
+  },
+  {
+    "id": "przed_1890_1",
+    "file": "zamosc_przed_1890_1.webp",
+    "title": "Widok miasta",
+    "date": "przed 1890",
+    "mapPin": [ 23.252498, 50.717458 ],
+    "imgPins": [
+      { "x": 50.1, "y": 38.2, "label": "Ratusz" }
+    ]
+  },
+  {
+    "id": "przed_1890_2",
+    "file": "zamosc_przed_1890_2.webp",
+    "title": "Widok miasta",
+    "date": "przed 1890",
+    "mapPin": [ 23.252532, 50.717473 ],
+    "imgPins": []
+  },
+  {
+    "id": "przed_1890_3",
+    "file": "zamosc_przed_1890_3.webp",
+    "title": "Widok miasta",
+    "date": "przed 1890",
+    "mapPin": [ 23.252383, 50.716648 ],
+    "imgPins": [
+      { "x": 55.4, "y": 44.3, "label": "Katedra Zmartwychwstania Pańskiego i św. Tomasza Apostoła" }
+    ]
+  },
+  {
+    "id": "przed_1890_4",
+    "file": "zamosc_przed_1890_4.webp",
+    "title": "Widok miasta",
+    "date": "przed 1890",
+    "mapPin": [ 23.25332, 50.71694 ],
+    "imgPins": []
+  },
+  {
+    "id": "przed_1890_5",
+    "file": "zamosc_przed_1890_5.webp",
+    "title": "Widok miasta",
+    "date": "przed 1890",
+    "mapPin": [ 23.255084, 50.715748 ],
+    "imgPins": []
+  },
+  {
+    "id": "przed_1890_6",
+    "file": "zamosc_przed_1890_6.webp",
+    "title": "Widok miasta",
+    "date": "przed 1890",
+    "mapPin": [ 23.251752, 50.71592 ],
+    "imgPins": []
+  },
+  {
+    "id": "przed_1890_7",
+    "file": "zamosc_przed_1890_7.webp",
+    "title": "Widok miasta",
+    "date": "przed 1890",
+    "mapPin": [ 23.251876, 50.716337 ],
+    "imgPins": []
+  },
+  {
+    "id": "przed_1890",
+    "file": "zamosc_przed_1890.webp",
+    "title": "Widok miasta",
+    "date": "przed 1890",
+    "mapPin": [ 23.250473, 50.716881 ],
+    "imgPins": []
+  },
+  {
+    "id": "zamosc_1927",
+    "file": "zamosc_1927.webp",
+    "title": "Widok miasta",
+    "date": "1927",
+    "mapPin": [ 23.246335, 50.718568 ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_z_lotu_ptaka_2022",
+    "file": "zamosc_widok_z_lotu_ptaka_2022.webp",
+    "title": "Widok z lotu ptaka",
+    "date": "2022",
+    "mapPin": [ 23.248095, 50.715878 ],
+    "imgPins": []
+  }
+]

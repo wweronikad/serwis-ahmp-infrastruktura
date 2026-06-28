@@ -1,0 +1,24 @@
+[
+  {
+    "id": "zdjecia_lotnicze",
+    "file": "ostroda_zdjecia_lotnicze.webp",
+    "title": "Zdjęcia lotnicze",
+    "date": "b.d.",
+    "mapPin": [
+      19.95913,
+      53.703209
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zdjecia_lotnicze_2",
+    "file": "ostroda_zdjecia_lotnicze_2.webp",
+    "title": "Zdjęcia lotnicze",
+    "date": "b.d.",
+    "mapPin": [
+      19.958077,
+      53.704315
+    ],
+    "imgPins": []
+  }
+]

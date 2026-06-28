@@ -1,0 +1,35 @@
+[
+  {
+    "id": "budownictwo_murowane",
+    "file": "namyslow_budownictwo_murowane.webp",
+    "title": "Budownictwo murowane (poł. XIII – XVI w.)",
+    "date": "b.d.",
+    "mapPin": [
+      17.718908,
+      51.077584
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "chronologia_osadnictwa",
+    "file": "namyslow_chronologia_osadnictwa.webp",
+    "title": "Chronologia osadnictwa (XII–XIV w.)",
+    "date": "b.d.",
+    "mapPin": [
+      17.71585,
+      51.075391
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "osadnictwo",
+    "file": "namyslow_osadnictwo.webp",
+    "title": "Osadnictwo pradziejowe i średniowieczne",
+    "date": "b.d.",
+    "mapPin": [
+      17.716038,
+      51.075113
+    ],
+    "imgPins": []
+  }
+]
