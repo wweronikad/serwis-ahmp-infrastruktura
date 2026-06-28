@@ -2,25 +2,44 @@ import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { cities } from '../data/cities'
 import HeroSlider from '../components/HeroSlider'
+import { asset } from '../utils/asset'
 
 // Panorama images with Ken Burns animation variant (a/b/c/d)
+// Cities without dedicated panorama fall back to first gallery image
 const CITY_PANORAMAS = {
-  biecz:                ['/panoramy/biecz.png',                'a'],
-  bochnia:              ['/panoramy/bochnia.png',              'b'],
-  brzeg:                ['/panoramy/brzeg.png',                'c'],
-  bydgoszcz:            ['/panoramy/bydgoszcz.png',            'd'],
-  chelmno:              ['/panoramy/chelmno.png',              'a'],
-  chojnice:             ['/panoramy/chojnice.png',             'b'],
-  elblag:               ['/panoramy/elblag.png',               'c'],
-  fordon:               ['/panoramy/fordon.png',               'd'],
-  gizycko:              ['/panoramy/gizycko.png',              'a'],
-  grudziadz:            ['/panoramy/grudziadz.png',            'b'],
-  'jelenia-gora':       ['/panoramy/jelenia-gora.jpg',         'c'],
-  ketrzyn:              ['/panoramy/ketrzyn.png',              'd'],
-  koronowo:             ['/panoramy/koronowo.png',             'a'],
-  kwidzyn:              ['/panoramy/kwidzyn.png',              'b'],
-  legnica:              ['/panoramy/legnica.png',              'c'],
-  'lidzbark-warminski': ['/panoramy/lidzbark-warminski.png',   'd'],
+  biecz:                [asset('/panoramy/biecz.png'),                'a'],
+  bochnia:              [asset('/panoramy/bochnia.png'),              'b'],
+  brzeg:                [asset('/panoramy/brzeg.png'),                'c'],
+  bydgoszcz:            [asset('/panoramy/bydgoszcz.png'),            'd'],
+  chelmno:              [asset('/panoramy/chelmno.png'),              'a'],
+  chojnice:             [asset('/panoramy/chojnice.png'),             'b'],
+  elblag:               [asset('/panoramy/elblag.png'),               'c'],
+  fordon:               [asset('/panoramy/fordon.png'),               'd'],
+  gizycko:              [asset('/panoramy/gizycko.png'),              'a'],
+  grudziadz:            [asset('/panoramy/grudziadz.png'),            'b'],
+  'jelenia-gora':       [asset('/panoramy/jelenia-gora.jpg'),         'c'],
+  ketrzyn:              [asset('/panoramy/ketrzyn.png'),              'd'],
+  koronowo:             [asset('/panoramy/koronowo.png'),             'a'],
+  kwidzyn:              [asset('/panoramy/kwidzyn.png'),              'b'],
+  legnica:              [asset('/panoramy/legnica.png'),              'c'],
+  'lidzbark-warminski': [asset('/panoramy/lidzbark-warminski.png'),   'd'],
+  // Gallery image fallbacks for cities without dedicated panoramas
+  milicz:               [asset('/galeria/milicz/milicz_zamek.webp'),                                           'b'],
+  namyslow:             [asset('/galeria/namyslow/namyslow_budownictwo_murowane.webp'),                        'c'],
+  ostroda:              [asset('/galeria/ostroda/ostroda_zdjecia_lotnicze.webp'),                              'd'],
+  puck:                 [asset('/galeria/puck/puck_zdjecia_lotnicze.webp'),                                    'a'],
+  'sroda-slaska':       [asset('/galeria/sroda_slaska/sroda_slaska_osadnictwo.webp'),                         'b'],
+  strzegom:             [asset('/galeria/strzegom/strzegom_osadnictwo.webp'),                                 'c'],
+  swidnica:             [asset('/galeria/swidnica/swidnica_poczatki_kamienic.webp'),                          'd'],
+  swiecie:              [asset('/galeria/swiecie/swiecie_czesc_polnocna.webp'),                               'a'],
+  tarnow:               [asset('/galeria/tarnow/tarnow_kolegiata_1800.webp'),                                 'b'],
+  tczew:                [asset('/galeria/tczew/tczew_panorama_od_wschodu_1855.webp'),                         'c'],
+  torun:                [asset('/galeria/torun/torun_plan_widok_1641.webp'),                                   'd'],
+  trzebnica:            [asset('/galeria/trzebnica/trzebnica_osadnictwo.webp'),                               'a'],
+  wloclawek:            [asset('/galeria/wloclawek/wloclawek_widok_ok_1836.webp'),                            'b'],
+  wroclaw:              [asset('/galeria/wroclaw/wroclaw_architektura_mieszczanska.webp'),                     'c'],
+  zamosc:               [asset('/galeria/zamosc/zamosc_novum_zamoscium_1642.webp'),                           'd'],
+  ziebice:              [asset('/galeria/ziebice/ziebice_panorama_od_sw_1738.webp'),                          'a'],
 }
 
 export default function Home() {

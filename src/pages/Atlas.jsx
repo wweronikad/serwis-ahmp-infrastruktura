@@ -1,6 +1,7 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
 import { useParams, useNavigate } from 'react-router-dom'
 import { cities, getCityById } from '../data/cities'
+import { asset } from '../utils/asset'
 import InteractiveMap from '../components/Map/InteractiveMap'
 import MapListPanel from '../components/Map/MapListPanel'
 import InfoPanel from '../components/Map/InfoPanel'
@@ -36,34 +37,34 @@ import ziebiceGallery from '../data/galeria/ziebice_gallery.json'
 
 // Gallery data per city id
 const GALLERY_DATA = {
-  biecz:     { photos: bieczGallery,     basePath: '/galeria/biecz/' },
-  brzeg:     { photos: brzegGallery,     basePath: '/galeria/brzeg/' },
-  bydgoszcz: { photos: bydgoszczGallery, basePath: '/galeria/bydgoszcz/' },
-  chelmno:   { photos: chelmnoGallery,   basePath: '/galeria/chelmno/' },
-  chojnice:  { photos: chojniceGallery,  basePath: '/galeria/chojnice/' },
-  elblag:    { photos: elblagGallery,    basePath: '/galeria/elblag/' },
-  gizycko:   { photos: gizyckoGallery,   basePath: '/galeria/gizycko/' },
-  grudziadz: { photos: grudziadzGallery, basePath: '/galeria/grudziadz/' },
-  ketrzyn:   { photos: ketrzymGallery,   basePath: '/galeria/ketrzyn/' },
-  kwidzyn:   { photos: kwidzynGallery,   basePath: '/galeria/kwidzyn/' },
-  legnica:   { photos: legnicaGallery,   basePath: '/galeria/legnica/' },
-  'lidzbark-warminski': { photos: lidzbarGallery,   basePath: '/galeria/lidzbark_warminski/' },
-  milicz:              { photos: miliczGallery,    basePath: '/galeria/milicz/' },
-  namyslow:            { photos: namyslowGallery,  basePath: '/galeria/namyslow/' },
-  ostroda:             { photos: ostrodaGallery,   basePath: '/galeria/ostroda/' },
-  puck:                { photos: puckGallery,      basePath: '/galeria/puck/' },
-  'sroda-slaska':      { photos: srodaSlaskaGallery, basePath: '/galeria/sroda_slaska/' },
-  strzegom:            { photos: strzegomGallery,  basePath: '/galeria/strzegom/' },
-  swidnica:            { photos: swidnicaGallery,  basePath: '/galeria/swidnica/' },
-  swiecie:             { photos: swiecieGallery,   basePath: '/galeria/swiecie/' },
-  tarnow:              { photos: tarnowGallery,    basePath: '/galeria/tarnow/' },
-  tczew:               { photos: tczewGallery,     basePath: '/galeria/tczew/' },
-  torun:               { photos: torunGallery,     basePath: '/galeria/torun/' },
-  trzebnica:           { photos: trzebnicaGallery, basePath: '/galeria/trzebnica/' },
-  wloclawek:           { photos: wloclawekGallery, basePath: '/galeria/wloclawek/' },
-  wroclaw:             { photos: wroclawGallery,   basePath: '/galeria/wroclaw/' },
-  zamosc:              { photos: zamoscGallery,    basePath: '/galeria/zamosc/' },
-  ziebice:             { photos: ziebiceGallery,   basePath: '/galeria/ziebice/' },
+  biecz:     { photos: bieczGallery,     basePath: asset('/galeria/biecz/') },
+  brzeg:     { photos: brzegGallery,     basePath: asset('/galeria/brzeg/') },
+  bydgoszcz: { photos: bydgoszczGallery, basePath: asset('/galeria/bydgoszcz/') },
+  chelmno:   { photos: chelmnoGallery,   basePath: asset('/galeria/chelmno/') },
+  chojnice:  { photos: chojniceGallery,  basePath: asset('/galeria/chojnice/') },
+  elblag:    { photos: elblagGallery,    basePath: asset('/galeria/elblag/') },
+  gizycko:   { photos: gizyckoGallery,   basePath: asset('/galeria/gizycko/') },
+  grudziadz: { photos: grudziadzGallery, basePath: asset('/galeria/grudziadz/') },
+  ketrzyn:   { photos: ketrzymGallery,   basePath: asset('/galeria/ketrzyn/') },
+  kwidzyn:   { photos: kwidzynGallery,   basePath: asset('/galeria/kwidzyn/') },
+  legnica:   { photos: legnicaGallery,   basePath: asset('/galeria/legnica/') },
+  'lidzbark-warminski': { photos: lidzbarGallery,   basePath: asset('/galeria/lidzbark_warminski/') },
+  milicz:              { photos: miliczGallery,    basePath: asset('/galeria/milicz/') },
+  namyslow:            { photos: namyslowGallery,  basePath: asset('/galeria/namyslow/') },
+  ostroda:             { photos: ostrodaGallery,   basePath: asset('/galeria/ostroda/') },
+  puck:                { photos: puckGallery,      basePath: asset('/galeria/puck/') },
+  'sroda-slaska':      { photos: srodaSlaskaGallery, basePath: asset('/galeria/sroda_slaska/') },
+  strzegom:            { photos: strzegomGallery,  basePath: asset('/galeria/strzegom/') },
+  swidnica:            { photos: swidnicaGallery,  basePath: asset('/galeria/swidnica/') },
+  swiecie:             { photos: swiecieGallery,   basePath: asset('/galeria/swiecie/') },
+  tarnow:              { photos: tarnowGallery,    basePath: asset('/galeria/tarnow/') },
+  tczew:               { photos: tczewGallery,     basePath: asset('/galeria/tczew/') },
+  torun:               { photos: torunGallery,     basePath: asset('/galeria/torun/') },
+  trzebnica:           { photos: trzebnicaGallery, basePath: asset('/galeria/trzebnica/') },
+  wloclawek:           { photos: wloclawekGallery, basePath: asset('/galeria/wloclawek/') },
+  wroclaw:             { photos: wroclawGallery,   basePath: asset('/galeria/wroclaw/') },
+  zamosc:              { photos: zamoscGallery,    basePath: asset('/galeria/zamosc/') },
+  ziebice:             { photos: ziebiceGallery,   basePath: asset('/galeria/ziebice/') },
 }
 
 const MIN_LIST_W = 180

@@ -1,4 +1,5 @@
 import { useEffect, useRef, useState } from 'react'
+import { asset } from '../utils/asset'
 
 const ANIM_PERIOD = 12000 // ms for full sweep left → right
 
@@ -67,7 +68,7 @@ export default function HeroSlider({ children }) {
 
       {/* ── Modern: OSM (base, always full) ─────────────────── */}
       <img
-        src="/wawolnica/nowoczesna.jpg"
+        src={asset('/wawolnica/nowoczesna.jpg')}
         alt=""
         style={s.imgFull}
         draggable={false}
@@ -76,7 +77,7 @@ export default function HeroSlider({ children }) {
       {/* ── Historical: same layout as modern, mask fades the edge ─ */}
       <div style={{ ...s.histWrapper, ...maskStyle }}>
         <img
-          src="/wawolnica/mapa.webp"
+          src={asset('/wawolnica/mapa.webp')}
           alt=""
           style={s.imgFull}
           draggable={false}
