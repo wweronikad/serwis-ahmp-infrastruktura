@@ -8,7 +8,15 @@
     },
     {
       "naglowek": "Gotycka kolegiata",
-      "tekst": "W późnym średniowieczu Biecz był jednym z ważniejszych ośrodków kościelnych w tej części Małopolski. Kościół parafialny uzyskał rangę kolegiaty; wieża ratuszowa i gotycka sylweta fary zdominowały panoramę miasta widoczną na siedemnastowiecznych rycinach.\n\nGotycka bryła kolegiaty kryje wnętrze klasy europejskiej. Obraz ołtarzowy „Zdjęcie z Krzyża\" z 1604 r. pochodzi z kręgu Michała Anioła — jeden z zaledwie trzech takich dzieł na świecie. Ambona muzyczna z 1633 r. jest unikatem w skali Polski i Europy."
+      "tekst": "W późnym średniowieczu Biecz był jednym z ważniejszych ośrodków kościelnych w tej części Małopolski. Kościół parafialny uzyskał rangę kolegiaty; wieża ratuszowa i gotycka sylweta fary zdominowały panoramę miasta widoczną na siedemnastowiecznych rycinach.\n\nGotycka bryła kolegiaty kryje wnętrze klasy europejskiej. Obraz ołtarzowy „Zdjęcie z Krzyża\" z 1604 r. pochodzi z kręgu Michała Anioła — jeden z zaledwie trzech takich dzieł na świecie. Ambona muzyczna z 1633 r. jest unikatem w skali Polski i Europy.",
+      "widget": {
+        "typ": "obraz",
+        "src": "/karty/biecz/media/kolegiata_bozego_ciala.jpg",
+        "podpis": "Wnętrze kolegiaty Bożego Ciała w Bieczu — rycina XIX w.",
+        "zrodla": [
+          "https://www.dioblina.eu/Kolegiata_Bozego_Ciala_Biecz"
+        ]
+      }
     },
     {
       "widget": {
@@ -23,7 +31,14 @@
     },
     {
       "naglowek": "Klasztor Reformatów na Górze Zamkowej",
-      "tekst": "W XVII wieku na miejscu dawnego zamku królewskiego na Górze Zamkowej stanął klasztor ojców Reformatów — kolejny punkt sakralny kształtujący sylwetę miasta."
+      "tekst": "W XVII wieku na miejscu dawnego zamku królewskiego na Górze Zamkowej stanął klasztor ojców Reformatów — kolejny punkt sakralny kształtujący sylwetę miasta.",
+      "widget": {
+        "typ": "link-zewnetrzny",
+        "ikona": "🗺️",
+        "naglowek": "Wirtualny spacer — Klasztor i parafia śś. Anny w Bieczu",
+        "podpis": "Panoramiczny spacer 360° po dawnym klasztorze Reformatów na Górze Zamkowej",
+        "url": "https://franciszkaniebiecz.wkraj.pl/html5/index.php?id=92924"
+      }
     }
   ],
   "zwiazane_mapy": [

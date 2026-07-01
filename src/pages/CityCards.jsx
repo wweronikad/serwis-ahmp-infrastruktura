@@ -369,6 +369,21 @@ function WidgetTeren3D({ widget }) {
   )
 }
 
+// ── External link card ───────────────────────────────────────────────────────
+
+function WidgetLinkZewnetrzny({ widget }) {
+  return (
+    <a href={widget.url} target="_blank" rel="noopener noreferrer" style={lz.card}>
+      <span style={lz.ikona}>{widget.ikona ?? '🗺️'}</span>
+      <div style={lz.body}>
+        <span style={lz.naglowek}>{widget.naglowek}</span>
+        {widget.podpis && <span style={lz.podpisLz}>{widget.podpis}</span>}
+      </div>
+      <span style={lz.arrow}>Otwórz →</span>
+    </a>
+  )
+}
+
 // ── YouTube embed ────────────────────────────────────────────────────────────
 
 function WidgetYoutube({ widget }) {
@@ -398,6 +413,7 @@ function renderWidget(widget) {
   if (widget.typ === 'mapa-historyczna') return <WidgetMapaHistoryczna widget={widget} />
   if (widget.typ === 'teren-3d') return <WidgetTeren3D widget={widget} />
   if (widget.typ === 'youtube') return <WidgetYoutube widget={widget} />
+  if (widget.typ === 'link-zewnetrzny') return <WidgetLinkZewnetrzny widget={widget} />
   return null
 }
 
@@ -685,6 +701,15 @@ const mh = {
   ctrl:      { display:'flex', alignItems:'center', gap:8, padding:'8px 2px 4px' },
   ctrlLabel: { fontSize:11, color:'var(--text-muted)', whiteSpace:'nowrap', flexShrink:0 },
   range:     { flex:1, cursor:'pointer', accentColor:'var(--gold)', height:4 },
+}
+
+const lz = {
+  card:     { display:'flex', alignItems:'center', gap:14, padding:'14px 18px', background:'var(--navy)', borderRadius:8, textDecoration:'none', color:'#fff', border:'1px solid rgba(184,150,62,0.3)', transition:'opacity 0.15s' },
+  ikona:    { fontSize:26, flexShrink:0, lineHeight:1 },
+  body:     { flex:1, display:'flex', flexDirection:'column', gap:3, minWidth:0 },
+  naglowek: { fontSize:14, fontWeight:600, color:'#e8dfc8', fontFamily:'var(--font-serif)', lineHeight:1.3 },
+  podpisLz: { fontSize:11, color:'rgba(255,255,255,0.5)', lineHeight:1.4 },
+  arrow:    { fontSize:12, color:'var(--gold)', whiteSpace:'nowrap', flexShrink:0, fontWeight:700 },
 }
 
 const yt = {
