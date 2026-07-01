@@ -369,6 +369,27 @@ function WidgetTeren3D({ widget }) {
   )
 }
 
+// ── YouTube embed ────────────────────────────────────────────────────────────
+
+function WidgetYoutube({ widget }) {
+  if (!widget.videoId) return null
+  return (
+    <figure style={{ margin: 0 }}>
+      <div style={yt.wrap}>
+        <iframe
+          src={`https://www.youtube.com/embed/${widget.videoId}?rel=0`}
+          style={yt.frame}
+          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+          allowFullScreen
+          title={widget.podpis ?? 'Film'}
+          loading="lazy"
+        />
+      </div>
+      {widget.podpis && <figcaption style={wgt.podpis}>{widget.podpis}</figcaption>}
+    </figure>
+  )
+}
+
 function renderWidget(widget) {
   if (!widget) return null
   if (widget.typ === 'obraz') return <WidgetObraz widget={widget} />
@@ -376,6 +397,7 @@ function renderWidget(widget) {
   if (widget.typ === 'slider-mapa') return <WidgetSliderMapa widget={widget} />
   if (widget.typ === 'mapa-historyczna') return <WidgetMapaHistoryczna widget={widget} />
   if (widget.typ === 'teren-3d') return <WidgetTeren3D widget={widget} />
+  if (widget.typ === 'youtube') return <WidgetYoutube widget={widget} />
   return null
 }
 
@@ -406,7 +428,7 @@ function CardSection({ sekcja, kolor, index }) {
           </div>
         )}
         {hasWidget && (
-          <div style={sec.widgetWrap}>
+          <div style={{ ...sec.widgetWrap, ...(sekcja.tekst ? {} : { flex: '1 1 100%' }) }}>
             {renderWidget(sekcja.widget)}
           </div>
         )}
@@ -663,6 +685,11 @@ const mh = {
   ctrl:      { display:'flex', alignItems:'center', gap:8, padding:'8px 2px 4px' },
   ctrlLabel: { fontSize:11, color:'var(--text-muted)', whiteSpace:'nowrap', flexShrink:0 },
   range:     { flex:1, cursor:'pointer', accentColor:'var(--gold)', height:4 },
+}
+
+const yt = {
+  wrap:  { position:'relative', paddingBottom:'56.25%', height:0, borderRadius:6, overflow:'hidden', background:'#000' },
+  frame: { position:'absolute', top:0, left:0, width:'100%', height:'100%', border:'none' },
 }
 
 const sl = {
