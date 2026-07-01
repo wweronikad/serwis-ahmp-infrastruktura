@@ -7,29 +7,21 @@
       "tekst": "Biecz otoczono murami kamiennymi w kilku etapach, stopniowo zamykając całość obwodu obronnego. Pierwotny pierścień miał ok. 900 m długości i obejmował miasto lokacyjne wraz z rozległą działką farną. Na planie Widawskiego z ok. 1755 r. widoczny jest kompletny system murów z basztami i bramami.",
       "widget": {
         "typ": "obraz",
-        "src": "/karty/biecz/media/plan_widawski.png",
-        "podpis": "Plan Biecza, F. Widawski, ok. 1755 r. — najstarszy szczegółowy widok układu fortyfikacji i ulic"
+        "src": "/karty/biecz/media/mury_biecz.jpg",
+        "podpis": "Zachowany odcinek muru obronnego z basztą — widok współczesny",
+        "zrodla": [
+          "https://fotopolska.eu/Biecz/b86949,Mury_miejskie.html?f=1013839-foto",
+          "https://medievalheritage.eu/pl/strona-glowna/zabytki/polska/biecz-miejskie-mury-obronne/"
+        ]
       }
     },
     {
       "naglowek": "Mury kamienne i baszty",
       "tekst": "Inicjatorem budowy murów był najprawdopodobniej bp Jan Muskata, który wzniósł odcinek zachodni ok. 1303 r. Mury osiągały grubość 1,5–1,8 m i wysokość ponad 5 m; wzmocnione były basztami półokrągłymi i prostokątnymi. W XVI w. dodano kordon artyleryjski. Do dziś przetrwał kilkusetmetrowy odcinek muru z basztą — Basztą Kowalską.\n\nOd południa fortyfikacje wzmacniała stroma skarpa nad doliną Ropy. Widok z panoramy początku XVII w. ukazuje nierozerwalną więź topografii z obroną — skała i rzeka zastępowały fosę.",
       "widget": {
-        "typ": "galeria",
-        "obrazy": [
-          {
-            "src": "/karty/biecz/media/mury_biecz.jpg",
-            "podpis": "Zachowany odcinek muru obronnego z basztą — widok współczesny",
-            "zrodla": [
-              "https://fotopolska.eu/Biecz/b86949,Mury_miejskie.html?f=1013839-foto",
-              "https://medievalheritage.eu/pl/strona-glowna/zabytki/polska/biecz-miejskie-mury-obronne/"
-            ]
-          },
-          {
-            "src": "/galeria/biecz/biecz_panorama_od_poludnia_poczatek_xvii_w.webp",
-            "podpis": "Panorama Biecza od południa, pocz. XVII w. — widoczne mury i baszty na tle doliny Ropy"
-          }
-        ]
+        "typ": "obraz",
+        "src": "/galeria/biecz/biecz_panorama_od_poludnia_poczatek_xvii_w.webp",
+        "podpis": "Panorama Biecza od południa, pocz. XVII w. — widoczne mury i baszty na tle doliny Ropy"
       }
     },
     {
@@ -41,19 +33,28 @@
           {
             "src": "/karty/biecz/media/gora_zamkowa_nmt.jpg",
             "podpis": "Model numeryczny terenu (NMT) — Góra Zamkowa i ukształtowanie doliny Ropy",
-            "zrodla": ["https://www.zamki.pl/?idzamku=biecz#&gid=null&pid=2"]
+            "zrodla": [
+              "https://www.zamki.pl/?idzamku=biecz#&gid=null&pid=2"
+            ]
           },
           {
             "src": "/karty/biecz/media/gora_zamkowa_lotnicze.jpg",
             "podpis": "Góra Zamkowa z lotu ptaka — widoczny stok nad doliną Ropy",
-            "zrodla": ["https://www.zamki.pl/?idzamku=biecz#&gid=null&pid=2"]
+            "zrodla": [
+              "https://www.zamki.pl/?idzamku=biecz#&gid=null&pid=2"
+            ]
           }
         ]
       }
     },
     {
       "naglowek": "Młynówka jako element obronny",
-      "tekst": "Z Ropy poprowadzono kanał — młynówkę — biegnący bezpośrednio wzdłuż południowej skarpy miejskiej. Zasilała ona królewski młyn i pełniła rolę fosy, zwiększając trudność ataku od południa. Widoczna jest już na panoramie z przełomu XVI/XVII w. i na planie Widawskiego."
+      "tekst": "Z Ropy poprowadzono kanał — młynówkę — biegnący bezpośrednio wzdłuż południowej skarpy miejskiej. Zasilała ona królewski młyn i pełniła rolę fosy, zwiększając trudność ataku od południa. Widoczna jest już na panoramie z przełomu XVI/XVII w. i na planie Widawskiego.",
+      "widget": {
+        "typ": "obraz",
+        "src": "/karty/biecz/media/plan_widawski.png",
+        "podpis": "Plan Biecza, F. Widawski, ok. 1755 r. — widoczny kanał młynówki wzdłuż południowej skarpy"
+      }
     }
   ],
   "zwiazane_mapy": [
