@@ -9,10 +9,10 @@
         "typ": "mapa-historyczna",
         "annotationUrl": "https://raw.githubusercontent.com/wweronikad/serwis-ahmp/main/adnotacje/biecz/ahmp_biecz_1_1.json",
         "center": [
-          21.2486,
-          49.7314
+          21.2484,
+          49.7318
         ],
-        "zoom": 15.5,
+        "zoom": 16.8,
         "podpis": "Plan katastralny Biecza, 1850 r. — przesun suwak aby nałożyć historyczny plan na mapę współczesną i zobaczyć ciągłość podziału parceli"
       }
     },

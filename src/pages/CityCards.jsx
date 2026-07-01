@@ -680,13 +680,13 @@ const sec = {
 
 const wgt = {
   fig: { margin:0, display:'flex', flexDirection:'column', gap:'8px' },
-  img: { width:'100%', borderRadius:'6px', display:'block', objectFit:'cover', maxHeight:'380px' },
+  img: { width:'100%', borderRadius:'6px', display:'block', objectFit:'contain', maxHeight:'400px' },
   podpis: { fontSize:'12px', color:'var(--text-muted)', fontStyle:'italic', lineHeight:1.4 },
   zrodla: { fontSize:'11px', color:'var(--text-muted)', marginTop:'3px' },
   zrodloLink: { color:'var(--navy)', opacity:0.65 },
   gal: { margin:0 },
-  galImgWrap: { position:'relative', overflow:'hidden', borderRadius:'6px', height:'260px' },
-  galImg: { width:'100%', height:'100%', display:'block', objectFit:'cover' },
+  galImgWrap: { position:'relative', overflow:'hidden', borderRadius:'6px', height:'260px', background:'var(--cream)' },
+  galImg: { width:'100%', height:'100%', display:'block', objectFit:'contain' },
   arrow: (side) => ({
     position:'absolute', top:'50%', [side]:'10px', transform:'translateY(-50%)',
     background:'rgba(0,0,0,0.5)', color:'#fff', border:'none', borderRadius:'50%',
