@@ -1,5 +1,7 @@
 import { useState, useEffect, useRef } from 'react'
 import { useParams, useNavigate, Link } from 'react-router-dom'
+import maplibregl from 'maplibre-gl'
+import { WarpedMapLayer } from '@allmaps/maplibre'
 import { cities, getCityById } from '../data/cities'
 import { KARTY_KATEGORIE } from '../data/kartyKategorie'
 import { asset } from '../utils/asset'
@@ -173,11 +175,146 @@ function WidgetSliderMapa({ widget }) {
   )
 }
 
+// ── Historical map (MapLibre + Allmaps opacity overlay) ─────────────────────
+
+function WidgetMapaHistoryczna({ widget }) {
+  const containerRef = useRef(null)
+  const mapRef = useRef(null)
+  const layerRef = useRef(null)
+  const [opacity, setOpacity] = useState(0.8)
+
+  const center = widget.center ?? [21.2486, 49.7314]
+  const zoom   = widget.zoom   ?? 15
+
+  useEffect(() => {
+    if (!containerRef.current || mapRef.current) return
+
+    const map = new maplibregl.Map({
+      container: containerRef.current,
+      style: {
+        version: 8,
+        sources: {
+          osm: {
+            type: 'raster',
+            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a>',
+            maxzoom: 19,
+          },
+        },
+        layers: [{ id: 'osm', type: 'raster', source: 'osm' }],
+      },
+      center,
+      zoom,
+    })
+
+    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
+
+    map.on('load', async () => {
+      const warpedLayer = new WarpedMapLayer()
+      map.addLayer(warpedLayer)
+      layerRef.current = warpedLayer
+      try {
+        await warpedLayer.addGeoreferenceAnnotationByUrl(widget.annotationUrl)
+        warpedLayer.setOpacity(opacity)
+      } catch (err) {
+        console.warn('Allmaps widget load error:', err)
+      }
+    })
+
+    mapRef.current = map
+    return () => { map.remove(); mapRef.current = null; layerRef.current = null }
+  }, []) // eslint-disable-line
+
+  useEffect(() => {
+    if (!layerRef.current) return
+    try { layerRef.current.setOpacity(opacity) } catch {}
+  }, [opacity])
+
+  return (
+    <figure style={{ margin: 0 }}>
+      <div ref={containerRef} style={mh.mapBox} />
+      <div style={mh.ctrl}>
+        <span style={mh.ctrlLabel}>Plan 1850</span>
+        <input
+          type="range" min={0} max={1} step={0.01} value={opacity}
+          onChange={(e) => setOpacity(parseFloat(e.target.value))}
+          style={mh.range}
+          title="Opacity of historical plan"
+        />
+        <span style={mh.ctrlLabel}>Mapa dziś</span>
+      </div>
+      {widget.podpis && <figcaption style={wgt.podpis}>{widget.podpis}</figcaption>}
+    </figure>
+  )
+}
+
+// ── 3D terrain viewer ────────────────────────────────────────────────────────
+
+function WidgetTeren3D({ widget }) {
+  const containerRef = useRef(null)
+  const mapRef = useRef(null)
+
+  const center  = widget.center  ?? [21.248, 49.730]
+  const zoom    = widget.zoom    ?? 13
+  const pitch   = widget.pitch   ?? 60
+  const bearing = widget.bearing ?? 0
+
+  useEffect(() => {
+    if (!containerRef.current || mapRef.current) return
+
+    const map = new maplibregl.Map({
+      container: containerRef.current,
+      style: {
+        version: 8,
+        sources: {
+          osm: {
+            type: 'raster',
+            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a>',
+            maxzoom: 19,
+          },
+          terrain: {
+            type: 'raster-dem',
+            tiles: ['https://s3.amazonaws.com/elevation-tiles-prod/terrarium/{z}/{x}/{y}.png'],
+            tileSize: 256,
+            encoding: 'terrarium',
+            maxzoom: 14,
+          },
+        },
+        layers: [{ id: 'osm', type: 'raster', source: 'osm' }],
+        terrain: { source: 'terrain', exaggeration: widget.exaggeration ?? 1.8 },
+      },
+      center,
+      zoom,
+      pitch,
+      bearing,
+      maxPitch: 85,
+      antialias: true,
+    })
+
+    map.addControl(new maplibregl.NavigationControl(), 'top-right')
+
+    mapRef.current = map
+    return () => { map.remove(); mapRef.current = null }
+  }, []) // eslint-disable-line
+
+  return (
+    <figure style={{ margin: 0 }}>
+      <div ref={containerRef} style={mh.mapBox} />
+      {widget.podpis && <figcaption style={wgt.podpis}>{widget.podpis}</figcaption>}
+    </figure>
+  )
+}
+
 function renderWidget(widget) {
   if (!widget) return null
   if (widget.typ === 'obraz') return <WidgetObraz widget={widget} />
   if (widget.typ === 'galeria') return <WidgetGaleria widget={widget} />
   if (widget.typ === 'slider-mapa') return <WidgetSliderMapa widget={widget} />
+  if (widget.typ === 'mapa-historyczna') return <WidgetMapaHistoryczna widget={widget} />
+  if (widget.typ === 'teren-3d') return <WidgetTeren3D widget={widget} />
   return null
 }
 
@@ -457,6 +594,13 @@ const wgt = {
   }),
   galDots: { position:'absolute', bottom:'10px', left:'50%', transform:'translateX(-50%)', display:'flex', gap:'6px' },
   dot: { width:'8px', height:'8px', borderRadius:'50%', background:'#fff', cursor:'pointer', transition:'opacity 0.15s' },
+}
+
+const mh = {
+  mapBox:    { width:'100%', height:360, borderRadius:6, overflow:'hidden' },
+  ctrl:      { display:'flex', alignItems:'center', gap:8, padding:'8px 2px 4px' },
+  ctrlLabel: { fontSize:11, color:'var(--text-muted)', whiteSpace:'nowrap', flexShrink:0 },
+  range:     { flex:1, cursor:'pointer', accentColor:'var(--gold)', height:4 },
 }
 
 const sl = {
