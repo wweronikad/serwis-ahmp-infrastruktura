@@ -182,7 +182,6 @@ a[target="_blank"]:hover {
   color: var(--gold-light);
   box-shadow: 0 2px 8px rgba(0,0,0,0.5);
   transition: transform 0.15s, background 0.15s;
-  animation: pin-pulse 2.4s ease-in-out infinite;
 }
 .photo-map-marker:hover .photo-marker-dot {
   transform: scale(1.2);
