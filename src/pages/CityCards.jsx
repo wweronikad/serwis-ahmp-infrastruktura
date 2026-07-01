@@ -670,22 +670,22 @@ const exp = {
 }
 
 const sec = {
-  wrap: { padding:'28px 0', borderBottom:'1px solid var(--border-light)', animation:'fadeInUp 0.4s ease both' },
-  h3: { fontSize:'14px', fontWeight:'700', textTransform:'uppercase', letterSpacing:'1px', color:'var(--navy)', marginBottom:'14px', paddingLeft:'12px', borderLeft:'3px solid', opacity:0.85 },
-  body: { display:'flex', gap:'32px', alignItems:'flex-start' },
+  wrap: { padding:'40px 0', borderBottom:'1px solid var(--border-light)', animation:'fadeInUp 0.4s ease both' },
+  h3: { fontSize:'13px', fontWeight:'700', textTransform:'uppercase', letterSpacing:'1.2px', color:'var(--navy)', marginBottom:'20px', paddingLeft:'14px', borderLeft:'3px solid', opacity:0.85 },
+  body: { display:'flex', gap:'48px', alignItems:'flex-start' },
   tekst: { flex:1, minWidth:0 },
-  para: { fontSize:'14px', color:'var(--text)', lineHeight:1.7, margin:'0 0 12px' },
-  widgetWrap: { flex:'0 0 42%', minWidth:0 },
+  para: { fontSize:'15px', color:'var(--text)', lineHeight:1.8, margin:'0 0 16px' },
+  widgetWrap: { flex:'0 0 48%', minWidth:0 },
 }
 
 const wgt = {
-  fig: { margin:0, display:'flex', flexDirection:'column', gap:'8px' },
-  img: { width:'100%', borderRadius:'6px', display:'block', objectFit:'contain', maxHeight:'400px' },
-  podpis: { fontSize:'12px', color:'var(--text-muted)', fontStyle:'italic', lineHeight:1.4 },
-  zrodla: { fontSize:'11px', color:'var(--text-muted)', marginTop:'3px' },
+  fig: { margin:0, display:'flex', flexDirection:'column', gap:'10px' },
+  img: { width:'100%', borderRadius:'8px', display:'block', objectFit:'contain', maxHeight:'520px' },
+  podpis: { fontSize:'13px', color:'var(--text-muted)', fontStyle:'italic', lineHeight:1.5 },
+  zrodla: { fontSize:'12px', color:'var(--text-muted)', marginTop:'4px' },
   zrodloLink: { color:'var(--navy)', opacity:0.65 },
   gal: { margin:0 },
-  galImgWrap: { position:'relative', overflow:'hidden', borderRadius:'6px', height:'260px', background:'var(--cream)' },
+  galImgWrap: { position:'relative', overflow:'hidden', borderRadius:'8px', height:'380px', background:'var(--cream)' },
   galImg: { width:'100%', height:'100%', display:'block', objectFit:'contain' },
   arrow: (side) => ({
     position:'absolute', top:'50%', [side]:'10px', transform:'translateY(-50%)',
