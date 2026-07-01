@@ -19,7 +19,11 @@
         "obrazy": [
           {
             "src": "/karty/biecz/media/mury_biecz.jpg",
-            "podpis": "Zachowany odcinek muru obronnego z basztą — widok współczesny"
+            "podpis": "Zachowany odcinek muru obronnego z basztą — widok współczesny",
+            "zrodla": [
+              "https://fotopolska.eu/Biecz/b86949,Mury_miejskie.html?f=1013839-foto",
+              "https://medievalheritage.eu/pl/strona-glowna/zabytki/polska/biecz-miejskie-mury-obronne/"
+            ]
           },
           {
             "src": "/galeria/biecz/biecz_panorama_od_poludnia_poczatek_xvii_w.webp",
@@ -36,11 +40,13 @@
         "obrazy": [
           {
             "src": "/karty/biecz/media/gora_zamkowa_nmt.jpg",
-            "podpis": "Model numeryczny terenu (NMT) — Góra Zamkowa i ukształtowanie doliny Ropy"
+            "podpis": "Model numeryczny terenu (NMT) — Góra Zamkowa i ukształtowanie doliny Ropy",
+            "zrodla": ["https://www.zamki.pl/?idzamku=biecz#&gid=null&pid=2"]
           },
           {
             "src": "/karty/biecz/media/gora_zamkowa_lotnicze.jpg",
-            "podpis": "Góra Zamkowa z lotu ptaka — widoczny stok nad doliną Ropy"
+            "podpis": "Góra Zamkowa z lotu ptaka — widoczny stok nad doliną Ropy",
+            "zrodla": ["https://www.zamki.pl/?idzamku=biecz#&gid=null&pid=2"]
           }
         ]
       }

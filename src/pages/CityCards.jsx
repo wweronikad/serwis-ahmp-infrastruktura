@@ -90,11 +90,32 @@ function KartaCard({ kategoria, loaded, active, onClick }) {
 
 // ── Image widget ─────────────────────────────────────────────────────────────
 
+function ZrodlaLinks({ zrodla }) {
+  if (!zrodla?.length) return null
+  return (
+    <div style={wgt.zrodla}>
+      Źródło:{' '}
+      {zrodla.map((url, i) => {
+        let label = url
+        try { label = new URL(url).hostname.replace(/^www\./, '') } catch {}
+        return (
+          <span key={url}>
+            {i > 0 && ', '}
+            <a href={url} target="_blank" rel="noopener noreferrer" style={wgt.zrodloLink}>{label}</a>
+          </span>
+        )
+      })}
+    </div>
+  )
+}
+
 function WidgetObraz({ widget }) {
+  const zrodla = widget.zrodla ? (Array.isArray(widget.zrodla) ? widget.zrodla : [widget.zrodla]) : []
   return (
     <figure style={wgt.fig}>
       <img src={asset(widget.src)} alt={widget.podpis ?? ''} style={wgt.img} />
       {widget.podpis && <figcaption style={wgt.podpis}>{widget.podpis}</figcaption>}
+      <ZrodlaLinks zrodla={zrodla} />
     </figure>
   )
 }
@@ -103,10 +124,12 @@ function WidgetGaleria({ widget }) {
   const [current, setCurrent] = useState(0)
   const imgs = widget.obrazy ?? []
   if (!imgs.length) return null
+  const img = imgs[current]
+  const zrodla = img.zrodla ? (Array.isArray(img.zrodla) ? img.zrodla : [img.zrodla]) : []
   return (
     <figure style={wgt.gal}>
       <div style={wgt.galImgWrap}>
-        <img src={asset(imgs[current].src)} alt={imgs[current].podpis ?? ''} style={wgt.galImg} />
+        <img src={asset(img.src)} alt={img.podpis ?? ''} style={wgt.galImg} />
         {imgs.length > 1 && (
           <>
             <button onClick={() => setCurrent((current - 1 + imgs.length) % imgs.length)} style={wgt.arrow('left')}>‹</button>
@@ -119,9 +142,8 @@ function WidgetGaleria({ widget }) {
           </>
         )}
       </div>
-      {imgs[current].podpis && (
-        <figcaption style={wgt.podpis}>{imgs[current].podpis}</figcaption>
-      )}
+      {img.podpis && <figcaption style={wgt.podpis}>{img.podpis}</figcaption>}
+      <ZrodlaLinks zrodla={zrodla} />
     </figure>
   )
 }
@@ -584,6 +606,8 @@ const wgt = {
   fig: { margin:0, display:'flex', flexDirection:'column', gap:'8px' },
   img: { width:'100%', borderRadius:'6px', display:'block', objectFit:'cover', maxHeight:'380px' },
   podpis: { fontSize:'12px', color:'var(--text-muted)', fontStyle:'italic', lineHeight:1.4 },
+  zrodla: { fontSize:'11px', color:'var(--text-muted)', marginTop:'3px' },
+  zrodloLink: { color:'var(--navy)', opacity:0.65 },
   gal: { margin:0 },
   galImgWrap: { position:'relative', overflow:'hidden', borderRadius:'6px' },
   galImg: { width:'100%', display:'block', maxHeight:'360px', objectFit:'cover' },
