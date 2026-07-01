@@ -56,6 +56,11 @@ button { cursor: pointer; font-family: var(--font-sans); }
   to { transform: rotate(360deg); }
 }
 
+@keyframes fadeInUp {
+  from { opacity: 0; transform: translateY(12px); }
+  to   { opacity: 1; transform: translateY(0); }
+}
+
 /* MapLibre overrides */
 .maplibregl-ctrl-bottom-left { margin-bottom: 8px; margin-left: 8px; }
 .maplibregl-ctrl-attrib { font-size: 11px !important; }

@@ -6,6 +6,7 @@ import Atlas from './pages/Atlas'
 import AboutPolish from './pages/AboutPolish'
 import AboutEuropean from './pages/AboutEuropean'
 import GaleriaEdytor from './pages/GaleriaEdytor'
+import CityCards from './pages/CityCards'
 import './index.css'
 
 export default function App() {
@@ -27,6 +28,8 @@ export default function App() {
                 <Route path="/" element={<Home />} />
                 <Route path="/atlas" element={<Atlas />} />
                 <Route path="/atlas/:cityId" element={<Atlas />} />
+                <Route path="/karty" element={<Navigate to="/karty/biecz" replace />} />
+                <Route path="/karty/:cityId" element={<CityCards />} />
                 <Route path="/o-projekcie-polskim" element={<AboutPolish />} />
                 <Route path="/o-projekcie-europejskim" element={<AboutEuropean />} />
                 <Route path="*" element={<Navigate to="/" replace />} />
