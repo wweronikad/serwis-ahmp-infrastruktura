@@ -197,74 +197,94 @@ function WidgetSliderMapa({ widget }) {
   )
 }
 
-// ── Historical map (MapLibre + Allmaps opacity overlay) ─────────────────────
+// ── Historical map (MapLibre split-view: plan 1850 left / OSM right) ─────────
 
 function WidgetMapaHistoryczna({ widget }) {
-  const containerRef = useRef(null)
-  const mapRef = useRef(null)
-  const layerRef = useRef(null)
-  const [opacity, setOpacity] = useState(0.8)
+  const containerRef  = useRef(null)
+  const histRef       = useRef(null)
+  const modernRef     = useRef(null)
+  const histMapInst   = useRef(null)
+  const modernMapInst = useRef(null)
+  const syncingRef    = useRef(false)
+  const dragging      = useRef(false)
+  const [pos, setPos] = useState(50)
 
   const center = widget.center ?? [21.2486, 49.7314]
   const zoom   = widget.zoom   ?? 15
 
+  const osmStyle = {
+    version: 8,
+    sources: { osm: { type: 'raster', tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'], tileSize: 256, attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a>', maxzoom: 19 } },
+    layers: [{ id: 'osm', type: 'raster', source: 'osm' }],
+  }
+
   useEffect(() => {
-    if (!containerRef.current || mapRef.current) return
+    if (!histRef.current || histMapInst.current) return
 
-    const map = new maplibregl.Map({
-      container: containerRef.current,
-      style: {
-        version: 8,
-        sources: {
-          osm: {
-            type: 'raster',
-            tiles: ['https://tile.openstreetmap.org/{z}/{x}/{y}.png'],
-            tileSize: 256,
-            attribution: '© <a href="https://openstreetmap.org">OpenStreetMap</a>',
-            maxzoom: 19,
-          },
-        },
-        layers: [{ id: 'osm', type: 'raster', source: 'osm' }],
-      },
-      center,
-      zoom,
-    })
+    const histMap   = new maplibregl.Map({ container: histRef.current,   style: osmStyle, center, zoom })
+    const modernMap = new maplibregl.Map({ container: modernRef.current, style: osmStyle, center, zoom })
+    modernMap.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
 
-    map.addControl(new maplibregl.NavigationControl({ showCompass: false }), 'top-right')
-
-    map.on('load', async () => {
+    histMap.on('load', async () => {
       const warpedLayer = new WarpedMapLayer()
-      map.addLayer(warpedLayer)
-      layerRef.current = warpedLayer
+      histMap.addLayer(warpedLayer)
       try {
         await warpedLayer.addGeoreferenceAnnotationByUrl(widget.annotationUrl)
-        warpedLayer.setOpacity(opacity)
-      } catch (err) {
-        console.warn('Allmaps widget load error:', err)
-      }
+      } catch (err) { console.warn('Allmaps error:', err) }
     })
 
-    mapRef.current = map
-    return () => { map.remove(); mapRef.current = null; layerRef.current = null }
+    const syncFrom = (src, dst) => {
+      if (syncingRef.current) return
+      syncingRef.current = true
+      dst.jumpTo({ center: src.getCenter(), zoom: src.getZoom(), bearing: src.getBearing(), pitch: src.getPitch() })
+      syncingRef.current = false
+    }
+    histMap.on('move',   () => syncFrom(histMap,   modernMap))
+    modernMap.on('move', () => syncFrom(modernMap, histMap))
+
+    histMapInst.current   = histMap
+    modernMapInst.current = modernMap
+    return () => {
+      histMap.remove(); modernMap.remove()
+      histMapInst.current = null; modernMapInst.current = null
+    }
   }, []) // eslint-disable-line
 
-  useEffect(() => {
-    if (!layerRef.current) return
-    try { layerRef.current.setOpacity(opacity) } catch {}
-  }, [opacity])
+  const updatePos = (clientX) => {
+    const rect = containerRef.current?.getBoundingClientRect()
+    if (!rect) return
+    setPos(Math.max(5, Math.min(95, ((clientX - rect.left) / rect.width) * 100)))
+  }
 
   return (
     <figure style={{ margin: 0 }}>
-      <div ref={containerRef} style={mh.mapBox} />
-      <div style={mh.ctrl}>
-        <span style={mh.ctrlLabel}>Plan 1850</span>
-        <input
-          type="range" min={0} max={1} step={0.01} value={opacity}
-          onChange={(e) => setOpacity(parseFloat(e.target.value))}
-          style={mh.range}
-          title="Opacity of historical plan"
-        />
-        <span style={mh.ctrlLabel}>Mapa dziś</span>
+      <div
+        ref={containerRef}
+        onMouseMove={(e) => { if (dragging.current) updatePos(e.clientX) }}
+        onMouseUp={() => { dragging.current = false }}
+        onMouseLeave={() => { dragging.current = false }}
+        onTouchMove={(e) => { if (dragging.current) updatePos(e.touches[0].clientX) }}
+        onTouchEnd={() => { dragging.current = false }}
+        style={{ ...sl.wrap, height: mh.mapBox.height, borderRadius: mh.mapBox.borderRadius }}
+      >
+        {/* Historical map — plan 1850 (bottom, full width) */}
+        <div ref={histRef} style={{ position: 'absolute', inset: 0 }} />
+        {/* Modern OSM map (top, clipped to right portion) */}
+        <div ref={modernRef} style={{ position: 'absolute', inset: 0, clipPath: `inset(0 0 0 ${pos}%)` }} />
+
+        {/* Divider handle */}
+        <div
+          onMouseDown={(e) => { dragging.current = true; e.preventDefault() }}
+          onTouchStart={(e) => { dragging.current = true; updatePos(e.touches[0].clientX) }}
+          style={{ ...sl.handle, left: `${pos}%` }}
+        >
+          <div style={sl.handleLine} />
+          <div style={sl.handleKnob}>⟺</div>
+        </div>
+
+        {/* Labels */}
+        <span style={{ ...sl.label, left: '8px' }}>Plan 1850</span>
+        <span style={{ ...sl.label, right: '8px', left: 'auto' }}>Mapa dziś</span>
       </div>
       {widget.podpis && <figcaption style={wgt.podpis}>{widget.podpis}</figcaption>}
     </figure>
@@ -356,9 +376,8 @@ function CardSection({ sekcja, kolor, index }) {
       )}
       <div style={{
         ...sec.body,
-        flexDirection: hasWidget
-          ? (isEven ? 'row' : 'row-reverse')
-          : 'column',
+        flexDirection: hasWidget ? (isEven ? 'row' : 'row-reverse') : 'column',
+        alignItems: hasWidget ? 'center' : 'flex-start',
       }}>
         {sekcja.tekst && (
           <div style={{ ...sec.tekst, maxWidth: hasWidget ? '55%' : '680px' }}>
