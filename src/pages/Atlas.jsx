@@ -277,6 +277,11 @@ export default function Atlas() {
   const galleryPhotos  = galleryMeta?.photos ?? null
   const galleryBasePath = galleryMeta?.basePath ?? ''
 
+  // Synchronized split view
+  const [syncEnabled, setSyncEnabled] = useState(true)
+  const primaryMapRef   = useRef(null)
+  const secondaryMapRef = useRef(null)
+
   const handlePhotoMarkerClick = useCallback((idx, x, y) => {
     setPhotoPopup({ idx, x, y })
   }, [])
@@ -293,6 +298,52 @@ export default function Atlas() {
     setPhotoPopup(null)
     setGalleryOpen(false)
   }, [city.id])
+
+  // Clear secondary map ref when split view closes
+  useEffect(() => {
+    if (!splitView) secondaryMapRef.current = null
+  }, [splitView])
+
+  // Wire synchronized movement between the two maps
+  useEffect(() => {
+    if (!splitView || !syncEnabled) return
+
+    const wire = () => {
+      const primary   = primaryMapRef.current
+      const secondary = secondaryMapRef.current
+      if (!primary || !secondary) return null
+
+      const guard = { syncing: false }
+
+      const syncAtoB = () => {
+        if (guard.syncing) return
+        guard.syncing = true
+        secondary.jumpTo({ center: primary.getCenter(), zoom: primary.getZoom(), bearing: primary.getBearing() })
+        setTimeout(() => { guard.syncing = false }, 0)
+      }
+      const syncBtoA = () => {
+        if (guard.syncing) return
+        guard.syncing = true
+        primary.jumpTo({ center: secondary.getCenter(), zoom: secondary.getZoom(), bearing: secondary.getBearing() })
+        setTimeout(() => { guard.syncing = false }, 0)
+      }
+
+      primary.on('move', syncAtoB)
+      secondary.on('move', syncBtoA)
+      return () => {
+        primary.off('move', syncAtoB)
+        secondary.off('move', syncBtoA)
+      }
+    }
+
+    let dispose = wire()
+    let timer = null
+    if (!dispose) {
+      // Secondary map may not be mounted yet — retry after it renders
+      timer = setTimeout(() => { dispose = wire() }, 500)
+    }
+    return () => { clearTimeout(timer); dispose?.() }
+  }, [splitView, syncEnabled])
 
   const selectedMap = city.maps.find((m) => m.id === selectedMapId) ?? city.maps[0]
   const splitCity = getCityById(splitCityId) ?? cities[0]
@@ -453,6 +504,7 @@ export default function Atlas() {
             galleryPhotos={galleryPhotos}
             galleryBasePath={galleryBasePath}
             onPhotoClick={handlePhotoMarkerClick}
+            onMapReady={(m) => { primaryMapRef.current = m }}
           />
 
           {/* Photo popup on marker click */}
@@ -471,11 +523,42 @@ export default function Atlas() {
         {/* Split divider + second map */}
         {splitView && (
           <>
+            {/* Split divider with sync toggle button */}
             <div
               onPointerDown={onSplitDividerDown}
-              style={styles.splitDivider}
+              style={{ ...styles.splitDivider, position: 'relative' }}
               title="Przeciągnij aby zmienić podział ekranu"
-            />
+            >
+              <button
+                onPointerDown={(e) => e.stopPropagation()}
+                onClick={() => setSyncEnabled(v => !v)}
+                title={syncEnabled ? 'Widoki zsynchronizowane — kliknij aby rozłączyć' : 'Widoki niezależne — kliknij aby zsynchronizować'}
+                style={{
+                  position: 'absolute',
+                  top: '50%',
+                  left: '50%',
+                  transform: 'translate(-50%, -50%)',
+                  width: 28,
+                  height: 28,
+                  background: syncEnabled ? 'var(--navy)' : 'rgba(245,240,232,0.97)',
+                  border: `2px solid ${syncEnabled ? 'var(--gold)' : 'var(--border)'}`,
+                  borderRadius: '50%',
+                  cursor: 'pointer',
+                  fontSize: 13,
+                  lineHeight: 1,
+                  display: 'flex',
+                  alignItems: 'center',
+                  justifyContent: 'center',
+                  boxShadow: '0 2px 8px rgba(0,0,0,0.3)',
+                  zIndex: 10,
+                  color: syncEnabled ? 'var(--gold-light)' : 'var(--text-muted)',
+                  fontFamily: 'var(--font-sans)',
+                  pointerEvents: 'auto',
+                }}
+              >
+                {syncEnabled ? '=' : '≠'}
+              </button>
+            </div>
             <div style={{
               flexGrow: 1 - splitRatio,
               flexShrink: 1,
@@ -488,6 +571,7 @@ export default function Atlas() {
                 city={splitCity}
                 activeAnnotationUrl={splitMap.annotationUrl}
                 opacity={splitOpacity}
+                onMapReady={(m) => { secondaryMapRef.current = m }}
               />
               <SplitMapSelector
                 splitCityId={splitCityId}

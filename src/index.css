@@ -61,6 +61,18 @@ button { cursor: pointer; font-family: var(--font-sans); }
   to   { opacity: 1; transform: translateY(0); }
 }
 
+/* Map marker pulse (photo pins on the map) */
+@keyframes pin-pulse {
+  0%, 100% { box-shadow: 0 2px 8px rgba(0,0,0,0.5), 0 0 0 0 rgba(184,150,62,0.7); }
+  50%       { box-shadow: 0 2px 8px rgba(0,0,0,0.5), 0 0 0 7px rgba(184,150,62,0); }
+}
+
+/* Gallery image pin glow (dots on historical photos) */
+@keyframes img-pin-glow {
+  0%, 100% { box-shadow: 0 0 0 3px rgba(184,150,62,0.2), 0 1px 4px rgba(0,0,0,0.6); }
+  50%       { box-shadow: 0 0 0 8px rgba(184,150,62,0), 0 0 10px 2px rgba(184,150,62,0.45), 0 1px 4px rgba(0,0,0,0.6); }
+}
+
 /* MapLibre overrides */
 .maplibregl-ctrl-bottom-left { margin-bottom: 8px; margin-left: 8px; }
 .maplibregl-ctrl-attrib { font-size: 11px !important; }
@@ -170,9 +182,11 @@ a[target="_blank"]:hover {
   color: var(--gold-light);
   box-shadow: 0 2px 8px rgba(0,0,0,0.5);
   transition: transform 0.15s, background 0.15s;
+  animation: pin-pulse 2.4s ease-in-out infinite;
 }
 .photo-map-marker:hover .photo-marker-dot {
   transform: scale(1.2);
   background: var(--gold);
   color: var(--navy);
+  animation: none;
 }

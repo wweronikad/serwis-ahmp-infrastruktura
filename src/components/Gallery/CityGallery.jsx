@@ -147,10 +147,17 @@ export default function CityGallery({ photos, basePath = '', initialIdx = 0, onC
                   background:  activePin === i ? '#b8963e' : 'rgba(184,150,62,0.25)',
                   border:      activePin === i ? '2px solid rgba(255,255,255,0.9)' : '2px solid rgba(184,150,62,0.8)',
                   transform:   activePin === i ? 'scale(1.25)' : 'scale(1)',
-                  transition: 'all 0.15s',
+                  transition: 'transform 0.15s, background 0.15s, border-color 0.15s',
+                  animation:   activePin === i ? 'none' : 'img-pin-glow 2s ease-in-out infinite',
                 }} />
                 {activePin === i && (
-                  <div style={s.pinLabel}>{pin.label}</div>
+                  <div style={{ ...s.pinLabel, pointerEvents: 'auto', paddingRight: 22 }}>
+                    {pin.label}
+                    <button
+                      onClick={(e) => { e.stopPropagation(); setActivePin(null) }}
+                      style={s.pinClose}
+                    >✕</button>
+                  </div>
                 )}
               </div>
             ))}
@@ -301,9 +308,23 @@ const s = {
     fontSize: 11,
     fontFamily: 'var(--font-sans, system-ui)',
     whiteSpace: 'nowrap',
-    pointerEvents: 'none',
     zIndex: 6,
     boxShadow: '0 2px 8px rgba(0,0,0,0.5)',
+  },
+  pinClose: {
+    position: 'absolute',
+    top: '50%',
+    right: 4,
+    transform: 'translateY(-50%)',
+    background: 'none',
+    border: 'none',
+    color: 'rgba(255,255,255,0.5)',
+    cursor: 'pointer',
+    fontSize: 10,
+    lineHeight: 1,
+    padding: '2px 3px',
+    display: 'flex',
+    alignItems: 'center',
   },
 
   // Navigation arrows

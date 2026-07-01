@@ -57,11 +57,13 @@ const EMPTY_FC = { type: 'FeatureCollection', features: [] }
 
 // ── Component ─────────────────────────────────────────────────────────────
 
-export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.85, galleryPhotos, galleryBasePath = '', onPhotoClick }) {
+export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.85, galleryPhotos, galleryBasePath = '', onPhotoClick, onMapReady }) {
   const containerRef = useRef(null)
   const mapRef      = useRef(null)
   const layerRef    = useRef(null)
   const prevUrlRef  = useRef(null)
+  const onMapReadyRef = useRef(onMapReady)
+  useEffect(() => { onMapReadyRef.current = onMapReady }, [onMapReady])
 
   // Measurement refs (avoid re-registering handlers on every render)
   const measurePtsRef     = useRef([])   // [[lng,lat], ...]
@@ -84,6 +86,7 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
   const [measuring,  setMeasuring]    = useState(false)
   const [measureInfo, setMeasureInfo] = useState({ total: 0, count: 0 }) // reactive display
   const [bearing,    setBearing]      = useState(0)
+  const [pinsVisible, setPinsVisible] = useState(true)
 
   // ── Map init ─────────────────────────────────────────────────────────────
 
@@ -176,6 +179,7 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
     })
 
     mapRef.current = map
+    onMapReadyRef.current?.(map)
 
     return () => {
       stopMeasureHandler()
@@ -399,6 +403,14 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
     }
   }, [layerReady, galleryPhotos]) // eslint-disable-line react-hooks/exhaustive-deps
 
+  // ── Pin visibility toggle ─────────────────────────────────────────────────
+
+  useEffect(() => {
+    photoMarkersRef.current.forEach(m => {
+      m.getElement().style.display = pinsVisible ? '' : 'none'
+    })
+  }, [pinsVisible])
+
   // ── Opacity sync ──────────────────────────────────────────────────────────
 
   useEffect(() => {
@@ -430,6 +442,19 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
             </button>
           ))}
         </div>
+
+        <div style={ui.sep} />
+
+        {/* Pin layer toggle — only when gallery pins exist */}
+        {galleryPhotos?.length > 0 && (
+          <button
+            onClick={() => setPinsVisible(v => !v)}
+            title={pinsVisible ? 'Ukryj pinezki galerii na mapie' : 'Pokaż pinezki galerii na mapie'}
+            style={{ ...ui.btn, opacity: pinsVisible ? 1 : 0.45 }}
+          >
+            📍 Galeria
+          </button>
+        )}
 
         <div style={ui.sep} />
 
