@@ -66,11 +66,14 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
   useEffect(() => { onMapReadyRef.current = onMapReady }, [onMapReady])
 
   // Measurement refs (avoid re-registering handlers on every render)
-  const measurePtsRef     = useRef([])   // [[lng,lat], ...]
-  const measureMarkersRef = useRef([])   // maplibregl.Marker[]
-  const measureLabelsRef  = useRef([])   // maplibregl.Popup[] (segment distances)
-  const clickHandlerRef   = useRef(null)
-  const measuringRef      = useRef(false)
+  const measurePtsRef      = useRef([])   // [[lng,lat], ...]
+  const measureMarkersRef  = useRef([])   // maplibregl.Marker[]
+  const measureLabelsRef   = useRef([])   // maplibregl.Popup[] (segment distances)
+  const clickHandlerRef    = useRef(null)
+  const mousemoveHandlerRef = useRef(null)
+  const dblclickHandlerRef = useRef(null)
+  const finishMeasureRef   = useRef(null) // stable ref to avoid circular deps
+  const measuringRef       = useRef(false)
 
   // Photo gallery markers
   const photoMarkersRef = useRef([])    // maplibregl.Marker[]
@@ -133,11 +136,22 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
       layerRef.current = warpedLayer
 
       // ── Measurement sources ──────────────────────────────────────────────
-      map.addSource('meas-pts',  { type: 'geojson', data: { ...EMPTY_FC } })
-      map.addSource('meas-line', { type: 'geojson', data: { ...EMPTY_FC } })
-      map.addSource('meas-lbl',  { type: 'geojson', data: { ...EMPTY_FC } })
+      map.addSource('meas-pts',     { type: 'geojson', data: { ...EMPTY_FC } })
+      map.addSource('meas-line',    { type: 'geojson', data: { ...EMPTY_FC } })
+      map.addSource('meas-lbl',     { type: 'geojson', data: { ...EMPTY_FC } })
+      map.addSource('meas-preview', { type: 'geojson', data: { ...EMPTY_FC } })
 
-      // Line: white outline + gold dashed inner (above warped layer)
+      // Preview (rubber-band) line — ghost from last point to cursor
+      map.addLayer({
+        id: 'meas-preview-bg', type: 'line', source: 'meas-preview',
+        paint: { 'line-color': '#ffffff', 'line-width': 4, 'line-opacity': 0.35 },
+      })
+      map.addLayer({
+        id: 'meas-preview-fg', type: 'line', source: 'meas-preview',
+        paint: { 'line-color': '#b8963e', 'line-width': 2, 'line-dasharray': [3, 3], 'line-opacity': 0.55 },
+      })
+
+      // Committed line: white outline + gold dashed inner (above preview)
       map.addLayer({
         id: 'meas-line-bg', type: 'line', source: 'meas-line',
         paint: { 'line-color': '#ffffff', 'line-width': 5, 'line-opacity': 0.7 },
@@ -260,6 +274,15 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
       map.off('click', clickHandlerRef.current)
       clickHandlerRef.current = null
     }
+    if (mousemoveHandlerRef.current) {
+      map.off('mousemove', mousemoveHandlerRef.current)
+      mousemoveHandlerRef.current = null
+    }
+    if (dblclickHandlerRef.current) {
+      map.off('dblclick', dblclickHandlerRef.current)
+      dblclickHandlerRef.current = null
+    }
+    map.getSource('meas-preview')?.setData({ ...EMPTY_FC })
     map.doubleClickZoom.enable()
     map.getCanvas().style.cursor = ''
   }, [])
@@ -270,31 +293,76 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
     map.doubleClickZoom.disable()
     map.getCanvas().style.cursor = 'crosshair'
 
-    const fn = (e) => {
+    // Click: add a committed point
+    const clickFn = (e) => {
       if (!measuringRef.current) return
       measurePtsRef.current = [...measurePtsRef.current, [e.lngLat.lng, e.lngLat.lat]]
       refreshMeasureGeojson()
     }
-    clickHandlerRef.current = fn
-    map.on('click', fn)
+    clickHandlerRef.current = clickFn
+    map.on('click', clickFn)
+
+    // Mousemove: rubber-band preview from last committed point to cursor
+    const moveFn = (e) => {
+      if (!measuringRef.current) return
+      const pts = measurePtsRef.current
+      if (pts.length === 0) return
+      const cursor = [e.lngLat.lng, e.lngLat.lat]
+      map.getSource('meas-preview')?.setData({
+        type: 'Feature',
+        geometry: { type: 'LineString', coordinates: [pts[pts.length - 1], cursor] },
+        properties: {},
+      })
+    }
+    mousemoveHandlerRef.current = moveFn
+    map.on('mousemove', moveFn)
+
+    // Double-click: finish measuring (keep the line, stop adding points)
+    // dblclick fires after two single clicks — remove the extra point the second click added
+    const dblFn = () => {
+      finishMeasureRef.current?.()
+    }
+    dblclickHandlerRef.current = dblFn
+    map.on('dblclick', dblFn)
   }, [refreshMeasureGeojson])
 
   const clearMeasure = useCallback(() => {
     measurePtsRef.current = []
     refreshMeasureGeojson()
+    mapRef.current?.getSource('meas-preview')?.setData({ ...EMPTY_FC })
   }, [refreshMeasureGeojson])
+
+  // finish: stop adding points but keep the committed line visible
+  const finishMeasure = useCallback(() => {
+    if (!measuringRef.current) return
+    // Remove the extra point the second click of the dblclick added
+    if (measurePtsRef.current.length > 1) {
+      measurePtsRef.current = measurePtsRef.current.slice(0, -1)
+      refreshMeasureGeojson()
+    }
+    measuringRef.current = false
+    stopMeasureHandler()
+    setMeasuring(false)
+  }, [stopMeasureHandler, refreshMeasureGeojson])
+
+  // keep finishMeasureRef current so dblclick handler can call it without deps
+  useEffect(() => { finishMeasureRef.current = finishMeasure }, [finishMeasure])
 
   const toggleMeasure = useCallback(() => {
     if (measuringRef.current) {
+      // Deactivate: stop + clear everything
       measuringRef.current = false
       stopMeasureHandler()
+      clearMeasure()
       setMeasuring(false)
     } else {
+      // Activate: clear any leftover result, start fresh
+      clearMeasure()
       measuringRef.current = true
       startMeasureHandler()
       setMeasuring(true)
     }
-  }, [stopMeasureHandler, startMeasureHandler])
+  }, [stopMeasureHandler, startMeasureHandler, clearMeasure])
 
   const resetNorth = useCallback(() => {
     mapRef.current?.rotateTo(0, { duration: 500 })
@@ -490,7 +558,7 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
         <div style={ui.measureBar}>
           {measuring && measureInfo.count === 0 ? (
             <span style={{ color: 'var(--text-muted)', fontSize: '12px' }}>
-              Klikaj punkty na mapie aby zmierzyć odległość
+              Kliknij punkt na mapie · dwuklik = zakończ
             </span>
           ) : (
             <>
@@ -498,15 +566,16 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
                 📏 <strong>{fmtDist(measureInfo.total)}</strong>
               </span>
               <span style={ui.measurePts}>
-                {measureInfo.count} {measureInfo.count === 1 ? 'punkt' : 'punktów'}
+                {measureInfo.count} {measureInfo.count === 1 ? 'punkt' : measureInfo.count < 5 ? 'punkty' : 'punktów'}
+                {measuring && ' · dwuklik = zakończ'}
               </span>
               <div style={{ marginLeft: 'auto', display: 'flex', gap: '6px' }}>
-                {!measuring && (
-                  <button onClick={toggleMeasure} style={ui.measureBtn}>
-                    + Dodaj punkty
+                {measuring && (
+                  <button onClick={finishMeasure} style={ui.measureBtn}>
+                    ✓ Zakończ
                   </button>
                 )}
-                <button onClick={clearMeasure} style={ui.measureBtnDanger}>
+                <button onClick={measuring ? toggleMeasure : clearMeasure} style={ui.measureBtnDanger}>
                   ✕ Wyczyść
                 </button>
               </div>
