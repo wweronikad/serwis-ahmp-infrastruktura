@@ -122,21 +122,40 @@ function WidgetObraz({ widget }) {
 
 function WidgetGaleria({ widget }) {
   const [current, setCurrent] = useState(0)
+  const [tick, setTick]       = useState(0)
   const imgs = widget.obrazy ?? []
   if (!imgs.length) return null
-  const img = imgs[current]
+  const img    = imgs[current]
   const zrodla = img.zrodla ? (Array.isArray(img.zrodla) ? img.zrodla : [img.zrodla]) : []
+
+  // Auto-advance every 5 s; tick resets the interval when user navigates manually
+  useEffect(() => {
+    if (imgs.length <= 1) return
+    const id = setInterval(() => setCurrent(c => (c + 1) % imgs.length), 5000)
+    return () => clearInterval(id)
+  }, [imgs.length, tick])
+
+  const goTo = (i) => { setCurrent(i); setTick(t => t + 1) }
+
   return (
     <figure style={wgt.gal}>
+      {/* Fixed-height box — all images stacked absolutely, cross-fade via opacity */}
       <div style={wgt.galImgWrap}>
-        <img src={asset(img.src)} alt={img.podpis ?? ''} style={wgt.galImg} />
+        {imgs.map((im, i) => (
+          <img
+            key={im.src}
+            src={asset(im.src)}
+            alt={im.podpis ?? ''}
+            style={{ ...wgt.galImg, position: 'absolute', inset: 0, opacity: i === current ? 1 : 0, transition: 'opacity 2s ease' }}
+          />
+        ))}
         {imgs.length > 1 && (
           <>
-            <button onClick={() => setCurrent((current - 1 + imgs.length) % imgs.length)} style={wgt.arrow('left')}>‹</button>
-            <button onClick={() => setCurrent((current + 1) % imgs.length)} style={wgt.arrow('right')}>›</button>
+            <button onClick={() => goTo((current - 1 + imgs.length) % imgs.length)} style={wgt.arrow('left')}>‹</button>
+            <button onClick={() => goTo((current + 1) % imgs.length)} style={wgt.arrow('right')}>›</button>
             <div style={wgt.galDots}>
               {imgs.map((_, i) => (
-                <span key={i} onClick={() => setCurrent(i)} style={{ ...wgt.dot, opacity: i === current ? 1 : 0.35 }} />
+                <span key={i} onClick={() => goTo(i)} style={{ ...wgt.dot, opacity: i === current ? 1 : 0.35, transition: 'opacity 0.4s' }} />
               ))}
             </div>
           </>
@@ -628,8 +647,8 @@ const wgt = {
   zrodla: { fontSize:'11px', color:'var(--text-muted)', marginTop:'3px' },
   zrodloLink: { color:'var(--navy)', opacity:0.65 },
   gal: { margin:0 },
-  galImgWrap: { position:'relative', overflow:'hidden', borderRadius:'6px' },
-  galImg: { width:'100%', display:'block', maxHeight:'360px', objectFit:'cover' },
+  galImgWrap: { position:'relative', overflow:'hidden', borderRadius:'6px', height:'260px' },
+  galImg: { width:'100%', height:'100%', display:'block', objectFit:'cover' },
   arrow: (side) => ({
     position:'absolute', top:'50%', [side]:'10px', transform:'translateY(-50%)',
     background:'rgba(0,0,0,0.5)', color:'#fff', border:'none', borderRadius:'50%',
