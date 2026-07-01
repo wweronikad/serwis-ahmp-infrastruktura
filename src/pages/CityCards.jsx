@@ -48,9 +48,6 @@ function KartaCard({ kategoria, loaded, active, onClick }) {
       onMouseLeave={() => setHovered(false)}
       style={{
         ...card.wrap,
-        background: hasContent
-          ? (hovered || active ? kategoria.kolor : shadeColor(kategoria.kolor, -15))
-          : '#c8c8c8',
         opacity: hasContent ? 1 : 0.5,
         cursor: hasContent ? 'pointer' : 'default',
         transform: active
@@ -59,31 +56,37 @@ function KartaCard({ kategoria, loaded, active, onClick }) {
           ? 'translateY(-4px)'
           : 'translateY(0)',
         boxShadow: active
-          ? 'inset 0 0 0 3px rgba(255,255,255,0.6)'
+          ? `inset 0 0 0 3px ${kategoria.kolor}`
           : hovered && hasContent
-          ? '0 12px 32px rgba(0,0,0,0.28)'
-          : '0 3px 10px rgba(0,0,0,0.18)',
+          ? '0 12px 32px rgba(0,0,0,0.18)'
+          : '0 2px 8px rgba(0,0,0,0.10)',
       }}
     >
-      <div style={card.top}>
-        <span style={card.ikona}>{kategoria.ikona}</span>
+      {/* Thumbnail area — category colour as background, large emoji centred */}
+      <div style={{ ...card.thumb, background: hasContent ? kategoria.kolorBg : '#e8e8e8' }}>
+        <span style={card.thumbIkona}>{kategoria.ikona}</span>
+        <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, background: kategoria.kolor }} />
       </div>
-      <span style={card.nazwa}>{kategoria.nazwa}</span>
-      {hasContent && loaded?.era && (
-        <span style={card.era}>{loaded.era}</span>
-      )}
-      {hasContent && loaded?.teaser && (
-        <span style={card.teaser}>{loaded.teaser}</span>
-      )}
-      {isEmpty && (
-        <span style={card.brak}>brak danych</span>
-      )}
-      {!hasContent && !isEmpty && (
-        <span style={card.brak}>ładowanie…</span>
-      )}
-      {hasContent && (
-        <span style={card.cta}>Czytaj →</span>
-      )}
+
+      {/* Card body */}
+      <div style={card.body}>
+        <div style={card.header}>
+          <span style={card.nazwa}>{kategoria.nazwa}</span>
+          {hasContent && loaded?.era && (
+            <span style={card.era}>{loaded.era}</span>
+          )}
+        </div>
+        {hasContent && loaded?.teaser && (
+          <p style={card.teaser}>{loaded.teaser}</p>
+        )}
+        {isEmpty && <span style={card.brak}>brak danych</span>}
+        {!hasContent && !isEmpty && <span style={card.brak}>ładowanie…</span>}
+        {hasContent && (
+          <div style={card.meta}>
+            <span style={card.cta}>Czytaj →</span>
+          </div>
+        )}
+      </div>
     </div>
   )
 }
@@ -591,16 +594,6 @@ export default function CityCards() {
   )
 }
 
-// ── Helpers ──────────────────────────────────────────────────────────────────
-
-function shadeColor(hex, pct) {
-  const num = parseInt(hex.replace('#', ''), 16)
-  const r = Math.max(0, Math.min(255, (num >> 16) + pct))
-  const g = Math.max(0, Math.min(255, ((num >> 8) & 0xff) + pct))
-  const b = Math.max(0, Math.min(255, (num & 0xff) + pct))
-  return `rgb(${r},${g},${b})`
-}
-
 // ── Styles ────────────────────────────────────────────────────────────────────
 
 const bar = {
@@ -635,25 +628,32 @@ const card = {
   wrap: {
     display: 'flex',
     flexDirection: 'column',
-    alignItems: 'flex-start',
-    padding: '24px 20px 20px',
+    background: 'var(--white)',
+    border: '1px solid var(--border)',
     borderRadius: '10px',
-    border: 'none',
-    color: '#fff',
-    textAlign: 'left',
-    transition: 'transform 0.18s ease, box-shadow 0.18s ease, background 0.18s ease',
-    minHeight: '300px',
-    gap: '10px',
+    overflow: 'hidden',
+    transition: 'transform 0.18s ease, box-shadow 0.18s ease',
     fontFamily: 'var(--font-sans)',
-    cursor: 'pointer',
+    textAlign: 'left',
   },
-  top: { marginBottom: '4px' },
-  ikona: { fontSize: '30px', lineHeight: 1 },
-  nazwa: { fontSize: '18px', fontWeight: '700', lineHeight: 1.25, letterSpacing: '-0.2px', fontFamily: 'var(--font-serif)' },
-  era: { fontSize: '12px', opacity: 0.75, fontStyle: 'italic' },
-  teaser: { fontSize: '13px', opacity: 0.88, lineHeight: 1.55, flex: 1 },
-  brak: { fontSize: '12px', opacity: 0.55, fontStyle: 'italic', marginTop: 'auto' },
-  cta: { fontSize: '12px', marginTop: 'auto', opacity: 0.7, letterSpacing: '0.3px', fontWeight: '600' },
+  thumb: {
+    position: 'relative',
+    height: '130px',
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    overflow: 'hidden',
+    flexShrink: 0,
+  },
+  thumbIkona: { fontSize: '48px', lineHeight: 1, filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.10))' },
+  body: { padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 },
+  header: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '8px' },
+  nazwa: { fontSize: '18px', fontFamily: 'var(--font-serif)', color: 'var(--navy)', lineHeight: 1.25 },
+  era: { fontSize: '10px', color: 'var(--text-muted)', background: 'var(--cream-dark)', border: '1px solid var(--border-light)', borderRadius: '3px', padding: '2px 6px', whiteSpace: 'nowrap', flexShrink: 0, marginTop: '3px', fontStyle: 'italic' },
+  teaser: { fontSize: '12px', color: 'var(--text-muted)', lineHeight: 1.55, flex: 1, margin: 0 },
+  brak: { fontSize: '12px', color: 'var(--text-muted)', fontStyle: 'italic' },
+  meta: { display: 'flex', alignItems: 'center', marginTop: '4px' },
+  cta: { fontSize: '11px', color: 'var(--gold)', fontWeight: '600', letterSpacing: '0.3px' },
 }
 
 const exp = {
