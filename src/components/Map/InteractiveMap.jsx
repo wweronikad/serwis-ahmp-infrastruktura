@@ -57,7 +57,7 @@ const EMPTY_FC = { type: 'FeatureCollection', features: [] }
 
 // ── Component ─────────────────────────────────────────────────────────────
 
-export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.85, galleryPhotos, galleryBasePath = '', onPhotoClick, onMapReady }) {
+export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.85, galleryPhotos, galleryBasePath = '', onPhotoClick, onMapReady, pinsVisible = true }) {
   const containerRef = useRef(null)
   const mapRef      = useRef(null)
   const layerRef    = useRef(null)
@@ -89,7 +89,7 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
   const [measuring,  setMeasuring]    = useState(false)
   const [measureInfo, setMeasureInfo] = useState({ total: 0, count: 0 }) // reactive display
   const [bearing,    setBearing]      = useState(0)
-  const [pinsVisible, setPinsVisible] = useState(true)
+  // pinsVisible controlled by parent via prop
 
   // ── Map init ─────────────────────────────────────────────────────────────
 
@@ -512,17 +512,6 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
         </div>
 
         <div style={ui.sep} />
-
-        {/* Pin layer toggle — only when gallery pins exist */}
-        {galleryPhotos?.length > 0 && (
-          <button
-            onClick={() => setPinsVisible(v => !v)}
-            title={pinsVisible ? 'Ukryj pinezki galerii na mapie' : 'Pokaż pinezki galerii na mapie'}
-            style={{ ...ui.btn, opacity: pinsVisible ? 1 : 0.45 }}
-          >
-            📍 Galeria
-          </button>
-        )}
 
         <div style={ui.sep} />
 

@@ -31,6 +31,8 @@ export default function MapListPanel({
   onToggle,
   galleryCount,
   onGalleryOpen,
+  pinsVisible,
+  onTogglePins,
 }) {
   const sortedMaps = [...activeCity.maps].sort((a, b) => {
     if (a.year === null) return 1
@@ -59,6 +61,18 @@ export default function MapListPanel({
           </button>
         )}
       </div>
+      {/* Pin visibility — only when gallery has map pins */}
+      {galleryCount > 0 && onTogglePins && (
+        <div style={styles.pinRow}>
+          <button
+            onClick={onTogglePins}
+            style={pinsVisible ? styles.pinBtnOn : styles.pinBtnOff}
+            title={pinsVisible ? 'Ukryj pinezki na mapie' : 'Pokaż pinezki na mapie'}
+          >
+            {pinsVisible ? '📍 Ukryj pinezki' : '📍 Pokaż pinezki'}
+          </button>
+        </div>
+      )}
 
       {/* City selector */}
       <div style={styles.section}>
@@ -247,6 +261,37 @@ const styles = {
     fontWeight: '600',
     letterSpacing: '0.2px',
     whiteSpace: 'nowrap',
+  },
+  pinRow: {
+    padding: '0 10px 8px',
+    flexShrink: 0,
+  },
+  pinBtnOn: {
+    width: '100%',
+    padding: '5px 8px',
+    fontSize: '11px',
+    fontFamily: 'var(--font-sans)',
+    background: 'rgba(26,41,66,0.06)',
+    border: '1px solid var(--border)',
+    borderRadius: 'var(--radius)',
+    color: 'var(--navy)',
+    cursor: 'pointer',
+    textAlign: 'center',
+    letterSpacing: '0.2px',
+  },
+  pinBtnOff: {
+    width: '100%',
+    padding: '5px 8px',
+    fontSize: '11px',
+    fontFamily: 'var(--font-sans)',
+    background: 'transparent',
+    border: '1px dashed var(--border)',
+    borderRadius: 'var(--radius)',
+    color: 'var(--text-muted)',
+    cursor: 'pointer',
+    textAlign: 'center',
+    letterSpacing: '0.2px',
+    opacity: 0.7,
   },
   section: {
     padding: '14px 16px',

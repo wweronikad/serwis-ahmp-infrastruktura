@@ -269,6 +269,9 @@ export default function Atlas() {
   const [leftPanelCollapsed, setLeftPanelCollapsed] = useState(false)
   const [infoPanelCollapsed, setInfoPanelCollapsed] = useState(false)
 
+  // Gallery pins visibility
+  const [pinsVisible, setPinsVisible] = useState(true)
+
   // Gallery
   const [galleryOpen,   setGalleryOpen]   = useState(false)
   const [galleryIdx,    setGalleryIdx]    = useState(0)
@@ -475,6 +478,8 @@ export default function Atlas() {
             onToggle={() => setLeftPanelCollapsed((v) => !v)}
             galleryCount={galleryPhotos?.length ?? 0}
             onGalleryOpen={() => openGalleryAt(0)}
+            pinsVisible={pinsVisible}
+            onTogglePins={() => setPinsVisible(v => !v)}
           />
         </div>
         {!leftPanelCollapsed && (
@@ -505,6 +510,7 @@ export default function Atlas() {
             galleryBasePath={galleryBasePath}
             onPhotoClick={handlePhotoMarkerClick}
             onMapReady={(m) => { primaryMapRef.current = m }}
+            pinsVisible={pinsVisible}
           />
 
           {/* Photo popup on marker click */}

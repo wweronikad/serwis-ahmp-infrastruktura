@@ -425,6 +425,7 @@ function renderWidget(widget) {
 function CardSection({ sekcja, kolor, index }) {
   const hasWidget = !!sekcja.widget
   const isEven = index % 2 === 0
+  const isYoutube = sekcja.widget?.typ === 'youtube'
 
   return (
     <div style={{
@@ -438,6 +439,7 @@ function CardSection({ sekcja, kolor, index }) {
         ...sec.body,
         flexDirection: hasWidget ? (isEven ? 'row' : 'row-reverse') : 'column',
         alignItems: hasWidget ? 'center' : 'flex-start',
+        justifyContent: isYoutube && !sekcja.tekst ? 'center' : 'flex-start',
       }}>
         {sekcja.tekst && (
           <div style={{ ...sec.tekst, maxWidth: hasWidget ? '55%' : '680px' }}>
@@ -447,7 +449,7 @@ function CardSection({ sekcja, kolor, index }) {
           </div>
         )}
         {hasWidget && (
-          <div style={{ ...sec.widgetWrap, ...(sekcja.tekst ? {} : { flex: '1 1 100%' }) }}>
+          <div style={{ ...sec.widgetWrap, ...(sekcja.tekst || isYoutube ? {} : { flex: '1 1 100%' }) }}>
             {renderWidget(sekcja.widget)}
           </div>
         )}
