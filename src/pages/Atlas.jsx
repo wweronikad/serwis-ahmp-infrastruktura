@@ -7,6 +7,7 @@ import MapListPanel from '../components/Map/MapListPanel'
 import InfoPanel from '../components/Map/InfoPanel'
 import CityGallery from '../components/Gallery/CityGallery'
 import bieczGallery from '../data/galeria/biecz_gallery.json'
+import bieczOpisy from '../data/opisy/biecz.json'
 import brzegGallery from '../data/galeria/brzeg_gallery.json'
 import bydgoszczGallery from '../data/galeria/bydgoszcz_gallery.json'
 import chelmnoGallery from '../data/galeria/chelmno_gallery.json'
@@ -65,6 +66,22 @@ const GALLERY_DATA = {
   wroclaw:             { photos: wroclawGallery,   basePath: asset('/galeria/wroclaw/') },
   zamosc:              { photos: zamoscGallery,    basePath: asset('/galeria/zamosc/') },
   ziebice:             { photos: ziebiceGallery,   basePath: asset('/galeria/ziebice/') },
+}
+
+// Opisy per city (rich descriptive content from atlas text)
+const CITY_OPISY = {
+  biecz: bieczOpisy,
+}
+
+const OPISY_LABELS = {
+  uklad_przestrzenny: 'Układ przestrzenny',
+  fortyfikacje: 'Fortyfikacje',
+  koscioly: 'Kościoły i klasztory',
+  ludnosc: 'Ludność',
+  gospodarka: 'Gospodarka i handel',
+  wladza: 'Władza i administracja',
+  srodowisko: 'Środowisko i topografia',
+  zrodla: 'Źródła i literatura',
 }
 
 const MIN_LIST_W = 180
@@ -197,7 +214,19 @@ function SplitMapSelector({ splitCityId, splitMapId, onCityChange, onMapSelect, 
   )
 }
 
-// ── City info bar (collapsible strip at bottom of map) ───────────────────
+// ── City info bar (collapsible — 30px strip or full map overlay) ─────────
+
+function renderOpisyText(text) {
+  if (!text) return null
+  return text.split(/\n\n+/).map((para, pi) => {
+    const parts = para.split(/\*\*(.*?)\*\*/g)
+    return (
+      <p key={pi} style={{ margin: '0 0 10px', lineHeight: 1.7, fontSize: 13, color: 'var(--text)' }}>
+        {parts.map((part, i) => i % 2 === 1 ? <strong key={i}>{part}</strong> : part)}
+      </p>
+    )
+  })
+}
 
 function CityInfoBar({ city, open, onToggle }) {
   const years = city.maps.filter(m => m.year !== null).map(m => m.year)
@@ -205,14 +234,19 @@ function CityInfoBar({ city, open, onToggle }) {
   const maxYear = years.length ? Math.max(...years) : null
   const n = city.maps.length
   const mapsLabel = n === 1 ? 'plan' : n < 5 ? 'plany' : 'planów'
+  const opisy = CITY_OPISY[city.id]
 
   return (
     <div style={{
-      background: 'rgba(245,240,232,0.97)',
+      height: '100%',
+      display: 'flex',
+      flexDirection: 'column',
+      background: 'rgba(245,240,232,0.98)',
       borderTop: '1px solid var(--border)',
-      backdropFilter: 'blur(4px)',
-      boxShadow: open ? '0 -4px 16px rgba(0,0,0,0.12)' : 'none',
+      backdropFilter: 'blur(8px)',
+      boxShadow: open ? '0 -6px 24px rgba(0,0,0,0.18)' : '0 -2px 8px rgba(0,0,0,0.08)',
     }}>
+      {/* Toggle strip — always 30px, always visible */}
       <button
         onClick={onToggle}
         style={{
@@ -220,6 +254,8 @@ function CityInfoBar({ city, open, onToggle }) {
           width: '100%', height: 30, padding: '0 16px',
           background: 'none', border: 'none', cursor: 'pointer',
           textAlign: 'left', fontFamily: 'var(--font-sans)',
+          flexShrink: 0,
+          borderBottom: open ? '1px solid var(--border)' : 'none',
         }}
       >
         <span style={{ fontSize: 9, color: 'var(--text-muted)', lineHeight: 1 }}>{open ? '▼' : '▲'}</span>
@@ -233,11 +269,41 @@ function CityInfoBar({ city, open, onToggle }) {
           {n} {mapsLabel} w atlasie{minYear ? ` (${minYear}–${maxYear})` : ''}
         </span>
       </button>
+
+      {/* Expanded content — full scrollable body */}
       {open && (
-        <div style={{ padding: '4px 20px 12px', overflowY: 'auto', maxHeight: 118 }}>
-          <p style={{ margin: 0, fontSize: 12.5, color: 'var(--text)', lineHeight: 1.65, fontFamily: 'var(--font-sans)', maxWidth: 900 }}>
+        <div style={{ flex: 1, overflowY: 'auto', padding: '20px 32px 40px' }}>
+          {/* City intro */}
+          <p style={{ margin: '0 0 24px', fontSize: 14, color: 'var(--text-muted)', lineHeight: 1.6, fontStyle: 'italic', borderLeft: '3px solid var(--gold)', paddingLeft: 14 }}>
             {city.description}
           </p>
+
+          {opisy ? (
+            Object.entries(opisy.karty).map(([key, karta]) => (
+              <section key={key} style={{ marginBottom: 32 }}>
+                <h3 style={{
+                  margin: '0 0 6px',
+                  fontSize: 13,
+                  fontWeight: 700,
+                  textTransform: 'uppercase',
+                  letterSpacing: '0.6px',
+                  color: 'var(--navy)',
+                  fontFamily: 'var(--font-serif)',
+                }}>
+                  {OPISY_LABELS[key] ?? key}
+                </h3>
+                <p style={{ margin: '0 0 10px', fontSize: 12.5, color: 'var(--text-muted)', fontStyle: 'italic', lineHeight: 1.55 }}>
+                  {karta.zajawka}
+                </p>
+                <div>{renderOpisyText(karta.tekst)}</div>
+                <div style={{ borderTop: '1px solid var(--border-light)', marginTop: 20 }} />
+              </section>
+            ))
+          ) : (
+            <p style={{ fontSize: 13, color: 'var(--text-muted)', lineHeight: 1.65 }}>
+              Szczegółowy opis historyczny dla tego miasta nie jest jeszcze dostępny.
+            </p>
+          )}
         </div>
       )}
     </div>
@@ -644,12 +710,13 @@ export default function Atlas() {
           </>
         )}
 
-        {/* City info bar — slides up from the bottom of the map area */}
+        {/* City info bar — 30px strip when closed, full overlay when open */}
         <div style={{
           position: 'absolute',
           bottom: 0,
           left: 0,
           right: 0,
+          ...(cityInfoOpen ? { top: 0 } : {}),
           zIndex: 20,
         }}>
           <CityInfoBar city={city} open={cityInfoOpen} onToggle={() => setCityInfoOpen(v => !v)} />

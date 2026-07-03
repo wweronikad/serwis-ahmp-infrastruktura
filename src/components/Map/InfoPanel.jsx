@@ -87,20 +87,6 @@ export default function InfoPanel({ map, city, collapsed, onToggle }) {
           )}
         </div>
 
-        <div style={styles.divider} />
-
-        <div style={styles.cityDesc}>
-          <p style={styles.linksLabel}>O mieście</p>
-          <p style={styles.descText}>{city.description}</p>
-          <a
-            href="https://atlasmiast.umk.pl/"
-            target="_blank"
-            rel="noopener noreferrer"
-            style={{ fontSize: '12px', color: 'var(--gold)', marginTop: '8px', display: 'inline-block' }}
-          >
-            atlasmiast.umk.pl →
-          </a>
-        </div>
       </div>
     </aside>
   )
