@@ -416,17 +416,23 @@ export default function Atlas() {
     setPhotoPopup(null)
   }, [])
 
-  // Clear ?map= param from URL after reading (keep URL clean)
+  // Reset on city change — also handles ?map= and ?gallery= URL params from search
   useEffect(() => {
-    if (searchParams.get('map')) setSearchParams({}, { replace: true })
-  }, []) // eslint-disable-line react-hooks/exhaustive-deps
+    const mapParam     = searchParams.get('map')
+    const galleryParam = searchParams.get('gallery')
 
-  // Reset selected map when city changes
-  useEffect(() => {
-    setSelectedMapId(city.maps[0].id)
+    const targetMap = mapParam ? city.maps.find(m => m.id === mapParam) : null
+    setSelectedMapId(targetMap ? targetMap.id : city.maps[0].id)
     setPhotoPopup(null)
     setGalleryOpen(false)
-  }, [city.id])
+
+    if (galleryParam && galleryPhotos) {
+      const idx = galleryPhotos.findIndex(p => p.id === galleryParam)
+      if (idx !== -1) openGalleryAt(idx)
+    }
+
+    if (mapParam || galleryParam) setSearchParams({}, { replace: true })
+  }, [city.id]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Clear secondary map ref when split view closes
   useEffect(() => {
