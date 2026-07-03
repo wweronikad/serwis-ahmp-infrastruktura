@@ -197,6 +197,53 @@ function SplitMapSelector({ splitCityId, splitMapId, onCityChange, onMapSelect, 
   )
 }
 
+// ── City info bar (collapsible strip at bottom of map) ───────────────────
+
+function CityInfoBar({ city, open, onToggle }) {
+  const years = city.maps.filter(m => m.year !== null).map(m => m.year)
+  const minYear = years.length ? Math.min(...years) : null
+  const maxYear = years.length ? Math.max(...years) : null
+  const n = city.maps.length
+  const mapsLabel = n === 1 ? 'plan' : n < 5 ? 'plany' : 'planów'
+
+  return (
+    <div style={{
+      background: 'rgba(245,240,232,0.97)',
+      borderTop: '1px solid var(--border)',
+      backdropFilter: 'blur(4px)',
+      boxShadow: open ? '0 -4px 16px rgba(0,0,0,0.12)' : 'none',
+    }}>
+      <button
+        onClick={onToggle}
+        style={{
+          display: 'flex', alignItems: 'center', gap: 10,
+          width: '100%', height: 30, padding: '0 16px',
+          background: 'none', border: 'none', cursor: 'pointer',
+          textAlign: 'left', fontFamily: 'var(--font-sans)',
+        }}
+      >
+        <span style={{ fontSize: 9, color: 'var(--text-muted)', lineHeight: 1 }}>{open ? '▼' : '▲'}</span>
+        <span style={{ fontSize: 13, fontWeight: 700, color: 'var(--navy)', fontFamily: 'var(--font-serif)' }}>
+          {city.name}
+        </span>
+        <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{city.region}</span>
+        <span style={{ fontSize: 10, color: 'var(--border)', lineHeight: 1 }}>·</span>
+        <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{city.volume}</span>
+        <span style={{ marginLeft: 'auto', fontSize: 11, color: 'var(--text-muted)', whiteSpace: 'nowrap' }}>
+          {n} {mapsLabel} w atlasie{minYear ? ` (${minYear}–${maxYear})` : ''}
+        </span>
+      </button>
+      {open && (
+        <div style={{ padding: '4px 20px 12px', overflowY: 'auto', maxHeight: 118 }}>
+          <p style={{ margin: 0, fontSize: 12.5, color: 'var(--text)', lineHeight: 1.65, fontFamily: 'var(--font-sans)', maxWidth: 900 }}>
+            {city.description}
+          </p>
+        </div>
+      )}
+    </div>
+  )
+}
+
 // ── Main Atlas page ───────────────────────────────────────────────────────
 
 // ── Photo popup (shown above map pin on click) ────────────────────────────
@@ -271,6 +318,9 @@ export default function Atlas() {
 
   // Gallery pins visibility
   const [pinsVisible, setPinsVisible] = useState(true)
+
+  // City info bar
+  const [cityInfoOpen, setCityInfoOpen] = useState(false)
 
   // Gallery
   const [galleryOpen,   setGalleryOpen]   = useState(false)
@@ -593,6 +643,17 @@ export default function Atlas() {
             </div>
           </>
         )}
+
+        {/* City info bar — slides up from the bottom of the map area */}
+        <div style={{
+          position: 'absolute',
+          bottom: 0,
+          left: 0,
+          right: 0,
+          zIndex: 20,
+        }}>
+          <CityInfoBar city={city} open={cityInfoOpen} onToggle={() => setCityInfoOpen(v => !v)} />
+        </div>
       </div>
 
       <div
