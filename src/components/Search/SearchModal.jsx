@@ -20,7 +20,7 @@ function resultUrl(item) {
   if (item.type === 'city')  return `/atlas/${item.cityId}`
   if (item.type === 'map')   return `/atlas/${item.cityId}?map=${item.mapId}`
   if (item.type === 'photo') return `/atlas/${item.cityId}`
-  if (item.type === 'opis')  return `/karty/${item.cityId}`
+  if (item.type === 'opis')  return `/atlas/${item.cityId}`
   return '/'
 }
 

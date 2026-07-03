@@ -4,7 +4,6 @@ import SearchModal from '../Search/SearchModal'
 
 const NAV = [
   { to: '/atlas', label: 'Atlas interaktywny' },
-  { to: '/karty', label: 'Karty historyczne' },
   { to: '/o-projekcie-polskim', label: 'Projekt polski' },
   { to: '/o-projekcie-europejskim', label: 'Projekt europejski' },
 ]
