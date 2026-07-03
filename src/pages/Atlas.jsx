@@ -1,5 +1,5 @@
 import { useState, useEffect, useRef, useCallback } from 'react'
-import { useParams, useNavigate } from 'react-router-dom'
+import { useParams, useNavigate, useSearchParams } from 'react-router-dom'
 import { cities, getCityById } from '../data/cities'
 import { asset } from '../utils/asset'
 import InteractiveMap from '../components/Map/InteractiveMap'
@@ -364,9 +364,14 @@ function PhotoPopup({ photo, basePath, x, y, onOpen, onClose }) {
 export default function Atlas() {
   const { cityId } = useParams()
   const navigate = useNavigate()
+  const [searchParams, setSearchParams] = useSearchParams()
 
   const city = getCityById(cityId) ?? cities[0]
-  const [selectedMapId, setSelectedMapId] = useState(city.maps[0].id)
+
+  // Pre-select map from ?map= URL param (set by search results)
+  const mapParam = searchParams.get('map')
+  const initialMap = (mapParam && city.maps.find(m => m.id === mapParam)) ? mapParam : city.maps[0].id
+  const [selectedMapId, setSelectedMapId] = useState(initialMap)
   const [opacity, setOpacity] = useState(0.85)
 
   // Split view
@@ -410,6 +415,11 @@ export default function Atlas() {
     setGalleryOpen(true)
     setPhotoPopup(null)
   }, [])
+
+  // Clear ?map= param from URL after reading (keep URL clean)
+  useEffect(() => {
+    if (searchParams.get('map')) setSearchParams({}, { replace: true })
+  }, []) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Reset selected map when city changes
   useEffect(() => {

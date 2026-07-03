@@ -1,4 +1,6 @@
+import { useState, useEffect } from 'react'
 import { Link, NavLink } from 'react-router-dom'
+import SearchModal from '../Search/SearchModal'
 
 const NAV = [
   { to: '/atlas', label: 'Atlas interaktywny' },
@@ -8,31 +10,56 @@ const NAV = [
 ]
 
 export default function Header() {
+  const [searchOpen, setSearchOpen] = useState(false)
+
+  useEffect(() => {
+    const handler = (e) => {
+      if ((e.ctrlKey || e.metaKey) && e.key === 'k') {
+        e.preventDefault()
+        setSearchOpen(v => !v)
+      }
+    }
+    window.addEventListener('keydown', handler)
+    return () => window.removeEventListener('keydown', handler)
+  }, [])
+
   return (
-    <header style={styles.header}>
-      <Link to="/" style={styles.brand}>
-        <span style={styles.brandAbbr}>AHMP</span>
-        <span style={styles.brandDivider}></span>
-        <span style={styles.brandLines}>
-          <span style={styles.brandFull}>Atlas Historyczny Miast Polskich</span>
-          <span style={styles.brandSub}>Serwis danych przestrzenno-diachronicznych</span>
-        </span>
-      </Link>
-      <nav style={styles.nav}>
-        {NAV.map(({ to, label }) => (
-          <NavLink
-            key={to}
-            to={to}
-            style={({ isActive }) => ({
-              ...styles.navLink,
-              ...(isActive ? styles.navLinkActive : {}),
-            })}
+    <>
+      <header style={styles.header}>
+        <Link to="/" style={styles.brand}>
+          <span style={styles.brandAbbr}>AHMP</span>
+          <span style={styles.brandDivider}></span>
+          <span style={styles.brandLines}>
+            <span style={styles.brandFull}>Atlas Historyczny Miast Polskich</span>
+            <span style={styles.brandSub}>Serwis danych przestrzenno-diachronicznych</span>
+          </span>
+        </Link>
+        <nav style={styles.nav}>
+          {NAV.map(({ to, label }) => (
+            <NavLink
+              key={to}
+              to={to}
+              style={({ isActive }) => ({
+                ...styles.navLink,
+                ...(isActive ? styles.navLinkActive : {}),
+              })}
+            >
+              {label}
+            </NavLink>
+          ))}
+          <button
+            onClick={() => setSearchOpen(true)}
+            style={styles.searchBtn}
+            title="Szukaj (Ctrl+K)"
           >
-            {label}
-          </NavLink>
-        ))}
-      </nav>
-    </header>
+            <span style={{ fontSize: 13 }}>🔍</span>
+            <span style={styles.searchBtnText}>Szukaj</span>
+            <kbd style={styles.searchKbd}>Ctrl K</kbd>
+          </button>
+        </nav>
+      </header>
+      <SearchModal isOpen={searchOpen} onClose={() => setSearchOpen(false)} />
+    </>
   )
 }
 
@@ -112,5 +139,34 @@ const styles = {
   navLinkActive: {
     background: 'rgba(255,255,255,0.12)',
     color: 'var(--gold-light)',
+  },
+  searchBtn: {
+    display: 'flex',
+    alignItems: 'center',
+    gap: '7px',
+    padding: '6px 12px',
+    marginLeft: '8px',
+    background: 'rgba(255,255,255,0.08)',
+    border: '1px solid rgba(255,255,255,0.18)',
+    borderRadius: 'var(--radius)',
+    color: 'rgba(255,255,255,0.75)',
+    cursor: 'pointer',
+    fontSize: '13px',
+    fontFamily: 'var(--font-sans)',
+    transition: 'background 0.15s, border-color 0.15s',
+  },
+  searchBtnText: {
+    fontSize: '13px',
+    fontWeight: '500',
+  },
+  searchKbd: {
+    fontSize: '10px',
+    color: 'rgba(255,255,255,0.45)',
+    background: 'rgba(255,255,255,0.08)',
+    border: '1px solid rgba(255,255,255,0.15)',
+    borderRadius: '3px',
+    padding: '1px 5px',
+    fontFamily: 'var(--font-sans)',
+    letterSpacing: '0.3px',
   },
 }
