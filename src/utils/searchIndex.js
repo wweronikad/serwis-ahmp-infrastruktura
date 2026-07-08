@@ -1,5 +1,6 @@
 import Fuse from 'fuse.js'
 import { cities, MAP_TYPE_LABELS } from '../data/cities'
+import { CITY_RIVERS } from '../data/rivers'
 
 const galleryModules = import.meta.glob('../data/galeria/*.json', { eager: true })
 const opisyModules   = import.meta.glob('../data/opisy/*.json',   { eager: true })
@@ -28,7 +29,7 @@ function buildEntries() {
       cityId:     city.id,
       label:      city.name,
       sublabel:   `${city.region} · ${city.volume}`,
-      searchText: `${city.name} ${city.region} ${city.description} ${city.volume}`,
+      searchText: `${city.name} ${city.region} ${city.description} ${city.volume} ${(CITY_RIVERS[city.id] ?? []).join(' ')}`,
     })
 
     // Map entries

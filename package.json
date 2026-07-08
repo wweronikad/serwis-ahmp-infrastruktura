@@ -13,6 +13,7 @@
     "@allmaps/maplibre": "^1.0.0-beta.43",
     "fuse.js": "^7.4.2",
     "maplibre-gl": "^5.24.0",
+    "minisearch": "^7.2.0",
     "react": "^19.2.6",
     "react-dom": "^19.2.6",
     "react-router-dom": "^7.17.0"

@@ -1,0 +1,54 @@
+{
+  "cityId": "gizycko",
+  "epoka": "XIV–XIX w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Miasto mazurskie założone przez Krzyżaków w XIV w. między jeziorami Niegocin i Kisajno — układ z prostokątnym rynkiem i zamkiem krzyżackim, w XIX w. otoczone twierdą Boyen.",
+      "tekst": "Giżycko (niem. Lötzen) powstało z inicjatywy Krzyżaków, którzy wznieśli tu zamek na przesmyku między jeziorami Niegocin i Kisajno. Prawa miejskie nadano ok. 1612 r., choć osada targowa istniała tu od XIV w. Zamek krzyżacki (wzniesiony ok. 1340 r.) stał na wyspie między jeziorami i kontrolował strategiczny przesmyk komunikacyjny na Mazurach.\n\nUkład urbanistyczny Giżycka jest stosunkowo prosty: prostokątny rynek z ratuszem, kilka ulic odchodzących od niego ku bramom, kościół parafialny po zachodniej stronie. Miasto było lokacyjnie skromniejsze od starszych ośrodków pruskich — jego znaczenie wynikało przede wszystkim ze strategicznego położenia.\n\nW XIX w. Giżycko otoczono monumentalną twierdzą Boyen (1844–1856), wzniesioną przez Prusy jako element systemu obronnego Mazur. Twierdza o powierzchni ok. 100 ha całkowicie zmieniła krajobraz i stosunek miasta do jeziora Niegocin. Plan katastralny (1926–1934) i plany twierdzy (AHMP II 13) ukazują miasto i twierdzę jako dwa odrębne, ale uzupełniające się elementy układu przestrzennego.",
+      "mapy": ["ahmp_gizycko_ii_1", "ahmp_gizycko_ii_2", "ahmp_gizycko_ii_13"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Zamek krzyżacki z XIV w. na wyspie między jeziorami — punkt kontroli przeprawy. W XIX w. twierdza Boyen — jeden z największych pruskich systemów obronnych w Prusach Wschodnich.",
+      "tekst": "Zamek krzyżacki w Giżycku (niem. Lötzenburg) zbudowano ok. 1340 r. na naturalnej wyspie między jeziorami Niegocin i Kisajno. Jego lokalizacja na przesmyku wodnym miała kluczowe znaczenie strategiczne — kontrolował jedyną przeprawę lądową w tym rejonie. Zamek był siedzibą prokuratorii krzyżackiej, zarządzającej okolicznymi dobrami zakonu.\n\nPo sekularyzacji Zakonu (1525) zamek stał się własnością księcia pruskiego i pełnił funkcję rezydencji myśliwskiej. W XVII–XVIII w. popadł w ruinę. Z pierwotnej zabudowy zachowały się tylko fragmenty murów.\n\nW 1844–1856 r. na wzgórzach przy jeziorze Niegocin Prusacy wznieśli Twierdzę Boyen (Feste Boyen) — rozbudowany system fortu z bastionami, rawelinem i ravelinami o obwodzie ok. 4 km. Twierdza, nazwana na cześć pruskiego ministra wojny Hermanna von Boyena, była jednym z największych przedsięwzięć militarnych epoki na Mazurach. Nigdy nie szturmowana, otworzyła swe bramy w 1945 r. bez walki.",
+      "mapy": ["ahmp_gizycko_ii_8", "ahmp_gizycko_ii_13", "ahmp_gizycko_ii_14"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Kościół parafialny pw. NMP — gotycki, przebudowany w XVII–XIX w. Po reformacji luterański, od 1945 r. z powrotem katolicki. Niewielka społeczność katolicka w pruskim mieście.",
+      "tekst": "**Kościół pw. NMP** — gotycki kościół parafialny z XIV–XV w. Po sekularyzacji Zakonu (1525) przejęty przez luteranów, którzy użytkowali go nieprzerwanie do 1945 r. Budowla wielokrotnie była remontowana i adaptowana — barokowy hełm wieży pochodzi z XVII w. Po 1945 r. kościół stał się świątynią katolicką dla nowej, polskiej ludności.\n\nW XIX–XX w. wzniesiono kilka nowych kościołów dla różnych wyznań (ewangelicki zbór, kościół garnizonowy twierdzy), które odzwierciedlały wielowyznaniowy charakter pruskiego garnizonu i mieszczaństwa.\n\nGiżycko jako miasto mazurskie zamieszkane było przed 1945 r. głównie przez ludność ewangelicką (mazurską i niemiecką). Po przesiedleniach 1945–1946 przybyła ludność polska z różnych rejonów ziem wschodnich dawnej Rzeczypospolitej.",
+      "mapy": []
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Mazurska i niemiecka społeczność ewangelicka — małe miasto o funkcjach garnizonu i handlu regionalnego. Radykalna zmiana demograficzna po 1945 r.",
+      "tekst": "Giżycko przez wieki było niewielkim miastem Prus Krzyżackich, potem Prus Książęcych (od 1525 r.) i Królewieckich (od 1618 r.). Ludność była głównie ewangelicka (luterańska) i niemieckojęzyczna, z Mazurami jako specyficzną grupą etniczno-kulturową mówiącą dialektem mazurskim (odmianą języka polskiego). W 1818 r. Giżycko liczyło ok. 1600 mieszkańców, w 1900 r. — ok. 4500.\n\nBudowa twierdzy Boyen (1844–1856) znacznie ożywiła miasto — przybyli oficerowie i żołnierze garnizonowi. Giżycko stało się centrum turystycznym Mazur ze względu na wyjątkowe walory krajobrazowe jezior.\n\nPo zakończeniu II wojny światowej (1945) Mazury wcielono do Polski. Ludność mazurska i niemiecka zostały wysiedlone lub uciekły — ich miejsce zajęli Polacy przesiedleni z kresów wschodnich. Miasto przemianowano z Lötzen na Giżycko (1946).",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Handel i rzemiosło targowe obsługujące region jezior mazurskich, jarmarki końskie, transport wodny po jeziorach. Od XIX w. turystyka i rekreacja.",
+      "tekst": "Giżycko było głównie ośrodkiem handlu regionalnego, obsługującego okoliczne wioski na Mazurach. Jarmarki końskie i bydlęce, handel zbożem i wyrobami leśnymi stanowiły podstawę tutejszej ekonomii. Przeprawa przez przesmyk między jeziorami dawała miastu przychody z opłat transportowych.\n\nW XIX w. jeziora mazurskie odkryte zostały przez mieszczaństwo pruskie jako cel rekreacyjny. Giżycko stało się popularnym miejscem wypoczynku letników z Królewca i Berlina — budowano pensjonaty i stanice żeglarskie. Ten rys turystyczny pogłębił się w XX w.\n\nPo 1945 r. i w epoce PRL Giżycko rozwinęło przemysł lekki i stało się centrum administracyjnym regionu. Turystyka wróciła po 1989 r. jako główna gałąź gospodarki na Mazurach, co w pełni wykorzystało wyjątkowe walory krajobrazowe jeziora Niegocin i sąsiednich akwenów.",
+      "mapy": ["ahmp_gizycko_ii_9"]
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Prokuratorstwo krzyżackie do 1525 r., następnie Prusy Książęce, od 1618 r. Prusy Hohenzollernów. Siedziba powiatu w Prusach Wschodnich, od 1945 r. w Polsce.",
+      "tekst": "Giżycko przez XIV–XV w. było siedzibą prokuratorii krzyżackiej — jednostki administracyjnej niższego stopnia zarządzającej dobrami zakonu w okręgu mazurskim. Po sekularyzacji Zakonu Krzyżackiego w 1525 r. Prusy Krzyżackie stały się Prusami Książęcymi pod rządami Hohenzollernów z Brandenburgii.\n\nW 1618 r. Prusy Książęce przeszły do bezpośredniego panowania elektorów brandenburskich, a od 1701 r. — Królestwa Prus. Giżycko stało się siedzibą powiatu w prowincji Prusy Wschodnie.\n\nPo 1918 r. Prusy Wschodnie pozostały poza granicami odrodzonej Polski na mocy plebiscytu. Giżycko (Lötzen) pozostało w Niemczech. Dopiero w 1945 r., po podboju militarnym, Mazury wraz z Giżyckiem znalazły się w granicach Polski.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Jeziora Niegocin i Kisajno — miasto na przesmyku między dwoma akwenami, w sercu Krainy Wielkich Jezior Mazurskich. Wyjątkowe walory krajobrazowe.",
+      "tekst": "Giżycko leży na przesmyku między Jeziorem Niegocin (2700 ha) a Jeziorem Kisajno (1800 ha), połączonych kanałem przez centrum miasta. To jedyne w swoim rodzaju położenie — miasto praktycznie otoczone wodą — zadecydowało o lokalizacji zamku krzyżackiego i o całej historii Giżycka.\n\nKraina Wielkich Jezior Mazurskich, do której należy teren Giżycka, charakteryzuje się krajobrazem polodowcowym: pagórki morenowe, rynny jezior, lasy. Latem jeziora były szlakiem komunikacyjnym i źródłem ryb, zimą zaś skutą lodem trasą dla sań.\n\nKanał Łuczański (Giżycki) łączy dziś Niegocin z Kisajno przez centrum miasta — mostem obrotowym z 1889 r. (jedynym ruchomym mostem w Polsce). Kanał Mazurski (1940–1942, niedokończony) miał połączyć Mazury z systemem Pregołu — jego nieczynne śluzy są dziś osobliwością turystyczną.",
+      "mapy": ["ahmp_gizycko_ii_5", "ahmp_gizycko_ii_6", "ahmp_gizycko_ii_7"]
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Źródła w Archiwum Państwowym w Olsztynie i w Geheimes Staatsarchiv Berlin. AHMP Giżycko — opracowanie Instytutu Historii UMK w Toruniu.",
+      "tekst": "**Archiwalia:** Archiwum Państwowe w Olsztynie przechowuje akta dotyczące Giżycka z okresu pruskiego (XVIII–XX w.). Wcześniejsze dokumenty związane z Zakonem Krzyżackim i Prusami Książęcymi znajdują się w Geheimes Staatsarchiv Preußischer Kulturbesitz w Berlinie.\n\n**Źródła kartograficzne:** Najstarsza zachowana mapa okolic Giżycka pochodzi z ok. 1665 r. (AHMP II 5). Mapa Gillego z 1796–1802 r. (AHMP II 6) dokumentuje okolicę przed industrializacją. Plan twierdzy Boyen (AHMP II 13) jest niezwykłym dokumentem XIX-wiecznej inżynierii wojskowej.\n\n**Ważniejsze opracowania:**\n- A. Czacharowski (red.), *Atlas historyczny miast polskich, t. III: Prusy Wschodnie, z.: Giżycko*, Toruń 1997\n- H. Bonk, *Geschichte der Stadt Lötzen*, Lötzen 1895\n- W. Kończyński, *Twierdza Boyen*, Giżycko 2004\n\n**Badania archeologiczne:** Badania zamku i osady wczesnonowożytnej — dokumentacja warstw XIII–XVIII-wiecznych.",
+      "mapy": ["ahmp_gizycko_ii_2"]
+    }
+  }
+}

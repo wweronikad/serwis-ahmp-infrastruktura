@@ -3,6 +3,17 @@
   "teaser": "Kościół Bożego Ciała jako fundacja lokacyjna, a obok niego klasztor Reformatów na miejscu dawnego zamku — sakralna topografia Biecza w jednym panoramicznym widoku.",
   "sekcje": [
     {
+      "naglowek": "Wirtualny spacer — klasztor Reformatów",
+      "tekst": "Interaktywny spacer panoramiczny 360° po zabytkowym klasztorze Reformatów na Górze Zamkowej — miejscu, gdzie w XVII w. na fundamentach dawnego zamku królewskiego powstała nowa fundacja zakonna.",
+      "widget": {
+        "typ": "link-zewnetrzny",
+        "ikona": "🗺️",
+        "naglowek": "Wirtualny spacer — Klasztor i parafia śś. Anny w Bieczu",
+        "podpis": "Panoramiczny spacer 360° po dawnym klasztorze Reformatów na Górze Zamkowej",
+        "url": "https://franciszkaniebiecz.wkraj.pl/html5/index.php?id=92924"
+      }
+    },
+    {
       "naglowek": "Fundacja parafialna",
       "tekst": "Fundacja parafialna w Bieczu jest ściśle powiązana z aktem lokacyjnym miasta. Wezwanie Bożego Ciała sugeruje erygowanie świątyni nie wcześniej niż w 1264 roku, kiedy Stolica Apostolska ustanowiła to święto — a jednoczesność lokacji i fundacji parafii była typowym zjawiskiem dla miast małopolskich XIII w.\n\nKościół wzniesiono w zachodniej części układu urbanistycznego, przy linii obronnej. Przykościelny cmentarz pierwotnie otaczał wał będący częścią najstarszych fortyfikacji miejskich. Badania terenowe wykazały, że świątynia od początku istniała w obrębie wschodniej części dzisiejszego kościoła."
     },
@@ -19,26 +30,12 @@
       }
     },
     {
-      "widget": {
-        "typ": "youtube",
-        "videoId": "_vmRhp-cVhk",
-        "podpis": "Kolegiata Bożego Ciała w Bieczu — lot dronem i animowany skan 3D"
-      }
-    },
-    {
       "naglowek": "Kościół świętych Piotra i Pawła",
       "tekst": "Na terenie dawnego podgrodzia, w miejscu dzisiejszej kaplicy cmentarnej, stał wczesnośredniowieczny kościół pw. śś. Piotra i Pawła. Wezwanie to — obecne później w herbie Biecza — może wskazywać na związki z benedyktynami tynieckimi, którzy właśnie temu patronom poświęcili kościół opacki w Tyńcu (trzecia ćwierć XI w.)."
     },
     {
       "naglowek": "Klasztor Reformatów na Górze Zamkowej",
-      "tekst": "W XVII wieku na miejscu dawnego zamku królewskiego na Górze Zamkowej stanął klasztor ojców Reformatów — kolejny punkt sakralny kształtujący sylwetę miasta.",
-      "widget": {
-        "typ": "link-zewnetrzny",
-        "ikona": "🗺️",
-        "naglowek": "Wirtualny spacer — Klasztor i parafia śś. Anny w Bieczu",
-        "podpis": "Panoramiczny spacer 360° po dawnym klasztorze Reformatów na Górze Zamkowej",
-        "url": "https://franciszkaniebiecz.wkraj.pl/html5/index.php?id=92924"
-      }
+      "tekst": "W XVII wieku na miejscu dawnego zamku królewskiego na Górze Zamkowej stanął klasztor ojców Reformatów — kolejny punkt sakralny kształtujący sylwetę miasta."
     }
   ],
   "zwiazane_mapy": [

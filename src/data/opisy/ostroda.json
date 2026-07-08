@@ -1,0 +1,54 @@
+{
+  "cityId": "ostroda",
+  "epoka": "XIV–XIX w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Miasto krzyżackie założone ok. 1329 r. — regularny układ z prostokątnym rynkiem, zamkiem przy jeziorze Drwęckim i kościołem parafialnym. Charakterystyczne położenie na przesmyku między jeziorami.",
+      "tekst": "Ostróda (niem. Osterode in Ostpreußen) założona została przez Krzyżaków ok. 1329 r. Miasto lokowano na wąskim przesmyku między Jeziorem Drwęckim a jeziorem Pauzeńskim, co dawało naturalne warunki obronne. Zamek krzyżacki zbudowano nad samym jeziorem, dominując nad akwenem i okolicą.\n\nUkład przestrzenny Ostródy wzorowany był na pruskim modelu krzyżackim: prostokątny rynek z ratuszem pośrodku, ulice biegnące ku bramom, kościół parafialny pw. Wniebowzięcia NMP i zamek jako dwa bieguny układu sakralno-militarnego.\n\nPlan katastralny z 1931 r. i rekonstrukcja historyczna (AHMP II 2) ukazują ciągłość historycznego układu, mimo pożarów i wojen, które wielokrotnie trawiły miasto. Plan z 1788 r. (AHMP II 5) dokumentuje miasto po odbudowie po pożarze — regularny układ z szerokimi ulicami jako świadectwo planowego charakteru odbudowy.",
+      "mapy": ["ahmp_ostroda_ii_1", "ahmp_ostroda_ii_2"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Zamek krzyżacki nad Jeziorem Drwęckim — siedziba komtura, wielokrotnie przebudowywany. Mury miejskie z XIV w. z basztami i trzema bramami.",
+      "tekst": "Zamek krzyżacki w Ostródzie (niem. Osteroder Schloss) zbudowano ok. 1350 r. nad brzegiem Jeziora Drwęckiego. Był siedzibą prokuratorii krzyżackiej i centrum obronnym okręgu. Układ zamku nawiązuje do typowych zamków zakonnych z czteroskrzydłowym układem wokół dziedzińca.\n\nPo sekularyzacji Zakonu (1525) zamek stał się siedzibą książęcych urzędników Prus Książęcych. W XVII w. pełnił funkcje administracyjne i sądownicze. Wielki pożar w 1788 r. zniszczył dużą część miasta i zamku — odbudowa na planach z 1788 r. (AHMP II 5) była planowa i systematyczna.\n\nMury miejskie z XIV w. z trzema bramami (Ząbkowicką, Polska i Nowomiejską) otaczały miasto na kształcie owalnym. Do XIX w. w dużej mierze rozebrane. Fragmenty baszt i murów widoczne są do dziś.",
+      "mapy": ["ahmp_ostroda_ii_4", "ahmp_ostroda_ii_5"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Gotycki kościół pw. Wniebowzięcia NMP z XIV w. — po reformacji ewangelicki, po 1945 r. ponownie katolicki. Kościół garnizonowy z XIX w.",
+      "tekst": "**Kościół pw. Wniebowzięcia NMP** — gotycka ceglaną trójnawowa bazylika wzniesiona przez Krzyżaków w XIV w. Dominanta architektoniczna Ostródy, widoczna z jeziora. Po reformacji (1525) przejęta przez luteranów — była to parafia ewangelicka przez ponad cztery stulecia. Po 1945 r. zwrócona katolikom.\n\nKościół kilkakrotnie niszczył pożar — odbudowany za każdym razem w nawiązaniu do gotyku. Wieża z XIV w. z uzupełnieniami z XIX w. Wnętrze wyposażone w epoki nowożytne w stylu barokowym i klasycystycznym.\n\n**Kaplica zamkowa** — mała kaplica w zamku krzyżackim służyła przez wieki jako miejsce modlitwy dla komtura i jego dworzan. Po sekularyzacji użytkowana sporadycznie.\n\n**Kościół garnizonowy** — wzniesiony w XIX w. dla pruskiego garnizonu Ostródy. Klasycystyczna bryła odróżniała go od gotyckiego kościoła parafialnego.",
+      "mapy": []
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Pruscy i niemieccy osadnicy w mieście krzyżackim, Polacy (Mazurzy) na wsi. Miasto ewangelickie od 1525 r. Zniszczenia wojen XVII–XIX w. Zmiana demograficzna po 1945 r.",
+      "tekst": "Ostróda zamieszkana była przez Niemców i zniemczonych Prusaków — osadników sprowadzonych przez Zakon Krzyżacki od XIV w. Na wsi okolicznej żyła ludność mazurska (polsko-pruska). Miasto było przez wieki wyraźnie oddzielone od wiejskiego, mazurskiego otoczenia.\n\nReformacja (1525) przyjęła się bez oporu — miasto stało się ewangelickie. Przez ponad cztery stulecia Ostróda była jednym z centrów luterańskiego Kościoła Ewangelicko-Augsburskiego na Mazurach.\n\nW XVII w. klęski wojenne (Potop Szwedzki, kampania moskiewska) i zarazy wyludniły miasto. Plan z 1700 r. (AHMP II 4) ukazuje Ostródę jako niewielkie miasto z zabudową skupioną przy rynku i zamku.\n\nW 1945 r. miasto zniszczone w walkach i pożarach, a stara ludność ewakuowana lub wysiedlona. Napływ Polaków z kresów wschodnich i centrum kraju całkowicie zmienił skład demograficzny.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Handel regionalny przy szlaku z Grudziądza w głąb Mazur, handel drewnem i zbożem przez Kanał Elbląsko-Ostródzki (1844–1860). Rzemiosło i targi obsługujące zaplecze wiejskie.",
+      "tekst": "Ostróda była centrum handlowym i rzemieślniczym okręgu mazurskiego. Handel zbożem, drewnem i produktami leśnymi stanowił podstawę ekonomii. Jarmarki przyciągały kupców i chłopów z okolicznych wsi.\n\nW 1844–1860 r. wybudowano Kanał Elbląsko-Ostródzki — unikalne dzieło hydrotechniki łączące Ostródę z Elblągiem. Kanał z pięcioma pochylniami (zamiast śluz) umożliwiał transport barek przez wzgórza — jedno z nielicznych takich rozwiązań w Europie. Ostróda stała się ważnym węzłem komunikacyjnym na Mazurach.\n\nW XIX w. kolej żelazna (1873) wzmocniła połączenie Ostródy z Poznaniem i resztą Prus. Rozwinął się przemysł drzewny, tartaki i zakłady rzemieślnicze. Po 1945 r. miasto rozwijało przemysł i usługi dla nowo osadzonej ludności.",
+      "mapy": ["ahmp_ostroda_ii_7", "ahmp_ostroda_ii_10"]
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Prokuratorstwo krzyżackie do 1525 r., następnie Prusy Książęce i Królewieckie. Od 1618 r. centrum powiatu w prowincji Prusy Wschodnie. Po 1945 r. w Polsce.",
+      "tekst": "Ostróda była od ok. 1329 r. centrum prokuratorii krzyżackiej, a następnie — po sekularyzacji Zakonu (1525) — stolicą starostwa w Prusach Książęcych Hohenzollernów. W 1618 r. Prusy Książęce połączyły się personalnie z Brandenburgią i stały się integralną częścią monarchii Hohenzollernów.\n\nW ramach pruskich Prus Wschodnich Ostróda była siedzibą powiatu (niem. Landkreis Osterode). Pruska administracja budowała szkoły, drogi i kanały, rozwijając region gospodarczo.\n\nPo klęsce Niemiec w II wojnie światowej (1945) Prusy Wschodnie zostały podzielone — większość, w tym Ostróda, weszła w skład Polski. Polska administracja przejęła miasto 23 stycznia 1945 r.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Przesmyk między jeziorami Drwęckim i Pauzeńskim — naturalne warunki obronne i komunikacyjne. Rzeka Drwęca biorąca swój początek w pobliżu.",
+      "tekst": "Ostróda leży na przesmyku między Jeziorem Drwęckim (ok. 800 ha) a jeziorem Pauzeńskim. Takie położenie, typowe dla mazurskich miast krzyżackich (podobnie jak Giżycko), dawało naturalne warunki obronne i kontrolę nad akwenami wodnymi.\n\nZ okolic Ostródy bierze swój początek rzeka Drwęca — lewy dopływ Wisły. Drwęca służyła jako trakt spławny dla drewna i zboża z głębi Mazur ku portowi w Grudziądzu.\n\nKrajobrazu mazurski — polodowcowy, z jeziorami, lasami iglastymi i łąkami — sprzyjał hodowli, leśnictwu i rybołówstwu. Jeziora stanowiły też ważny zasób białka dla ludności.\n\nKanał Elbląsko-Ostródzki (XIX w.) połączył jezioro Drwęckie (przez sieć jezior) z jeziorem Drużno i Zalewem Wiślanym, otwierając nowe możliwości transportowe. Pochylnie kanału są dziś atrakcją turystyczną o randze europejskiej.",
+      "mapy": ["ahmp_ostroda_ii_3", "ahmp_ostroda_ii_8", "ahmp_ostroda_ii_9"]
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Źródła w Archiwum Państwowym w Olsztynie. AHMP Tom III — zeszyt ostródzki. Plany historyczne z XVII–XIX w. jako podstawa rekonstrukcji.",
+      "tekst": "**Archiwalia:** Archiwum Państwowe w Olsztynie przechowuje akta dotyczące Ostródy z okresu pruskiego (XVIII–XX w.). Starsze dokumenty krzyżackie i prusko-książęce (XIV–XVIII w.) zdeponowane są w Berlinie i Królewcu.\n\n**Źródła kartograficzne:** Plan z 1700 r. (AHMP II 4) to najstarszy szczegółowy plan Ostródy. Plan odbudowanego miasta z 1788 r. (AHMP II 5) dokumentuje planową odbudowę po pożarze. Mapa Gillego 1796–1802 (AHMP II 3) ukazuje okolice. Plan z 1810–1817 (AHMP II 6) i plany z lat 1850, 1928, 1931 śledzą XIX-wieczny rozwój.\n\n**Ważniejsze opracowania:**\n- A. Czacharowski (red.), *Atlas historyczny miast polskich, t. III: Prusy Wschodnie, z. Ostróda*, Toruń 2000\n- M. Toeppen, *Geschichte Masurens*, Danzig 1870\n- R. Boguwolski, *Kanał Elbląsko-Ostródzki*, Elbląg 2010\n\n**Badania archeologiczne:** Wykopaliska przy zamku i kościele dokumentują XIII–XVI-wieczne warstwy użytkowania.",
+      "mapy": ["ahmp_ostroda_ii_4", "ahmp_ostroda_ii_5"]
+    }
+  }
+}

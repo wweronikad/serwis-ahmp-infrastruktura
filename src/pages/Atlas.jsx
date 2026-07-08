@@ -8,6 +8,46 @@ import InfoPanel from '../components/Map/InfoPanel'
 import CityGallery from '../components/Gallery/CityGallery'
 import bieczGallery from '../data/galeria/biecz_gallery.json'
 import bieczOpisy from '../data/opisy/biecz.json'
+import bochniaOpisy from '../data/opisy/bochnia.json'
+import brzegOpisy from '../data/opisy/brzeg.json'
+import bydgoszczOpisy from '../data/opisy/bydgoszcz.json'
+import chelmnoOpisy from '../data/opisy/chelmno.json'
+import chojniceOpisy from '../data/opisy/chojnice.json'
+import elblagOpisy from '../data/opisy/elblag.json'
+import fordonOpisy from '../data/opisy/fordon.json'
+import gizyckoOpisy from '../data/opisy/gizycko.json'
+import grudziadzOpisy from '../data/opisy/grudziadz.json'
+import jeleniaGoraOpisy from '../data/opisy/jelenia-gora.json'
+import koronowoOpisy from '../data/opisy/koronowo.json'
+import kwidzynOpisy from '../data/opisy/kwidzyn.json'
+import legnicaOpisy from '../data/opisy/legnica.json'
+import lidzbarOpisy from '../data/opisy/lidzbark-warminski.json'
+import miliczOpisy from '../data/opisy/milicz.json'
+import mragowoOpisy from '../data/opisy/mragowo.json'
+import namyslowOpisy from '../data/opisy/namyslow.json'
+import niemczaOpisy from '../data/opisy/niemcza.json'
+import nowySaczOpisy from '../data/opisy/nowy-sacz.json'
+import olawaOpisy from '../data/opisy/olawa.json'
+import ostrodaOpisy from '../data/opisy/ostroda.json'
+import puckOpisy from '../data/opisy/puck.json'
+import raciorzOpisy from '../data/opisy/raciborz.json'
+import srodaSlaskaOpisy from '../data/opisy/sroda-slaska.json'
+import starySaczOpisy from '../data/opisy/stary-sacz.json'
+import strzegomOpisy from '../data/opisy/strzegom.json'
+import strzelinOpisy from '../data/opisy/strzelin.json'
+import swidnicaOpisy from '../data/opisy/swidnica.json'
+import swiecieOpisy from '../data/opisy/swiecie.json'
+import tarnowOpisy from '../data/opisy/tarnow.json'
+import tczewOpisy from '../data/opisy/tczew.json'
+import torunOpisy from '../data/opisy/torun.json'
+import torunIIOpisy from '../data/opisy/torun-ii.json'
+import trzebnicaOpisy from '../data/opisy/trzebnica.json'
+import wieliczkaOpisy from '../data/opisy/wieliczka.json'
+import wloclawekOpisy from '../data/opisy/wloclawek.json'
+import wroclawOpisy from '../data/opisy/wroclaw.json'
+import zabkowiceOpisy from '../data/opisy/zabkowice-slaskie.json'
+import zamoscOpisy from '../data/opisy/zamosc.json'
+import ziebiceOpisy from '../data/opisy/ziebice.json'
 import brzegGallery from '../data/galeria/brzeg_gallery.json'
 import bydgoszczGallery from '../data/galeria/bydgoszcz_gallery.json'
 import chelmnoGallery from '../data/galeria/chelmno_gallery.json'
@@ -70,7 +110,47 @@ const GALLERY_DATA = {
 
 // Opisy per city (rich descriptive content from atlas text)
 const CITY_OPISY = {
-  biecz: bieczOpisy,
+  biecz:              bieczOpisy,
+  bochnia:            bochniaOpisy,
+  brzeg:              brzegOpisy,
+  bydgoszcz:          bydgoszczOpisy,
+  chelmno:            chelmnoOpisy,
+  chojnice:           chojniceOpisy,
+  elblag:             elblagOpisy,
+  fordon:             fordonOpisy,
+  gizycko:            gizyckoOpisy,
+  grudziadz:          grudziadzOpisy,
+  'jelenia-gora':     jeleniaGoraOpisy,
+  koronowo:           koronowoOpisy,
+  kwidzyn:            kwidzynOpisy,
+  legnica:            legnicaOpisy,
+  'lidzbark-warminski': lidzbarOpisy,
+  milicz:             miliczOpisy,
+  mragowo:            mragowoOpisy,
+  namyslow:           namyslowOpisy,
+  niemcza:            niemczaOpisy,
+  'nowy-sacz':        nowySaczOpisy,
+  olawa:              olawaOpisy,
+  ostroda:            ostrodaOpisy,
+  puck:               puckOpisy,
+  raciborz:           raciorzOpisy,
+  'sroda-slaska':     srodaSlaskaOpisy,
+  'stary-sacz':       starySaczOpisy,
+  strzegom:           strzegomOpisy,
+  strzelin:           strzelinOpisy,
+  swidnica:           swidnicaOpisy,
+  swiecie:            swiecieOpisy,
+  tarnow:             tarnowOpisy,
+  tczew:              tczewOpisy,
+  torun:              torunOpisy,
+  'torun-ii':         torunIIOpisy,
+  trzebnica:          trzebnicaOpisy,
+  wieliczka:          wieliczkaOpisy,
+  wloclawek:          wloclawekOpisy,
+  wroclaw:            wroclawOpisy,
+  'zabkowice-slaskie': zabkowiceOpisy,
+  zamosc:             zamoscOpisy,
+  ziebice:            ziebiceOpisy,
 }
 
 const OPISY_LABELS = {
@@ -252,22 +332,31 @@ function CityInfoBar({ city, open, onToggle }) {
         style={{
           display: 'flex', alignItems: 'center', gap: 10,
           width: '100%', height: 30, padding: '0 16px',
-          background: 'none', border: 'none', cursor: 'pointer',
+          background: open ? 'var(--navy)' : 'var(--cream)',
+          border: 'none', borderTop: open ? 'none' : '1px solid var(--border)',
+          cursor: 'pointer',
           textAlign: 'left', fontFamily: 'var(--font-sans)',
           flexShrink: 0,
-          borderBottom: open ? '1px solid var(--border)' : 'none',
         }}
       >
-        <span style={{ fontSize: 9, color: 'var(--text-muted)', lineHeight: 1 }}>{open ? '▼' : '▲'}</span>
-        <span style={{ fontSize: 13, fontWeight: 700, color: 'var(--navy)', fontFamily: 'var(--font-serif)' }}>
-          {city.name}
-        </span>
-        <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{city.region}</span>
-        <span style={{ fontSize: 10, color: 'var(--border)', lineHeight: 1 }}>·</span>
-        <span style={{ fontSize: 11, color: 'var(--text-muted)' }}>{city.volume}</span>
-        <span style={{ marginLeft: 'auto', fontSize: 11, color: 'var(--text-muted)', whiteSpace: 'nowrap' }}>
-          {n} {mapsLabel} w atlasie{minYear ? ` (${minYear}–${maxYear})` : ''}
-        </span>
+        <span style={{ fontSize: 9, color: open ? 'var(--gold-light)' : 'var(--text-muted)', lineHeight: 1 }}>{open ? '▼' : '▲'}</span>
+        {open ? (
+          <>
+            <span style={{ fontSize: 13, fontWeight: 700, color: 'var(--gold-light)', fontFamily: 'var(--font-serif)' }}>
+              {city.name}
+            </span>
+            <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.5)' }}>{city.region}</span>
+            <span style={{ fontSize: 10, color: 'rgba(255,255,255,0.25)', lineHeight: 1 }}>·</span>
+            <span style={{ fontSize: 11, color: 'rgba(255,255,255,0.5)' }}>{city.volume}</span>
+            <span style={{ marginLeft: 'auto', fontSize: 11, color: 'rgba(255,255,255,0.45)', whiteSpace: 'nowrap' }}>
+              {n} {mapsLabel} w atlasie{minYear ? ` (${minYear}–${maxYear})` : ''}
+            </span>
+          </>
+        ) : (
+          <span style={{ fontSize: 11, fontWeight: 700, color: 'var(--navy)', letterSpacing: '0.8px', textTransform: 'uppercase' }}>
+            rozwiń, aby poznać historię
+          </span>
+        )}
       </button>
 
       {/* Expanded content — full scrollable body */}
@@ -393,6 +482,9 @@ export default function Atlas() {
   // City info bar
   const [cityInfoOpen, setCityInfoOpen] = useState(false)
 
+  // OCR search highlight (set via ?q= URL param from SearchPage)
+  const [highlightQuery, setHighlightQuery] = useState('')
+
   // Gallery
   const [galleryOpen,   setGalleryOpen]   = useState(false)
   const [galleryIdx,    setGalleryIdx]    = useState(0)
@@ -416,22 +508,24 @@ export default function Atlas() {
     setPhotoPopup(null)
   }, [])
 
-  // Reset on city change — also handles ?map= and ?gallery= URL params from search
+  // Reset on city change — also handles ?map=, ?gallery=, ?q= URL params from search
   useEffect(() => {
     const mapParam     = searchParams.get('map')
     const galleryParam = searchParams.get('gallery')
+    const qParam       = searchParams.get('q')
 
     const targetMap = mapParam ? city.maps.find(m => m.id === mapParam) : null
     setSelectedMapId(targetMap ? targetMap.id : city.maps[0].id)
     setPhotoPopup(null)
     setGalleryOpen(false)
+    setHighlightQuery(qParam ?? '')
 
     if (galleryParam && galleryPhotos) {
       const idx = galleryPhotos.findIndex(p => p.id === galleryParam)
       if (idx !== -1) openGalleryAt(idx)
     }
 
-    if (mapParam || galleryParam) setSearchParams({}, { replace: true })
+    if (mapParam || galleryParam || qParam) setSearchParams({}, { replace: true })
   }, [city.id]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Clear secondary map ref when split view closes
@@ -643,6 +737,9 @@ export default function Atlas() {
             onPhotoClick={handlePhotoMarkerClick}
             onMapReady={(m) => { primaryMapRef.current = m }}
             pinsVisible={pinsVisible}
+            highlightQuery={highlightQuery}
+            highlightMapId={selectedMapId}
+            onClearHighlight={() => setHighlightQuery('')}
           />
 
           {/* Photo popup on marker click */}

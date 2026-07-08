@@ -6,6 +6,8 @@ import Atlas from './pages/Atlas'
 import AboutPolish from './pages/AboutPolish'
 import AboutEuropean from './pages/AboutEuropean'
 import GaleriaEdytor from './pages/GaleriaEdytor'
+import SearchPage from './pages/SearchPage'
+import AtlasyPage from './pages/AtlasyPage'
 import './index.css'
 
 export default function App() {
@@ -29,6 +31,8 @@ export default function App() {
                 <Route path="/atlas/:cityId" element={<Atlas />} />
                 <Route path="/karty" element={<Navigate to="/atlas" replace />} />
                 <Route path="/karty/:cityId" element={<Navigate to="/atlas" replace />} />
+<Route path="/wyszukiwanie" element={<SearchPage />} />
+<Route path="/atlasy" element={<AtlasyPage />} />
 <Route path="/o-projekcie-polskim" element={<AboutPolish />} />
                 <Route path="/o-projekcie-europejskim" element={<AboutEuropean />} />
                 <Route path="*" element={<Navigate to="/" replace />} />

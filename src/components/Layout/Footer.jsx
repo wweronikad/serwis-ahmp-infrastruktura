@@ -50,7 +50,7 @@ export default function Footer() {
           </a>
         </span>
         <span style={styles.sep}>·</span>
-        <span style={{ color: 'rgba(255,255,255,0.4)' }}>Prototyp badawczy</span>
+        <span style={{ color: 'rgba(255,255,255,0.3)' }}>Prototyp badawczy</span>
       </div>
     </footer>
   )
@@ -59,10 +59,10 @@ export default function Footer() {
 const styles = {
   footer: {
     background: 'var(--navy)',
-    color: 'rgba(255,255,255,0.6)',
+    color: 'rgba(255,255,255,0.5)',
     fontSize: '12px',
     flexShrink: 0,
-    borderTop: '1px solid rgba(255,255,255,0.1)',
+    borderTop: 'none',
     height: 'var(--footer-h)',
     display: 'flex',
     alignItems: 'center',
@@ -76,10 +76,11 @@ const styles = {
     width: '100%',
   },
   link: {
-    color: 'var(--gold-light)',
+    color: 'rgba(255,255,255,0.85)',
     textDecoration: 'none',
+    fontWeight: 600,
   },
   sep: {
-    color: 'rgba(255,255,255,0.25)',
+    color: 'rgba(255,255,255,0.2)',
   },
 }

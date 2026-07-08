@@ -35,6 +35,15 @@
     {
       "naglowek": "Działki lokacyjne i parcelacja",
       "tekst": "Z naroży rynku wychodzą cztery ulice tranzytowe: Kościelna i Węgierska ku zachodowi, Piekarska i Grodzka ku wschodowi. Działki siedliskowe przy rynku miały głębokość 144 stóp i szerokość 24 lub 48 stóp — analogiczne do lokacyjnych działek krakowskich, co potwierdza związek lokacji z Bolesławem Wstydliwym.\n\nWiększość „pełnych” działek lokacyjnych podzielono w późniejszym czasie na „połówkowe”, co widać na planie katastralnym z 1850 r. Pomimo przebudowy i wyburzeń z XIX i XX w. głębokość parcel przy południowej pierzei rynkowej i ulicy Grodzkiej jest niemal identyczna z pierwotnym planem lokacyjnym. Przedmieścia: Niżne od północy i wschodu oraz Wyżne od zachodu, uformowały się wzdłuż traktów na Kraków i Sącz."
+    },
+    {
+      "naglowek": "Wizualizacja 3D — Biecz w XVII w.",
+      "tekst": "Animacja trójwymiarowa ukazuje miasto Biecz u szczytu jego historycznego rozwoju — w XVII w., gdy pełniło rolę znaczącego centrum handlu węgierskiego oraz siedziby starostwa. Rekonstrukcja przedstawia mury obronne, układ ulic lokacyjnych, kościoły i kamienice przy rynku w hipotetycznym przybliżeniu do ich ówczesnego wyglądu.",
+      "widget": {
+        "typ": "youtube",
+        "videoId": "KlexGBhOWB0",
+        "podpis": "Wizualizacja 3D Biecza w XVII w. (źródło: YouTube)"
+      }
     }
   ],
   "zwiazane_mapy": [

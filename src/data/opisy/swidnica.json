@@ -1,0 +1,54 @@
+{
+  "cityId": "swidnica",
+  "epoka": "XIII–XVII w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Dawna stolica Księstwa Świdnicko-Jaworskiego — duży prostokątny rynek, gęsta siatka ulic, zamek na zachodnim krańcu. Nowożytna twierdza bastionowa z XVII–XVIII w. przekształciła granice miasta.",
+      "tekst": "Świdnica (niem. Schweidnitz) lokowana na prawie magdeburskim w XIII w. (wzm. 1243) jako stolica Księstwa Świdnicko-Jaworskiego. Miasto wyróżniało się wyjątkowo dużym prostokątnym rynkiem (ok. 200×150 m) z ratuszem pośrodku oraz gęstą siatką ulic lokacyjnych.\n\nPlan katastralny z 1895 r. (AHMP II 1) dokumentuje układ lokacyjny zachowany w centrum. Rekonstrukcja (AHMP II 8) ukazuje miasto w murach do ok. 1740 r. — z zamkiem, klasztorami i siecią ulic. Schemat parcelacji (AHMP II 3) wykazuje regularny podział na działki mieszczańskie z XIII w.\n\nW 2. poł. XVII w. Habsburgowie wznieśli wokół Świdnicy nowożytną twierdzę bastionową — jedno z największych dzieł militarnych na Śląsku. Twierdza (1747–1867) na kilka dekad zamroziła rozbudowę miasta. Jej plan (AHMP II 9) dokumentuje rozległy system bastionów, rawelin i tenaliów.\n\nPo rozebraniu twierdzy (od 1867 r.) miasto stopniowo rosło — tereny po bastionach zabudowano XIX-wiecznymi kamienicami i parkami.",
+      "mapy": ["ahmp_swidnica_ii_1", "ahmp_swidnica_ii_3", "ahmp_swidnica_ii_8"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Mury miejskie z XIII–XIV w. z basztami i pięcioma bramami — rozebrane XVIII–XIX w. Nowożytna twierdza bastionowa 1747–1867 — jeden z największych systemów obronnych na Śląsku.",
+      "tekst": "Świdnica otoczona była murami miejskimi wzniesionymi w XIII–XIV w. Rozległy obwód murów (ok. 2 km) z kilkunastoma basztami i pięcioma bramami odpowiadał randze stolicy księstwa. Mury rozebrano stopniowo w XVIII i XIX w.\n\nW 1747 r. Prusacy, po zdobyciu Świdnicy, zaczęli wznosić nowożytną twierdzę bastionową według projektów pruskiego korpusu inżynieryjnego. System obejmował cztery wielokątne bastiony połączone kurtynami, raweliny, kontreskarpy i fosy — łącznie kilka km umocnień. Twierdza trzykrotnie była szturmowana (1757, 1760, 1761–62) podczas wojen śląskich — zdobywana i odbijana przez Austriaków i Prusaków.\n\nW 1807 r. Świdnica skapitulowała przed wojskami napoleońskimi prawie bez walki. W 1867 r. twierdza uznana za przestarzałą i zaczęto ją rozbierać — tereny umocnień zaplanowano pod zabudowę miejską.",
+      "mapy": ["ahmp_swidnica_ii_8", "ahmp_swidnica_ii_9"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Kościół Pokoju pw. Trójcy Świętej (1656–1657) — wpisany na listę UNESCO jako wyjątkowy zabytek drewnianego budownictwa sakralnego. Gotycka katedra pw. św. Stanisława i Wacława — dominanta architektoniczna centrum.",
+      "tekst": "**Kościół Pokoju (Friedenskirche)** pw. Trójcy Świętej — wzniesiony w 1656–1657 r. na mocy Pokoju Westfalskiego (1648), który zezwolił śląskim protestantom na budowę trzech kościołów pokoju (w Świdnicy, Jaworze i Głogowie). Drewniana budowla mieści ponad 7500 osób — największy drewniany kościół w Europie. Bogato zdobione wnętrze z emporami i freskami. Wpisany na listę UNESCO w 2001 r.\n\n**Katedra pw. Wniebowzięcia NMP i św. Stanisława** — gotycka bazylika trójnawowa z XIV–XV w. Potężna wieża widoczna z daleka. W epoce reformacji przejęta przez luteranów, zwrócona katolikom przez Habsburgów po 1629 r. W XVIII w. wyposażona w barokowe ołtarze i ambonę.\n\n**Klasztor augustianów** — z XIII w., wielokrotnie przebudowywany. Po reformacji przejęty przez miasto, używany do różnych celów.\n\n**Klasztor franciszkanów** — fundacja z XIII w., czynny do kasaty (1810), następnie wykorzystany przez wojsko.",
+      "mapy": ["ahmp_swidnica_ii_10"]
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Stolica Księstwa Świdnicko-Jaworskiego, duże centrum handlowe i rzemieślnicze. Silna gmina żydowska od XIII w. Reformacja od 1523 r. — miasto niemal w 100% ewangelickie.",
+      "tekst": "Świdnica była w XIV–XV w. jednym z największych i najbogatszych miast Śląska — szacowana liczba mieszkańców to 6–8 tys. Mieszczaństwo było niemieckojęzyczne, zamożne i aktywne politycznie. Gmina żydowska wzmiankowana od 1285 r. (prawie równocześnie z Ziębicami) — Żydzi zajmowali się kredytem i handlem.\n\nReformacja luterańska przyjęta w 1523 r. — miasto stało się prawie w 100% ewangelickie. W 1628 r. Habsburgowie przeprowadzili przymusową rekatolicyzację, usuwając protestantów ze stanowisk i zamykając kościoły. Wielki exodus mieszczaństwa świdnickiego — część emigrowała do Łużyc i Brandenburgii.\n\nPokój Westfalski (1648) przywrócił część praw ewangelickim — stąd budowa Kościoła Pokoju. W 1742 r. Świdnica przeszła do Prus — ewangelicy ponownie dominowali. Radykalna zmiana demograficzna nastąpiła po 1945 r.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Najważniejsze centrum piwowarstwa na Śląsku — świdnickie piwo eksportowane do całej Europy Środkowej. Sukiennictwo i rzemiosło. Limity warów (browarów) na działkach — unikalne rozwiązanie prawne.",
+      "tekst": "Świdnica słynęła przede wszystkim z piwowarstwa — świdnickie piwo (Schweidnitzer Bier) eksportowano przez całe XIV–XVI w. do Wrocławia, Pragi, Krakowa i Gdańska. W centrum Wrocławia istniała specjalna piwnica świdnicka (Schweidnitzer Keller), gdzie podawano to piwo jako ekskluzunek. System „limitów warów” — prawa do warzenia piwa przypisanego do konkretnych działek (AHMP II 4) — był unikalnym rozwiązaniem prawnym regulującym browarnictwo.\n\nDrugie ważne rzemiosło to sukiennictwo. W XIV–XV w. Świdnica eksportowała sukno do Polski, Czech i Węgier. Cech sukienników był jednym z najzamożniejszych w mieście.\n\nPo reformacji i rekatolicyzacji (1628) wielu zamożnych kupców i rzemieślników emigrowało, co osłabiło gospodarkę. Twierdza bastionowa (1747–1867) utrudniła rozbudowę i obciążała miasto kosztami utrzymania wojska. W XIX w. budowa kolei (1843) i fabryka porcelany (1883) zainaugurowały industrializację.",
+      "mapy": ["ahmp_swidnica_ii_4"]
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Stolica Księstwa Świdnicko-Jaworskiego (1290–1368), następnie pod Koroną Czeską. Habsburgowie od 1526 r. Prusy od 1742 r. Polska od 1945 r.",
+      "tekst": "Świdnica była stolicą Księstwa Świdnicko-Jaworskiego — jednego z kluczowych organizmów politycznych Śląska. Księstwo utworzono ok. 1290 r. przez wydzielenie z Księstwa Wrocławskiego. Jego władcy — Piastowie linia świdnicka — prowadzili aktywną politykę, walcząc z Czechami i Luksemburgami o niezależność.\n\nW 1368 r. ostatnia Piastówna świdnicka, Anna, wyszła za Karola IV i wniosła księstwo w dom luksemburski. Świdnica stała się częścią Korony Czeskiej, zachowując szeroką autonomię. W 1526 r. Habsburgowie przejęli koronę czeską.\n\nW 1742 r. Fryderyk II zdobył Świdnicę — miasto przeszło do Prus. W epoce napoleońskiej (1806–1814) toczyły się tu walki. Po 1815 r. — pruskie Królestwo Prus.\n\nW 1945 r. Armia Czerwona zdobyła Świdnicę. Miasto stało się częścią Polski, ludność niemiecka wysiedlona, napłynęli Polacy z kresów wschodnich.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Przedgórze Sudeckie — miasto w Rowie Świdnickim między Górami Sowich a Wzgórzami Strzegomskimi. Rzeka Bystrzyca i jej dopływy jako arterie przemysłowe.",
+      "tekst": "Świdnica leży w Rowie Świdnickim na Przedgórzu Sudeckim, ok. 60 km od Wrocławia, na wysokości ok. 280 m n.p.m. Od południa wznoszą się Góry Sowie (najwyższy szczyt Wielka Sowa 1015 m), od zachodu Wzgórza Strzegomskie.\n\nRzeka Bystrzyca i jej lewy dopływ Pełcznica przepływają przez miasto, zapewniając wodę dla piwowarstwa i rzemiosła. Bystrzyca była napędem dziesiątek młynów, browarów i foluszów wokół Świdnicy.\n\nChłodniejszy klimat podsudecki sprzyjał uprawie zbóż i chmielu — surowca do piwowarstwa. Bliskie złoża granitu w okolicach Strzegomia dostarczały budulca i kamieniarzy.\n\nPołożenie w Rowie Świdnickim, na naturalnej osi komunikacyjnej prowadzącej z Wrocławia w Sudety, predestynowało Świdnicę do roli centrum tranzytowego i handlowego. Zarazem góry od południa były naturalną barierą i schronieniem w czasach wojen.",
+      "mapy": ["ahmp_swidnica_ii_2"]
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Akta radzieckie w Archiwum Państwowym we Wrocławiu. AHMP Tom IV — zeszyt świdnicki. Kościół Pokoju wpisany na listę UNESCO w 2001 r.",
+      "tekst": "**Archiwalia:** Archiwum Państwowe we Wrocławiu przechowuje bogatą dokumentację Świdnicy: akta radzieckie i ławnicze z XIV–XVII w., dokumenty cechowe i majątkowe. Szczególnie ważne są protokoły radzieckie z XV w. i księgi rachunkowe browarów.\n\n**Źródła kartograficzne:** Plan katastralny z 1895 r. (AHMP II 1) jest kluczowym dokumentem układu przestrzennego. Rekonstrukcja miasta w murach (AHMP II 8) i plan nowożytnej twierdzy (AHMP II 9) uzupełniają obraz. Schemat parcelacji (AHMP II 3) i mapa stanowisk archeologicznych (AHMP II 2) ukazują ciągłość osadnictwa.\n\n**Ważniejsze opracowania:**\n- M. Goliński, *Świdnica do końca XVI w.* (rozprawa), Wrocław 1993\n- R. Eysymontt, M. Goliński (red.), *Atlas historyczny miast polskich, t. IV: Śląsk, z. Świdnica*, Wrocław 2008\n- R. Heś, *Kościół Pokoju w Świdnicy*, Świdnica 2001\n\n**Badania archeologiczne:** Wykopaliska na rynku i przy katedrze dokumentują średniowieczne relikty zabudowy. Badania fortyfikacji nowożytnych (fosy, bastiony) prowadzone przed budownictwem mieszkaniowym.",
+      "mapy": ["ahmp_swidnica_ii_3", "ahmp_swidnica_ii_8"]
+    }
+  }
+}

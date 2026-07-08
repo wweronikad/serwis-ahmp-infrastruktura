@@ -1,0 +1,54 @@
+{
+  "cityId": "tarnow",
+  "epoka": "XIV–XIX w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Miasto założone w 1330 r. przez Spycimira herbu Leliwa na piaszczystym pagórku między rzeką Białą a potokiem Wątok — prostokątny rynek, zamek na Górze św. Marcina, regularny układ szachownicowy.",
+      "tekst": "Tarnów lokowano na prawie magdeburskim w 1330 roku. Akt lokacyjny wystawił Spycimir herbu Leliwa, wpływowy wojewoda krakowski, który już wcześniej wznosił zamek na sąsiadującej Górze św. Marcina (384 m n.p.m.) — najdalej wysuniętym na północ fragmencie Karpat.\n\nMiasto wytyczono na piaszczystym pagórku między rzeką Białą od południa a potokiem Wątok od północy. Centralnym elementem planu lokacyjnego był prostokątny rynek, z którym łączyły się ulice biegnące w układzie szachownicowym. Na zachód od rynku stanął drewniany kościół parafialny (wkrótce zastąpiony murowaną kolegiatą), a ratusz znalazł się w obrębie placu targowego.\n\nZamek na Górze św. Marcina stanowił odrębny, dominujący element zespołu urbanistycznego. Połączony był z miastem wąskim przesmykiem terenu, co tworzyło układ złożony ze wzajemnie uzupełniających się elementów obronnych i handlowych. W połowie XV w. Tarnów otoczono murami miejskimi z basztami i bramami.\n\nNajcenniejszym zachowanym źródłem kartograficznym jest plan katastralny z lat 1848–1852, ukazujący miasto w stanie sprzed pożaru z 1831 r. i po nim — oba etapy dokumentują zarówno ciągłość układu lokacyjnego, jak i przekształcenia XIX-wieczne.",
+      "mapy": ["ahmp_tarnow_1_1", "ahmp_tarnow_1_2", "ahmp_tarnow_3_1"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Zamek Tarnowskich na Górze św. Marcina — rezydencja magnacka i twierdza, mury miejskie z XV w. z kilkoma basztami i dwoma bramami.",
+      "tekst": "Zamek na Górze św. Marcina był budowlą fundowaną przez Spycimira herbu Leliwa ok. 1327–1330 roku, rozbudowywaną przez kolejne pokolenia Tarnowskich — jednego z najpotężniejszych rodów Małopolski w XV–XVI w. Zamek pełnił funkcję rezydencji magnackiej i punktu strategicznego kontrolującego dolinę rzeki Białej.\n\nMury miejskie Tarnowa powstawały od połowy XV w. Opasywały miasto z trzech stron — od południa, wschodu i zachodu — sięgając do rzeczki Białej. Pierwotnie palisadowe obwałowanie zastąpiono kamienno-ceglanymi kurtynami wzmocnionymi basztami. Wjazd do miasta od strony zachodniej i wschodniej chroniony był przez bramy — Krakowską i Lwowską.\n\nPo śmierci Jana Krzysztofa Tarnowskiego (1567) zamek przeszedł na Ostrogskich, a potem na Sanguszków. W XVIII w. stał już ruiną — jego budulec rozbierano i wykorzystywano w innych budowach. Do dziś na Górze św. Marcina zachowały się fragmenty murów i piwnic zamkowych.",
+      "mapy": ["ahmp_tarnow_1_3", "ahmp_tarnow_3_4"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Kolegiata Narodzenia NMP z XIV–XV w. z kapplicami rodów szlacheckich i bogatymi nagrobkami Tarnowskich. Od 1783 r. katedra diecezjalna.",
+      "tekst": "**Kolegiata pw. Narodzenia NMP** — kościół parafialny wzniesiono na miejscu wcześniejszej świątyni w XIV w. Budowa prezbiterium i korpusu nawowego trwała przez XV i XVI w., a ambicje mecenasowskie Tarnowskich nadały kościołowi rangę niemal katedralną. W nawach i przylegających kaplicach gromadzone są wybitne nagrobki rodu — w tym renesansowy nagrobek hetmana Jana Tarnowskiego (zm. 1561), jedno z arcydzieł polskiej rzeźby sepulkralnej. W 1783 r., gdy Austria wydzieliła diecezję tarnowską, kościół stał się katedrą.\n\n**Kościół Wniebowzięcia NMP i klasztor franciszkanów** — franciszkanie przybyli do Tarnowa w późnym średniowieczu. Ich gotycki kościół, wielokrotnie przebudowywany, zachował się w centrum miasta.\n\n**Kościół Świętego Ducha** — dawna świątynia szpitalna, wzmiankowana w późnym średniowieczu, służyła ubogim i chorym. W XIX w. przejęta przez bernardynów.\n\n**Kościół OO. Bernardynów** — sprowadzeni w XVII w., rozbudowali budowlę w stylu barokowym charakterystycznym dla małopolskiej architektury zakonnej.",
+      "mapy": ["ahmp_tarnow_3_5"]
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Miasto prywatne od lokacji — osadnicy niemieccy w XIV w., polonizacja XV–XVI w. Rozkwit za Tarnowskich, stagnacja po XVI w., gwałtowny wzrost po 1850 r.",
+      "tekst": "Tarnów był od lokacji miastem prywatnym, należącym do rodziny Tarnowskich. Lokacja przyciągnęła osadników z sąsiednich ziem Małopolski oraz Niemców — miasto było początkowo dwujęzyczne, choć polonizowało się szybciej niż śląskie ośrodki. W XV–XVI w. Tarnów rozwijał się jako ośrodek rezydencjalny i handlowy rodu — liczba mieszczan mogła wynosić kilka tysięcy.\n\nW XVII w., po przejściu Tarnowa przez Ostrogskich na Sanguszków, a zwłaszcza w wyniku wojen kozackich, szwedzkich i epidemii, miasto straciło znaczenie. Podział dóbr po śmierci Jana Aleksandra Ostrogskiego spowodował tarcia i wewnętrzny chaos.\n\nW 1787 r. rząd austriacki pozbawił Sanguszków władzy nad Tarnowem i ustanowił niezależne władze miejskie. W 1834 r. po wielkim pożarze centrum zostało przebudowane. Od połowy XIX w. miasto dynamicznie rosło: w 1850 r. liczyło ok. 6 tys. mieszkańców, w 1910 r. — ponad 35 tys. W 1975–1998 Tarnów był stolicą województwa.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Trakt handlowy z Małopolski na Węgry przez przełęcze karpackie — wino, sukno, bydło. Jarmarki, prawo składu, ożywione kontakty z Bardiowem i Koszycami.",
+      "tekst": "Tarnów leżał na ważnym trakcie handlowym prowadzącym z Małopolski przez Karpaty na Węgry — przez Przełęcz Tylicką i Łupkowską do Bardejova i Koszyc. Trakt ten był podstawą prosperity miasta w XV–XVI w.\n\nTarnowscy dążyli do uzyskania prawa składu i monopolu na handel z Węgrami. Handlowano przede wszystkim winem węgierskim, bydłem, suknem, skórami i artykułami korzennymi. Na rynku tarnowskim działały komory celne, jatki, ławy sukiennicze i sklepy korzenne.\n\nW XVIII w. miasto straciło swe znaczenie handlowe na rzecz Rzeszowa i Krakowa. Dopiero budowa kolei żelaznej (1856) i połączenie z Krakowem i Lwowem uruchomiło nowy etap rozwoju — Tarnów stał się centrum przemysłowym z fabrykami wagonów, taboru kolejowego i zakładami chemicznymi (Mościce, 1927).",
+      "mapy": ["ahmp_tarnow_1_4", "ahmp_tarnow_1_6"]
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Miasto prywatne Tarnowskich (XIV–XVI w.), potem Ostrogskich i Sanguszków. Od 1787 r. władze miejskie niezależne od dziedzicznych właścicieli. Po 1772 r. w zaborze austriackim (Galicja).",
+      "tekst": "Tarnów przez całą epokę przedindustrialną był miastem prywatnym. Przez ponad dwa stulecia (XIV–XVI w.) należał do rodu Tarnowskich, od których wziął nazwę. Hetman wielki koronny Jan Tarnowski (zm. 1561) uczynił z miasta rezydencję magnacką na skalę europejską.\n\nPo wygaśnięciu rodu Tarnowskich (1567) miasto przeszło do Ostrogskich, następnie do Sanguszków. Sanguszkowie scalili podzielone dobra i od 1741 r. byli jedynymi właścicielami Tarnowa. Hieronim Sanguszko wybudował w 1799 r. rezydencję w Gumniskach. Tymczasem w 1787 r. władze austriackie pozbawiły go władzy nad miastem i ustanowiły magistrat niezależny od właścicieli.\n\nPo I rozbiorze Rzeczypospolitej (1772) Tarnów znalazł się w zaborze austriackim (Galicja). W 1783 r. erygowano diecezję tarnowską (zlikwidowaną w 1795 r., przywróconą w 1821 r.). Tarnów stał się stolicą cyrkułu, a od 1867 r. — stolicą powiatu w ramach Galicji autonomicznej.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Kotlina Sandomierska u progu Karpat — ciepły klimat, gleby lessowe, rzeka Biała jako oś komunikacyjna i przemysłowa. Góra Św. Marcina — najdalej wysunięty na północ fragment Karpat.",
+      "tekst": "Tarnów leży na styku Kotliny Sandomierskiej i Pogórza Karpackiego, w miejscu uznawanym za jedno z najcieplejszych w Polsce. Rzeka Biała płynąca od południa była głównym czynnikiem geomorfologicznym kształtującym osadnictwo — jej dolina stanowiła naturalny szlak komunikacyjny.\n\nGóra św. Marcina (384 m n.p.m.) jest najdalej na północ wysuniętym fragmentem Karpat, wyraźnie wyodrębnionym z otoczenia — widoczna z dużych odległości, stanowiła naturalną dominantę terenu i punkt strategiczny. Jej wapienno-piaskowcowe zbocza były trudno dostępne, co predestynowało ją pod lokalizację zamku.\n\nMiasto właściwe zajęło pagórek między Białą a Wątokiem, wyraźnie wyodrębniony z otoczenia. Oba potoki (Biała i Wątok) zapewniały wodę dla młynów i rzemiosła. W XIX w. rzeka Biała skanalizowana i uregulowana, a jej dolina stała się korytarzem linii kolejowej (1856).\n\nHistoryczne osadnictwo w okolicach Tarnowa sięga co najmniej XII w. — wzmianki o wsiach Tarnów Wielki i Tarnów Mały z 1328 r. potwierdzają istnienie sieci osadniczej przed lokacją miasta.",
+      "mapy": ["ahmp_tarnow_3_2"]
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Źródła w Archiwum Narodowym w Krakowie i Muzeum Okręgowym w Tarnowie. Kluczowe opracowanie: Atlas Historyczny Miasta Tarnowa pod red. Z. Nogi (2016).",
+      "tekst": "**Archiwalia:** Archiwum Narodowe w Krakowie przechowuje dokumenty dotyczące Tarnowa z XV–XVIII w. oraz materiały katastralne z okresu galicyjskiego. Muzeum Okręgowe w Tarnowie posiada bogatą kolekcję ikonograficzną i kartograficzną.\n\n**Źródła kartograficzne:** Najcenniejszy jest plan katastralny z lat 1848–1852 (skala 1:2500 i 1:5000), ukazujący miasto w stanie bliskim przedindustrialnemu. Plany z 1796 r. i po pożarze z 1814 r. ilustrują przemiany XVIII i XIX stulecia. Panorama miasta z 1644 r. jest najstarszym widokiem ikonograficznym.\n\n**Ważniejsze opracowania:**\n- Z. Noga (red.), *Atlas historyczny miasta Tarnowa*, Kraków 2016 — syntetyczne opracowanie dla serii AHMP\n- M. Płonka, *Tarnów — miasto magnackie*, Tarnów 2010\n- A. Szpunar, *Badania archeologiczne w Tarnowie*, Rocznik Tarnowski 2008\n- K. Meus, *Przestrzeń społeczna Tarnowa w XIX–XX w.*, Kraków 2012\n\n**Badania archeologiczne:** Prowadzone od lat 60. XX w. na obszarze Starego Miasta — odkryto ślady osadnictwa pradziejowego i średniowiecznego. Szczególne znaczenie mają badania na Rynku i przy kolegiacie.",
+      "mapy": ["ahmp_tarnow_3_3"]
+    }
+  }
+}

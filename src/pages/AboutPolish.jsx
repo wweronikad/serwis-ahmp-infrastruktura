@@ -68,6 +68,28 @@ export default function AboutPolish() {
         </section>
 
         <section style={styles.section}>
+          <h2 style={styles.h2}>Zasięg terytorialny serii</h2>
+          <figure style={styles.mapFig}>
+            <img
+              src="https://atlasmiast.umk.pl/wp-content/uploads/2025/10/mapa.png"
+              alt="Mapa Polski z zaznaczonymi miastami objętymi seriami atlasowymi AHMP i Deutscher Städte-Atlas"
+              style={styles.mapImg}
+            />
+            <div style={styles.mapLegend}>
+              <span style={styles.legendItem}><span style={styles.legendSq}>■</span> atlasy wydane w serii <em>Atlas Historyczny Miast Polskich</em></span>
+              <span style={styles.legendItem}><span style={styles.legendTri}>▲</span> atlasy w przygotowaniu</span>
+              <span style={styles.legendItem}><span style={styles.legendCir}>●</span> atlasy wydane w serii <em>Deutscher Städte-Atlas</em></span>
+            </div>
+            <figcaption style={styles.mapCaption}>
+              Rozmieszczenie miast objętych seriami atlasowymi — stan aktualny.{' '}
+              <a href="https://atlasmiast.umk.pl/" target="_blank" rel="noopener noreferrer" style={styles.mapSrc}>
+                Źródło: atlasmiast.umk.pl
+              </a>
+            </figcaption>
+          </figure>
+        </section>
+
+        <section style={styles.section}>
           <h2 style={styles.h2}>Kanon edytorski — co zawiera zeszyt</h2>
           <p style={styles.p}>
             Każdy zeszyt AHMP opiera się na tym samym modelu:
@@ -206,6 +228,15 @@ const styles = {
     borderBottom: '1px solid var(--border-light)',
     color: 'var(--text)',
   },
+  mapFig: { margin: '20px 0 0', display: 'flex', flexDirection: 'column', gap: '12px' },
+  mapImg: { width: '100%', display: 'block', borderRadius: '6px', border: '1px solid var(--border-light)' },
+  mapLegend: { display: 'flex', flexDirection: 'column', gap: '5px', padding: '12px 16px', background: 'var(--cream-dark)', borderRadius: '6px', border: '1px solid var(--border-light)' },
+  legendItem: { fontSize: '13px', color: 'var(--text)', display: 'flex', alignItems: 'baseline', gap: '8px' },
+  legendSq: { fontSize: '13px', color: '#1a1a1a', flexShrink: 0 },
+  legendTri: { fontSize: '13px', color: '#1a1a1a', flexShrink: 0 },
+  legendCir: { fontSize: '13px', color: '#1a1a1a', flexShrink: 0 },
+  mapCaption: { fontSize: '12px', color: 'var(--text-muted)', fontStyle: 'italic', lineHeight: 1.5 },
+  mapSrc: { color: 'var(--navy)', opacity: 0.7, textDecoration: 'none' },
   cta: { display: 'flex', gap: '14px', flexWrap: 'wrap', padding: '40px 0 0' },
   btnPrimary: {
     background: 'var(--navy)',

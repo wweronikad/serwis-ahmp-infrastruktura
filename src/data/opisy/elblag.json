@@ -1,0 +1,54 @@
+{
+  "cityId": "elblag",
+  "epoka": "XIII–XVIII w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Miasto krzyżackie założone w 1237 r. na prawym brzegu Zalewu Wiślanego — regularny układ ulicowy z dwoma równoległymi ulicami handlowymi, zamek krzyżacki i kanał portowy jako kręgosłup układu.",
+      "tekst": "Elbląg (niem. Elbing) założyli Krzyżacy w 1237 r., już sześć lat po przybyciu do Prus. Miasto lokowano na prawym brzegu rzeki Elbląg, niedaleko jej ujścia do Zalewu Wiślanego. Prawo lubeckie, które Elbląg otrzymał w 1246 r., od razu wpisało miasto w sieć hanzeatycką.\n\nUkład przestrzenny wzorowany był na modelowych miastach hanzeatyckich: dwie równoległe ulice handlowe (Stary Rynek i Nowy Rynek) połączone siatką ulic poprzecznych, zamek krzyżacki z kościołem zamkowym na południu i kościół parafialny pw. św. Mikołaja na północy jako dominanta architektoniczna. Kanał portowy wzdłuż rzeki umożliwiał bezpośredni dostęp statków do kamienic kupieckich.\n\nPlan katastralny z 1839 r. (1:2500) zachował czytelny układ lokacyjny, zniszczony w 90% podczas walk w 1945 r. Rekonstrukcja historyczna (AHMP II 3) dokumentuje ewolucję przestrzenną od XIII do XVIII w.",
+      "mapy": ["ahmp_elblag_ii_1", "ahmp_elblag_ii_2", "ahmp_elblag_ii_3"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Zamek Krzyżacki przy południowej bramie miejskiej, mury z XIII–XIV w., rozbudowane w XVII w. bastiony niderlandzkie. Po inkorporacji do Korony (1454) — twierdza miejska.",
+      "tekst": "Fortyfikacje Elbląga obejmowały zamek krzyżacki, mury miejskie i, od XVII w., system bastionowy. Zamek Wysokim (niem. Hohes Schloss), wzniesiony przez Krzyżaków w XIII–XIV w., stał przy południowej bramie miasta. Był siedzibą komtura i centrum administracji zakonnej na obszarze pruskim.\n\nPo 1454 r., gdy Elbląg wraz z Prusami Królewskimi dobrowolnie poddał się Koronie Polskiej, zamek stracił swoje pierwotne znaczenie. W XVII w. miasto rozbudowało fortyfikacje w systemie niderlandzkim (bastiony i raweliny), co dokumentuje plan z 1626/1635 r. Jednak wobec szwedzkiego najazdu (1626, 1655–1660) okazały się one niewystarczające — Elbląg kilkakrotnie padał łupem wojsk szwedzkich.\n\nOd XVIII w. fortyfikacje były stopniowo rozbierane, a ich ślady widoczne są jeszcze na planie z 1785–1806 r.",
+      "mapy": ["ahmp_elblag_ii_8", "ahmp_elblag_ii_9", "ahmp_elblag_ii_10"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Gotycka katedra pw. św. Mikołaja — jedna z największych świątyń w Prusach. Kościół Wniebowzięcia NMP (dominikanie), kościół Bożego Ciała — wielonarodowe i wielowyznaniowe miasto portowe.",
+      "tekst": "**Katedra pw. św. Mikołaja** — wzniesiona w XIV w. w stylu gotyckim jako główny kościół parafialny bogatego miasta hanzeatyckiego. Trójnawowa bazylika z triforium, wysoka wieża — jedna z najbardziej imponujących budowli sakralnych Prus. W czasie reformacji (1523) stała się kościołem ewangelickim. Po 1945 r. odbudowana i przywrócona jako katedra katolicka.\n\n**Kościół Wniebowzięcia NMP** (dominikanie) — fundacja z XIII w. Klasztor dominikański pełnił ważną funkcję duszpasterską i edukacyjną w mieście.\n\n**Kościół Bożego Ciała** — kościół szpitalny z XIII/XIV w., związany z elbląskim szpitalem miejskim.\n\nElbląg jako miasto wieloetniczne (Niemcy, Polacy, Holendrzy, Szkoci) w XVI–XVII w. był centrum różnych wyznań — obok luteranów działali tu kalwini, menonici i katolicy.",
+      "mapy": ["ahmp_elblag_ii_6"]
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Wieloetniczne miasto portowe i hanzeatyckie — Niemcy, Polacy, Holendrzy, Szkoci. W XVI w. liczba ok. 10 tys. mieszkańców. Rozkwit handlu bałtyckiego, kryzys w XVII w.",
+      "tekst": "Elbląg od początku był miastem wieloetnicznym. Niemieccy osadnicy stanowili trzon mieszczaństwa, lecz Polacy, Holendrzy i inni kupcy zamieszkiwali miasto już w XIV w. W XV–XVI w., gdy Elbląg stał się jednym z głównych portów bałtyckich, liczba mieszkańców rosła — w XVI w. szacuje się ją na ok. 8–10 tys.\n\nW XVII w. Elbląg zaangażowany był w konkurencję z Gdańskiem o dominację nad handlem zbożowym Wisły. Wielokrotna ocupacja szwedzka (1626, 1655–1660, ponownie 1703) zrujnowała miasto gospodarczo. W 1698 r. król brandenburski Fryderyk I uzyskał prawo zastawu na Elblągu od Korony Polskiej — miasto wróciło do Rzeczypospolitej dopiero w 1772 r., gdy Prusy przyłączyły je w pierwszym rozbiorze.\n\nPo 1772 r. Elbląg rozwijał się jako miasto pruskie. W 1945 r. 90% zabudowy historycznej zostało zniszczone. Odbudowę historycznego centrum zakończono w dużej mierze na początku XXI w.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Jeden z największych portów hanzeatyckich nad Bałtykiem — eksport zboża i drewna przez Zalew Wiślany. Prawo składu na towary z Mazowsza i Litwy. Silne cechy rzemieślnicze.",
+      "tekst": "Elbląg był przez dwa stulecia (XIV–XV w.) jednym z wiodących portów hanzeatyckich na Bałtyku. Miasto eksportowało zboże, drewno i produkty leśne sprowadzane rzeką Iławką i kanałem z Warmii i Mazur, a importowało tkaniny i artykuły luksusowe z zachodu Europy.\n\nPrivilegium de non appellando, prawo składu i aktywna polityka celna magistratu przez długi czas zapewniały Elbląg uprzywilejowaną pozycję na rynku bałtyckim. Jednak dominacja Gdańska nad ujściem Wisły, poparta przywilejami królewskimi, ograniczała elbląskie możliwości handlowe.\n\nW XVII w. miasto próbowało przekierować część handlu przez kanał do Noteci — projekt sfinalizowany dopiero w XIX w. jako Kanał Elbląsko-Ostródzki (1844–1860). Topografia zawodów z 1417 r. i ok. 1790 r. (AHMP II 6) ukazuje rozmieszczenie kupców, rzemieślników i instytucji w mieście.",
+      "mapy": ["ahmp_elblag_ii_6", "ahmp_elblag_ii_11"]
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Pod władzą Krzyżaków 1237–1454, następnie dobrowolna inkorporacja do Korony Polskiej jako część Prus Królewskich. Od 1698 r. w zastawie Brandenburgii, od 1772 r. w Prusach.",
+      "tekst": "Elbląg przez ponad dwa stulecia był miastem krzyżackim — centrum komturstwa i siedzibą zarządu Prus Zakonnych. W 1454 r. miejska elita kupiecka dobrowolnie opowiedziała się po stronie antykriyżackiego powstania i oddała się pod zwierzchność króla polskiego Kazimierza Jagiellończyka. Akt inkorporacji był jednym z kamieni milowych unii Prus Królewskich z Koroną.\n\nW nowym ustroju Elbląg cieszył się szeroką autonomią jako miasto królewskie — posiadał własny sąd, radę i uzbrojenie. Był aktywny w sejmiku pruskim i bronił swych przywilejów handlowych przed Gdańskiem.\n\nW 1698 r. August II oddał Elbląg w zastaw elektorowi brandenburskiemu Fryderykowi I. Mimo prób odzyskania miasto nie wróciło do Rzeczypospolitej — w 1772 r. Prusy przyłączyły go w pierwszym rozbiorze.",
+      "mapy": ["ahmp_elblag_ii_4"]
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Delta Wisły — rzeka Elbląg jako arteria portowa, Zalew Wiślany jako połączenie z Bałtykiem. Tereny podmokłe, kanały i groble kształtują specyfikę przestrzenną miasta.",
+      "tekst": "Elbląg leży w Żuławach Wiślanych, na prawym brzegu rzeki Elbląg, w pobliżu jej ujścia do Zalewu Wiślanego. Teren jest nizinny i podmokły — liczne kanały melioracyjne i regulacja rzeki kształtowały przez wieki topografię miasta.\n\nRzeka Elbląg stanowiła oś miasta i jego kręgosłup transportowy: nabrzeże wzdłuż rzeki w XIII–XVII w. zabudowane było magazynami i składami kupieckich kamieniczek, bezpośrednio dostępnymi od strony wody. Zalew Wiślany umożliwiał żeglugę bałtycką nawet statkom morskim.\n\nNizinność i bliskość wód niosły zagrożenie powodziowe. Wielokrotne powodzie i prace melioracyjne kształtowały zakres zabudowy i lokalizację cmentarzy oraz obiektów użyteczności publicznej. Dziś historyczne centrum Elbląga, zniszczone w 1945 r. i odbudowywane od lat 90. XX w., odtwarza dawną skalę i układ ulic.",
+      "mapy": ["ahmp_elblag_ii_4"]
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Akta radzieckie i kupieckie w Archiwum Państwowym w Gdańsku. Kluczowe opracowanie: AHMP Tom II, zeszyt elbląski. Bogate zasoby ikonograficzne z XVII–XIX w.",
+      "tekst": "**Archiwalia:** Archiwum Państwowe w Gdańsku (Oddział w Elblągu) przechowuje akta radzieckie, kupieckie i kościelne Elbląga od XIV w. Szczególnie cenne są księgi ceł i handlu bałtyckiego.\n\n**Źródła kartograficzne:** Plany z 1626 i 1635 r. (AHMP II 8) to najstarsze zachowane plany Elbląga. Plan Schroettera z 1785–1806 dokumentuje miasto u schyłku epoki polskiej. Plan katastralny z 1839 r. (AHMP II 1–2) jest kluczowy dla odtworzenia układu sprzed zniszczeń 1945 r.\n\n**Ważniejsze opracowania:**\n- C. Beckherrn, *Geschichte der Stadt Elbing*, Elbing 1890\n- M. Pelech, *Elbląg w Związku Pruskim i pod panowaniem polskim*, Toruń 1985\n- A. Czacharowski, *Atlas historyczny miast polskich, t. II: Elbląg*, Toruń 1993\n\n**Badania archeologiczne:** Wykopaliska w centrum Elbląga (1981–) prowadzone w trakcie odbudowy — odkryto pozostałości XIII–XVII-wiecznej zabudowy drewnianej i kamiennej.",
+      "mapy": ["ahmp_elblag_ii_3"]
+    }
+  }
+}

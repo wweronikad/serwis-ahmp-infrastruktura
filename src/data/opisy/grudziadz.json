@@ -1,0 +1,54 @@
+{
+  "cityId": "grudziadz",
+  "epoka": "XIII–XIX w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Miasto krzyżackie nad Wisłą — charakterystyczny układ z zamkiem na nadwiślańskiej skarpie, spichlerzami wzdłuż rzeki i prostokątnym rynkiem w górnej części. Spichrze grudziądzkie — unikalne dziedzictwo hanzeatyckie.",
+      "tekst": "Grudziądz (niem. Graudenz) wyrósł przy krzyżackim zamku wzniesionym w 1. poł. XIII w. na skarpie nad Wisłą. Prawa miejskie na prawie chełmińskim nadano w 1291 r. Układ przestrzenny wyraźnie wynika z topografii: miasto górne z rynkiem i kościołem parafialnym zajmuje wyniesioną skarpę, miasto dolne — nabrzeże Wisły z urządzeniami portowymi i spichlerzami.\n\nSpichrze grudziądzkie to unikatowy w skali europejskiej kompleks gotyckich, późnogotyckich i renesansowych budynków magazynowych zwróconych tylnymi elewacjami bezpośrednio ku Wiśle. W XVI w. rzędy spichrzy ciągnęły się na przestrzeni ponad 700 m wzdłuż rzeki. Przechowywano w nich zboże dostarczane z całych Prus, skąd płynęło barkami w dół Wisły ku Gdańskowi i na rynki Europy Zachodniej.\n\nPlan katastralny (1906–1907) i rekonstrukcja historyczna (AHMP II 2–3) ukazują ciągłość układu od XIII w. przez epokę nowożytną — z wyraźnym podziałem na część mieszkalną, sakralną i produkcyjno-magazynową.",
+      "mapy": ["ahmp_grudziadz_ii_1", "ahmp_grudziadz_ii_2", "ahmp_grudziadz_ii_3"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Zamek krzyżacki na wiślanej skarpie — jeden z większych zamków pruskich. W XVIII–XIX w. twierdza pruska oblężona przez Napoleona. Mury miejskie z basztami z XIV w.",
+      "tekst": "Zamek krzyżacki w Grudziądzu — jeden z najważniejszych zamków Zakonu w Prusach — wzniesiono na skarpie nad Wisłą w 1. poł. XIII w. Pełnił funkcję siedziby komturii i centrum administracyjno-wojskowego dla obszaru Prus Nadwiślańskich. W 1454 r. (po włączeniu Prus do Korony) zamek stał się siedzibą starosty.\n\nW XVIII w. Grudziądz znalazł się w posiadaniu Prus po pierwszym rozbiorze (1772). Prusacy przebudowali zamek i miasto na twierdzę bastionową — jeden z elementów systemu obronnego na Wiśle. Twierdza Grudziądz słynna jest z heroicznej obrony podczas wojen napoleońskich: w 1807 r., gdy niemal całe Prusy padły przed Napoleonem, generał Courbière bronił twierdzy i nie złożył kapitulacji. Poddał się dopiero po pokoju tylżyckim.\n\nMury miejskie z XIV w. otaczały miasto górne. Do dziś zachował się fragment murów i basztów. Plan twierdzy z 1812 r. (AHMP II 15) dokumentuje zaawansowane fortyfikacje epoki napoleońskiej.",
+      "mapy": ["ahmp_grudziadz_ii_5", "ahmp_grudziadz_ii_13", "ahmp_grudziadz_ii_14", "ahmp_grudziadz_ii_15"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Gotycki kościół pw. św. Mikołaja (XIII–XIV w.) — dominanta architektoniczna Grudziądza. Kościół franciszkanów. Po reformacji miasto ewangelickie, po 1920 r. z powrotem w większości katolickie.",
+      "tekst": "**Kościół pw. św. Mikołaja** — gotycka świątynia wzniesiona przez Krzyżaków w XIII–XIV w. jako główny kościół parafialny. Trójnawowy, z potężną wieżą — jedna z dominant Grudziądza widoczna z Wisły. Po reformacji (od 1525 r.) kościół stał się ewangelicki; katolicy modlili się w kaplicy zamkowej. Po 1920 r. powrót do katolicyzmu jako głównego wyznania.\n\n**Kościół franciszkanów pw. Wniebowzięcia NMP** — klasztor franciszkański sprowadzono do Grudziądza w XIII w. Gotycki kościół klasztorny z cegły zachował swój pierwotny charakter. Po kasacie zakonu przez władze pruskie (1832) budynek użytkowany do różnych celów, zwrócony franciszkanom w XX w.\n\n**Kościół ewangelicki** — wzniesiony w XIX w. dla protestantów, głównego wyznania w mieście pod władzą pruską (do 1920 r.).",
+      "mapy": []
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Wieloetniczne miasto handlowe — Niemcy, Polacy, Holendrzy, Żydzi. Rozkwit w XIV–XVI w. jako centrum handlu zbożem. Twierdza i garnizon pruski od 1772 r. zmienił strukturę społeczną.",
+      "tekst": "Grudziądz jako miasto hanzeatyckie zamieszkany był przez kupców i rzemieślników różnych narodowości. Mieszczaństwo było głównie niemieckie, lecz polscy i holenderscy kupcy odgrywali ważną rolę. Żydzi zamieszkiwali miasto od późnego średniowiecza.\n\nW XV–XVI w. Grudziądz liczył ok. 3–4 tys. mieszkańców i był jednym ze znaczniejszych miast Prus Królewskich. Spichrze i port generowały dochody, a handel zbożem z Mazowsza i Kujaw przynosił miastu prosperitę.\n\nW XVII w. wojny szwedzkie (1626, 1655–1660) i epidemie gwałtownie zmniejszyły populację. W 1772 r. po pierwszym rozbiorze Prusy przejęły miasto i systematycznie kolonizowały je Niemcami. Budowa twierdzy i garnizon pruski (XVI–XIX w.) nadały miastu militarny charakter. W 1920 r. Grudziądz w wyniku traktatu wersalskiego powrócił do Polski.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Eksport zboża przez Wisłę do Gdańska i Europy — spichrze jako infrastruktura magazynowa. Prawo składu i aktywny handel na rynku Hanzy. Twierdza jako motor ekonomiczny w XIX w.",
+      "tekst": "Gospodarka Grudziądza przez wieki opierała się na handlu zbożem dostarczanym ze spławi wiślanych z Kujaw, Mazowsza i Inflant. Grudziądzkie spichrze stanowiły gigantyczną infrastrukturę magazynową — zboże przywozione barkami rzeką składowano w kilkudziesięciu gotyckich budynkach przy nabrzeżu, a następnie sprzedawano i załadowywano na statki zdążające do Gdańska i dalej na Zachód.\n\nW XIV–XV w. Grudziądz był pełnoprawnym członkiem Hanzy — siecią handlową łączącą miasta bałtyckie. Prawo składu obligowało kupców jadących Wisłą do zatrzymania się w mieście i zaoferowania towarów miejscowym kupcom.\n\nPo włączeniu do Prus (1772) miasto straciło swoją hanzeatycką rolę. Twierdza Grudziądz stała się głównym pracodawcą w mieście. W XIX w. rozwinął się przemysł cukrowniczy (cukrownia, 1882) i metalurgiczny. Po powrocie do Polski (1920) miasto rozwijało się jako ośrodek przemysłowy i lotniczy (szkoła pilotów, 1920–1939).",
+      "mapy": ["ahmp_grudziadz_ii_9", "ahmp_grudziadz_ii_16"]
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Komturia krzyżacka 1291–1454, następnie miasto królewskie Prus Królewskich. Od 1772 r. w Prusach (twierdza). Po 1920 r. w Polsce.",
+      "tekst": "Grudziądz od XIII do 1454 r. był centrum komturii krzyżackiej — jednej z ważniejszych jednostek administracyjnych Zakonu w Prusach Nadwiślańskich. Komtur zarządzał dobrami zakonu i sądził mieszczan. W 1454 r. Grudziądz jako jedno z pierwszych miast pruskich przeszło na stronę antykriyżackiego Związku Pruskiego i poddał się władzy polskiej.\n\nJako miasto królewskie w Prusach Królewskich Grudziądz cieszył się szeroką autonomią — posiadał własną radę, ławę sądową i uczestniczył w sejmiku pruskim. W 1479 r. Kazimierz Jagiellończyk nadał Grudziądzowi przywilej bicia monety.\n\nW 1772 r. po pierwszym rozbiorze miasto zajęły Prusy. Fryderyk II przebudował je na twierdzę. Grudziądz wrócił do Polski w 1920 r. jako część Pomorza Polskiego przyznana po traktacie wersalskim.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Skarpa wiślana jako kluczowy element obrony i planowania — zamek na wyniosłości, spichrze u podnóża. Wisła jako arteria handlowa i granica strategiczna.",
+      "tekst": "Grudziądz leży na prawym brzegu Wisły, na charakterystycznej skarpie wznoszącej się kilkadziesiąt metrów ponad koryto rzeki. To wyniesienie było decydującym czynnikiem lokalizacyjnym: umożliwiało kontrolę nad przeprawą wiślaną i dawało doskonałą pozycję obronną.\n\nWisła jako główna arteria komunikacyjna i handlowa średniowiecznych Prus Królewskich stanowiła o znaczeniu Grudziądza — rzeka była drogą eksportu zboża z głębi kraju na Bałtyk. Równocześnie jako granica strategiczna Wisła wielokrotnie decydowała o losach miasta podczas wojen.\n\nRzeźba terenu — skarpa od strony rzeki, łagodne wzgórza od strony zachodniej — kształtowała układ urbanistyczny. Miasto górne z zamkiem i kościołem stało na skarpie, spichrze i urządzenia portowe zajmowały wąski pas nadrzeczny u podnóża skarpy. Mury obronne łączyły obie strefy.",
+      "mapy": ["ahmp_grudziadz_ii_11", "ahmp_grudziadz_ii_12"]
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Akta radzieckie i komturskie w Archiwum Państwowym w Bydgoszczy (Oddział Grudziądz). AHMP Tom II — zeszyt grudziądzki.",
+      "tekst": "**Archiwalia:** Archiwum Państwowe w Bydgoszczy, Oddział w Grudziądzu przechowuje akta radzieckie i kupieckie z okresu nowożytnego. Dawniejsze dokumenty krzyżackie i pruskie znalazły się po 1945 r. w Berlinie (Geheimes Staatsarchiv).\n\n**Źródła kartograficzne:** Plan katastralny (1906–1907) i rekonstrukcja historyczna (AHMP II 2–3) dokumentują układ historyczny. Plany twierdzy z 1785 r. i 1812 r. (AHMP II 13–15) ilustrują XIX-wieczne fortyfikacje. Plan z 1781 r. (AHMP II 9) to najstarszy szczegółowy plan miasta.\n\n**Ważniejsze opracowania:**\n- K. Bruski (red.), *Historia Grudziądza*, Grudziądz 2012\n- J. Tandecki, *Atlas historyczny miast polskich, t. II: Prusy Królewskie, z. Grudziądz*, Toruń 1997\n- Z. Zdrójkowski, *Dzieje miasta Grudziądza*, Bydgoszcz 1975\n\n**Badania archeologiczne:** Wykopaliska przy zamku krzyżackim i Starym Mieście — odkryto XIII–XVI-wieczne relikty zabudowy i wyposażenia.",
+      "mapy": ["ahmp_grudziadz_ii_3", "ahmp_grudziadz_ii_18"]
+    }
+  }
+}

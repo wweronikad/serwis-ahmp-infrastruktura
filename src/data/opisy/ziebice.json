@@ -1,0 +1,54 @@
+{
+  "cityId": "ziebice",
+  "epoka": "XIII–XIX w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Miasto lokacyjne z połowy XIII w. na stoku wzgórz — regularny prostokątny rynek, siatka ulic, kościół parafialny na wzniesieniu, zamek przy murach. Jedno z najlepiej zachowanych historycznych miast Dolnego Śląska.",
+      "tekst": "Ziębice (niem. Münsterberg) lokowano najpóźniej w połowie XIII w., przy czym w 1253 r. osada pojawia się już w źródłach jako uformowane miasto z wójtem dziedzicznym. Miasto założono na wzgórzach nad Oławą, na wysokości 210–222 m n.p.m., na południowym skraju Kotliny Henrykowskiej.\n\nUkład przestrzenny Ziębic oparty jest na regularnym prostokątnym rynku z ratuszem pośrodku, od którego wybiegają ulice ku bramom miejskim. Kościół parafialny pw. św. Jerzego (dziś pw. Nawiedzenia NMP) ulokowano na wzniesieniu po północno-wschodniej stronie rynku, co nadało mu cechę dominanty krajobrazowej widocznej z odległości wielu kilometrów.\n\nMury miejskie i zamek przy bramie wschodniej stanowiły o obronności Ziębic. Plan katastralny z ok. 1920 r. oraz rekonstrukcja historyczna (AHMP Ziębice II 3) dokumentują niemal niezmieniony układ lokacyjny — układ ulic i podział na działki zachowały historyczny charakter. Podobną ciągłość wykazują kamienice przyrynkowe ze sklepionymi przyziemiami.",
+      "mapy": ["ahmp_ziebice_ii_1", "ahmp_ziebice_ii_3"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Dobrze zachowane mury miejskie z XIII–XIV w. z basztami i dwiema bramami. Zamek usytuowany przy wschodniej bramie — siedziba książąt ziębickich, później przekształcony w renesansowy pałac.",
+      "tekst": "Fortyfikacje Ziębic rozwijały się od końca XIII do XV w. Mury miejskie wzniesione z cegły i kamienia otaczały miasto na owalnym obwodzie, wzmocnionym basztami prostokątnymi i półcylindrycznymi. Do naszych czasów przetrwała znaczna część obwodu murów, w tym Baszta Wrotna i Baszta Bociania.\n\nDwie główne bramy — Ziębicka od wschodu i Ząbkowicka od zachodu — kontrolowały ruch na głównym trakcie przez miasto. Przy bramie wschodniej usytuowany był zamek — siedziba książąt ziębickich, którzy od ok. 1300 r. posiadali tu kasztelanię, a od 1321 r. odrębne księstwo.\n\nZamek był wielokrotnie przebudowywany. W XVI w. otrzymał cechy renesansowe. W XIX w., gdy fortyfikacje utraciły znaczenie militarne, na miejscu zamku wzniesiono klasycystyczny kościół ewangelicki (1838) — przekształcenie o trwałych skutkach dla sylwety miasta. Mury miejskie stopniowo rozebrano, choć fragmenty przetrwały do dziś, tworząc jeden z lepiej zachowanych zespołów umocnień miejskich na Dolnym Śląsku.",
+      "mapy": ["ahmp_ziebice_ii_3", "ahmp_ziebice_ii_4"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Kościół parafialny z XIII-wiecznym wczesnogotyckim korpusem nawowym i XIV-wiecznym prezbiterium. Klasztor franciszkanów z XIII w. Kościół ewangelicki z 1838 r. na miejscu zamku.",
+      "tekst": "**Kościół parafialny pw. Nawiedzenia NMP** (dawniej pw. św. Jerzego) jest architektonicznym sercem Ziębic. Jego dwunawowy, wczesnogotycki korpus nawowy pochodzi z XIII w. i zalicza się do cenniejszych przykładów wczesnogotyckich wnętrz halowych na Śląsku. Prezbiterium dobudowano w XIV w. W późnym średniowieczu kościół otoczono kaplicami. Na fasadzie widnieje rozeta nawiązująca do średniowiecznego wizerunku z pieczęci miejskiej. Wieżę przebudowano na przełomie XIX/XX w., przywracając jej formę nawiązującą do gotyku i do wspomnianych pieczęci.\n\n**Klasztor franciszkanów** — fundacja książęca z XIII w., wzmiankowana od 1307 r. przez gwardiana. Kościół klasztorny zachował się w zbliżonej formie do późnogotyckiej.\n\n**Kościół ewangelicki** — wzniesiony w 1838 r. na miejscu rozebrego zamku, w stylu klasycystycznym. Stanowi charakterystyczną dominantę wschodniej części centrum.\n\n**Szpital i kościół Krzyżowców z Gwiazdą** — od 1282 r. szpital prowadzony przez zakon Krzyżowców z Gwiazdą ze Wrocławia obsługiwał chorych i pielgrzymów. W 1299 r. wymieniony jest komtur ziębicki.",
+      "mapy": ["ahmp_ziebice_ii_4", "ahmp_ziebice_ii_5"]
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Miasto lokacyjne z osadnikami niemieckimi; od XIII w. wzmiankowana społeczność żydowska. Głęboka degradacja od XVII w. po wojnach śląskich i zarazy. Stabilizacja dopiero w XIX w.",
+      "tekst": "W chwili lokacji Ziębice zamieszkane były przez osadników napływających w ramach XIII-wiecznej kolonizacji niemieckiej, prowadzonej na terenach opactwa henrykowskiego i miejscowego rycerstwa. Miasto szybko urosło do rangi ośrodka regionalnego z własnym dworem, cechem i sądem.\n\nOd 1285 r. — wcześnie jak na śląskie warunki i prawie równocześnie ze Świdnicą — pojawiają się w źródłach wzmianki o ziębickich Żydach udzielających kredytu pod zastaw. Gmina żydowska funkcjonowała w mieście przez kilka stuleci.\n\nW XIV w. Ziębice były siedzibą małego księstwa (do 1321 r.) i centrum handlu regionalnego. Rozkwit przypadł na XIV–XV w. Stopniowa degradacja nastąpiła od XVII w.: zniszczenia wojenne podczas wojen śląskich (1740–1763) i epidemie doprowadziły do wyraźnego wyludnienia. W XIX w. populacja ustabilizowała się na poziomie ok. 5–6 tys. mieszkańców, a Ziębice stały się lokalnym centrum przemysłowo-usługowym.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Targi i handel towarami z obszaru Kotliny Henrykowskiej; rzemiosło tkackie i garbarskie. Mennica książęca od 1268 r. Tradycja browarnicza trwała przez wieki.",
+      "tekst": "Ziębice od chwili lokacji sprawowały funkcję centrum handlowego i rzemieślniczego dla okręgu Kotliny Henrykowskiej i sąsiednich ziem. W 1268 r. wymieniona jest tu mennica książęca — jeden z dowodów na ekonomiczną wagę miasta w 2. poł. XIII w.\n\nW 1293 r. mieszczanie ziębiccy sprzeciwiali się działalności tkackiej i sukienniczej klasztoru henrykowskiego, co świadczy o sile miejscowych cechów i ich świadomości prawa do wyłączności na rzemiosło w okręgu. Wśród udokumentowanych rzemiosł dominowały tkactwo, garncarstwo, szewstwo i garbarstwo.\n\nW XIX w. miasto rozwijało przemysł lekki — wyroby tekstylne i spożywcze. Trzy dominujące elementy układu przestrzennego z przełomu XIX/XX w. to historyczne śródmieście, tereny przemysłowe i rozległy park dworski — świadectwo typowego dla prowincjonalnych miast śląskich modelu urbanistycznego.\n\nZiębice posiadały od 1291 r. w pełni uformowane instytucje samorządowe: radę z burmistrzem (od 1297 r.) i ławę sądową, co świadczy o zaawansowanej organizacji komunalnej.",
+      "mapy": ["ahmp_ziebice_ii_6"]
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Siedziba kasztelana od 1300 r., następnie centrum małego Księstwa Ziębickiego (Münsterberskiego). Po 1428 r. pod władzą Luksemburgów i Habsburgów. Po 1742 r. w Prusach.",
+      "tekst": "Ziębice były centrum okręgu (weichbildu) już w 2. poł. XIII w. W 1291 r. działała rada z wójtem, zastępcą, pięcioma rajcami i ławnikami — pełny ustrój komunalny. Od 1300 r. istniał urząd kasztelana ziębickiego, co wskazuje na zamek jako siedzibę władzy książęcej.\n\nOk. 1290–1321 r. wydzielono odrębne Księstwo Ziębickie (Münsterberskie). Jego władcy nosili tytuł panów Ziębic, a następnie — od XIV w. — książąt ziębickich. Po wymarciu dynastii księstwo przechodziło kolejno pod władzę Luksemburgów (1428), Podiebradów czeskich i Habsburgów. W 1742 r. — po wojnach śląskich Fryderyka II — Ziębice przeszły do Prus.\n\nPod panowaniem pruskim miasto stało się siedzibą powiatu, ale utraciło dawne znaczenie jako centrum dawnego księstwa. Administracja pruska, a później prusko-niemiecka utrzymała tradycyjny podział terytorialny, w ramach którego Ziębice funkcjonowały aż do 1945 r.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Kotlina Henrykowska u wylotu górnego odcinka doliny Oławy — wzgórza Strzelińskie od północnego wschodu, Wysoczyzna Ziębicka od południa. Malownicze położenie na stoku wzgórz.",
+      "tekst": "Ziębice leżą na południowym skraju Kotliny Henrykowskiej u wylotu górnego odcinka doliny Oławy. Centrum miasta lokuje się na wysokości 210–222 m n.p.m. Od północnego wschodu opadają stoki Wzgórz Strzelińskich, od południa zaś wznoszą się wzgórza Wysoczyzny Ziębickiej — mikroregionów Wzgórz Niemczańsko-Strzelińskich na Przedgórzu Sudeckim.\n\nRzeka Oława płynąca przez miasto zapewniała wodę dla młynów i rzemiosła. Wzgórza otaczające Ziębice kształtowały obronność miasta — kościół parafialny na wzniesieniu stanowił naturalną dominantę widoczną ze wszystkich stron.\n\nMalownicze usytuowanie miasta na stoku wzgórz, podkreślające wzajemne relacje kościoła, ratusza i kamieniczek, jest jednym z głównych walorów krajobrazowych Ziębic. Ten historyczny pejzaż urbanistyczny zachowany jest w dużej mierze do dziś, co czyni Ziębice wyjątkowym przykładem niezmienionej tkanki średniowiecznego i nowożytnego miasta Dolnego Śląska.",
+      "mapy": ["ahmp_ziebice_ii_15", "ahmp_ziebice_ii_16"]
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Źródła w Archiwum Państwowym we Wrocławiu. Podstawowe opracowania: R. Eysymontt i M. Goliński, AHMP Ziębice II. Kronika klasztoru henrykowskiego jako pośrednie źródło o Ziębicach.",
+      "tekst": "**Archiwalia:** Archiwum Państwowe we Wrocławiu przechowuje dokumenty dotyczące Ziębic, w tym akta radzieckie, dokumenty cechowe i materiały katastralne. Najstarsze dokumenty bezpośrednio dotyczące Ziębic pochodzą z 1253 r. Istotnym źródłem pośrednim jest *Księga Henrykowska* (Liber fundationis clausuri Sancte Marie Virginis in Heinrichow), kronika opactwa cysterskiego z pobliskiego Henrykowa, wielokrotnie wspominająca Ziębice i ich mieszkańców.\n\n**Ważniejsze opracowania:**\n- R. Eysymontt, M. Goliński, *Atlas historyczny miast polskich, t. IV: Śląsk, z. 13: Ziębice*, Wrocław 2013 — kompletna analiza urbanistyczna i historyczna\n- W. Kuhn, *Stadtgründungen in Schlesien*, Silesia 1965 — kontekst dla lokacji śląskich miast XIII w.\n- H. Appelt (red.), *Regesten zur schlesischen Geschichte*, Breslau 1875–1925 — podstawowe źródło dyplomatyczne\n\n**Badania urbanistyczne:** Rekonstrukcja przestrzenna (AHMP II 3) dokumentuje ciągłość układu lokacyjnego od XIII w. do dziś — niezwykła rzadkość w skali regionu.",
+      "mapy": ["ahmp_ziebice_ii_3", "ahmp_ziebice_ii_4"]
+    }
+  }
+}

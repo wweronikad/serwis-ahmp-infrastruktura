@@ -1,0 +1,187 @@
+# OCR pipeline for AHMP historical maps.
+# Downloads map PDFs from atlasmiast.umk.pl, runs Tesseract, saves JSON to public/ocr/.
+#
+# Usage:
+#   py scripts/ocr_maps.py                   # process all cities
+#   py scripts/ocr_maps.py biecz torun       # process specific cities
+#
+# Requirements:
+#   pip install pytesseract pdf2image pillow requests
+#   Tesseract 5+ at C:\Program Files\Tesseract-OCR\tesseract.exe
+#   Poppler at C:\poppler\poppler-24.08.0\Library\bin
+#   tessdata_best models: pol, deu, lat
+
+import os, sys, json, re, time, hashlib
+import requests
+from pathlib import Path
+from PIL import Image, ImageFilter, ImageEnhance
+from pdf2image import convert_from_path
+import pytesseract
+
+# ── Config ────────────────────────────────────────────────────────────────────
+pytesseract.pytesseract.tesseract_cmd = r'C:\Program Files\Tesseract-OCR\tesseract.exe'
+POPPLER      = r'C:\poppler\poppler-24.08.0\Library\bin'
+DPI          = 300
+LANG         = 'pol+deu+lat'
+CONF_MIN     = 55       # discard words with confidence below this
+LEN_MIN      = 3        # discard tokens shorter than this
+OUT_DIR      = Path(r'C:\Users\wer\Desktop\Serwis\public\ocr')
+CACHE_DIR    = Path(r'C:\Users\wer\AppData\Local\Temp\ahmp_pdf_cache')
+CITIES_JS    = Path(r'C:\Users\wer\Desktop\Serwis\src\data\cities.js')
+
+CACHE_DIR.mkdir(parents=True, exist_ok=True)
+OUT_DIR.mkdir(parents=True, exist_ok=True)
+
+GARBAGE = re.compile(
+    r'^[^a-zA-ZąćęłńóśźżĄĆĘŁŃÓŚŹŻa-zäöüßÄÖÜ]*$'  # no letters at all
+    r'|.*\d{3,}'                                     # 3+ consecutive digits
+)
+
+# ── Parse cities.js with a simple regex (no JS interpreter needed) ─────────────
+def load_maps():
+    src = CITIES_JS.read_text(encoding='utf-8')
+
+    city_re  = re.compile(r"id:\s*'([^']+)'")
+    map_re   = re.compile(r"\{\s*id:\s*'([^']+)'[^}]*?pdfUrl:\s*'([^']+)'", re.S)
+
+    city_ids = city_re.findall(src)
+
+    result = []
+    for m in map_re.finditer(src):
+        map_id  = m.group(1)
+        pdf_url = m.group(2)
+        parts = map_id.split('_')
+        city_id = None
+        for cid in city_ids:
+            slug = cid.replace('-', '_')
+            if map_id.startswith(f'ahmp_{slug}_') or map_id.startswith(f'ahmp_{slug}'):
+                city_id = cid
+                break
+        if city_id:
+            result.append({'cityId': city_id, 'mapId': map_id, 'pdfUrl': pdf_url})
+    return result
+
+
+def download_pdf(url, dest):
+    if dest.exists():
+        return True
+    try:
+        r = requests.get(url, timeout=60, stream=True)
+        if r.status_code != 200:
+            print(f'    HTTP {r.status_code}')
+            return False
+        with open(dest, 'wb') as f:
+            for chunk in r.iter_content(65536):
+                f.write(chunk)
+        return True
+    except Exception as e:
+        print(f'    Download error: {e}')
+        return False
+
+
+def preprocess(img):
+    img = img.convert('L')
+    img = ImageEnhance.Contrast(img).enhance(2.5)
+    img = img.filter(ImageFilter.SHARPEN)
+    return img
+
+
+def ocr_image(img):
+    W, H = img.size
+    proc = preprocess(img)
+    data = pytesseract.image_to_data(
+        proc, lang=LANG,
+        config='--psm 11 --oem 1',
+        output_type=pytesseract.Output.DICT
+    )
+    words = []
+    seen  = set()
+    for i, text in enumerate(data['text']):
+        txt  = text.strip()
+        conf = int(data['conf'][i])
+        if (not txt or conf < CONF_MIN or len(txt) < LEN_MIN
+                or GARBAGE.match(txt) or txt in seen):
+            continue
+        seen.add(txt)
+        words.append({
+            'text': txt,
+            'conf': conf,
+            'x':    round(data['left'][i] / W, 4),
+            'y':    round(data['top'][i]  / H, 4),
+        })
+    return words
+
+
+def process_map(entry, filter_cities=None):
+    city_id = entry['cityId']
+    map_id  = entry['mapId']
+    pdf_url = entry['pdfUrl']
+
+    if filter_cities and city_id not in filter_cities:
+        return
+
+    out_path = OUT_DIR / city_id / f'{map_id}.json'
+    if out_path.exists():
+        print(f'  SKIP  {map_id}  (cached)')
+        return
+
+    print(f'  OCR   {map_id}')
+
+    pdf_name = hashlib.md5(pdf_url.encode()).hexdigest() + '.pdf'
+    pdf_path = CACHE_DIR / pdf_name
+    if not download_pdf(pdf_url, pdf_path):
+        print(f'        FAIL download')
+        return
+
+    try:
+        pages = convert_from_path(str(pdf_path), dpi=DPI, poppler_path=POPPLER)
+    except Exception as e:
+        print(f'        FAIL convert: {e}')
+        return
+
+    all_words = []
+    for page in pages:
+        all_words.extend(ocr_image(page))
+
+    # Deduplicate across pages
+    seen  = set()
+    dedup = []
+    for w in all_words:
+        if w['text'] not in seen:
+            seen.add(w['text'])
+            dedup.append(w)
+
+    dedup.sort(key=lambda w: -w['conf'])
+
+    out_path.parent.mkdir(parents=True, exist_ok=True)
+    out_path.write_text(
+        json.dumps({'mapId': map_id, 'cityId': city_id, 'words': dedup},
+                   ensure_ascii=False, separators=(',', ':')),
+        encoding='utf-8'
+    )
+    print(f'        {len(dedup)} words -> {out_path.name}')
+
+
+# ── Main ──────────────────────────────────────────────────────────────────────
+if __name__ == '__main__':
+    args = [a for a in sys.argv[1:] if not a.startswith('--')]
+    filter_cities = set(args) if args else None
+
+    maps = load_maps()
+    print(f'Loaded {len(maps)} maps from cities.js')
+    if filter_cities:
+        subset = [m for m in maps if m['cityId'] in filter_cities]
+        print(f'Filtered to {len(subset)} maps for: {", ".join(filter_cities)}')
+    else:
+        subset = maps
+
+    by_city = {}
+    for m in subset:
+        by_city.setdefault(m['cityId'], []).append(m)
+
+    for city_id, city_maps in sorted(by_city.items()):
+        print(f'\n[{city_id}] — {len(city_maps)} maps')
+        for entry in city_maps:
+            process_map(entry)
+
+    print('\nDone.')

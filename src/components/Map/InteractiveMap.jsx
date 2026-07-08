@@ -2,6 +2,42 @@ import { useEffect, useRef, useState, useCallback } from 'react'
 import maplibregl from 'maplibre-gl'
 import { WarpedMapLayer } from '@allmaps/maplibre'
 import 'maplibre-gl/dist/maplibre-gl.css'
+import { asset } from '../../utils/asset'
+
+// Compute affine transform (least squares) from image pixels → [lon, lat]
+function computeAffine(gcps) {
+  if (gcps.length < 3) return () => [gcps[0]?.lon ?? 0, gcps[0]?.lat ?? 0]
+  let s1=0,sPx=0,sPy=0,sPx2=0,sPxPy=0,sPy2=0
+  let sLon=0,sLonPx=0,sLonPy=0,sLat=0,sLatPx=0,sLatPy=0
+  for (const {px,py,lon,lat} of gcps) {
+    s1+=1; sPx+=px; sPy+=py; sPx2+=px*px; sPxPy+=px*py; sPy2+=py*py
+    sLon+=lon; sLonPx+=lon*px; sLonPy+=lon*py
+    sLat+=lat; sLatPx+=lat*px; sLatPy+=lat*py
+  }
+  const ATA = [[s1,sPx,sPy],[sPx,sPx2,sPxPy],[sPy,sPxPy,sPy2]]
+  function solve3(M, b) {
+    const A = M.map((r,i) => [...r, b[i]])
+    for (let col=0; col<3; col++) {
+      let mx=col
+      for (let r=col+1; r<3; r++) if (Math.abs(A[r][col])>Math.abs(A[mx][col])) mx=r
+      ;[A[col],A[mx]]=[A[mx],A[col]]
+      for (let r=col+1; r<3; r++) {
+        const f=A[r][col]/A[col][col]
+        for (let c=col; c<=3; c++) A[r][c]-=f*A[col][c]
+      }
+    }
+    const x=[0,0,0]
+    for (let r=2; r>=0; r--) {
+      x[r]=A[r][3]
+      for (let c=r+1; c<3; c++) x[r]-=A[r][c]*x[c]
+      x[r]/=A[r][r]
+    }
+    return x
+  }
+  const lc = solve3(ATA,[sLon,sLonPx,sLonPy])
+  const lac = solve3(ATA,[sLat,sLatPx,sLatPy])
+  return (px,py) => [lc[0]+lc[1]*px+lc[2]*py, lac[0]+lac[1]*px+lac[2]*py]
+}
 
 // ── Basemap definitions ───────────────────────────────────────────────────
 
@@ -57,7 +93,7 @@ const EMPTY_FC = { type: 'FeatureCollection', features: [] }
 
 // ── Component ─────────────────────────────────────────────────────────────
 
-export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.85, galleryPhotos, galleryBasePath = '', onPhotoClick, onMapReady, pinsVisible = true }) {
+export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.85, galleryPhotos, galleryBasePath = '', onPhotoClick, onMapReady, pinsVisible = true, highlightQuery = '', highlightMapId = null, onClearHighlight }) {
   const containerRef = useRef(null)
   const mapRef      = useRef(null)
   const layerRef    = useRef(null)
@@ -89,6 +125,7 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
   const [measuring,  setMeasuring]    = useState(false)
   const [measureInfo, setMeasureInfo] = useState({ total: 0, count: 0 }) // reactive display
   const [bearing,    setBearing]      = useState(0)
+  const [ocrHitCount, setOcrHitCount] = useState(0)
   // pinsVisible controlled by parent via prop
 
   // ── Map init ─────────────────────────────────────────────────────────────
@@ -185,6 +222,44 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
         paint: {
           'text-color': '#1a2942',
           'text-halo-color': '#ffffff',
+          'text-halo-width': 2,
+        },
+      })
+
+      // ── OCR word highlight layers ─────────────────────────────────────────
+      map.addSource('ocr-hits', { type: 'geojson', data: { ...EMPTY_FC } })
+      map.addLayer({
+        id: 'ocr-hits-outer', type: 'circle', source: 'ocr-hits',
+        paint: {
+          'circle-radius': 18,
+          'circle-color': '#f7c948',
+          'circle-opacity': 0.22,
+          'circle-stroke-color': '#f7c948',
+          'circle-stroke-width': 2,
+          'circle-stroke-opacity': 0.7,
+        },
+      })
+      map.addLayer({
+        id: 'ocr-hits-inner', type: 'circle', source: 'ocr-hits',
+        paint: {
+          'circle-radius': 6,
+          'circle-color': '#f7c948',
+          'circle-stroke-color': '#1a2942',
+          'circle-stroke-width': 1.5,
+        },
+      })
+      map.addLayer({
+        id: 'ocr-hits-label', type: 'symbol', source: 'ocr-hits',
+        layout: {
+          'text-field': ['get', 'word'],
+          'text-size': 11,
+          'text-anchor': 'top',
+          'text-offset': [0, 1.4],
+          'text-font': ['Open Sans Bold', 'Arial Unicode MS Regular'],
+        },
+        paint: {
+          'text-color': '#1a2942',
+          'text-halo-color': '#fff',
           'text-halo-width': 2,
         },
       })
@@ -479,6 +554,73 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
     })
   }, [pinsVisible])
 
+  // ── OCR word highlight ────────────────────────────────────────────────────
+
+  useEffect(() => {
+    if (!layerReady || !mapRef.current) return
+    const map = mapRef.current
+
+    // Always clear old hits first
+    map.getSource('ocr-hits')?.setData({ ...EMPTY_FC })
+    setOcrHitCount(0)
+
+    if (!highlightQuery || !city?.id || !highlightMapId || !activeAnnotationUrl) return
+
+    const ocrUrl = asset(`ocr/${city.id}/${highlightMapId}.json`)
+
+    Promise.all([
+      fetch(ocrUrl).then(r => { if (!r.ok) throw new Error('no OCR'); return r.json() }),
+      fetch(activeAnnotationUrl).then(r => r.json()),
+    ]).then(([ocrData, annotation]) => {
+      const item = annotation?.items?.[0]
+      if (!item) return
+
+      const imgW = item.target?.source?.width
+      const imgH = item.target?.source?.height
+      if (!imgW || !imgH) return
+
+      const gcps = (item.body?.features ?? []).map(f => ({
+        px:  f.properties.resourceCoords[0],
+        py:  f.properties.resourceCoords[1],
+        lon: f.geometry.coordinates[0],
+        lat: f.geometry.coordinates[1],
+      }))
+      if (gcps.length < 3) return
+
+      const transform = computeAffine(gcps)
+      const qLower = highlightQuery.toLowerCase()
+
+      // Find matching words (case-insensitive substring, confidence-sorted)
+      const hits = (ocrData.words ?? [])
+        .filter(w => w.text.toLowerCase().includes(qLower))
+        .slice(0, 30)
+
+      if (hits.length === 0) { setOcrHitCount(0); return }
+
+      const features = hits.map(w => {
+        const [lon, lat] = transform(w.x * imgW, w.y * imgH)
+        return {
+          type: 'Feature',
+          geometry: { type: 'Point', coordinates: [lon, lat] },
+          properties: { word: w.text, conf: w.conf },
+        }
+      })
+
+      map.getSource('ocr-hits')?.setData({ type: 'FeatureCollection', features })
+      setOcrHitCount(features.length)
+
+      // Fly to centroid of hits
+      const lons = features.map(f => f.geometry.coordinates[0])
+      const lats = features.map(f => f.geometry.coordinates[1])
+      const cx = lons.reduce((a,b)=>a+b,0)/lons.length
+      const cy = lats.reduce((a,b)=>a+b,0)/lats.length
+      map.flyTo({ center: [cx, cy], zoom: Math.max(map.getZoom(), 15), duration: 900 })
+    }).catch(() => {
+      // No OCR data for this map — silently skip
+      setOcrHitCount(0)
+    })
+  }, [layerReady, highlightQuery, highlightMapId, activeAnnotationUrl, city?.id]) // eslint-disable-line
+
   // ── Opacity sync ──────────────────────────────────────────────────────────
 
   useEffect(() => {
@@ -583,6 +725,24 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
       {error && (
         <div style={{ ...pill, background: 'rgba(255,235,235,0.95)', color: '#900' }}>
           {error}
+        </div>
+      )}
+
+      {/* ── OCR highlight badge ───────────────────────────────────────────── */}
+      {highlightQuery && (
+        <div style={ocrBadge}>
+          <span style={{ fontSize: 13 }}>🔍</span>
+          <span>
+            <strong style={{ color: '#f7c948' }}>{highlightQuery}</strong>
+            {ocrHitCount > 0
+              ? ` — ${ocrHitCount} ${ocrHitCount === 1 ? 'wynik' : ocrHitCount < 5 ? 'wyniki' : 'wyników'} na mapie`
+              : ' — brak wyników OCR na tej mapie'}
+          </span>
+          <button
+            onClick={onClearHighlight}
+            style={{ background: 'none', border: 'none', color: 'rgba(255,255,255,0.5)', cursor: 'pointer', fontSize: 14, lineHeight: 1, padding: '0 2px', marginLeft: 4 }}
+            title="Wyczyść podświetlenie"
+          >✕</button>
         </div>
       )}
     </div>
@@ -736,4 +896,25 @@ const spinner = {
   borderRadius: '50%',
   animation: 'spin 0.7s linear infinite',
   flexShrink: 0,
+}
+
+const ocrBadge = {
+  position: 'absolute',
+  top: '10px',
+  left: '50%',
+  transform: 'translateX(-50%)',
+  background: 'rgba(26,41,66,0.93)',
+  border: '1px solid rgba(247,201,72,0.5)',
+  borderRadius: '20px',
+  padding: '6px 14px',
+  display: 'flex',
+  alignItems: 'center',
+  gap: '7px',
+  boxShadow: '0 2px 12px rgba(0,0,0,0.4)',
+  fontSize: '12px',
+  color: 'rgba(255,255,255,0.85)',
+  whiteSpace: 'nowrap',
+  zIndex: 10,
+  fontFamily: 'var(--font-sans)',
+  pointerEvents: 'auto',
 }

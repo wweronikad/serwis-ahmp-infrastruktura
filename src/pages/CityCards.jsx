@@ -31,6 +31,315 @@ function CityBar({ cityId, onCityChange }) {
   )
 }
 
+// ── Small centered icons (use currentColor = kategoria.kolor) ────────────────
+
+const KATEGORIA_SVG = {
+  'uklad-przestrzenny': (
+    <svg viewBox="0 0 64 64" width="60" height="60" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
+      <rect x="22" y="22" width="20" height="20"/>
+      <line x1="32" y1="5" x2="32" y2="22"/>
+      <line x1="32" y1="42" x2="32" y2="59"/>
+      <line x1="5" y1="32" x2="22" y2="32"/>
+      <line x1="42" y1="32" x2="59" y2="32"/>
+    </svg>
+  ),
+  'fortyfikacje': (
+    <svg viewBox="0 0 64 64" width="60" height="60" fill="currentColor" aria-hidden="true">
+      <path fillRule="evenodd" d="M8,60 L8,22 L17,22 L17,30 L27,30 L27,22 L37,22 L37,30 L47,30 L47,22 L56,22 L56,60 Z M24,60 L24,46 Q32,36 40,46 L40,60 Z"/>
+    </svg>
+  ),
+  'koscioly': (
+    <svg viewBox="0 0 64 64" width="60" height="60" fill="currentColor" aria-hidden="true">
+      <rect x="29" y="1" width="6" height="12"/>
+      <rect x="25" y="5" width="14" height="5"/>
+      <polygon points="26,38 32,8 38,38"/>
+      <polygon points="8,38 56,38 32,26"/>
+      <path fillRule="evenodd" d="M8,38 L56,38 L56,60 L8,60 Z M24,60 L24,47 Q32,39 40,47 L40,60 Z"/>
+    </svg>
+  ),
+  'ludnosc': (
+    <svg viewBox="0 0 64 64" width="60" height="60" fill="currentColor" aria-hidden="true">
+      <circle cx="14" cy="15" r="6"/>
+      <rect x="6" y="26" width="14" height="28" rx="3"/>
+      <circle cx="32" cy="10" r="7"/>
+      <rect x="23" y="22" width="18" height="32" rx="3"/>
+      <circle cx="50" cy="15" r="6"/>
+      <rect x="44" y="26" width="14" height="28" rx="3"/>
+    </svg>
+  ),
+  'gospodarka': (
+    <svg viewBox="0 0 64 64" width="60" height="60" fill="currentColor" aria-hidden="true">
+      <rect x="30" y="14" width="4" height="42" rx="2"/>
+      <rect x="18" y="54" width="28" height="4" rx="2"/>
+      <rect x="8" y="20" width="48" height="4" rx="2"/>
+      <circle cx="32" cy="20" r="6"/>
+      <rect x="8" y="24" width="3" height="14" rx="1"/>
+      <rect x="53" y="24" width="3" height="14" rx="1"/>
+      <path d="M3,38 Q9.5,52 16,38 Z"/>
+      <path d="M48,38 Q54.5,52 61,38 Z"/>
+    </svg>
+  ),
+  'wladza': (
+    <svg viewBox="0 0 64 64" width="60" height="60" fill="currentColor" aria-hidden="true">
+      <path d="M6,50 L6,36 L18,46 L32,22 L46,46 L58,36 L58,50 Z"/>
+      <rect x="6" y="50" width="52" height="8" rx="2"/>
+    </svg>
+  ),
+  'srodowisko': (
+    <svg viewBox="0 0 64 64" width="60" height="60" fill="none" stroke="currentColor" strokeWidth="2.5" strokeLinecap="round" aria-hidden="true">
+      <path d="M2,42 Q32,8 62,42"/>
+      <path d="M4,52 Q12,46 20,52 Q28,58 36,52 Q44,46 52,52 Q58,56 60,54"/>
+      <path d="M2,60 Q12,54 22,60 Q32,66 42,58 Q52,52 62,58"/>
+    </svg>
+  ),
+  'zrodla': (
+    <svg viewBox="0 0 64 64" width="60" height="60" fill="currentColor" aria-hidden="true">
+      <ellipse cx="32" cy="14" rx="20" ry="6"/>
+      <ellipse cx="32" cy="50" rx="20" ry="6"/>
+      <path fillRule="evenodd" d="M12,14 L52,14 L52,50 L12,50 Z M18,24 L46,24 L46,27 L18,27 Z M18,31 L46,31 L46,34 L18,34 Z M18,38 L46,38 L46,41 L18,41 Z M18,44 L36,44 L36,47 L18,44 Z"/>
+    </svg>
+  ),
+}
+
+// ── Full-bleed vector thumbnails for three categories ────────────────────────
+
+const NV = '#1a2942'
+const BG = '#edeadf'
+
+const KATEGORIA_THUMB = {
+  'uklad-przestrzenny': (
+    <svg viewBox="0 0 400 400" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <defs>
+        <filter id="recolor-plan" colorInterpolationFilters="sRGB">
+          {/* black(0,0,0)→navy(26,41,66) white(255,255,255)→cream(237,234,223) */}
+          <feColorMatrix type="matrix" values="0.827 0 0 0 0.102  0 0.757 0 0 0.161  0 0 0.616 0 0.259  0 0 0 1 0"/>
+        </filter>
+      </defs>
+      <rect width="400" height="400" fill={BG}/>
+      <image
+        href={asset('miniaturki-kart/uklad-przestrzenny-v2.png')}
+        x="0" y="0" width="400" height="400"
+        preserveAspectRatio="xMidYMid slice"
+        filter="url(#recolor-plan)"
+      />
+    </svg>
+  ),
+  'fortyfikacje': (
+    <svg viewBox="0 0 400 400" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <rect width="400" height="400" fill={BG}/>
+      {/* left tower */}
+      <rect x="0" y="100" width="110" height="300" fill={NV}/>
+      <rect x="5" y="40" width="28" height="62" fill={NV}/>
+      <rect x="43" y="40" width="28" height="62" fill={NV}/>
+      <rect x="80" y="40" width="28" height="62" fill={NV}/>
+      <rect x="47" y="155" width="12" height="60" fill={BG}/>
+      <rect x="38" y="178" width="30" height="12" fill={BG}/>
+      <rect x="47" y="265" width="12" height="60" fill={BG}/>
+      <rect x="38" y="288" width="30" height="12" fill={BG}/>
+      {/* right tower */}
+      <rect x="290" y="100" width="110" height="300" fill={NV}/>
+      <rect x="292" y="40" width="28" height="62" fill={NV}/>
+      <rect x="330" y="40" width="28" height="62" fill={NV}/>
+      <rect x="368" y="40" width="28" height="62" fill={NV}/>
+      <rect x="341" y="155" width="12" height="60" fill={BG}/>
+      <rect x="332" y="178" width="30" height="12" fill={BG}/>
+      <rect x="341" y="265" width="12" height="60" fill={BG}/>
+      <rect x="332" y="288" width="30" height="12" fill={BG}/>
+      {/* connecting wall */}
+      <rect x="110" y="160" width="180" height="240" fill={NV}/>
+      <rect x="115" y="100" width="32" height="62" fill={NV}/>
+      <rect x="159" y="100" width="32" height="62" fill={NV}/>
+      <rect x="209" y="100" width="32" height="62" fill={NV}/>
+      <rect x="253" y="100" width="32" height="62" fill={NV}/>
+      {/* gate arch */}
+      <path d="M152,400 L152,278 A48,52 0,0,1 248,278 L248,400 Z" fill={BG}/>
+      <rect x="193" y="190" width="14" height="30" fill={BG}/>
+      <rect x="186" y="197" width="28" height="10" fill={BG}/>
+    </svg>
+  ),
+  'koscioly': (
+    <svg viewBox="0 0 400 400" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <rect width="400" height="400" fill={BG}/>
+      {/* left tower spire + body */}
+      <polygon points="0,110 50,8 100,110" fill={NV}/>
+      <rect x="0" y="110" width="100" height="290" fill={NV}/>
+      <rect x="46" y="6" width="8" height="24" fill={BG}/>
+      <rect x="38" y="16" width="24" height="7" fill={BG}/>
+      <path d="M16,250 L16,155 A34,34 0,0,1 84,155 L84,250 Z" fill={BG}/>
+      <path d="M50,130 L18,188 A32,11 0,0,0 82,188 L50,130 Z" fill={NV}/>
+      {/* right tower spire + body */}
+      <polygon points="300,110 350,8 400,110" fill={NV}/>
+      <rect x="300" y="110" width="100" height="290" fill={NV}/>
+      <rect x="346" y="6" width="8" height="24" fill={BG}/>
+      <rect x="338" y="16" width="24" height="7" fill={BG}/>
+      <path d="M316,250 L316,155 A34,34 0,0,1 384,155 L384,250 Z" fill={BG}/>
+      <path d="M350,130 L318,188 A32,11 0,0,0 382,188 L350,130 Z" fill={NV}/>
+      {/* nave gable + body */}
+      <polygon points="100,165 200,78 300,165" fill={NV}/>
+      <rect x="100" y="165" width="200" height="235" fill={NV}/>
+      <circle cx="200" cy="125" r="24" fill={BG}/>
+      <circle cx="200" cy="125" r="9" fill={NV}/>
+      {/* entrance arch */}
+      <path d="M148,400 L148,298 A52,60 0,0,1 252,298 L252,400 Z" fill={BG}/>
+    </svg>
+  ),
+  'ludnosc': (
+    <svg viewBox="0 0 400 400" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <rect width="400" height="400" fill={BG}/>
+      {/* Top row: 4 tenement buildings, y=0–185 */}
+      <rect x="0" y="0" width="400" height="185" fill={NV}/>
+      <rect x="5" y="6" width="85" height="78" fill={BG}/>
+      <rect x="5" y="100" width="85" height="78" fill={BG}/>
+      <rect x="96" y="0" width="10" height="185" fill={BG}/>
+      <rect x="108" y="6" width="85" height="78" fill={BG}/>
+      <rect x="108" y="100" width="85" height="78" fill={BG}/>
+      <rect x="199" y="0" width="10" height="185" fill={BG}/>
+      <rect x="211" y="6" width="85" height="78" fill={BG}/>
+      <rect x="211" y="100" width="85" height="78" fill={BG}/>
+      <rect x="302" y="0" width="10" height="185" fill={BG}/>
+      <rect x="314" y="6" width="81" height="78" fill={BG}/>
+      <rect x="314" y="100" width="81" height="78" fill={BG}/>
+      {/* Street: y=185–215 (cream background) */}
+      {/* Bottom row: 4 tenement buildings, y=215–400 */}
+      <rect x="0" y="215" width="400" height="185" fill={NV}/>
+      <rect x="5" y="221" width="85" height="78" fill={BG}/>
+      <rect x="5" y="315" width="85" height="78" fill={BG}/>
+      <rect x="96" y="215" width="10" height="185" fill={BG}/>
+      <rect x="108" y="221" width="85" height="78" fill={BG}/>
+      <rect x="108" y="315" width="85" height="78" fill={BG}/>
+      <rect x="199" y="215" width="10" height="185" fill={BG}/>
+      <rect x="211" y="221" width="85" height="78" fill={BG}/>
+      <rect x="211" y="315" width="85" height="78" fill={BG}/>
+      <rect x="302" y="215" width="10" height="185" fill={BG}/>
+      <rect x="314" y="221" width="81" height="78" fill={BG}/>
+      <rect x="314" y="315" width="81" height="78" fill={BG}/>
+    </svg>
+  ),
+  'gospodarka': (
+    <svg viewBox="0 0 400 400" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <rect width="400" height="400" fill={BG}/>
+      {/* Warehouse / granary floor plan */}
+      <rect x="20" y="20" width="360" height="360" fill={NV}/>
+      {/* Central aisle (horizontal) */}
+      <rect x="20" y="178" width="360" height="44" fill={BG}/>
+      {/* 7 north storage bays */}
+      <rect x="28" y="28" width="46" height="142" fill={BG}/>
+      <rect x="82" y="28" width="46" height="142" fill={BG}/>
+      <rect x="136" y="28" width="46" height="142" fill={BG}/>
+      <rect x="190" y="28" width="46" height="142" fill={BG}/>
+      <rect x="244" y="28" width="46" height="142" fill={BG}/>
+      <rect x="298" y="28" width="46" height="142" fill={BG}/>
+      <rect x="352" y="28" width="20" height="142" fill={BG}/>
+      {/* 7 south storage bays */}
+      <rect x="28" y="230" width="46" height="142" fill={BG}/>
+      <rect x="82" y="230" width="46" height="142" fill={BG}/>
+      <rect x="136" y="230" width="46" height="142" fill={BG}/>
+      <rect x="190" y="230" width="46" height="142" fill={BG}/>
+      <rect x="244" y="230" width="46" height="142" fill={BG}/>
+      <rect x="298" y="230" width="46" height="142" fill={BG}/>
+      <rect x="352" y="230" width="20" height="142" fill={BG}/>
+    </svg>
+  ),
+  'wladza': (
+    <svg viewBox="0 0 400 400" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <rect width="400" height="400" fill={BG}/>
+      {/* Outer walls with inner courtyard */}
+      <path fillRule="evenodd" d="M 25 25 L 375 25 L 375 375 L 25 375 Z M 110 110 L 290 110 L 290 290 L 110 290 Z" fill={NV}/>
+      {/* Four corner towers */}
+      <rect x="0" y="0" width="60" height="60" fill={NV}/>
+      <rect x="340" y="0" width="60" height="60" fill={NV}/>
+      <rect x="0" y="340" width="60" height="60" fill={NV}/>
+      <rect x="340" y="340" width="60" height="60" fill={NV}/>
+      {/* Tower interiors (cream) */}
+      <rect x="8" y="8" width="44" height="44" fill={BG}/>
+      <rect x="348" y="8" width="44" height="44" fill={BG}/>
+      <rect x="8" y="348" width="44" height="44" fill={BG}/>
+      <rect x="348" y="348" width="44" height="44" fill={BG}/>
+      {/* Gate openings */}
+      <rect x="175" y="25" width="50" height="28" fill={BG}/>
+      <rect x="175" y="347" width="50" height="28" fill={BG}/>
+      <rect x="25" y="175" width="28" height="50" fill={BG}/>
+      <rect x="347" y="175" width="28" height="50" fill={BG}/>
+      {/* Central keep */}
+      <rect x="158" y="158" width="84" height="84" fill={NV}/>
+      <rect x="168" y="168" width="64" height="64" fill={BG}/>
+      <circle cx="200" cy="200" r="14" fill={NV}/>
+      <circle cx="200" cy="200" r="6" fill={BG}/>
+    </svg>
+  ),
+  'srodowisko': (
+    <svg viewBox="0 0 400 400" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <rect width="400" height="400" fill={BG}/>
+      {/* Topographic map: alternating filled ellipses (navy/cream rings) */}
+      <ellipse cx="200" cy="215" rx="196" ry="178" fill={NV}/>
+      <ellipse cx="200" cy="212" rx="162" ry="145" fill={BG}/>
+      <ellipse cx="200" cy="209" rx="128" ry="113" fill={NV}/>
+      <ellipse cx="200" cy="206" rx="94" ry="82" fill={BG}/>
+      <ellipse cx="200" cy="203" rx="60" ry="52" fill={NV}/>
+      <ellipse cx="200" cy="200" rx="28" ry="24" fill={BG}/>
+      <circle cx="200" cy="198" r="7" fill={NV}/>
+      {/* River valley cutting through the south-east */}
+      <path d="M 400 340 Q 310 305 240 330 Q 200 345 196 400 L 400 400 Z" fill={BG}/>
+    </svg>
+  ),
+  'zrodla': (
+    <svg viewBox="0 0 400 400" width="100%" height="100%" preserveAspectRatio="xMidYMid meet" aria-hidden="true">
+      <rect width="400" height="400" fill={NV}/>
+      {/* Open manuscript: two cream pages on navy background */}
+      {/* Left page */}
+      <rect x="16" y="20" width="174" height="360" fill={BG}/>
+      {/* Decorative initial capital */}
+      <rect x="26" y="28" width="28" height="22" fill={NV}/>
+      {/* Left page text lines */}
+      <rect x="26" y="58" width="154" height="7" fill={NV}/>
+      <rect x="26" y="74" width="154" height="7" fill={NV}/>
+      <rect x="26" y="90" width="110" height="7" fill={NV}/>
+      <rect x="26" y="106" width="154" height="7" fill={NV}/>
+      <rect x="26" y="122" width="154" height="7" fill={NV}/>
+      <rect x="26" y="138" width="130" height="7" fill={NV}/>
+      <rect x="26" y="154" width="154" height="7" fill={NV}/>
+      <rect x="26" y="170" width="154" height="7" fill={NV}/>
+      <rect x="26" y="186" width="90" height="7" fill={NV}/>
+      <rect x="26" y="202" width="154" height="7" fill={NV}/>
+      <rect x="26" y="218" width="154" height="7" fill={NV}/>
+      <rect x="26" y="234" width="154" height="7" fill={NV}/>
+      <rect x="26" y="250" width="120" height="7" fill={NV}/>
+      <rect x="26" y="266" width="154" height="7" fill={NV}/>
+      <rect x="26" y="282" width="154" height="7" fill={NV}/>
+      <rect x="26" y="298" width="75" height="7" fill={NV}/>
+      <rect x="26" y="314" width="154" height="7" fill={NV}/>
+      <rect x="26" y="330" width="154" height="7" fill={NV}/>
+      <rect x="26" y="346" width="100" height="7" fill={NV}/>
+      {/* Spine */}
+      <rect x="190" y="20" width="20" height="360" fill={NV}/>
+      {/* Right page */}
+      <rect x="210" y="20" width="174" height="360" fill={BG}/>
+      {/* Right page text lines */}
+      <rect x="220" y="28" width="154" height="7" fill={NV}/>
+      <rect x="220" y="44" width="154" height="7" fill={NV}/>
+      <rect x="220" y="60" width="130" height="7" fill={NV}/>
+      <rect x="220" y="76" width="154" height="7" fill={NV}/>
+      <rect x="220" y="92" width="154" height="7" fill={NV}/>
+      <rect x="220" y="108" width="95" height="7" fill={NV}/>
+      <rect x="220" y="124" width="154" height="7" fill={NV}/>
+      <rect x="220" y="140" width="154" height="7" fill={NV}/>
+      <rect x="220" y="156" width="154" height="7" fill={NV}/>
+      <rect x="220" y="172" width="110" height="7" fill={NV}/>
+      <rect x="220" y="188" width="154" height="7" fill={NV}/>
+      <rect x="220" y="204" width="154" height="7" fill={NV}/>
+      <rect x="220" y="220" width="85" height="7" fill={NV}/>
+      <rect x="220" y="236" width="154" height="7" fill={NV}/>
+      <rect x="220" y="252" width="154" height="7" fill={NV}/>
+      <rect x="220" y="268" width="154" height="7" fill={NV}/>
+      <rect x="220" y="284" width="140" height="7" fill={NV}/>
+      {/* Seal on right page */}
+      <circle cx="297" cy="340" r="32" fill={NV}/>
+      <circle cx="297" cy="340" r="23" fill={BG}/>
+      <circle cx="297" cy="340" r="9" fill={NV}/>
+    </svg>
+  ),
+}
+
 // ── Portrait card in grid ────────────────────────────────────────────────────
 
 function KartaCard({ kategoria, loaded, active, onClick }) {
@@ -62,9 +371,19 @@ function KartaCard({ kategoria, loaded, active, onClick }) {
           : '0 2px 8px rgba(0,0,0,0.10)',
       }}
     >
-      {/* Thumbnail area — category colour as background, large emoji centred */}
-      <div style={{ ...card.thumb, background: hasContent ? kategoria.kolorBg : '#e8e8e8' }}>
-        <span style={card.thumbIkona}>{kategoria.ikona}</span>
+      {/* Thumbnail area */}
+      <div style={{
+        ...card.thumb,
+        background: KATEGORIA_THUMB[kategoria.key] ? BG : (hasContent ? kategoria.kolorBg : '#e8e8e8'),
+        color: hasContent ? kategoria.kolor : '#aaa',
+      }}>
+        {KATEGORIA_THUMB[kategoria.key] ? (
+          <div style={{position: 'absolute', inset: 0}}>
+            {KATEGORIA_THUMB[kategoria.key]}
+          </div>
+        ) : (
+          KATEGORIA_SVG[kategoria.key]
+        )}
         <div style={{ position: 'absolute', bottom: 0, left: 0, right: 0, height: 3, background: kategoria.kolor }} />
       </div>
 
@@ -640,14 +959,13 @@ const card = {
   },
   thumb: {
     position: 'relative',
-    height: '130px',
+    height: '340px',
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'center',
     overflow: 'hidden',
     flexShrink: 0,
   },
-  thumbIkona: { fontSize: '48px', lineHeight: 1, filter: 'drop-shadow(0 2px 4px rgba(0,0,0,0.10))' },
   body: { padding: '16px 18px 18px', display: 'flex', flexDirection: 'column', gap: '8px', flex: 1 },
   header: { display: 'flex', justifyContent: 'space-between', alignItems: 'flex-start', gap: '8px' },
   nazwa: { fontSize: '18px', fontFamily: 'var(--font-serif)', color: 'var(--navy)', lineHeight: 1.25 },

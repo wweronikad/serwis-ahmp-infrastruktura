@@ -1,0 +1,54 @@
+{
+  "cityId": "niemcza",
+  "epoka": "XI–XVI w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Jedno z najstarszych miast Śląska — układ złożony z grodu na wzgórzu (XI–XIII w.) i młodszego miasta lokacyjnego u jego podnóża. Zachowany w skali i strukturze zbliżony do oryginału.",
+      "tekst": "Niemcza (niem. Nimptsch) należy do najstarszych miejskich ośrodków na Śląsku. Gród plemienny i kasztelański na wzgórzu istniał już w X–XI w. — wzmiankowany w kronikach jako ważna twierdza w starciach polsko-czeskich (oblężenie 1017 r. opisane przez Thietmara z Merseburga).\n\nLokacja miasta na prawie średzkim (prawem śląskim) nastąpiła ok. 2. poł. XIII w., gdy Niemcza stała się centrum małego okręgu. Miasto lokacyjne (podgrodzie) rozwinęło się u podnóża wzgórza zamkowego — z prostokątnym rynkiem, kościołem parafialnym i siatką ulic.\n\nRekonstrukcja historyczna (AHMP II 2a–2b) ukazuje dwie fazy: Niemczę w XI/XII–XIII w. z grodem, kościołem i osadą przy grodzie oraz późnośredniowieczne miasto lokacyjne z regularnym układem. Plan katastralny z 1934 r. dokumentuje zbliżony do historycznego układ, który nie uległ wielkim zmianom w XIX–XX w. ze względu na peryferyzację Niemczy.",
+      "mapy": ["ahmp_niemcza_ii_1", "ahmp_niemcza_ii_2a", "ahmp_niemcza_ii_2b"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Gród kasztelański z X–XI w. na wzgórzu — jeden z ważniejszych grodów piastowskich na Śląsku. Zamek późnośredniowieczny i mury miejskie, zachowane fragmenty wieży i murów.",
+      "tekst": "Gród w Niemczy był jednym z kluczowych punktów strategicznych w piastowskim systemie obronnym Śląska. W 1017 r. opisuje go kronikarz Thietmar z Merseburga jako ważny punkt oporu w wojnie polsko-cesarskiej — oblężenie przez Henryka II zakończyło się niepowodzeniem.\n\nW XIII w. kasztelańskie funkcje grodu ustąpiły miejsca nowemu miastu, lecz zamek na wzgórzu nadal pełnił rolę administracyjno-obronną. Z okresu XIV–XV w. pochodzą mury obronne i wieża zamkowa, których fragmenty przetrwały do dziś.\n\nMury miejskie Niemczy otaczały miasto na kształcie owalnym, dostosowanym do topografii wzgórza. Mieściły dwie bramy: Ziębicką i Ząbkowicką. Ze względu na małą skalę miasta fortyfikacje były skromniejsze niż w większych ośrodkach śląskich — ale znacząco podnosiły obronność miejscowości o strategicznym położeniu w Sudetach Wschodnich.",
+      "mapy": ["ahmp_niemcza_ii_2b", "ahmp_niemcza_ii_3"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Gotycki kościół parafialny pw. Wniebowzięcia NMP z XIII–XIV w. Romańska rotunda lub kaplica przy grodzie z XI w. — jeden z wczesnych śladów chrystianizacji Śląska.",
+      "tekst": "**Kościół parafialny pw. Wniebowzięcia NMP** — gotycka świątynia wzniesiona w XIII–XIV w. jako centrum życia religijnego małego miasta lokacyjnego. Jednonawowy z prezbiterium — skala budowli odpowiada możliwościom finansowym niewielkiej społeczności miejskiej. Po reformacji przejęty przez luteranów, zwrócony katolikom po 1945 r.\n\n**Kaplica lub rotunda przy grodzie** — archeolodzy odkryli w obrębie grodu ślady budowli sakralnej o charakterystycznym planie centralnym, co sugeruje wczesnośredniowieczną kaplicę grodową — analogiczną do rotund w Cieszynie czy Strzelnie. Badania nadal trwają.\n\n**Kościół ewangelicki** — w epoce nowożytnej, gdy Niemcza była pod panowaniem habsburskim i pruskim, parafia ewangelicka korzystała z jednego z przejętych kościołów. Po 1945 r. — powrót do katolicyzmu.",
+      "mapy": ["ahmp_niemcza_ii_3"]
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Małe miasto — kilkaset do kilku tysięcy mieszkańców. Niemczyzacja XII–XIII w. w ramach kolonizacji śląskiej. Marginalizacja gospodarcza od XVI w.",
+      "tekst": "Niemcza była przez całe swoje dzieje małym ośrodkiem. W XI–XII w. stanowiła centrum kasztelanii z ludnością polską. Kolonizacja niemiecka XIII w. przyniosła osadników z zachodniej Europy, którzy stopniowo zdominowali mieszczaństwo.\n\nW XIV–XV w. Niemcza liczyła zapewne kilkaset rodzin — skala kościoła i rynku to potwierdza. Peryferyjne położenie względem ważnych szlaków handlowych (Ziębice, Ząbkowice, Wrocław) ograniczało wzrost populacyjny.\n\nW XVI–XVII w. reformacja objęła miasto, lecz wobec małej masy krytycznej ludności nie wytworzyła tu silnej kultury ewangelickiej. Po 1742 r. i przejęciu przez Prusy nastąpiła pruska kolonizacja wojskowa. Po 1945 r. stara ludność opuściła miasto — napłynęli Polacy z różnych regionów.\n\nDziś Niemcza to małe miasteczko (ok. 3 tys. mieszkańców), cenione za walory historyczne i zachowany układ średniowieczny.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Handel lokalny i rzemiosło obsługujące zaplecze rolnicze. Jarmarki. Peryferyjne położenie wykluczało uczestnictwo w wielkich szlakach handlowych Śląska.",
+      "tekst": "Gospodarka Niemczy opierała się na handlu lokalnym, obsługując okoliczne wsie rolnicze Przedgórza Sudeckiego. Jarmarki i targ tygodniowy przyciągały kupców z okolicy. Cechy rzemieślnicze — szewcy, kowale, tkacze — zaspokajały potrzeby lokalnej społeczności.\n\nNiemcza nie leżała na żadnym z głównych śląskich szlaków handlowych. Nieduże rozmiary i brak naturalnych zasobów (poza rolnictwem) hamowały wzrost. W XVI w., gdy sąsiednie Ząbkowice i Ziębice rozwinęły się jako centra handlowe, Niemcza ostatecznie utraciła jakiekolwiek ambicje makroregionalne.\n\nW XIX w. budowa sieci kolejowej (pobliskie stacje w Ziębicach i Ząbkowicach) nie objęła Niemczy — trwała jej marginalizacja gospodarcza. Rolnicze zaplecze i nieduże zakłady rzemieślnicze charakteryzowały miasto przez całe XIX–XX stulecie.",
+      "mapy": []
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Centrum kasztelanii piastowskiej do XIII w., następnie część Księstwa Ziębickiego i Habsburgów. Od 1742 r. w Prusach, po 1945 r. w Polsce.",
+      "tekst": "Niemcza była przez X–XIII w. centrum kasztelanii piastowskiej — administracyjno-wojskowej jednostki podziału terytorialnego. Kasztelan niemczański był jednym z ważniejszych urzędników na Śląsku. Po lokacji miasta i przejściu Śląska pod wpływy czeskie Niemcza weszła w skład Księstwa Ziębickiego.\n\nW XIV w. Niemcza (podobnie jak cały Śląsk) podlegała nominalnie Koronie Czeskiej. W 1526 r. Habsburgowie przejęli Czechy z Śląskiem. W 1742 r. Fryderyk II przyłączył większość Śląska do Prus.\n\nAdministracyjna rola Niemczy była skromna — po utracie funkcji kasztelańskich miasto stało się centrum mniejszego powiatu. Po 1945 r. Niemcza stała się częścią Polski, a jej historyczna ciągłość jako polskiego grodu kasztelańskiego z XI w. była podkreślana w historiografii.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Wzgórza Niemczańsko-Strzelińskie — miasto na wzgórzu z zachowanym zamkiem, malownicze otoczenie Przedgórza Sudeckiego.",
+      "tekst": "Niemcza leży w Wzgórzach Niemczańsko-Strzelińskich, na Przedgórzu Sudeckim, ok. 50 km na południe od Wrocławia. Miasto wznosi się na wzgórzu o wysokości ok. 220 m n.p.m., z wyraźnym wniesieniem zamkowym ponad doliną.\n\nTen piastowski gród i miasto korzystały z naturalnych walorów obronnych wzgórza oraz z bliskości rzeki Ślęzy — dopływu Odry. Ślęza zapewniała wodę i stanowiła barierę od wschodu.\n\nKrajobraz sudeckiego przedgórza z pagórkami, lasami i łąkami nadaje Niemczy szczególny charakter — inne niż na śląskich nizinach, bliższe sudeckiej przyrodzie. To położenie miało wielki wpływ na historię osadnictwa: już w epoce pradziejów wzgórza niemczańskie były gęsto zamieszkane przez ludność łużycką i celtycką.\n\nGrób kurganiowy kultury łużyckiej i skarby pradziejowe odkryte w okolicach Niemczy świadczą o wielotysiącletnim zasiedleniu tego terenu.",
+      "mapy": ["ahmp_niemcza_ii_2a", "ahmp_niemcza_ii_4a"]
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Źródła w Archiwum Państwowym we Wrocławiu. AHMP Tom IV — zeszyt niemczański. Kronika Thietmara (1017 r.) — pierwsze pisane świadectwo o Niemczy.",
+      "tekst": "**Archiwalia:** Archiwum Państwowe we Wrocławiu przechowuje nieliczne akta dotyczące Niemczy z okresu średniowiecza i nowożytności. Brak własnych akt miejskich z okresu wcześniejszego — skromna dokumentacja wewnętrzna odzwierciedla małą skalę miasta.\n\n**Źródła narracyjne:** Kronika biskupa merseburskiego Thietmara z 1. dekady XI w. zawiera opis oblężenia grodu niemczańskiego (1017) — pierwsze pisane świadectwo o Niemczy. Kronika Galla Anonima i Roczniki Polskie uzupełniają obraz wczesnośredniowieczny.\n\n**Ważniejsze opracowania:**\n- M. Młynarska-Kaletynowa, R. Eysymontt (red.), *Atlas historyczny miast polskich, t. IV: Śląsk, z. Niemcza*, Wrocław 2012\n- S. Jaczyński, *Gród w Niemczy*, Wrocław 1972\n- R. Żerelik, *Ziemia niemczańska w średniowieczu*, Acta Universitatis Wratislaviensis 1990\n\n**Badania archeologiczne:** Wykopaliska na grodzisku niemczańskim prowadzone od lat 60. XX w. — odkryto kolejne fazy grodu z X–XIII w. Plan rzutu przyziemia i piwnic (AHMP II 4a–4b) dokumentuje zabudowę historyczną kamienicy.",
+      "mapy": ["ahmp_niemcza_ii_2a", "ahmp_niemcza_ii_2b"]
+    }
+  }
+}
