@@ -566,12 +566,16 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
 
     if (!highlightQuery || !city?.id || !highlightMapId || !activeAnnotationUrl) return
 
+    let cancelled = false
+
     const ocrUrl = asset(`ocr/${city.id}/${highlightMapId}.json`)
 
     Promise.all([
       fetch(ocrUrl).then(r => { if (!r.ok) throw new Error('no OCR'); return r.json() }),
       fetch(activeAnnotationUrl).then(r => r.json()),
     ]).then(([ocrData, annotation]) => {
+      if (cancelled) return
+
       const item = annotation?.items?.[0]
       if (!item) return
 
@@ -616,9 +620,10 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
       const cy = lats.reduce((a,b)=>a+b,0)/lats.length
       map.flyTo({ center: [cx, cy], zoom: Math.max(map.getZoom(), 15), duration: 900 })
     }).catch(() => {
-      // No OCR data for this map — silently skip
-      setOcrHitCount(0)
+      if (!cancelled) setOcrHitCount(0)
     })
+
+    return () => { cancelled = true }
   }, [layerReady, highlightQuery, highlightMapId, activeAnnotationUrl, city?.id]) // eslint-disable-line
 
   // ── Opacity sync ──────────────────────────────────────────────────────────
