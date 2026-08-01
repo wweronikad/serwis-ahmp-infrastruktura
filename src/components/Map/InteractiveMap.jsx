@@ -98,6 +98,7 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
   const mapRef      = useRef(null)
   const layerRef    = useRef(null)
   const prevUrlRef  = useRef(null)
+  const swapGenRef  = useRef(0)
   const onMapReadyRef = useRef(onMapReady)
   useEffect(() => { onMapReadyRef.current = onMapReady }, [onMapReady])
 
@@ -446,41 +447,47 @@ export default function InteractiveMap({ city, activeAnnotationUrl, opacity = 0.
   // ── Annotation swap ───────────────────────────────────────────────────────
 
   useEffect(() => {
-    console.log('[Annotation] effect fired', { layerReady, activeAnnotationUrl, prev: prevUrlRef.current })
-    if (!layerReady || !layerRef.current || !mapRef.current) { console.log('[Annotation] SKIP - not ready', { layerReady }); return }
-    if (activeAnnotationUrl === prevUrlRef.current) { console.log('[Annotation] SKIP - same url'); return }
+    if (!layerReady || !layerRef.current || !mapRef.current) return
+    if (activeAnnotationUrl === prevUrlRef.current) return
 
     const layer = layerRef.current
     const map   = mapRef.current
-    const prev  = prevUrlRef.current
     let cancelled = false
+    const myGen = ++swapGenRef.current
 
     const swap = async () => {
       setLoading(true)
       setError(null)
       try {
-        if (prev) { console.log('[Annotation] removing prev', prev); await layer.removeGeoreferenceAnnotationByUrl(prev) }
-        if (activeAnnotationUrl && !cancelled) {
-          console.log('[Annotation] loading', activeAnnotationUrl)
-          await layer.addGeoreferenceAnnotationByUrl(activeAnnotationUrl)
-          console.log('[Annotation] loaded OK')
-          if (!cancelled) {
-            prevUrlRef.current = activeAnnotationUrl
-            let rafCount = 0
-            const rafLoop = () => {
-              if (!cancelled && mapRef.current && rafCount < 30) {
-                mapRef.current.triggerRepaint(); rafCount++
-                requestAnimationFrame(rafLoop)
-              }
-            }
-            requestAnimationFrame(rafLoop)
-            setTimeout(() => {
-              if (!cancelled && mapRef.current) mapRef.current.triggerRepaint()
-            }, 800)
-          }
-        } else {
-          prevUrlRef.current = null
+        // Synchronously remove all loaded annotations before adding new one.
+        // This prevents leftover overlays when switching maps quickly.
+        layer.clear()
+        prevUrlRef.current = null
+
+        if (!activeAnnotationUrl || cancelled) return
+
+        await layer.addGeoreferenceAnnotationByUrl(activeAnnotationUrl)
+
+        // A newer swap started while this fetch was in flight — undo our add.
+        if (myGen !== swapGenRef.current) {
+          try { await layer.removeGeoreferenceAnnotationByUrl(activeAnnotationUrl) } catch {}
+          return
         }
+
+        if (cancelled) return
+
+        prevUrlRef.current = activeAnnotationUrl
+        let rafCount = 0
+        const rafLoop = () => {
+          if (!cancelled && mapRef.current && rafCount < 30) {
+            mapRef.current.triggerRepaint(); rafCount++
+            requestAnimationFrame(rafLoop)
+          }
+        }
+        requestAnimationFrame(rafLoop)
+        setTimeout(() => {
+          if (!cancelled && mapRef.current) mapRef.current.triggerRepaint()
+        }, 800)
       } catch (err) {
         if (!cancelled) {
           console.error('Allmaps error:', err)
