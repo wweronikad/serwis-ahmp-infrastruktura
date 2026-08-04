@@ -56,6 +56,22 @@ button { cursor: pointer; font-family: var(--font-sans); }
   to { transform: rotate(360deg); }
 }
 
+@keyframes bounce-up {
+  0%, 100% { transform: translateY(0); }
+  50%       { transform: translateY(-4px); }
+}
+
+.history-bar-arrow {
+  animation: bounce-up 1.4s ease-in-out infinite;
+}
+
+.history-bar-btn {
+  transition: background 0.2s;
+}
+.history-bar-btn:hover {
+  background: #253659 !important;
+}
+
 @keyframes fadeInUp {
   from { opacity: 0; transform: translateY(12px); }
   to   { opacity: 1; transform: translateY(0); }

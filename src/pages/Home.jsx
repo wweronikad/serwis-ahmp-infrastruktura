@@ -82,11 +82,9 @@ export default function Home() {
 
       <StatsSection />
 
-      {/* ── Centred content ───────────────────────────────────── */}
-      <div style={styles.page}>
-
-        {/* European Atlas map */}
-        <section style={styles.section}>
+      {/* ── European Atlas map ────────────────────────────────── */}
+      <section style={styles.fullSection}>
+        <div style={styles.sectionInner}>
           <h2 style={styles.sectionTitle}>Europejski Atlas Historyczny Miast</h2>
           <p style={styles.sectionDesc}>
             Inicjatywa AHMP jest częścią szerszego projektu europejskiego koordynowanego przez
@@ -138,25 +136,26 @@ export default function Home() {
               ISIG / Westfälische Wilhelms-Universität Münster
             </a>
           </p>
-        </section>
+        </div>
+      </section>
 
-        {/* Cities grid with thumbnails */}
-        <section style={{ ...styles.section, background: 'var(--cream-dark)', padding: '48px 0' }}>
-          <div style={{ padding: '0 32px' }}>
-            <h2 style={styles.sectionTitle}>Dostępne miasta</h2>
-            <p style={styles.sectionDesc}>
-              Prototyp obejmuje reprezentatywną próbkę miast z pełną serią
-              zgeoreferencjonowanych plansz atlasowych.
-            </p>
-            <div style={styles.cityGrid}>
-              {cities.map((city) => (
-                <CityCard key={city.id} city={city} />
-              ))}
-            </div>
+      {/* ── Cities grid ───────────────────────────────────────── */}
+      <section style={{ ...styles.fullSection, background: 'var(--cream-dark)' }}>
+        <div style={styles.sectionInner}>
+          <h2 style={styles.sectionTitle}>Dostępne miasta</h2>
+          <p style={styles.sectionDesc}>
+            Prototyp obejmuje reprezentatywną próbkę miast z pełną serią
+            zgeoreferencjonowanych plansz atlasowych.
+          </p>
+          <div style={styles.cityGrid}>
+            {cities.map((city) => (
+              <CityCard key={city.id} city={city} />
+            ))}
           </div>
-        </section>
+        </div>
+      </section>
 
-      </div>
+      <TimelineSection />
 
       {mapFullscreen && (
         <div style={styles.fsOverlay} onClick={() => setMapFullscreen(false)}>
@@ -274,7 +273,7 @@ function ProjectIntro() {
 const pi = {
   wrap: {
     background: 'var(--cream)',
-    borderBottom: '1px solid var(--border)',
+    borderTop: '3px solid var(--gold)',
     padding: '56px 0',
   },
   inner: {
@@ -349,7 +348,6 @@ function StatsSection() {
   return (
     <section style={ss.wrap}>
       <div style={ss.inner}>
-        {/* Stat cards */}
         <div style={ss.statsRow}>
           {STATS.map(({ n, label }) => (
             <div key={label} style={ss.statCard}>
@@ -358,38 +356,46 @@ function StatsSection() {
             </div>
           ))}
         </div>
+      </div>
+    </section>
+  )
+}
 
-        {/* Timeline */}
-        <div>
-          {/* Year labels */}
-          <div style={ss.tlGrid}>
-            {EVENTS.map(({ year, hi }) => (
-              <div key={year} style={ss.tlYearCell}>
-                <span style={hi ? { ...ss.tlYear, ...ss.tlYearHi } : ss.tlYear}>{year}</span>
+function TimelineSection() {
+  return (
+    <section style={{ ...ss.wrap, borderTop: '3px solid var(--gold)', borderBottom: 'none' }}>
+      <div style={ss.inner}>
+        <div style={{ marginBottom: '32px' }}>
+          <span style={{ fontSize: '10px', fontWeight: '700', letterSpacing: '1.8px', textTransform: 'uppercase', color: 'var(--gold)', border: '1px solid var(--gold)', borderRadius: '2px', padding: '3px 10px' }}>
+            Chronologia projektu
+          </span>
+        </div>
+        {/* Year labels */}
+        <div style={ss.tlGrid}>
+          {EVENTS.map(({ year, hi }) => (
+            <div key={year} style={ss.tlYearCell}>
+              <span style={hi ? { ...ss.tlYear, ...ss.tlYearHi } : ss.tlYear}>{year}</span>
+            </div>
+          ))}
+        </div>
+        {/* Line + dots */}
+        <div style={ss.tlLineRow}>
+          <div style={ss.tlLine} />
+          {EVENTS.map(({ year }) => (
+            <div key={year} style={ss.tlDotCell}>
+              <div style={ss.tlDot} />
+            </div>
+          ))}
+        </div>
+        {/* Cards */}
+        <div style={ss.tlGrid}>
+          {EVENTS.map(({ year, text }) => (
+            <div key={year} style={ss.tlCardCell}>
+              <div style={ss.tlCard}>
+                <p style={ss.tlCardText}>{text}</p>
               </div>
-            ))}
-          </div>
-
-          {/* Line + dots */}
-          <div style={ss.tlLineRow}>
-            <div style={ss.tlLine} />
-            {EVENTS.map(({ year }) => (
-              <div key={year} style={ss.tlDotCell}>
-                <div style={ss.tlDot} />
-              </div>
-            ))}
-          </div>
-
-          {/* Cards */}
-          <div style={ss.tlGrid}>
-            {EVENTS.map(({ year, text }) => (
-              <div key={year} style={ss.tlCardCell}>
-                <div style={ss.tlCard}>
-                  <p style={ss.tlCardText}>{text}</p>
-                </div>
-              </div>
-            ))}
-          </div>
+            </div>
+          ))}
         </div>
       </div>
     </section>
@@ -628,13 +634,16 @@ const styles = {
     backdropFilter: 'blur(4px)',
   },
 
-  // Centred content
-  page: {
+  // Full-width sections with centred inner content
+  fullSection: {
+    borderTop: '3px solid var(--gold)',
+    padding: '48px 0',
+  },
+  sectionInner: {
     maxWidth: '80vw',
     margin: '0 auto',
-    paddingBottom: '48px',
+    padding: '0 32px',
   },
-  section: { padding: '48px 32px' },
   sectionTitle: { fontSize: '26px', marginBottom: '12px', color: 'var(--navy)' },
   sectionDesc: {
     color: 'var(--text-muted)',

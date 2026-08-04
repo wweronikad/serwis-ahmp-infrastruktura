@@ -329,17 +329,18 @@ function CityInfoBar({ city, open, onToggle }) {
       {/* Toggle strip — always 30px, always visible */}
       <button
         onClick={onToggle}
+        className="history-bar-btn"
         style={{
           display: 'flex', alignItems: 'center', gap: 10,
-          width: '100%', height: 30, padding: '0 16px',
-          background: open ? 'var(--navy)' : 'var(--cream)',
-          border: 'none', borderTop: open ? 'none' : '1px solid var(--border)',
+          width: '100%', height: open ? 30 : 38, padding: '0 16px',
+          background: 'var(--navy)',
+          border: 'none',
           cursor: 'pointer',
           textAlign: 'left', fontFamily: 'var(--font-sans)',
           flexShrink: 0,
         }}
       >
-        <span style={{ fontSize: 9, color: open ? 'var(--gold-light)' : 'var(--text-muted)', lineHeight: 1 }}>{open ? '▼' : '▲'}</span>
+        <span className={open ? undefined : 'history-bar-arrow'} style={{ fontSize: open ? 9 : 12, color: 'var(--gold-light)', lineHeight: 1 }}>{open ? '▼' : '▲'}</span>
         {open ? (
           <>
             <span style={{ fontSize: 13, fontWeight: 700, color: 'var(--gold-light)', fontFamily: 'var(--font-serif)' }}>
@@ -353,9 +354,14 @@ function CityInfoBar({ city, open, onToggle }) {
             </span>
           </>
         ) : (
-          <span style={{ fontSize: 11, fontWeight: 700, color: 'var(--navy)', letterSpacing: '0.8px', textTransform: 'uppercase' }}>
-            rozwiń, aby poznać historię
-          </span>
+          <>
+            <span style={{ fontSize: 12, fontWeight: 700, color: 'var(--gold-light)', letterSpacing: '0.9px', textTransform: 'uppercase' }}>
+              rozwiń, aby poznać historię
+            </span>
+            <span style={{ marginLeft: 'auto', fontSize: 11, color: 'rgba(255,255,255,0.35)', whiteSpace: 'nowrap' }}>
+              {city.name}
+            </span>
+          </>
         )}
       </button>
 
