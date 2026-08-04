@@ -68,7 +68,7 @@ export default function HeroSlider({ children }) {
 
       {/* ── Modern: OSM (base, always full) ─────────────────── */}
       <img
-        src={asset('/wawolnica/nowoczesna.jpg')}
+        src={asset('/wawolnica/nowoczesna.webp')}
         alt=""
         style={s.imgFull}
         draggable={false}
