@@ -387,9 +387,6 @@ function CityInfoBar({ city, open, onToggle }) {
                 }}>
                   {OPISY_LABELS[key] ?? key}
                 </h3>
-                <p style={{ margin: '0 0 10px', fontSize: 12.5, color: 'var(--text-muted)', fontStyle: 'italic', lineHeight: 1.55 }}>
-                  {karta.zajawka}
-                </p>
                 <div>{renderOpisyText(karta.tekst)}</div>
                 <div style={{ borderTop: '1px solid var(--border-light)', marginTop: 20 }} />
               </section>
