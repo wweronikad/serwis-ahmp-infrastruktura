@@ -12,7 +12,7 @@ import './index.css'
 
 export default function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename={import.meta.env.BASE_URL}>
       <Routes>
         {/* Temporary editor — full viewport, no chrome */}
         <Route path="/galeria/edytor" element={
