@@ -1,0 +1,4 @@
+{
+  "_readme": "Ręcznie dopisane słowa/podpisy, których OCR nie wyłapał (np. kursywa na rzekach/lasach). Klucz = mapId z cities.js, wartość = lista słów lub fraz. Uruchom `py scripts/ocr_build_index.py` po edycji, żeby zaktualizować wyszukiwarkę.",
+  "ahmp_biecz_1_1": ["Ropa", "Przedmiescie wyszne"]
+}
