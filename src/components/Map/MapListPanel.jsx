@@ -69,7 +69,7 @@ export default function MapListPanel({
             style={pinsVisible ? styles.pinBtnOn : styles.pinBtnOff}
             title={pinsVisible ? 'Ukryj pinezki na mapie' : 'Pokaż pinezki na mapie'}
           >
-            {pinsVisible ? '📍 Ukryj pinezki' : '📍 Pokaż pinezki'}
+            {pinsVisible ? '⌖ Ukryj pinezki' : '⌖ Pokaż pinezki'}
           </button>
         </div>
       )}
