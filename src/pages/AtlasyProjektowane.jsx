@@ -49,7 +49,7 @@ export default function AtlasyProjektowane() {
 }
 
 const s = {
-  page: { maxWidth: 820, margin: '0 auto', paddingBottom: 64 },
+  page: { maxWidth: '80vw', margin: '0 auto', paddingBottom: 64 },
   hero: {
     background: 'var(--navy)',
     color: 'var(--white)',

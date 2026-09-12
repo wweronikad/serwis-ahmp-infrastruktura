@@ -163,7 +163,7 @@ export default function AboutPolish() {
 }
 
 const styles = {
-  page: { maxWidth: '820px', margin: '0 auto', paddingBottom: '64px' },
+  page: { maxWidth: '80vw', margin: '0 auto', paddingBottom: '64px' },
   hero: {
     background: 'var(--navy)',
     color: 'var(--white)',
