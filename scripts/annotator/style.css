@@ -1,0 +1,100 @@
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; height: 100%;
+  font-family: system-ui, -apple-system, Segoe UI, Arial, sans-serif;
+  background: #1c1e22; color: #e8e8ea;
+}
+body {
+  display: grid;
+  grid-template-columns: 280px 1fr 260px;
+  grid-template-rows: 100vh;
+}
+
+/* Sidebar */
+#sidebar { border-right: 1px solid #333; display: flex; flex-direction: column; min-height: 0; }
+#filter {
+  margin: 10px; padding: 8px 10px; border-radius: 6px; border: 1px solid #3a3d44;
+  background: #26282d; color: #e8e8ea; font-size: 13px;
+}
+#mapList { overflow-y: auto; flex: 1; padding: 0 6px 10px; }
+.cityGroup { margin-bottom: 4px; }
+.cityHeader {
+  font-size: 11px; text-transform: uppercase; letter-spacing: .04em;
+  color: #8a8d94; padding: 10px 8px 4px;
+}
+.mapRow {
+  padding: 7px 8px; border-radius: 6px; cursor: pointer; font-size: 13px;
+  display: flex; justify-content: space-between; gap: 6px; align-items: center;
+}
+.mapRow:hover { background: #2a2d33; }
+.mapRow.active { background: #3a5a8c; }
+.mapRow .name { overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+.badges { display: flex; gap: 4px; flex-shrink: 0; }
+.badge { font-size: 10px; padding: 1px 5px; border-radius: 8px; background: #3a3d44; color: #b7bac2; }
+.badge.has-points { background: #4a7c3a; color: #dfffe0; }
+.badge.has-ocr { background: #555b6e; color: #dfe3ff; }
+
+/* Main */
+#main { display: flex; flex-direction: column; min-width: 0; }
+#topbar {
+  display: flex; align-items: center; gap: 10px; padding: 8px 12px;
+  border-bottom: 1px solid #333; font-size: 13px;
+}
+#mapTitle { flex: 1; font-weight: 600; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
+#topbar button {
+  background: #2a2d33; border: 1px solid #3a3d44; color: #e8e8ea;
+  border-radius: 5px; padding: 4px 9px; cursor: pointer; font-size: 13px;
+}
+#topbar button:hover { background: #3a3d44; }
+#pageNav, #zoomNav { display: flex; align-items: center; gap: 6px; color: #b7bac2; }
+#saveStatus { min-width: 90px; text-align: right; font-size: 12px; color: #8a8d94; }
+#saveStatus.saving { color: #e8c14a; }
+#saveStatus.saved { color: #6bc46d; }
+
+#viewport { flex: 1; overflow: auto; background: #101113; position: relative; }
+#canvasWrap { position: relative; display: inline-block; }
+#mapImage { display: block; user-select: none; -webkit-user-drag: none; }
+#pointsLayer { position: absolute; inset: 0; width: 100%; height: 100%; pointer-events: none; }
+
+.pin { pointer-events: all; cursor: pointer; }
+.pin circle { fill: #f7c948; stroke: #7a5b00; stroke-width: 1.5; }
+.pin:hover circle { fill: #ffe08a; }
+.pin text {
+  fill: #fff; font-size: 11px; paint-order: stroke; stroke: #000; stroke-width: 3px;
+  stroke-linejoin: round;
+}
+
+#hint { padding: 6px 12px; font-size: 11.5px; color: #8a8d94; border-top: 1px solid #333; }
+#hint.error { color: #ff6b6b; font-weight: 600; background: rgba(230,0,0,0.08); }
+
+.editBox {
+  position: absolute; background: #26282d; border: 1px solid #4a7cff;
+  border-radius: 6px; padding: 4px; display: flex; gap: 4px; z-index: 10;
+  box-shadow: 0 4px 16px rgba(0,0,0,.4);
+}
+.editBox input {
+  border: none; background: #1c1e22; color: #e8e8ea; padding: 5px 7px;
+  border-radius: 4px; font-size: 13px; width: 160px;
+}
+.editBox button {
+  border: none; border-radius: 4px; padding: 5px 8px; cursor: pointer; font-size: 12px;
+}
+.editBox .del { background: #6b2a2a; color: #ffdcdc; }
+.editBox .ok { background: #2a6b3a; color: #dcffdc; }
+
+/* Points panel */
+#pointsPanel { border-left: 1px solid #333; display: flex; flex-direction: column; min-height: 0; }
+#pointsPanel h3 { font-size: 12px; font-weight: 600; padding: 10px 12px; margin: 0; color: #b7bac2; }
+#pointsList { overflow-y: auto; flex: 1; padding: 0 8px 10px; }
+.pointRow {
+  display: flex; align-items: center; gap: 6px; padding: 5px 4px;
+  border-bottom: 1px solid #26282d; font-size: 12.5px;
+}
+.pointRow input {
+  flex: 1; background: transparent; border: none; color: #e8e8ea; font-size: 12.5px;
+  border-bottom: 1px dashed transparent;
+}
+.pointRow input:focus { outline: none; border-bottom: 1px dashed #4a7cff; }
+.pointRow .rm { background: none; border: none; color: #8a8d94; cursor: pointer; font-size: 13px; }
+.pointRow .rm:hover { color: #ff6b6b; }
+.pointRow .jump { background: none; border: none; color: #6b93ff; cursor: pointer; font-size: 12px; }

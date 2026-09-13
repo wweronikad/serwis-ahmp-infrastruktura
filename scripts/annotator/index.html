@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pl">
+<head>
+<meta charset="utf-8" />
+<title>Adnotator map AHMP</title>
+<link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div id="sidebar">
+    <input id="filter" type="text" placeholder="Szukaj miasta lub mapy…" autocomplete="off" />
+    <div id="mapList"></div>
+  </div>
+
+  <div id="main">
+    <div id="topbar">
+      <button id="prevBtn" title="Poprzednia mapa">←</button>
+      <div id="mapTitle">Wybierz mapę z listy po lewej</div>
+      <button id="nextBtn" title="Następna mapa">→</button>
+      <div id="pageNav" hidden>
+        Strona: <button id="prevPage">‹</button>
+        <span id="pageLabel"></span>
+        <button id="nextPage">›</button>
+      </div>
+      <div id="zoomNav">
+        <button id="zoomOut">−</button>
+        <span id="zoomLabel">100%</span>
+        <button id="zoomIn">+</button>
+      </div>
+      <div id="saveStatus"></div>
+    </div>
+
+    <div id="viewport">
+      <div id="canvasWrap">
+        <img id="mapImage" draggable="false" />
+        <svg id="pointsLayer"></svg>
+      </div>
+    </div>
+
+    <div id="hint">Kliknij na mapie, żeby dodać punkt. Kliknij istniejący punkt, żeby go edytować lub usunąć.</div>
+  </div>
+
+  <div id="pointsPanel">
+    <h3>Punkty na tej mapie (<span id="pointCount">0</span>)</h3>
+    <div id="pointsList"></div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
