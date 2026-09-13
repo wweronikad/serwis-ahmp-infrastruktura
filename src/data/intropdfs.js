@@ -41,10 +41,11 @@ export const INTRO_PDF = {
 }
 
 export const FULLTEXT_CITIES = new Set([
-  'biecz', 'bochnia', 'brzeg', 'chojnice', 'fordon',
+  'biecz', 'bochnia', 'brzeg', 'bydgoszcz', 'chelmno', 'chojnice',
+  'elblag', 'fordon', 'gizycko', 'grudziadz',
   'jelenia-gora', 'ketrzyn', 'koronowo', 'kwidzyn', 'lidzbark-warminski',
-  'milicz', 'mragowo', 'namyslow', 'nowy-sacz', 'olawa',
+  'milicz', 'mragowo', 'namyslow', 'nowy-sacz', 'olawa', 'ostroda',
   'puck', 'raciborz', 'stary-sacz', 'strzegom', 'strzelin',
-  'swiecie', 'tarnow', 'tczew', 'torun-ii', 'wieliczka',
+  'swiecie', 'tarnow', 'tczew', 'torun', 'torun-ii', 'wieliczka',
   'wloclawek', 'wroclaw', 'zabkowice-slaskie', 'zamosc', 'ziebice',
 ])

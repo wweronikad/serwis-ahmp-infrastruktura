@@ -8,11 +8,12 @@ import { INTRO_PDF } from '../data/intropdfs'
 const CITY_NAME = Object.fromEntries(cities.map(c => [c.id, c.name]))
 
 const FULLTEXT_CITIES = [
-  'biecz', 'bochnia', 'brzeg', 'chojnice', 'fordon',
+  'biecz', 'bochnia', 'brzeg', 'bydgoszcz', 'chelmno', 'chojnice',
+  'elblag', 'fordon', 'gizycko', 'grudziadz',
   'jelenia-gora', 'ketrzyn', 'koronowo', 'kwidzyn', 'lidzbark-warminski',
-  'milicz', 'mragowo', 'namyslow', 'nowy-sacz', 'olawa',
+  'milicz', 'mragowo', 'namyslow', 'nowy-sacz', 'olawa', 'ostroda',
   'puck', 'raciborz', 'stary-sacz', 'strzegom', 'strzelin',
-  'swiecie', 'tarnow', 'tczew', 'torun-ii', 'wieliczka',
+  'swiecie', 'tarnow', 'tczew', 'torun', 'torun-ii', 'wieliczka',
   'wloclawek', 'wroclaw', 'zabkowice-slaskie', 'zamosc', 'ziebice',
 ]
 
@@ -209,7 +210,7 @@ export default function SearchPage() {
       <div style={s.inner}>
         <h1 style={s.heading}>Wyszukiwanie w AHMP</h1>
         <p style={s.subheading}>
-          Przeszukaj części opisowe atlasów (30 miast, ponad 3 900 fragmentów) oraz treść map historycznych (OCR).
+          Przeszukaj części opisowe atlasów (37 miast, ponad 4 800 fragmentów) oraz treść map historycznych (OCR).
         </p>
 
         {!indexReady && (
@@ -294,7 +295,7 @@ export default function SearchPage() {
                           </p>
                           {textRes.map(r => (
                             <ResultCard key={r.id} result={r} queryWords={queryWords} query={query}
-                              onOpen={() => navigate(`/atlas/${r.cityId}`)} />
+                              onOpen={() => navigate(`/atlas/${r.cityId}?historia=${encodeURIComponent(r.id)}&q=${encodeURIComponent(query.trim())}`)} />
                           ))}
                         </>
                       )}

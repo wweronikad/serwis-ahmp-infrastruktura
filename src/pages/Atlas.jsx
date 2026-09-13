@@ -308,7 +308,19 @@ function renderOpisyText(text) {
   })
 }
 
-function CityInfoBar({ city, open, onToggle }) {
+function highlightMarks(text, query) {
+  if (!query) return text
+  const words = query.trim().split(/\s+/).filter(w => w.length >= 2)
+  if (!words.length) return text
+  const re = new RegExp(`(${words.map(w => w.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')).join('|')})`, 'gi')
+  return text.split(re).map((part, i) =>
+    words.some(w => w.toLowerCase() === part.toLowerCase())
+      ? <mark key={i}>{part}</mark>
+      : part
+  )
+}
+
+function CityInfoBar({ city, open, onToggle, historyChunk, highlightQuery }) {
   const years = city.maps.filter(m => m.year !== null).map(m => m.year)
   const minYear = years.length ? Math.min(...years) : null
   const maxYear = years.length ? Math.max(...years) : null
@@ -372,6 +384,20 @@ function CityInfoBar({ city, open, onToggle }) {
           <p style={{ margin: '0 0 24px', fontSize: 14, color: 'var(--text-muted)', lineHeight: 1.6, fontStyle: 'italic', borderLeft: '3px solid var(--gold)', paddingLeft: 14 }}>
             {city.description}
           </p>
+
+          {historyChunk && (
+            <div style={{
+              margin: '0 0 28px', padding: '14px 16px', background: 'rgba(214,168,60,0.1)',
+              border: '1px solid var(--gold)', borderRadius: 6,
+            }}>
+              <div style={{ fontSize: 11, fontWeight: 700, textTransform: 'uppercase', letterSpacing: '0.6px', color: 'var(--navy)', marginBottom: 6 }}>
+                🔍 Znaleziony fragment (z wyszukiwania)
+              </div>
+              <p style={{ margin: 0, fontSize: 13.5, lineHeight: 1.65, color: 'var(--text)' }}>
+                {highlightMarks(historyChunk.text, highlightQuery)}
+              </p>
+            </div>
+          )}
 
           {opisy ? (
             Object.entries(opisy.karty).map(([key, karta]) => (
@@ -488,6 +514,11 @@ export default function Atlas() {
   // OCR search highlight (set via ?q= URL param from SearchPage)
   const [highlightQuery, setHighlightQuery] = useState('')
 
+  // Fulltext search result (set via ?historia=<chunkId> URL param from SearchPage) —
+  // the exact paragraph that matched, so "Otwórz atlas" from a text search result
+  // lands on the actual passage instead of just the collapsed city panel.
+  const [historyChunk, setHistoryChunk] = useState(null)
+
   // Gallery
   const [galleryOpen,   setGalleryOpen]   = useState(false)
   const [galleryIdx,    setGalleryIdx]    = useState(0)
@@ -511,24 +542,37 @@ export default function Atlas() {
     setPhotoPopup(null)
   }, [])
 
-  // Reset on city change — also handles ?map=, ?gallery=, ?q= URL params from search
+  // Reset on city change — also handles ?map=, ?gallery=, ?q=, ?historia= URL params from search
   useEffect(() => {
-    const mapParam     = searchParams.get('map')
-    const galleryParam = searchParams.get('gallery')
-    const qParam       = searchParams.get('q')
+    const mapParam      = searchParams.get('map')
+    const galleryParam  = searchParams.get('gallery')
+    const qParam        = searchParams.get('q')
+    const historiaParam = searchParams.get('historia')
 
     const targetMap = mapParam ? city.maps.find(m => m.id === mapParam) : null
     setSelectedMapId(targetMap ? targetMap.id : city.maps[0].id)
     setPhotoPopup(null)
     setGalleryOpen(false)
     setHighlightQuery(qParam ?? '')
+    setHistoryChunk(null)
 
     if (galleryParam && galleryPhotos) {
       const idx = galleryPhotos.findIndex(p => p.id === galleryParam)
       if (idx !== -1) openGalleryAt(idx)
     }
 
-    if (mapParam || galleryParam || qParam) setSearchParams({}, { replace: true })
+    if (historiaParam) {
+      setCityInfoOpen(true)
+      fetch(asset(`fulltext/${city.id}.json`))
+        .then(r => (r.ok ? r.json() : null))
+        .then(data => {
+          const chunk = data?.chunks?.find(c => c.id === historiaParam)
+          if (chunk) setHistoryChunk(chunk)
+        })
+        .catch(() => {})
+    }
+
+    if (mapParam || galleryParam || qParam || historiaParam) setSearchParams({}, { replace: true })
   }, [city.id]) // eslint-disable-line react-hooks/exhaustive-deps
 
   // Clear secondary map ref when split view closes
@@ -835,7 +879,8 @@ export default function Atlas() {
           ...(cityInfoOpen ? { top: 0 } : {}),
           zIndex: 20,
         }}>
-          <CityInfoBar city={city} open={cityInfoOpen} onToggle={() => setCityInfoOpen(v => !v)} />
+          <CityInfoBar city={city} open={cityInfoOpen} onToggle={() => setCityInfoOpen(v => !v)}
+            historyChunk={historyChunk} highlightQuery={highlightQuery} />
         </div>
       </div>
 
