@@ -139,6 +139,8 @@ export default function Home() {
         </div>
       </section>
 
+      <TimelineSection />
+
       {/* ── Cities grid ───────────────────────────────────────── */}
       <section style={{ ...styles.fullSection, background: 'var(--cream-dark)' }}>
         <div style={styles.sectionInner}>
@@ -154,8 +156,6 @@ export default function Home() {
           </div>
         </div>
       </section>
-
-      <TimelineSection />
 
       {mapFullscreen && (
         <div style={styles.fsOverlay} onClick={() => setMapFullscreen(false)}>
