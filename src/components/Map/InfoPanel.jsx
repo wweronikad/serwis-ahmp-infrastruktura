@@ -1,9 +1,12 @@
 import { MAP_TYPE_LABELS } from '../../data/cities'
 
-export default function InfoPanel({ map, city, collapsed, onToggle }) {
+export default function InfoPanel({ map, city, collapsed, onToggle, metadata }) {
   if (!map) return null
 
   const allmapsId = extractAllmapsId(map.annotationUrl)
+  const cytowanie = metadata
+    ? `Atlas historyczny miast polskich, tom ${metadata.tom}, zeszyt ${metadata.zeszyt} (${metadata.rokWydania})`
+    : null
 
   return (
     <aside style={styles.panel}>
@@ -35,6 +38,10 @@ export default function InfoPanel({ map, city, collapsed, onToggle }) {
           <MetaRow label="Miasto" value={city.name} />
           <MetaRow label="Tom AHMP" value={city.volume} />
           <MetaRow label="Sygnatura" value={map.id.replace(/_/g, '.')} />
+          <MetaRow label="Skala" value={metadata?.skala} />
+          <MetaRow label="Skala reprodukcji" value={metadata?.skalaReprodukcji} />
+          <MetaRow label="Opracowanie" value={metadata?.autorzy} />
+          <MetaRow label="Cytowanie" value={cytowanie} />
         </div>
 
         <div style={styles.divider} />

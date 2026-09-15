@@ -486,6 +486,16 @@ export default function Atlas() {
 
   const city = getCityById(cityId) ?? cities[0]
 
+  // Bibliographic metadata extracted from each map PDF's text layer
+  // (scripts/extract_map_metadata.py) — tom/zeszyt/rok, scale, authors.
+  const [mapMetadata, setMapMetadata] = useState({})
+  useEffect(() => {
+    fetch(asset('ocr/map_metadata.json'))
+      .then(r => (r.ok ? r.json() : {}))
+      .then(setMapMetadata) // _readme sits alongside the mapId keys but is
+      .catch(() => {})      // never looked up, since selectedMap.id never is "_readme"
+  }, [])
+
   // Pre-select map from ?map= URL param (set by search results)
   const mapParam = searchParams.get('map')
   const initialMap = (mapParam && city.maps.find(m => m.id === mapParam)) ? mapParam : city.maps[0].id
@@ -900,6 +910,7 @@ export default function Atlas() {
             city={city}
             collapsed={infoPanelCollapsed}
             onToggle={() => setInfoPanelCollapsed((v) => !v)}
+            metadata={selectedMap ? mapMetadata[selectedMap.id] : null}
           />
         </div>
         {!infoPanelCollapsed && (
