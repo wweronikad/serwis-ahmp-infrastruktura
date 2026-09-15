@@ -1,4 +1,3 @@
-import { useState } from 'react'
 import { Link } from 'react-router-dom'
 import { cities } from '../data/cities'
 import HeroSlider from '../components/HeroSlider'
@@ -53,7 +52,6 @@ const CITY_PANORAMAS = {
 }
 
 export default function Home() {
-  const [mapFullscreen, setMapFullscreen] = useState(false)
   return (
     // Scroll wrapper — keeps footer pinned at bottom of viewport
     <div style={styles.scrollWrapper}>
@@ -78,66 +76,9 @@ export default function Home() {
         </div>
       </HeroSlider>
 
-      <ProjectIntro />
+      <AboutTeasers />
 
       <StatsSection />
-
-      {/* ── European Atlas map ────────────────────────────────── */}
-      <section style={styles.fullSection}>
-        <div style={styles.sectionInner}>
-          <h2 style={styles.sectionTitle}>Europejski Atlas Historyczny Miast</h2>
-          <p style={styles.sectionDesc}>
-            Inicjatywa AHMP jest częścią szerszego projektu europejskiego koordynowanego przez
-            Instytut Historyczny Westfalskiego Uniwersytetu Wilhelma w Münster (ISIG).
-            Mapa prezentuje zasięg atlasów historycznych miast w całej Europie.
-          </p>
-          <div style={{ position: 'relative' }}>
-            <div style={styles.iframeWrap}>
-              <iframe
-                src="https://www.uni-muenster.de/Staedtegeschichte/Interaktiv/Europaeische_Verbreitungskarte/index_en.html#4/52.0/10.0"
-                title="Mapa europejskich atlasów historycznych miast"
-                style={styles.iframe}
-                allowFullScreen
-              />
-            </div>
-            <div style={styles.iframeButtons}>
-              <a
-                href="https://www.uni-muenster.de/Staedtegeschichte/en/portal/staedteatlanten/index.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={styles.iframeBtn}
-              >
-                Strona projektu europejskiego ↗
-              </a>
-              <a
-                href="https://www.uni-muenster.de/imperia/md/content/staedtegeschichte/portal/europaeischestaedteatlanten/european_towns_atlases_updated_master.pdf"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={styles.iframeBtn}
-              >
-                Pełna lista miast (PDF)
-              </a>
-              <button
-                onClick={() => setMapFullscreen(true)}
-                style={styles.iframeBtn}
-              >
-                Otwórz w pełnym widoku ↗
-              </button>
-            </div>
-          </div>
-          <p style={styles.iframeCaption}>
-            Źródło:{' '}
-            <a
-              href="https://www.uni-muenster.de/Staedtegeschichte/en/portal/staedteatlanten/karte.html"
-              target="_blank"
-              rel="noopener noreferrer"
-              style={{ color: 'var(--gold)', textDecoration: 'none' }}
-            >
-              ISIG / Westfälische Wilhelms-Universität Münster
-            </a>
-          </p>
-        </div>
-      </section>
 
       <TimelineSection />
 
@@ -157,19 +98,6 @@ export default function Home() {
         </div>
       </section>
 
-      {mapFullscreen && (
-        <div style={styles.fsOverlay} onClick={() => setMapFullscreen(false)}>
-          <div style={styles.fsContent} onClick={e => e.stopPropagation()}>
-            <button style={styles.fsClose} onClick={() => setMapFullscreen(false)}>✕</button>
-            <iframe
-              src="https://www.uni-muenster.de/Staedtegeschichte/Interaktiv/Europaeische_Verbreitungskarte/index_en.html#4/52.0/10.0"
-              title="Mapa europejskich atlasów historycznych miast"
-              style={{ width: '100%', height: '100%', border: 'none' }}
-              allowFullScreen
-            />
-          </div>
-        </div>
-      )}
     </div>
   )
 }
@@ -240,31 +168,39 @@ function CityCard({ city }) {
 
 // ── Project intro ─────────────────────────────────────────────────────────
 
-function ProjectIntro() {
+// ── About teasers — compact cards, full story lives on the dedicated pages ──
+// (trimmed from a full prose section + embedded European map iframe: the
+// homepage's job is wayfinding, not carrying the whole story)
+
+const ABOUT_CARDS = [
+  {
+    badge: 'Projekt polski',
+    heading: 'Atlas Historyczny Miast Polskich',
+    text: 'Projekt badawczy zapoczątkowany w 1993 r. przez prof. Antoniego Czacharowskiego (UMK Toruń) — dotąd blisko 50 miast, zespoły w Toruniu, Wrocławiu i Krakowie.',
+    to: '/o-projekcie-polskim',
+  },
+  {
+    badge: 'Projekt europejski',
+    heading: 'European Historic Towns Atlases',
+    text: 'AHMP jest polską częścią międzynarodowej inicjatywy Komisji Historii Miast — ponad 530 atlasów miast w 18 krajach Europy, koordynowanej przez ISIG w Münster.',
+    to: '/o-projekcie-europejskim',
+  },
+]
+
+function AboutTeasers() {
   return (
     <section style={pi.wrap}>
       <div style={pi.inner}>
-        <div style={pi.badge}>Atlas Historyczny Miast Polskich</div>
-        <h2 style={pi.heading}>Cyfrowe dziedzictwo kartograficzne polskich miast</h2>
-        <div style={pi.cols}>
-          <p style={pi.lead}>
-            AHMP to naukowy projekt badawczy zapoczątkowany w&nbsp;1993&nbsp;roku
-            przez prof.&nbsp;Antoniego Czacharowskiego w&nbsp;Instytucie Historycznym
-            Uniwersytetu Mikołaja Kopernika w&nbsp;Toruniu. Jest polską częścią europejskiej
-            inicjatywy Komisji Historii Miast — największego międzynarodowego przedsięwzięcia
-            z&nbsp;zakresu historii urbanistycznej.
-          </p>
-          <p style={pi.body}>
-            Każdy zeszyt atlasu zawiera zgeoreferencjonowane plansze kartograficzne, widoki,
-            weduty i&nbsp;plany katastralne ukazujące miasto od średniowiecza po czasy
-            współczesne. Niniejszy serwis digitalizuje te materiały i&nbsp;osadza je
-            w&nbsp;interaktywnym środowisku GIS — umożliwiając nakładanie historycznych planów
-            na mapę współczesną, pomiary i&nbsp;porównania chronologiczne.
-          </p>
+        <div style={pi.cards}>
+          {ABOUT_CARDS.map((c) => (
+            <Link key={c.to} to={c.to} style={pi.card} className="about-teaser-card">
+              <div style={pi.badge}>{c.badge}</div>
+              <h2 style={pi.heading}>{c.heading}</h2>
+              <p style={pi.body}>{c.text}</p>
+              <span style={pi.link}>Dowiedz się więcej →</span>
+            </Link>
+          ))}
         </div>
-        <Link to="/o-projekcie-polskim" style={pi.link}>
-          Dowiedz się więcej o projekcie →
-        </Link>
       </div>
     </section>
   )
@@ -274,12 +210,26 @@ const pi = {
   wrap: {
     background: 'var(--cream)',
     borderTop: '3px solid var(--gold)',
-    padding: '56px 0',
+    padding: '40px 0',
   },
   inner: {
     maxWidth: '80vw',
     margin: '0 auto',
     padding: '0 32px',
+  },
+  cards: {
+    display: 'grid',
+    gridTemplateColumns: '1fr 1fr',
+    gap: '24px',
+  },
+  card: {
+    display: 'block',
+    background: 'var(--white)',
+    border: '1px solid var(--border-light)',
+    borderRadius: 'var(--radius)',
+    padding: '24px 26px',
+    textDecoration: 'none',
+    transition: 'border-color 0.15s, transform 0.15s',
   },
   badge: {
     display: 'inline-block',
@@ -291,38 +241,26 @@ const pi = {
     border: '1px solid var(--gold)',
     borderRadius: '2px',
     padding: '3px 10px',
-    marginBottom: '18px',
+    marginBottom: '14px',
   },
   heading: {
     fontFamily: 'var(--font-serif)',
-    fontSize: '30px',
+    fontSize: '19px',
     color: 'var(--navy)',
     fontWeight: 'normal',
     lineHeight: '1.3',
-    marginBottom: '28px',
-    maxWidth: '700px',
-  },
-  cols: {
-    display: 'grid',
-    gridTemplateColumns: '1fr 1fr',
-    gap: '32px',
-    marginBottom: '28px',
-  },
-  lead: {
-    fontSize: '15px',
-    color: 'var(--text)',
-    lineHeight: '1.8',
+    marginBottom: '10px',
   },
   body: {
-    fontSize: '14px',
+    fontSize: '13.5px',
     color: 'var(--text-muted)',
-    lineHeight: '1.8',
+    lineHeight: '1.7',
+    marginBottom: '14px',
   },
   link: {
     color: 'var(--navy)',
     fontWeight: '600',
     fontSize: '13px',
-    textDecoration: 'none',
     borderBottom: '1px solid var(--gold)',
     paddingBottom: '2px',
   },

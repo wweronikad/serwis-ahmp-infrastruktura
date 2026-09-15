@@ -50,6 +50,33 @@ export default function AboutEuropean() {
         </section>
 
         <section style={styles.section}>
+          <h2 style={styles.h2}>Mapa rozmieszczenia atlasów</h2>
+          <p style={styles.p}>
+            Interaktywna mapa prezentuje zasięg atlasów historycznych miast w&nbsp;całej Europie,
+            prowadzona przez Instytut Historyczny Westfalskiego Uniwersytetu Wilhelma w&nbsp;Münster (ISIG).
+          </p>
+          <div style={styles.iframeWrap}>
+            <iframe
+              src="https://www.uni-muenster.de/Staedtegeschichte/Interaktiv/Europaeische_Verbreitungskarte/index_en.html#4/52.0/10.0"
+              title="Mapa europejskich atlasów historycznych miast"
+              style={styles.iframe}
+              allowFullScreen
+            />
+          </div>
+          <p style={styles.caption}>
+            Źródło:{' '}
+            <a
+              href="https://www.uni-muenster.de/Staedtegeschichte/en/portal/staedteatlanten/karte.html"
+              target="_blank"
+              rel="noopener noreferrer"
+              style={{ color: 'var(--gold)' }}
+            >
+              ISIG / Westfälische Wilhelms-Universität Münster
+            </a>
+          </p>
+        </section>
+
+        <section style={styles.section}>
           <h2 style={styles.h2}>Centrum koordynujące</h2>
           <p style={styles.p}>
             Centralnym ośrodkiem dokumentującym jest{' '}
@@ -174,6 +201,15 @@ const styles = {
     marginBottom: '12px',
     fontSize: '14px',
   },
+  iframeWrap: {
+    width: '100%', height: '500px',
+    border: '1px solid var(--border)',
+    borderRadius: 'var(--radius)',
+    overflow: 'hidden',
+    marginTop: '8px',
+  },
+  iframe: { width: '100%', height: '100%', border: 'none', display: 'block' },
+  caption: { marginTop: '10px', fontSize: '12px', color: 'var(--text-muted)' },
   linkBox: {
     display: 'flex',
     flexDirection: 'column',

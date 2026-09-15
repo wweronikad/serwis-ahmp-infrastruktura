@@ -182,6 +182,12 @@ a[target="_blank"]:hover {
   animation-play-state: running;
 }
 
+/* ── About teaser cards (Home) ────────────────────────────────────────── */
+.about-teaser-card:hover {
+  border-color: var(--gold) !important;
+  transform: translateY(-2px);
+}
+
 /* ── Photo map markers ─────────────────────────────────────────────────── */
 .photo-map-marker {
   cursor: pointer;
