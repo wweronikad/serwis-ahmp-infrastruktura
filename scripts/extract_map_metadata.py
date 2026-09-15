@@ -23,6 +23,12 @@
 #         skalaReprodukcji?, skala?, autorzy?}}
 
 import json, re, sys, hashlib
+
+# Windows consoles default to a codepage (cp1250 etc.) that can't print every
+# Polish diacritic in the extracted text — without this, a name like
+# "Bogusław" crashes the progress print() after the data was already
+# extracted fine, miscounting a success as an error.
+sys.stdout.reconfigure(encoding='utf-8', errors='replace')
 from pathlib import Path
 import requests
 import pdfplumber
@@ -94,7 +100,14 @@ def extract_metadata(text):
 
     m = MAP_SCALE_RE.search(text)
     if m:
-        out['skala'] = re.sub(r'\s+', ' ', m.group(1)).strip()
+        skala = re.sub(r'\s+', ' ', m.group(1)).strip()
+        # The same PL/EN caption-overlap that scrambles the citation can
+        # also truncate this match early (e.g. "1:20" instead of the real
+        # "1:20 000") — real AHMP map scales are never under 1:100, so
+        # anything smaller after the colon is a mis-extraction, not data.
+        digits = re.sub(r'\D', '', skala.split(':', 1)[1]) if ':' in skala else ''
+        if len(digits) >= 3:
+            out['skala'] = skala
 
     m = AUTHORS_RE.search(text)
     if m:
@@ -130,10 +143,15 @@ if __name__ == '__main__':
     city_citation = {} # cityId -> (tom, zeszyt, rok) — first clean hit wins,
                         # then applied to every map in that city (same fascicle)
 
-    n404 = nerr = 0
+    n404 = nerr = nimg = 0
     for i, entry in enumerate(maps, 1):
         map_id, city_id = entry['mapId'], entry['cityId']
         print(f'[{i}/{len(maps)}] {map_id}', end='  ')
+        if entry['pdfUrl'].lower().endswith(('.jpg', '.jpeg')):
+            # a plain scan — no text layer possible, nothing pdfplumber can do
+            print('obraz JPG — brak warstwy tekstowej, pomijam')
+            nimg += 1
+            continue
         try:
             try:
                 pdf_path = download_pdf(entry['pdfUrl'])
@@ -182,7 +200,7 @@ if __name__ == '__main__':
            **{k: v for k, v in sorted(existing.items())}}
     OUT_FILE.write_text(json.dumps(out, ensure_ascii=False, indent=2), encoding='utf-8')
     no_citation = len(page_text) - ok
-    print(f'\nOK: {ok}  |  404: {n404}  |  błędy: {nerr}  |  bez cytowania (całe miasto): {no_citation}')
+    print(f'\nOK: {ok}  |  404: {n404}  |  JPG (pominięte): {nimg}  |  błędy: {nerr}  |  bez cytowania (całe miasto): {no_citation}')
     if missing_cities:
         print(f'Miasta bez ŻADNEGO czystego cytowania: {sorted(missing_cities)}')
     print(f'Zapisano: {OUT_FILE}')
