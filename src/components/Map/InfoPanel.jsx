@@ -4,7 +4,7 @@ export default function InfoPanel({ map, city, collapsed, onToggle, metadata }) 
   if (!map) return null
 
   const allmapsId = extractAllmapsId(map.annotationUrl)
-  const cytowanie = metadata
+  const cytowanie = metadata?.tom
     ? `Atlas historyczny miast polskich, tom ${metadata.tom}, zeszyt ${metadata.zeszyt} (${metadata.rokWydania})`
     : null
 

@@ -57,13 +57,17 @@ def load_catalog():
     return result
 
 
+class DownloadError(Exception):
+    pass
+
+
 def download_pdf(url):
     pdf_path = PDF_CACHE / (hashlib.md5(url.encode()).hexdigest() + '.pdf')
     if pdf_path.exists():
         return pdf_path
     r = requests.get(url, timeout=30)
     if r.status_code != 200:
-        return None
+        raise DownloadError(f'HTTP {r.status_code}')
     pdf_path.write_bytes(r.content)
     return pdf_path
 
@@ -131,9 +135,10 @@ if __name__ == '__main__':
         map_id, city_id = entry['mapId'], entry['cityId']
         print(f'[{i}/{len(maps)}] {map_id}', end='  ')
         try:
-            pdf_path = download_pdf(entry['pdfUrl'])
-            if pdf_path is None:
-                print('PDF niedostępny (404)')
+            try:
+                pdf_path = download_pdf(entry['pdfUrl'])
+            except DownloadError as e:
+                print(f'PDF niedostępny ({e})')
                 n404 += 1
                 continue
             text = extract_page_text(pdf_path)
@@ -164,7 +169,10 @@ if __name__ == '__main__':
         citation = city_citation.get(city_id)
         if citation:
             meta['tom'], meta['zeszyt'], meta['rokWydania'] = citation
-        if 'tom' in meta:
+        # Keep skala/autorzy even when this city's citation never parsed
+        # cleanly (~10 cities — same caption-overlap issue, just a variant
+        # that also displaces the year) — no reason to throw that away too.
+        if meta:
             existing[map_id] = meta
             ok += 1
 

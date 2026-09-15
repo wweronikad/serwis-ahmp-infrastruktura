@@ -1,0 +1,308 @@
+{
+  "_readme": "Metadane wyciągnięte automatycznie z warstwy tekstowej PDF-ów map (bez OCR — 100% dokładne, poza pojedynczymi mapami bez cytowania). Zbudowane przez scripts/extract_map_metadata.py.",
+  "ahmp_biecz_1_1": {
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_1_6": {
+    "skalaReprodukcji": "40%",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_1_7": {
+    "skalaReprodukcji": "32%",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_1_8": {
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_3_1": {
+    "skala": "1:10 000",
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_3_2": {
+    "skala": "1:10 000",
+    "autorzy": "Paweł Kocańda",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_3_3": {
+    "skala": "1:2 500",
+    "autorzy": "Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_3_4": {
+    "skala": "1:2 500",
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_3_5": {
+    "skala": "1:10 000",
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_3_6": {
+    "skala": "1:10 000",
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_3_7": {
+    "autorzy": "Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_biecz_3_8": {
+    "skala": "1:2 500",
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "7",
+    "rokWydania": "2021"
+  },
+  "ahmp_brzeg_1": {
+    "skala": "1 : 2500"
+  },
+  "ahmp_brzeg_4": {
+    "skala": "1 : 2000"
+  },
+  "ahmp_brzeg_5": {
+    "skala": "1 : 2500"
+  },
+  "ahmp_milicz_ii_1": {
+    "skala": "1:2500"
+  },
+  "ahmp_milicz_ii_2": {
+    "skala": "1:10 000"
+  },
+  "ahmp_namyslow_ii_4": {
+    "skala": "1 : 2000"
+  },
+  "ahmp_olawa_ii_1": {
+    "skala": "1:2500"
+  },
+  "ahmp_raciborz_ii_1": {
+    "skala": "1 :2500"
+  },
+  "ahmp_raciborz_ii_2": {
+    "skala": "1 :10 000"
+  },
+  "ahmp_strzegom_ii_1": {
+    "skala": "1:2500"
+  },
+  "ahmp_strzegom_ii_2": {
+    "skala": "1:10 000"
+  },
+  "ahmp_strzegom_ii_3": {
+    "skala": "1:2500"
+  },
+  "ahmp_strzegom_ii_4": {
+    "skala": "1:2500"
+  },
+  "ahmp_strzelin_ii_1": {
+    "skala": "1:2500"
+  },
+  "ahmp_swidnica_ii_1": {
+    "skala": "1 : 2500"
+  },
+  "ahmp_tarnow_1_1": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_11": {
+    "skalaReprodukcji": "80%",
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_12": {
+    "skalaReprodukcji": "75%",
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_13": {
+    "skalaReprodukcji": "75%",
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_14": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_15": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_2": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_3": {
+    "skalaReprodukcji": "40%",
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_4": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_5": {
+    "skalaReprodukcji": "80%",
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_6": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_7": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_9": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_3_1": {
+    "skala": "1:15000",
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_3_2": {
+    "skala": "1:50000",
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_3_3": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_3_4": {
+    "skala": "1:2500",
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_3_5": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_1": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_11": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_12": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_13": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_14": {
+    "skalaReprodukcji": "75%",
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_15": {
+    "skalaReprodukcji": "95%",
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_16": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_17": {
+    "skalaReprodukcji": "95%",
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_18": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_19": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_20": {
+    "skalaReprodukcji": "80%",
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_1_21": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_3_1": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_3_2": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_zamosc_3_3": {
+    "tom": "V",
+    "zeszyt": "9",
+    "rokWydania": "2024"
+  },
+  "ahmp_ziebice_ii_1": {
+    "skala": "1 : 2500"
+  },
+  "ahmp_ziebice_ii_2": {
+    "skala": "1 : 2500"
+  }
+}
