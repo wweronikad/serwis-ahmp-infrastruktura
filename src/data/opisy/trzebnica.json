@@ -1,54 +1,48 @@
 {
   "cityId": "trzebnica",
-  "epoka": "XII–XIX w.",
+  "epoka": "V–XX w.",
   "karty": {
     "uklad_przestrzenny": {
       "dostepne": true,
-      "zajawka": "Miasto klasztorne — układ zdominowany przez opactwo cysterek fundacji piastowskiej z 1203 r. Miasto lokacyjne rozwinęło się przy klasztorze jako centrum pielgrzymkowe.",
-      "tekst": "Trzebnica (niem. Trebnitz) jest miastem-satelitą opactwa cysterek, a nie miastem, które potem zyskało klasztor. Fundacja klasztoru przez Henryka I Brodatego w 1203 r. wyprzedziła lokację miasta. Osada klasztorna i targowa rosły organicznie przy klasztorze, a prawa miejskie Trzebnica uzyskała dopiero w XIV w. (wzm. 1250–1300 r. jako villa, prawo miejskie w XIV w.).\n\nUkład przestrzenny odzwierciedla ten rodowód: rozległy kompleks opactwa z kościołem romańsko-gotyckim, klasztorem i ogrodem opackim zajmuje centrum — miasto lokacyjne z rynkiem i siatką ulic rozwinęło się po wschodniej stronie kompleksu klasztornego.\n\nRekonstrukcja historyczna (AHMP II 3–4) dokumentuje układ na przełomie XII/XIII w. i kolejne fazy rozwoju. Plan katastralny z 1915 r. ukazuje miasto u progu industrializacji z niezmienioną dominacją opactwa w krajobrazie.",
-      "mapy": ["ahmp_trzebnica_ii_1", "ahmp_trzebnica_ii_3", "ahmp_trzebnica_ii_4"]
+      "zajawka": "Osadnictwo od V w., pierwsza wzmianka pisana w 1138 r. Prawa miejskie od 1250 r. Miasto rozwinęło się na skrzyżowaniu szlaków z Wrocławia do Poznania i z Milicza do Kalisza i Gniezna.",
+      "tekst": "Osadnictwo na terenie Trzebnicy sięga V w., a pierwsza pisemna wzmianka o miejscowości pochodzi z dokumentu z 1138 r. Prawa miejskie Trzebnica otrzymała w 1250 r., trzy lata po tym jak w 1247 r. wykupiła od klasztoru cysterek wójtostwo, uzyskując znaczną samodzielność gospodarczą.\n\nMiasto ukształtowało się na skrzyżowaniu ważnych szlaków komunikacyjnych — z Wrocławia przez Żmigród do Poznania oraz z Milicza do Kalisza i Gniezna — na wschodnim skraju Wzgórz Trzebnickich, na obrzeżu rozległej puszczy, co czyniło je istotnym punktem wymiany handlowej.",
+      "mapy": ["ahmp_trzebnica_ii_4", "ahmp_trzebnica_ii_3"]
     },
     "fortyfikacje": {
       "dostepne": true,
-      "zajawka": "Miasto bez większych fortyfikacji — klasztor pełnił rolę schronienia. Ograniczone mury miejskie, brak zamku książęcego. Obronność opierała się na murach klasztornych.",
-      "tekst": "Trzebnica w odróżnieniu od innych śląskich miast nie dysponowała rozbudowanymi fortyfikacjami. Miasto klasztorne w naturalny sposób czerpało bezpieczeństwo z autorytetu i zasobów bogatego opactwa — obleganie klasztoru wiązało się z kościelną klątwą i konsekwencjami dyplomatycznymi.\n\nMury miejskie o skromnym charakterze otaczały miasto właściwe, lecz nie dorównywały fortyfikacjom Wrocławia czy Świdnicy. Bramy miejskie (Wrocławska i Oleśnicka) kontrolowały ruch na głównym szlaku przez miasto.\n\nKlasztor otoczony był własnym murem obronnym z basztami — typowym dla zamożnych opactw śląskich rozwiązaniem. Mur klasztorny zapewniał siostrom i pielgrzymom schronienie w czasach niepokojów.",
+      "zajawka": "Mury obronne z XIII/XIV w. (relikty zachowane m.in. przy Bramie Trębaczy). Zamek wzniesiony w latach 1294–1300 przez Henryka Głogowskiego.",
+      "tekst": "Zachowane fragmenty miejskich murów obronnych, m.in. w rejonie Bramy Trębaczy i ul. Marcinowskiej, datowane są na przełom XIII i XIV w. W latach 1294–1300 książę Henryk Głogowski wzniósł w Trzebnicy zamek, poświadczony źródłowo w dokumentach z 1322 i 1323 r. Badania archeologiczne odsłoniły także relikty rezydencji wójtowskiej z końca XIII w., oddzielonej od miasta suchą fosą i drewnianą palisadą.",
       "mapy": []
     },
     "koscioly": {
       "dostepne": true,
-      "zajawka": "Opactwo cysterek — kościół pw. Wniebowzięcia NMP i św. Bartłomieja z XII–XIII w., perła architektury romańsko-gotyckiej Śląska. Grób bł. Jadwigi Śląskiej — centrum kultowe.",
-      "tekst": "**Kościół klasztorny pw. Wniebowzięcia NMP i św. Bartłomieja** — wzniesiony po 1203 r. w stylu romańskim z elementami gotyckimi. Jest jednym z najważniejszych dzieł architektury sakralnej XIII-wiecznego Śląska. Romańskie portal boczny z tympanonem (ok. 1230 r.) przedstawia Koronację Matki Boskiej — arcydzieło śląskiej rzeźby romańskiej.\n\nW krypcie kościoła pochowana jest bł. Jadwiga Śląska (1174–1243) — żona Henryka I Brodatego, która po śmierci męża wstąpiła do klasztoru i szerzyła pobożność i dzieła miłosierdzia. Kanonizowana w 1267 r., jest patronką Śląska i jedną z patronek Polski. Grób Jadwigi był przez wieki celem pielgrzymek z całego Śląska i Niemiec.\n\n**Kaplica Jadwigi** — dobudowana do nawy bocznej kościoła w XIV–XV w. jako oddzielna przestrzeń adoracji sanktuarium świętej.\n\n**Kościół parafialny** — skromna świątynia miejska dla ludności świeckiej stała przy rynku miasta lokacyjnego.",
-      "mapy": []
-    },
-    "ludnosc": {
-      "dostepne": true,
-      "zajawka": "Miasto pielgrzymkowe — sezonowe wahania ludności. Stała ludność obsługująca klasztor i pielgrzymów: handlarze, rzemieślnicy, służba. Brak wpływowych cechów przemysłowych.",
-      "tekst": "Trzebnica jako miasto klasztorne i pielgrzymkowe miała specyficzną strukturę demograficzną. Stała ludność — kilkaset rodzin kupieckich i rzemieślniczych — obsługiwała klasztor i pielgrzymów: prowadzono karczmy, gospody, kramiki z dewocjonaliami i żywnością.\n\nSezon pielgrzymkowy (głównie na Zielone Świątki i w październiku w rocznicę śmierci Jadwigi) przynosił kilkakrotny wzrost liczby osób w mieście. Pielgrzymi przybywali ze Śląska, Czech, Niemiec i Polski.\n\nKlasztor był największym pracodawcą: zatrudniał miejscową ludność jako ogrodnicy, stróże, budowniczowie i służba. Dominujące ekonomicznie opactwo czasem wchodziło w konflikty z mieszczaństwem o prawa handlowe i zwolnienia podatkowe.\n\nGmina żydowska w Trzebnicy była mała — miasto nie było centrum handlowym w skali regionalnej.",
+      "zajawka": "Pierwszy żeński klasztor cysterski na ziemiach polskich — ufundowany w 1202 r. przez Henryka Brodatego i św. Jadwigę Śląską. Od XIV w. ośrodek kultu św. Jadwigi, do dziś jedno z ważniejszych sanktuariów w Polsce.",
+      "tekst": "Najważniejszym wydarzeniem w historii Trzebnicy była fundacja w 1202 r. przez księcia Henryka I Brodatego kościoła i klasztoru dla sprowadzonych z Bambergu cysterek — pierwszego żeńskiego klasztoru cysterskiego na ziemiach polskich. Romański kościół klasztorny ukończono w 1218 r. Fundatorką i pierwszą przełożoną wspólnoty była żona Henryka, św. Jadwiga Śląska, której szczątki — podobnie jak szczątki samego księcia — spoczywają w trzebnickiej świątyni.\n\nOd XIV w. Trzebnica jest ważnym ośrodkiem kultu św. Jadwigi Śląskiej, ściągającym pielgrzymów z całej Polski i Europy Środkowej; funkcję tę pełni nieprzerwanie do dziś.",
       "mapy": []
     },
     "gospodarka": {
       "dostepne": true,
-      "zajawka": "Pielgrzymki i obsługa klasztoru jako główna działalność. Rolnicze zaplecze — klasztor posiadał rozległe dobra ziemskie. Rzemiosło lokalne, brak wielkich cechów.",
-      "tekst": "Gospodarka Trzebnicy opierała się przede wszystkim na pielgrzymkach do grobu bł. Jadwigi oraz na obsłudze klasztoru. Pielgrzymi przynosili donacje, opłacali noclegi i kupowali towary — co generowało stały dochód dla miejscowego handlu i rzemiosła.\n\nKlasztor cysterek był potężnym właścicielem ziemskim — posiadał liczne wsie, folwarki i młyny w okolicach Trzebnicy. Gospodarka klasztorna (uprawa roli, hodowla, przetwórstwo) zatrudniała miejscową ludność.\n\nTrzebnica leżała na szlaku z Wrocławia do Oleśnicy i Milicza — handel tranzytowy przynosił miastu dochody z cła. Rzemiosło miejskie (piekarze, rzeźnicy, tkacze) obsługiwało lokalne potrzeby.\n\nW XIX w. budowa kolei (1904) i industrializacja Śląska dotarły do Trzebnicy z opóźnieniem — miasto pozostało głównie ośrodkiem rolniczo-usługowym z silnym rysem sakralnym.",
+      "zajawka": "Jarmark przeniesiony z Cerekwicy w 1146 r. Rozwój tkactwa lnianego pod koniec XVII w. Przemysł włókienniczy i połączenie kolejowe z Wrocławiem od 1886 r.",
+      "tekst": "Już w 1146 r. przeniesiono do Trzebnicy jarmark odbywający się wcześniej w pobliskiej Cerekwicy, co wzmocniło handlową rolę osady jeszcze przed lokacją miejską. Po zniszczeniach wojny trzydziestoletniej niewielkie ożywienie gospodarcze nastąpiło pod koniec XVII w., gdy ocalała ludność zajęła się uprawą lnu, co dało początek miejscowemu tkactwu.\n\nW XIX w. miasto przeżyło wyraźny rozkwit gospodarczy — rozbudował się przemysł włókienniczy, powstały bank i drukarnia, a w 1886 r. Trzebnica uzyskała połączenie kolejowe z Wrocławiem.",
       "mapy": []
     },
     "wladza": {
       "dostepne": true,
-      "zajawka": "Miasto klasztorne pod patronatem Piastów, następnie Korony Czeskiej i Habsburgów. Opactwo jako faktyczna władza ekonomiczna. Od 1742 r. w Prusach, od 1945 r. w Polsce.",
-      "tekst": "Opactwo cysterek w Trzebnicy cieszyło się przez stulecia szczególnym patronatem książąt śląskich. Henryk I Brodaty i jego następcy traktowali klasztor jako miejsce spoczynku dynastii i centrum religijne Śląska. Privilegie i immunities klasztornych były rozległe.\n\nZ formalnego punktu widzenia Trzebnica wchodziła w skład kolejnych jednostek administracyjnych Śląska: Księstwa Wrocławskiego, Korony Czeskiej, Habsburgów. Opactwo jednak de facto rządziło miastem — jako właściciel ziemski, patron kościelny i wielki pracodawca.\n\nW 1741–1742 r. Prusy przejęły Śląsk. Rząd pruski dążył do ograniczenia kościelnych posiadłości. W 1810 r. zakon skasowano i majątek przejęło państwo pruskie. Kościół klasztorny stał się parafialnym.\n\nPo 1945 r. Trzebnica wróciła do Polski. Klasztor odrestaurowano, powróciły cysterki, odnowiono kult bł. Jadwigi — kanonizowanej ponownie uroczyście przez papieża Jana Pawła II podczas wizyty w 1990 r.",
+      "zajawka": "Miasto klasztorne — własność opactwa cysterek od fundacji w 1202 r. Samodzielność gospodarcza (wykup wójtostwa) od 1247 r., prawa miejskie od 1250 r.",
+      "tekst": "Od momentu fundacji klasztoru w 1202 r. Trzebnica pozostawała miastem silnie związanym z opactwem cysterek, które przez stulecia było tu główną siłą gospodarczą i administracyjną. Znaczący krok ku samodzielności miasto uczyniło w 1247 r., wykupując od klasztoru wójtostwo, co dało mieszczanom większą niezależność gospodarczą jeszcze przed formalną lokacją miejską w 1250 r.",
       "mapy": []
     },
     "srodowisko": {
       "dostepne": true,
-      "zajawka": "Wzgórza Trzebnickie — łańcuch wzgórz morenowych na Nizinie Śląskiej. Klasztor na wzniesieniu nad doliną rzeki Sąsiecznicy, malownicze otoczenie leśne.",
-      "tekst": "Trzebnica leży na Wzgórzach Trzebnickich — łańcuchu pagórków morenowych ciągnącym się z południowego zachodu na północny wschód, przez ok. 120 km, między Wrocławiem a ziemią lubuską. Wzgórza o wysokości 200–250 m n.p.m. stanowią wyraźny dział wodny między Odrą a Obrą.\n\nKlasztor założono na jednym z trójnicznych wzgórz, nad doliną małej rzeki Sąsiecznicy. Otoczenie leśne — lasy bukowe i dębowe Wzgórz Trzebnickich — było naturalne dla cystersów, którzy preferowali zakładanie klasztorów w bezludnych, leśnych okolicach jako wyraz reguły pustelniczej.\n\nWzgórza Trzebnickie były też w przeszłości naturalną barierą komunikacyjną — drogi przez wzgórza wymagały trudnych podejść i były zdane na łaski pogody. Taka izolacja sprzyjała skupieniu duchownemu cysterek i chroniła klasztor.\n\nDziś Wzgórza Trzebnickie są chętnie odwiedzanym terenem rekreacyjnym w pobliżu Wrocławia — lasy, trasy piesze i sanktuarium Jadwigi przyciągają turystów.",
-      "mapy": ["ahmp_trzebnica_ii_3", "ahmp_trzebnica_ii_4"]
+      "zajawka": "Wzgórza Trzebnickie, na skraju dawnej wielkiej puszczy oddzielającej Śląsk od Wielkopolski. Powierzchnia miasta 10,61 km², wysokość 150–253 m n.p.m.",
+      "tekst": "Trzebnica leży we wschodniej części Wzgórz Trzebnickich, w miejscu historycznie stanowiącym skraj rozległej puszczy oddzielającej ziemie śląskie od wielkopolskich — stąd rola miasta jako punktu wymiany handlowej na styku dwóch krain. Miasto zajmuje powierzchnię 10,61 km², a rzeźba terenu waha się od 150 do 253 m n.p.m.",
+      "mapy": []
     },
     "zrodla": {
       "dostepne": true,
-      "zajawka": "Akta klasztorne i dyplomy fundacyjne w Archiwum Archidiecezjalnym we Wrocławiu. AHMP Tom IV — zeszyt trzebnicki.",
-      "tekst": "**Źródło treści paneli:** *Atlas Historyczny Miast Polskich, tom IV: Śląsk, zeszyt 3: Trzebnica, Toruń 2003*. Dostępne online: https://atlasmiast.umk.pl/atlasy/trzebnica/\n\n**Archiwalia:** Archiwum Archidiecezjalne we Wrocławiu przechowuje dokumenty klasztoru trzebnickiego od XIII w. — fundacja, przywileje, patronat piastowski. Bogate są też materiały z epoki habsburskiej dotyczące kasaty zakonu (1810).\n\n**Żywot bł. Jadwigi** (Vita Hedwigis) — hagiograficzny życiorys z XIII w. jest pierwszym pisanym źródłem dotyczącym Trzebnicy i jej fundatorów. Służył jako podstawa procesu kanonizacyjnego (1267).\n\n**Ważniejsze opracowania:**\n- M. Goliński, R. Eysymontt (red.), *Atlas historyczny miast polskich, t. IV: Śląsk, z. Trzebnica*, Wrocław 2012\n- E. Walter, *Trzebnica — klejnot w koronie Śląska*, Wrocław 1990\n- H. Hoffmann, *Das Kloster Trebnitz*, Breslau 1935\n- A. Pobóg-Lenartowicz, *Jadwiga Śląska*, Opole 2009\n\n**Badania archeologiczne:** Wykopaliska przy kościele klasztornym dokumentują romańskie fazy budowlane i nagrobki XII–XIII-wieczne.",
-      "mapy": ["ahmp_trzebnica_ii_3"]
+      "zajawka": "Opracowanie na podstawie polskiej Wikipedii oraz materiałów gminy Trzebnica. Dla Trzebnicy AHMP nie opublikował osobnej części opisowej — dostępne są wyłącznie plansze kartograficzne.",
+      "tekst": "**Uwaga:** podobnie jak w przypadku kilku innych miast śląskich w serwisie, dla Trzebnicy Atlas Historyczny Miast Polskich nie wydał osobnej „części opisowej” — dostępne są tylko plansze kartograficzne (AHMP II). Powyższe karty są więc odrębnym opracowaniem redakcyjnym, a nie tłumaczeniem/streszczeniem zeszytu AHMP.\n\n**Źródła:**\n- [Trzebnica — Wikipedia](https://pl.wikipedia.org/wiki/Trzebnica)\n- [Lokalizacja i historia — BIP Gmina Trzebnica](https://bip.trzebnica.pl/artykul/28/673/lokalizacja-i-historia)\n- Katalog map: [atlasmiast.umk.pl/atlasy/trzebnica](https://atlasmiast.umk.pl/atlasy/trzebnica/)",
+      "mapy": []
     }
   }
 }

@@ -1,54 +1,54 @@
 {
   "cityId": "sroda-slaska",
-  "epoka": "XII–XV w.",
+  "epoka": "XIII–XX w.",
   "karty": {
     "uklad_przestrzenny": {
       "dostepne": true,
-      "zajawka": "Jedno z pierwszych miast lokacyjnych Śląska (ok. 1240 r.) z unikalni dużym rynkiem i wczesnośredniowieczną tradycją targową. Centrum prawa śląskiego (ius Srodiense) — z tu wywodzi się prawo miejskie stosowane w setkach śląskich miejscowości.",
-      "tekst": "Środa Śląska (niem. Neumarkt) była jednym z pierwszych miast lokacyjnych na Śląsku, wzmiankowaną już w 1223 r. jako ośrodek targowy. Lokacja na wzorowym prawie śląskim (ius Srodiense lub ius Teutonicum) nastąpiła ok. 1235–1241 r. — stąd prawo to, stosowane w setkach późniejszych osad śląskich, wzięło od niej swoją nazwę.\n\nUkład przestrzenny Środy Śląskiej charakteryzuje się wyjątkowo dużym prostokątnym rynkiem (ponad 2 ha), od którego odchodzą ulice ku bramom. Kościół farny pw. Wniebowzięcia NMP stoi przy rynku — co jest rzadkością w lokacyjnych miastach śląskich, gdzie zazwyczaj kościół lokuje się poza rynkiem.\n\nPlany katastralne z 1860 r. i 1905 r. (AHMP II 1–2) ukazują miasto u progu industrializacji, z zachowanym układem lokacyjnym. Rekonstrukcja historyczna (AHMP II 5) i schemat parcelacji (AHMP II 7) wykazują, że historyczny podział na działki mieszczańskie przetrwał niemal niezmieniony od XIII w.",
-      "mapy": ["ahmp_sroda_slaska_ii_1", "ahmp_sroda_slaska_ii_2", "ahmp_sroda_slaska_ii_5"]
+      "zajawka": "Kolonizacja na prawie flamandzkim ok. 1210 r. przez Henryka I Brodatego, prawa miejskie magdeburskie przed 1214 r. Wzmiankowana w 1223 r. pod nazwą „Novum Forum” (Nowy Targ).",
+      "tekst": "Ok. 1210 r. Henryk I Brodaty osadził w miejscu dzisiejszej Środy Śląskiej kolonistów na prawie flamandzkim, a jeszcze przed 1214 r. miejscowość otrzymała magdeburskie prawo miejskie — jest więc jednym z najwcześniej lokowanych miast na Śląsku. W dokumencie z 1223 r. określono ją łacińską nazwą „Novum Forum” (Nowy Targ), co odzwierciedla jej pierwotną funkcję handlową.\n\nJuż w XIII w. miasto stało się jednym z ważniejszych ośrodków handlu solą na Śląsku, co silnie ukształtowało jego układ przestrzenny wokół centralnego rynku.",
+      "mapy": ["ahmp_sroda_slaska_ii_5", "ahmp_sroda_slaska_ii_1"]
     },
     "fortyfikacje": {
       "dostepne": true,
-      "zajawka": "Mury miejskie z XIII–XIV w. z basztami i trzema bramami — dobrze zachowane do XV w., następnie stopniowo rozbierane. Zamek książęcy na zachodnim krańcu.",
-      "tekst": "Środa Śląska otoczona była murami obronnymi wzniesionymi w XIII–XIV w. Mury ceglanej struktury z wapiennym spoiwem wzmocnione były basztami cylindrycznymi i prostokątnymi, rozmieszczonymi w regularnych odstępach. Trzy bramy — Wrocławska, Świdnicka i Złotoryjska — kontrolowały główne drogi wejścia do miasta.\n\nZamek książęcy przy zachodniej bramie był siedzibą piastowskich administracji i reprezentacyjną rezydencją przy przejazdach przez miasto. Jego pozostałości wchłonęły później zabudowa mieszczańska i kościelna.\n\nOd XVII w. mury były stopniowo rozbierane — ich cegła służyła jako materiał budowlany. Do XX w. przetrwały nieliczne odcinki kurtynu i pojedyncze baszty. Plan katastralny z 1860 r. dokumentuje ślady dawnego obwodu obronnego.",
-      "mapy": ["ahmp_sroda_slaska_ii_4", "ahmp_sroda_slaska_ii_5"]
+      "zajawka": "Mury obronne z fosą z przełomu XIII/XIV w. Zamek, dziś zachowany jako ruina, wzniesiony w 2. połowie XIII w.",
+      "tekst": "Miasto otoczono murami obronnymi z fosą pod koniec XIII w. W tym samym okresie (2. poł. XIII w. – XIV w.) wzniesiono także zamek, z którego do dziś zachowały się jedynie ruiny.",
+      "mapy": ["ahmp_sroda_slaska_ii_4"]
     },
     "koscioly": {
       "dostepne": true,
-      "zajawka": "Gotycki kościół farny pw. Wniebowzięcia NMP (XIII–XIV w.) bezpośrednio przy rynku. Klasztor augustianów. Kościół ewangelicki — po reformacji główna świątynia miejska przez ponad 400 lat.",
-      "tekst": "**Kościół farny pw. Wniebowzięcia NMP** — gotycka bazylika trójnawowa wzniesiona w XIII–XIV w. Stoi bezpośrednio przy wschodniej pierzei rynku — wyjątkowe usytuowanie w planie śląskiego miasta lokacyjnego. Budowla rozbudowywana w XV–XVI w. o kaplicę i zakrystię. Po reformacji przejęta przez luteranów (1524), zwrócona katolikom po 1945 r.\n\n**Klasztor augustianów** — sprowadzeni do Środy w XIII w., wznieśli kościół i klasztor przy północnym obwodzie murów. Po kasacie zakonu przez władze pruskie (1810) budynek użytkowany jako magazyn. Dziś zabytek.\n\n**Kościół ewangelicki** — wzniesiony w XVIII w. dla luterańskiej gminy mieszczańskiej. Stanowił główną świątynię w mieście przez epokę pruską (do 1945 r.).\n\nReformacja przyjęła się w Środzie Śląskiej już w 1524 r. — miasto szybko stało się ewangelickie. Katolicyzm powrócił z napływem polskiej ludności po 1945 r.",
-      "mapy": ["ahmp_sroda_slaska_ii_4"]
+      "zajawka": "Kościół św. Andrzeja Apostoła — wielokrotnie przebudowywana świątynia parafialna. Kościół szpitalny NMP (ok. 1220 r.) i klasztor franciszkanów (poł. XIV w.).",
+      "tekst": "Główną świątynią parafialną miasta jest **kościół św. Andrzeja Apostoła**, wielokrotnie przebudowywany na przestrzeni wieków. Już ok. 1220 r. istniał kościół szpitalny pw. Najświętszej Marii Panny. W połowie XIV w. osiedlili się w mieście franciszkanie, wznosząc kościół Podwyższenia Krzyża Świętego wraz z klasztorem; w 1726 r. w mieście działał także klasztor dominikanów.",
+      "mapy": []
     },
     "ludnosc": {
       "dostepne": true,
-      "zajawka": "Centrum prawa śląskiego przyciągało kupców z całego regionu. Niemieccy mieszczanie, polska szlachta w okolicy. Wielki skarb z 1987 r. — świadectwo XIV-wiecznej zamożności.",
-      "tekst": "Środa Śląska jako centrum prawa śląskiego (ius Srodiense) przez cały XIII w. ściągała kupców i rzemieślników, którzy przybywali po wzorce administracyjne i prawne. Mieszczaństwo było w przeważającej mierze niemieckie — osadnicy z zachodnich Niemiec, Niderlandów i Flandrii.\n\nOkolicę zamieszkiwała szlachta polska i spolonizowana. Środa Śląska co roku była miejscem zjazdów (wieczów) szlachty śląskiej — ważnych spotkań politycznych regionu.\n\nWielki Skarb Środy Śląskiej odkryty w 1985–1988 r. podczas prac budowlanych jest dowodem na XIV-wieczną zamożność. Znalezisko obejmuje ponad 3 tys. srebrnych monet i kilkadziesiąt złotych i srebrnych biżuterii, w tym relikwiarz i koronę — możliwe relikwie po cesarzu Karolu IV, który zastawił je u tutejszych Żydów.\n\nPo 1742 r. miasto zalała kolonizacja pruska. Po 1945 r. radykalna zmiana demograficzna.",
+      "zajawka": "500 mieszczan spalonych w 1248 r. za sprzyjanie księciu wrocławskiemu — jeden z dramatycznych epizodów wczesnej historii miasta. Dziś ok. 9,5 tys. mieszkańców.",
+      "tekst": "Z wczesnej historii miasta zachował się dramatyczny przekaz o wydarzeniach z 1248 r., gdy podczas konfliktu książąt piastowskich spalono ok. 500 mieszczan Środy oskarżonych o sprzyjanie księciu wrocławskiemu — epizod ten ilustruje skalę i intensywność ówczesnych sporów dynastycznych na Śląsku. Współcześnie (2025 r.) miasto liczy 9526 mieszkańców.",
       "mapy": []
     },
     "gospodarka": {
       "dostepne": true,
-      "zajawka": "Największy w regionie targ cotygodniowy; centrum prawa śląskiego przyciągało kupców po wzorce prawne. Skarb Środy — świadectwo XIV-wiecznych relacji kredytowych i handlowych.",
-      "tekst": "Środa Śląska była jednym z najważniejszych ośrodków handlowych centrum Śląska. Targ cotygodniowy i jarmarki kwartalne przyciągały kupców z całego regionu. Duży rynek — jeden z największych na Śląsku — był infrastrukturą tych transakcji: kramy, ławy sukiennicze, jatki rzeźnicze zajmowały centralne miejsca.\n\nDwutygodniowe targi konne i bydlęce ze Środy Śląskiej cieszyły się sławą w całej okolicy. Handel szedł przez tu ze Złotoryi i Legnicy na wschód ku Wrocławiowi i na południe ku Świdnicy.\n\nSkarb Środy Śląskiej (XIV w.) i liczne dokumenty o pożyczkach żydowskich świadczą o ożywionym obrocie kredytowym. Żydzi pożyczali pieniądze pod zastaw kosztowności — co było normalne dla XIV-wiecznego rynku śląskiego. Kiedy właściciel (lub władca) nie wykupił zastawu, kosztowności zostawały u wierzyciela.\n\nW XIX w. budowa linii kolejowej (1844) i fabryki cukru (1870) zainicjowały industrializację Środy.",
+      "zajawka": "Handel solą jako filar średniowiecznej gospodarki miasta. Od XV w. uprawa winorośli i browarnictwo, w XVIII w. manufaktura tytoniowa. Połączenie kolejowe z Legnicą od 1844 r.",
+      "tekst": "Przez cały okres średniowiecza gospodarkę Środy Śląskiej zdominował handel solą, uzupełniany rozwijającym się tkactwem. Od XV w. znaczenia nabrały uprawa winorośli, winiarstwo i browarnictwo. W XVIII w. w mieście działała manufaktura tytoniowa. Włączenie miasta w sieć kolejową — połączenie ze stacją w Legnicy uruchomiono w 1844 r. — otworzyło nowy etap rozwoju gospodarczego w XIX w.",
       "mapy": ["ahmp_sroda_slaska_ii_6"]
     },
     "wladza": {
       "dostepne": true,
-      "zajawka": "Miasto piastowskie, centrum prawa śląskiego. Wiec szlachty śląskiej. Pod Habsburgami od 1526 r., w Prusach od 1742 r., w Polsce od 1945 r.",
-      "tekst": "Środa Śląska jako centrum prawa śląskiego (ius Srodiense) odgrywała specyficzną rolę ustrojową — odpowiedzi na pytania prawne przybywano tu z całego Śląska. Każde nowe miasto zakładane na prawie śląskim wzorowało się na Środzie jako mieście-matce.\n\nMiasto należało do Piastów śląskich, następnie weszło w sferę wpływów czesko-habsburskich. W 1526 r. Habsburgowie przejęli całe dziedzictwo czeskie z Śląskiem. W 1742 r. Fryderyk II wcielił Śląsk (poza niewielką częścią) do Prus.\n\nW ramach pruskiej prowincji Śląsk Środa Śląska stała się centrum powiatu. Administracja i sądownictwo pruskie zastąpiły stare instytucje prawa śląskiego. Po 1945 r. Środa Śląska włączona do Polski.",
+      "zajawka": "Od 1245 r. w księstwie legnickim Bolesława II Rogatki. Miejsce śmierci na wygnaniu Władysława III Laskonogiego (1231 r.). Kolejno pod Czechami (od 1392), Habsburgami (od 1526) i Prusami (od 1742 r.).",
+      "tekst": "W 1231 r. w Środzie Śląskiej zmarł na wygnaniu książę Władysław III Laskonogi, zwierzchni książę Polski. W 1245 r. miasto zostało włączone do księstwa legnickiego przez Bolesława II Rogatkę. W 1392 r., wraz z resztą Śląska, przeszło pod zwierzchnictwo Korony Czeskiej, w 1526 r. znalazło się pod panowaniem Habsburgów, a w 1742 r., po pierwszej wojnie śląskiej, weszło w skład państwa pruskiego.",
       "mapy": []
     },
     "srodowisko": {
       "dostepne": true,
-      "zajawka": "Równina środkowośląska nad Średzką Wodą — żyzne lessowe gleby, łatwa komunikacja. Brak naturalnych przeszkód — otwarte położenie decydowało o roli centrum regionalnego.",
-      "tekst": "Środa Śląska leży na Równinie Wrocławskiej, ok. 25 km na wschód od Wrocławia, nad Średzką Wodą — małą rzeką będącą dopływem Odry. Teren jest nizinny, z lekko falistą rzeźbą lessową.\n\nŻyzne lessowe gleby Równiny Wrocławskiej sprzyjały intensywnemu rolnictwu — stąd gęsta sieć wsi w okolicach Środy. Rolnicze zaplecze zapewniało miastu żywność i surowce.\n\nBrak naturalnych przeszkód (wzgórz, bagien, rzek granicznych) decydował o otwartym charakterze Środy — miasta łatwo dostępnego z wszystkich stron. Ta właśnie cecha czyniła z niej idealne centrum targowe i administracyjne. Jednocześnie otwartość terenu utrudniała obronę — stąd inwestycja w mury.\n\nŚrednia Woda napędzała młyny i zapewniała wodę dla rzemiosła. Jej dolina stanowiła ważną trasę komunikacyjną ku Odrze.",
-      "mapy": ["ahmp_sroda_slaska_ii_5", "ahmp_sroda_slaska_ii_7"]
+      "zajawka": "Położenie nad Średzką Wodą, lewym dopływem Odry, na wysokości 103–144 m n.p.m. Powierzchnia miasta 14,94 km².",
+      "tekst": "Miasto leży nad Średzką Wodą, lewym dopływem Odry, na wysokości od 103 do 144 m n.p.m. Zajmuje powierzchnię 14,94 km².",
+      "mapy": []
     },
     "zrodla": {
       "dostepne": true,
-      "zajawka": "Źródła w Archiwum Państwowym we Wrocławiu. Skarb Środy Śląskiej — w Muzeum Narodowym we Wrocławiu. AHMP Tom IV — zeszyt środzki.",
-      "tekst": "**Źródło treści paneli:** *Atlas Historyczny Miast Polskich, tom IV: Śląsk, zeszyt 2: Środa Śląska, Toruń 2003*. Dostępne online: https://atlasmiast.umk.pl/atlasy/sroda-slaska/\n\n**Archiwalia:** Archiwum Państwowe we Wrocławiu przechowuje akta dotyczące Środy Śląskiej, w tym dokumenty prawa miejskiego z XIII–XIV w. i akta radzieckie. Istotne są też dokumenty szlacheckie z wieców środzkich.\n\n**Skarb Środy Śląskiej:** Odkryty w 1985–1988 r. przechowywany jest w Muzeum Narodowym we Wrocławiu. Zawiera ok. 3000 srebrnych monet, biżuterię i naczynia z XIV w. Jest jednym z najważniejszych znalezisk średniowiecznych w Polsce.\n\n**Ważniejsze opracowania:**\n- R. Eysymontt, M. Goliński (red.), *Atlas historyczny miast polskich, t. IV: Śląsk, z. Środa Śląska*, Wrocław 2011\n- W. Korta, *Średzkie prawo miejskie*, Wrocław 1963\n- M. Bogucka, H. Samsonowicz, *Dzieje miast i mieszczaństwa w Polsce przedrozbiorowej*, Wrocław 1986\n\n**Badania archeologiczne:** Wykopaliska na rynku i przy murach dokumentują XIII–XVI-wieczną zabudowę. Badania nad domami podpiwniczonymi potwierdzają rozległy system piwnic handlowych.",
-      "mapy": ["ahmp_sroda_slaska_ii_4", "ahmp_sroda_slaska_ii_5"]
+      "zajawka": "Opracowanie na podstawie polskiej Wikipedii. Dla Środy Śląskiej AHMP nie opublikował osobnej części opisowej — dostępne są wyłącznie plansze kartograficzne. Osobno warto wspomnieć o Skarbie Środy Śląskiej — słynnym znalezisku sprzed korony i biżuterii z XIII/XIV w., odkrytym w 1985 i 1988 r. i przechowywanym w Muzeum Regionalnym w tutejszym ratuszu.",
+      "tekst": "**Uwaga:** podobnie jak w przypadku kilku innych miast śląskich w serwisie, dla Środy Śląskiej Atlas Historyczny Miast Polskich nie wydał osobnej „części opisowej” — dostępne są tylko plansze kartograficzne (AHMP II). Powyższe karty są więc odrębnym opracowaniem redakcyjnym, a nie tłumaczeniem/streszczeniem zeszytu AHMP.\n\n**Skarb Środy Śląskiej:** w latach 1985 i 1988 w mieście odkryto wyjątkowe znalezisko — tzw. koronę średzką oraz inne przedmioty złotnicze datowane na przełom XIII/XIV w., dziś uznawane za jeden z najcenniejszych zabytków złotnictwa średniowiecznego w Polsce. Zbiór przechowywany jest w Muzeum Regionalnym w ratuszu w Środzie Śląskiej.\n\n**Źródła:**\n- [Środa Śląska — Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Aroda_%C5%9Al%C4%85ska)\n- Katalog map: [atlasmiast.umk.pl/atlasy/sroda-slaska](https://atlasmiast.umk.pl/atlasy/sroda-slaska/)",
+      "mapy": []
     }
   }
 }
