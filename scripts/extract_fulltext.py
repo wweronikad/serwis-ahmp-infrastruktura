@@ -16,7 +16,12 @@ CITY_MAP = {
     "AHMP_Biecz_intro":              "biecz",
     "AHMP_Bochnia_intro":            "bochnia",
     "AHMP_Brzeg_opis":               "brzeg",
+    "AHMP_Bydgoszcz_intro":          "bydgoszcz",
+    "AHMP_Chelmno_intro":            "chelmno",
     "AHMP_Chojnice_intro":           "chojnice",
+    "AHMP_Elblag_intro":             "elblag",
+    "AHMP_Gizycko_intro":            "gizycko",
+    "AHMP_Grudziadz_intro":          "grudziadz",
     "AHMP_Fordon_intro":             "fordon",
     "AHMP_Fordon2_intro":            None,   # skip — separate fascicle, not in cities.js
     "AHMP_Jelenia_Gora_intro":       "jelenia-gora",
@@ -31,6 +36,7 @@ CITY_MAP = {
     "AHMP_Namyslow_intro":           "namyslow",
     "AHMP_Nowy_Sacz_intro":          "nowy-sacz",
     "AHMP_Olawa_intro":              "olawa",
+    "AHMP_Ostroda_intro":            "ostroda",
     "AHMP_Puck_album":               None,   # captions only
     "AHMP_Puck_opis":                "puck",
     "AHMP_Raciborz_intro":           "raciborz",
@@ -42,6 +48,7 @@ CITY_MAP = {
     "AHMP_Tczew_album":              None,   # captions only
     "AHMP_Tczew_opis":               "tczew",
     "AHMP_Torun_II_intro":           "torun-ii",
+    "AHMP_Torun_intro":              "torun",
     "AHMP_Wieliczka_intro":          "wieliczka",
     "AHMP_Wloclawek_intro":          "wloclawek",
     "AHMP_Wroclaw_2017_intro":       "wroclaw",
