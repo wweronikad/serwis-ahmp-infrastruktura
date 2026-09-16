@@ -76,9 +76,9 @@ export default function Home() {
         </div>
       </HeroSlider>
 
-      <AboutTeasers />
-
       <StatsSection />
+
+      <AboutTeasers />
 
       <TimelineSection />
 
