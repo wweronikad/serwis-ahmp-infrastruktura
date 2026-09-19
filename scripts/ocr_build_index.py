@@ -10,9 +10,10 @@
 import json, re
 from pathlib import Path
 
-OCR_DIR      = Path(r'C:\Users\wer\Desktop\Serwis\public\ocr')
+ROOT         = Path(__file__).resolve().parent.parent
+OCR_DIR      = ROOT / 'public' / 'ocr'
 OUT_FILE     = OCR_DIR / 'index.json'
-CITIES_JS    = Path(r'C:\Users\wer\Desktop\Serwis\src\data\cities.js')
+CITIES_JS    = ROOT / 'src' / 'data' / 'cities.js'
 MANUAL_FILE  = OCR_DIR / 'manual_words.json'
 
 def load_manual_words():

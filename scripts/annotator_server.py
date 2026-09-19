@@ -14,22 +14,26 @@
 #
 # Wymaga tego, co już jest zainstalowane dla reszty pipeline'u OCR:
 #   pip install pdf2image pillow requests
-#   Poppler pod C:\poppler\poppler-24.08.0\Library\bin
+#   Poppler: Windows — C:\poppler\poppler-24.08.0\Library\bin (albo zmienna POPPLER_PATH),
+#            macOS: brew install poppler; Linux: apt install poppler-utils
 
-import json, re, hashlib, mimetypes, sys, subprocess
+import json, os, re, hashlib, mimetypes, sys, subprocess, tempfile
 from pathlib import Path
 from http.server import ThreadingHTTPServer, BaseHTTPRequestHandler
 from urllib.parse import urlparse, parse_qs
 import requests
 from pdf2image import convert_from_path, pdfinfo_from_path
 
-POPPLER      = r'C:\poppler\poppler-24.08.0\Library\bin'
+# Poppler: zmienna środowiskowa POPPLER_PATH, albo domyślna ścieżka Windows,
+# a jeśli jej nie ma — None (wtedy pdf2image szuka `pdftoppm` w PATH: macOS/Linux).
+_WIN_POPPLER = r'C:\poppler\poppler-24.08.0\Library\bin'
+POPPLER      = os.environ.get('POPPLER_PATH') or (_WIN_POPPLER if Path(_WIN_POPPLER).exists() else None)
 DPI          = 200
-ROOT         = Path(r'C:\Users\wer\Desktop\Serwis')
+ROOT         = Path(__file__).resolve().parent.parent
 CITIES_JS    = ROOT / 'src' / 'data' / 'cities.js'
 OCR_DIR      = ROOT / 'public' / 'ocr'
 MANUAL_FILE  = OCR_DIR / 'manual_words.json'
-PDF_CACHE    = Path(r'C:\Users\wer\AppData\Local\Temp\ahmp_pdf_cache')
+PDF_CACHE    = Path(tempfile.gettempdir()) / 'ahmp_pdf_cache'
 IMG_CACHE    = Path(__file__).parent / 'annotator' / '.cache'
 STATIC_DIR   = Path(__file__).parent / 'annotator'
 PORT         = 8642
