@@ -52,7 +52,7 @@ export const cities = [
     id: 'brzeg',
     name: 'Brzeg',
     region: 'Śląsk',
-    volume: 'Tom VI — Śląsk',
+    volume: 'Tom IV — Śląsk',
     coordinates: [17.469, 50.862],
     defaultZoom: 14,
     description:
@@ -99,7 +99,7 @@ export const cities = [
     id: 'bydgoszcz',
     name: 'Bydgoszcz',
     region: 'Prusy Królewskie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom II — Kujawy',
     coordinates: [18.001, 53.123],
     defaultZoom: 13,
     description:
@@ -125,7 +125,7 @@ export const cities = [
     id: 'chelmno',
     name: 'Chełmno',
     region: 'Prusy Królewskie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom I — Prusy Królewskie i Warmia',
     coordinates: [18.434, 53.349],
     defaultZoom: 14,
     description:
@@ -148,7 +148,7 @@ export const cities = [
     id: 'chojnice',
     name: 'Chojnice',
     region: 'Prusy Królewskie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom I — Prusy Królewskie i Warmia',
     coordinates: [17.557, 53.697],
     defaultZoom: 14,
     description:
@@ -174,7 +174,7 @@ export const cities = [
     id: 'elblag',
     name: 'Elbląg',
     region: 'Prusy Królewskie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom I — Prusy Królewskie i Warmia',
     coordinates: [19.404, 54.156],
     defaultZoom: 14,
     description:
@@ -196,7 +196,7 @@ export const cities = [
     id: 'fordon',
     name: 'Fordon',
     region: 'Prusy Królewskie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom II — Kujawy',
     coordinates: [18.087, 53.142],
     defaultZoom: 14,
     description:
@@ -210,7 +210,7 @@ export const cities = [
     id: 'gizycko',
     name: 'Giżycko',
     region: 'Prusy Wschodnie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom III — Mazury i Prusy Książęce',
     coordinates: [21.762, 54.037],
     defaultZoom: 14,
     description:
@@ -236,7 +236,7 @@ export const cities = [
     id: 'grudziadz',
     name: 'Grudziądz',
     region: 'Prusy Królewskie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom I — Prusy Królewskie i Warmia',
     coordinates: [18.751, 53.487],
     defaultZoom: 14,
     description:
@@ -280,7 +280,7 @@ export const cities = [
     id: 'ketrzyn',
     name: 'Kętrzyn',
     region: 'Prusy Wschodnie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom III — Mazury i Prusy Książęce',
     coordinates: [21.375, 54.074],
     defaultZoom: 14,
     description:
@@ -303,7 +303,7 @@ export const cities = [
     id: 'koronowo',
     name: 'Koronowo',
     region: 'Prusy Królewskie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom II — Kujawy',
     coordinates: [17.937, 53.317],
     defaultZoom: 14,
     description:
@@ -317,7 +317,7 @@ export const cities = [
     id: 'kwidzyn',
     name: 'Kwidzyn',
     region: 'Prusy Królewskie',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom III — Mazury i Prusy Książęce',
     coordinates: [18.932, 53.732],
     defaultZoom: 14,
     description:
@@ -359,7 +359,7 @@ export const cities = [
     id: 'lidzbark-warminski',
     name: 'Lidzbark Warmiński',
     region: 'Warmia',
-    volume: 'Tom II — Prusy Królewskie i Warmia',
+    volume: 'Tom I — Prusy Królewskie i Warmia',
     coordinates: [20.577, 54.126],
     defaultZoom: 14,
     description:
@@ -390,7 +390,7 @@ export const cities = [
     id: 'mragowo',
     name: 'Mrągowo',
     region: 'Mazury',
-    volume: 'Tom III — Prusy Wschodnie',
+    volume: 'Tom III — Mazury i Prusy Książęce',
     coordinates: [21.301, 53.868],
     defaultZoom: 14,
     description: 'Mrągowo — miasto w województwie warmińsko-mazurskim, dawniej Sensburg, centrum turystyczne Mazur.',
@@ -468,7 +468,7 @@ export const cities = [
     id: 'ostroda',
     name: 'Ostróda',
     region: 'Mazury',
-    volume: 'Tom III — Prusy Wschodnie',
+    volume: 'Tom III — Mazury i Prusy Książęce',
     coordinates: [19.970, 53.699],
     defaultZoom: 14,
     description: 'Ostróda — miasto w województwie warmińsko-mazurskim, dawniej Osterode, siedziba komturii krzyżackiej.',

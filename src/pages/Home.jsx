@@ -183,7 +183,7 @@ const ABOUT_CARDS = [
   {
     badge: 'Projekt europejski',
     heading: 'European Historic Towns Atlases',
-    text: 'AHMP jest polską częścią międzynarodowej inicjatywy Komisji Historii Miast — ponad 530 atlasów miast w 18 krajach Europy, koordynowanej przez ISIG w Münster.',
+    text: 'AHMP jest polską częścią międzynarodowej inicjatywy Komisji Historii Miast — blisko 600 atlasów miast w 21 krajach Europy, koordynowanej przez ISIG w Münster.',
     fact: 'Wszystkie kraje rysują swoją „mapę zasadniczą” w tej samej skali 1:2500 — dzięki temu średniowieczny Toruń da się bezpośrednio porównać z Dublinem czy Wiedniem.',
     to: '/o-projekcie-europejskim',
   },
@@ -283,9 +283,9 @@ const pi = {
 // ── Stats + Timeline ──────────────────────────────────────────────────────
 
 const STATS = [
-  { n: '530+', label: 'Atlasów w Europie' },
-  { n: '18',   label: 'Krajów uczestniczących' },
-  { n: '30+',  label: 'Polskich miast' },
+  { n: '590+', label: 'Atlasów w Europie' },
+  { n: '21',   label: 'Krajów uczestniczących' },
+  { n: '50',   label: 'Polskich miast w atlasie' },
   { n: '1993', label: 'Rok rozpoczęcia w Polsce' },
 ]
 
@@ -293,7 +293,7 @@ const EVENTS = [
   { year: '1965', text: 'Międzynarodowa Komisja Historii Miast uznaje wydawanie atlasów miast europejskich za główny cel swojej działalności naukowej.' },
   { year: '1968', text: 'Konferencja w Oxfordzie – wypracowanie podstawowych zasad edycji atlasów historycznych miast.' },
   { year: '1993', text: 'Rozpoczęcie polskiego projektu przez prof. Antoniego Czacharowskiego w UMK Toruń.' },
-  { year: 'DZIŚ', text: 'Ponad 30 polskich miast w projekcie, współpraca z zespołami w Toruniu, Wrocławiu i Krakowie.', hi: true },
+  { year: 'DZIŚ', text: 'Atlasy około 50 polskich miast, współpraca z zespołami w Toruniu, Wrocławiu i Krakowie.', hi: true },
 ]
 
 function StatsSection() {

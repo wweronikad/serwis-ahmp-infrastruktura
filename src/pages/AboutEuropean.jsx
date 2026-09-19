@@ -33,8 +33,9 @@ export default function AboutEuropean() {
           </p>
           <p style={styles.p}>
             Program realizowany jest obecnie w kilkunastu projektach
-            narodowych; łącznie ukazały się atlasy ponad{' '}
-            <strong>530 miast z 18 krajów Europy</strong>.
+            narodowych; łącznie ukazało się{' '}
+            <strong>591 atlasów z 21 krajów Europy</strong> (wg listy IStG w Münster,
+            stan na 2021 r.).
           </p>
         </section>
 
