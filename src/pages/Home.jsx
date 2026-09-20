@@ -179,6 +179,10 @@ const ABOUT_CARDS = [
     text: 'Projekt badawczy zapoczątkowany w 1993 r. przez prof. Antoniego Czacharowskiego (UMK Toruń) — dotąd blisko 50 miast, zespoły w Toruniu, Wrocławiu i Krakowie.',
     fact: 'Dzięki georeferencji możesz nałożyć XIX-wieczny plan katastralny wprost na dzisiejszą mapę satelitarną — i zobaczyć, która uliczka przetrwała 150 lat bez zmian.',
     to: '/o-projekcie-polskim',
+    cta: 'Odkryj projekt polski',
+    image: 'https://atlasmiast.umk.pl/wp-content/uploads/2025/10/mapa.png',
+    imageAlt: 'Mapa Polski z zaznaczonymi miastami objętymi seriami atlasowymi AHMP',
+    imageCaption: 'Miasta objęte Atlasem Historycznym Miast Polskich',
   },
   {
     badge: 'Projekt europejski',
@@ -186,6 +190,10 @@ const ABOUT_CARDS = [
     text: 'AHMP jest polską częścią międzynarodowej inicjatywy Komisji Historii Miast — blisko 600 atlasów miast w 21 krajach Europy, koordynowanej przez ISIG w Münster.',
     fact: 'Wszystkie kraje rysują swoją „mapę zasadniczą” w tej samej skali 1:2500 — dzięki temu średniowieczny Toruń da się bezpośrednio porównać z Dublinem czy Wiedniem.',
     to: '/o-projekcie-europejskim',
+    cta: 'Odkryj projekt europejski',
+    image: 'europa-mapa-miniatura.webp',
+    imageAlt: 'Mapa Europy z zaznaczonymi miastami, dla których wydano atlasy historyczne',
+    imageCaption: 'Rozmieszczenie europejskich atlasów historycznych miast (ISIG, Münster)',
   },
 ]
 
@@ -199,8 +207,14 @@ function AboutTeasers() {
               <div style={pi.badge}>{c.badge}</div>
               <h2 style={pi.heading}>{c.heading}</h2>
               <p style={pi.body}>{c.text}</p>
+              {c.image && (
+                <figure style={pi.figure}>
+                  <img src={asset(c.image)} alt={c.imageAlt} style={pi.thumb} loading="lazy" />
+                  <figcaption style={pi.figCap}>{c.imageCaption}</figcaption>
+                </figure>
+              )}
               {c.fact && <p style={pi.fact}>💡 {c.fact}</p>}
-              <span style={pi.link}>Dowiedz się więcej →</span>
+              <span style={pi.link}>{c.cta} →</span>
             </Link>
           ))}
         </div>
@@ -233,6 +247,13 @@ const pi = {
     textDecoration: 'none',
     transition: 'border-color 0.15s, transform 0.15s',
   },
+  figure: { margin: '4px 0 14px', textAlign: 'center' },
+  thumb: {
+    width: '100%', maxWidth: '360px', height: '210px', objectFit: 'contain', objectPosition: 'center',
+    display: 'block', margin: '0 auto', borderRadius: '6px', border: '1px solid var(--border-light)',
+    background: 'var(--cream)',
+  },
+  figCap: { fontSize: '11px', color: 'var(--text-muted)', marginTop: '6px' },
   badge: {
     display: 'inline-block',
     fontSize: '10px',
