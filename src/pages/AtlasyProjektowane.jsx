@@ -1,5 +1,6 @@
 import { plannedAtlases } from '../data/plannedAtlases'
 import PlannedMapView from '../components/Map/PlannedMapView'
+import { asset } from '../utils/asset'
 
 export default function AtlasyProjektowane() {
   return (
@@ -22,29 +23,67 @@ export default function AtlasyProjektowane() {
               <span style={s.badge}>{city.region} · {city.team}</span>
             </div>
 
-            {city.map ? (
-              <PlannedMapView map={city.map} />
-            ) : (
-              <div style={s.placeholder}>
-                Materiały kartograficzne w opracowaniu — brak zgeoreferencjonowanej mapy.
-              </div>
-            )}
-
-            {city.text ? (
-              <div style={s.text}>
-                {city.text.map((p, i) => (
-                  <p key={i} style={s.p}>{p}</p>
-                ))}
-                {city.textNote && <p style={s.note}>{city.textNote}</p>}
-                {city.source && <p style={s.source}>Źródło: {city.source}</p>}
-              </div>
-            ) : (
-              <p style={s.placeholderText}>Opis historyczny w opracowaniu.</p>
+            {city.intro ? <Featured city={city} /> : (
+              <>
+                {city.map ? (
+                  <PlannedMapView map={city.map} />
+                ) : (
+                  <div style={s.placeholder}>
+                    Materiały kartograficzne w opracowaniu — brak zgeoreferencjonowanej mapy.
+                  </div>
+                )}
+                <p style={s.placeholderText}>Opis historyczny w opracowaniu.</p>
+              </>
             )}
           </section>
         ))}
       </div>
     </div>
+  )
+}
+
+function Featured({ city }) {
+  return (
+    <>
+      <div style={s.introRow}>
+        <div style={s.introText}>
+          {city.intro.map((p, i) => (
+            <p key={i} style={s.p}>{p}</p>
+          ))}
+        </div>
+        {city.photo && (
+          <figure style={s.figure}>
+            <img src={asset(city.photo.src)} alt={city.photo.alt} style={s.photo} />
+            <figcaption style={s.figcaption}>{city.photo.caption}</figcaption>
+          </figure>
+        )}
+      </div>
+
+      <div style={{ marginTop: 24 }}>
+        <PlannedMapView map={city.map} />
+        {city.mapCaption && <p style={s.mapCaption}>{city.mapCaption}</p>}
+      </div>
+
+      <h3 style={s.h3}>{city.historyTitle}</h3>
+      <div style={s.history}>
+        {city.history.map((p, i) => (
+          <p key={i} style={s.p}>{p}</p>
+        ))}
+      </div>
+      {city.sources && (
+        <p style={s.source}>
+          Źródła:{' '}
+          {city.sources.map((it, i) => (
+            <span key={it.label}>
+              {i > 0 && ' · '}
+              {it.href ? (
+                <a href={it.href} target="_blank" rel="noopener noreferrer" style={{ color: 'var(--gold)' }}>{it.label}</a>
+              ) : it.label}
+            </span>
+          ))}
+        </p>
+      )}
+    </>
   )
 }
 
@@ -109,7 +148,17 @@ const s = {
     fontStyle: 'italic',
     marginBottom: 14,
   },
-  text: { marginTop: 16 },
+  introRow: { display: 'flex', gap: 28, alignItems: 'flex-start', flexWrap: 'wrap' },
+  introText: { flex: '1 1 360px', minWidth: 0 },
+  figure: { flex: '1 1 380px', margin: 0, minWidth: 0 },
+  photo: {
+    width: '100%', display: 'block', borderRadius: 6,
+    border: '1px solid var(--border-light)', boxShadow: 'var(--shadow-sm)',
+  },
+  figcaption: { fontSize: 12, color: 'var(--text-muted)', lineHeight: 1.6, marginTop: 8 },
+  mapCaption: { fontSize: 12, color: 'var(--text-muted)', lineHeight: 1.6, marginTop: 8 },
+  h3: { fontFamily: 'var(--font-serif)', fontSize: 18, color: 'var(--navy)', margin: '28px 0 12px' },
+  history: { maxWidth: 820 },
   p: {
     color: 'var(--text)',
     lineHeight: 1.75,
