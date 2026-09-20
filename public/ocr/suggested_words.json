@@ -61,26 +61,6 @@
    "y": 0.7369
   },
   {
-   "text": "Rekonstrukcja układu działek lokacyjnych",
-   "x": 0.0375,
-   "y": 0.7784
-  },
-  {
-   "text": "Skala 1 : 2000",
-   "x": 0.105,
-   "y": 0.836
-  },
-  {
-   "text": "Oprac. M. Chorowska",
-   "x": 0.0488,
-   "y": 0.8658
-  },
-  {
-   "text": "Oprac. kart. P. Błoniewski",
-   "x": 0.0488,
-   "y": 0.8802
-  },
-  {
    "text": "XIII w.",
    "x": 0.9019,
    "y": 0.7108
@@ -114,16 +94,6 @@
    "text": "XIX-XX w.",
    "x": 0.9019,
    "y": 0.8604
-  },
-  {
-   "text": "150 stóp / feet",
-   "x": 0.7925,
-   "y": 0.9423
-  },
-  {
-   "text": "50 m",
-   "x": 0.795,
-   "y": 0.9153
   },
   {
    "text": "ul. Panieńska",
@@ -181,11 +151,6 @@
    "y": 0.6414
   },
   {
-   "text": "ul. Długa",
-   "x": 0.5775,
-   "y": 0.7685
-  },
-  {
    "text": "Rynek",
    "x": 0.5162,
    "y": 0.5396
@@ -201,94 +166,14 @@
    "y": 0.4865
   },
   {
-   "text": "150 stóp x 10 = 1500 stóp",
-   "x": 0.5781,
-   "y": 0.1685
-  },
-  {
-   "text": "150 stóp x 6 = 900 stóp",
-   "x": 0.8187,
-   "y": 0.6216
-  },
-  {
    "text": "nr 6",
    "x": 0.2531,
    "y": 0.4667
   },
   {
    "text": "nr 1",
-   "x": 0.3787,
-   "y": 0.5135
-  },
-  {
-   "text": "nr 7",
-   "x": 0.5544,
-   "y": 0.573
-  },
-  {
-   "text": "nr 1",
-   "x": 0.6106,
-   "y": 0.3396
-  },
-  {
-   "text": "nr 1",
-   "x": 0.6169,
-   "y": 0.3883
-  },
-  {
-   "text": "nr 2-5",
-   "x": 0.5938,
-   "y": 0.5315
-  },
-  {
-   "text": "nr 1-3",
-   "x": 0.6038,
-   "y": 0.5883
-  },
-  {
-   "text": "nr 5-7",
-   "x": 0.6625,
-   "y": 0.5
-  },
-  {
-   "text": "nr 12",
-   "x": 0.6975,
-   "y": 0.5198
-  },
-  {
-   "text": "nr 5",
-   "x": 0.7106,
-   "y": 0.5459
-  },
-  {
-   "text": "nr 5",
-   "x": 0.6469,
-   "y": 0.6009
-  },
-  {
-   "text": "nr 10-12",
-   "x": 0.66,
-   "y": 0.6144
-  },
-  {
-   "text": "nr 1",
    "x": 0.62,
    "y": 0.609
-  },
-  {
-   "text": "nr 6",
-   "x": 0.4288,
-   "y": 0.6369
-  },
-  {
-   "text": "nr 41-43",
-   "x": 0.4906,
-   "y": 0.709
-  },
-  {
-   "text": "nr 6",
-   "x": 0.5431,
-   "y": 0.7387
   },
   {
    "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
@@ -823,6 +708,807 @@
    "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
    "x": 0.6956,
    "y": 0.98
+  }
+ ],
+ "ahmp_brzeg_19": [
+  {
+   "text": "Briesen",
+   "x": 0.4156,
+   "y": 0.0885
+  },
+  {
+   "text": "Teich Wärter Haus",
+   "x": 0.4156,
+   "y": 0.1327
+  },
+  {
+   "text": "Garbendorf",
+   "x": 0.7063,
+   "y": 0.0781
+  },
+  {
+   "text": "Michelwitz",
+   "x": 0.8375,
+   "y": 0.0911
+  },
+  {
+   "text": "Schreibendorf",
+   "x": 0.8406,
+   "y": 0.2125
+  },
+  {
+   "text": "Gr. Neudorf",
+   "x": 0.9187,
+   "y": 0.2975
+  },
+  {
+   "text": "Rathau",
+   "x": 0.5469,
+   "y": 0.2576
+  },
+  {
+   "text": "Grüningen",
+   "x": 0.3862,
+   "y": 0.2715
+  },
+  {
+   "text": "Kröh Berge",
+   "x": 0.2562,
+   "y": 0.2541
+  },
+  {
+   "text": "Mollwitzer",
+   "x": 0.0656,
+   "y": 0.3686
+  },
+  {
+   "text": "Mollwitz",
+   "x": 0.1906,
+   "y": 0.4683
+  },
+  {
+   "text": "Hermsdorf",
+   "x": 0.4813,
+   "y": 0.4814
+  },
+  {
+   "text": "1741 d. 10. April",
+   "x": 0.3,
+   "y": 0.5074
+  },
+  {
+   "text": "Brieg",
+   "x": 0.6406,
+   "y": 0.4944
+  },
+  {
+   "text": "St. Crux",
+   "x": 0.7656,
+   "y": 0.5074
+  },
+  {
+   "text": "Oder Strohm",
+   "x": 0.8344,
+   "y": 0.5811
+  },
+  {
+   "text": "Briegischdorf",
+   "x": 0.7362,
+   "y": 0.575
+  },
+  {
+   "text": "Schüsseldorf",
+   "x": 0.5031,
+   "y": 0.6461
+  },
+  {
+   "text": "Paulau",
+   "x": 0.7719,
+   "y": 0.7112
+  },
+  {
+   "text": "Neudorf",
+   "x": 0.3594,
+   "y": 0.7459
+  },
+  {
+   "text": "Pampitz",
+   "x": 0.3187,
+   "y": 0.8179
+  },
+  {
+   "text": "Fischer Gass",
+   "x": 0.2719,
+   "y": 0.8716
+  },
+  {
+   "text": "Neue Graben",
+   "x": 0.6031,
+   "y": 0.8153
+  },
+  {
+   "text": "Brzeg. Fragment mapy sekcyjnej Śląska, 1747–1753 (1750)",
+   "x": 0.0437,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. A fragment of a section map of Silesia, 1747–1753 (1750)",
+   "x": 0.0575,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
+ ],
+ "ahmp_brzeg_31": [
+  {
+   "text": "Plan von der Festung Brieg",
+   "x": 0.8344,
+   "y": 0.1258
+  },
+  {
+   "text": "Die Oder",
+   "x": 0.3281,
+   "y": 0.49
+  },
+  {
+   "text": "Die Oder",
+   "x": 0.7594,
+   "y": 0.4189
+  },
+  {
+   "text": "Die grosse städtische Aue",
+   "x": 0.325,
+   "y": 0.2515
+  },
+  {
+   "text": "Die grosse Gemein Aue",
+   "x": 0.5375,
+   "y": 0.2342
+  },
+  {
+   "text": "Die grosse Gemein Aue",
+   "x": 0.7438,
+   "y": 0.2038
+  },
+  {
+   "text": "Die Kammerey Aue",
+   "x": 0.1594,
+   "y": 0.2602
+  },
+  {
+   "text": "Die alte Oder",
+   "x": 0.6625,
+   "y": 0.3252
+  },
+  {
+   "text": "Der Grüninger Grund",
+   "x": 0.3187,
+   "y": 0.8395
+  },
+  {
+   "text": "Brzeg. Plan twierdzy, 1797/1802",
+   "x": 0.1169,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. The plan of the fortress, 1797/1802",
+   "x": 0.1169,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
+ ],
+ "ahmp_brzeg_33": [
+  {
+   "text": "Oderstrohmkarte",
+   "x": 0.2612,
+   "y": 0.7155
+  },
+  {
+   "text": "Brieg",
+   "x": 0.525,
+   "y": 0.2749
+  },
+  {
+   "text": "Königliche Stadt",
+   "x": 0.5281,
+   "y": 0.2272
+  },
+  {
+   "text": "Die Neisser Vorstadt",
+   "x": 0.3,
+   "y": 0.2012
+  },
+  {
+   "text": "Breslauer Vorstadt",
+   "x": 0.5531,
+   "y": 0.3469
+  },
+  {
+   "text": "Wiesen und Feld Mark von Briegsdorf",
+   "x": 0.3875,
+   "y": 0.1518
+  },
+  {
+   "text": "Feld Mark von Rathau",
+   "x": 0.6719,
+   "y": 0.3036
+  },
+  {
+   "text": "Dorf Rathau",
+   "x": 0.5906,
+   "y": 0.4146
+  },
+  {
+   "text": "Die Stadt Aue",
+   "x": 0.4375,
+   "y": 0.4944
+  },
+  {
+   "text": "Hutung zu Brieg gehörig",
+   "x": 0.4313,
+   "y": 0.5351
+  },
+  {
+   "text": "Feld Mark von Schreibendorf",
+   "x": 0.4313,
+   "y": 0.6401
+  },
+  {
+   "text": "Gemeinde Gross Neudorf",
+   "x": 0.1812,
+   "y": 0.5074
+  },
+  {
+   "text": "Briesensche Feldmark",
+   "x": 0.8063,
+   "y": 0.3877
+  },
+  {
+   "text": "Freigut Neu Briesen",
+   "x": 0.7469,
+   "y": 0.4571
+  },
+  {
+   "text": "Feld Mark von Garbendorf",
+   "x": 0.6594,
+   "y": 0.8283
+  },
+  {
+   "text": "Dominium",
+   "x": 0.775,
+   "y": 0.902
+  },
+  {
+   "text": "Von der Grenze zwischen der Gemeinde Gross Neudorf bis zur Briesenschen Viehtrift im Bezirk der Königlichen Regierung zu Breslau",
+   "x": 0.1344,
+   "y": 0.7459
+  },
+  {
+   "text": "Auf hohen Befehl des Königlichen Ministeriums des Handels und der Gewerbe",
+   "x": 0.1344,
+   "y": 0.8109
+  },
+  {
+   "text": "Brzeg. Plan nurtu Odry od granicy gminy Wielka Nowa Wieś, 1822/1823",
+   "x": 0.1169,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. The plan of the stream of the Odra River from the border of Wielka Nowa Wieś County, 1822/1823",
+   "x": 0.1169,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
+ ],
+ "ahmp_brzeg_35": [
+  {
+   "text": "Michelwitz",
+   "x": 0.6635,
+   "y": 0.1156
+  },
+  {
+   "text": "Garbendorf",
+   "x": 0.6331,
+   "y": 0.2294
+  },
+  {
+   "text": "Schreibendf.",
+   "x": 0.8543,
+   "y": 0.3031
+  },
+  {
+   "text": "Ross W.",
+   "x": 0.4987,
+   "y": 0.2988
+  },
+  {
+   "text": "Neu Briesen",
+   "x": 0.2905,
+   "y": 0.3262
+  },
+  {
+   "text": "Rathau",
+   "x": 0.3556,
+   "y": 0.4294
+  },
+  {
+   "text": "Brieg",
+   "x": 0.49,
+   "y": 0.5356
+  },
+  {
+   "text": "die Oder",
+   "x": 0.4683,
+   "y": 0.3719
+  },
+  {
+   "text": "Bahnhof",
+   "x": 0.5481,
+   "y": 0.6312
+  },
+  {
+   "text": "Hermsdorf",
+   "x": 0.2168,
+   "y": 0.6706
+  },
+  {
+   "text": "Briegschdorf",
+   "x": 0.7806,
+   "y": 0.6856
+  },
+  {
+   "text": "Schusseldf.",
+   "x": 0.3903,
+   "y": 0.8063
+  },
+  {
+   "text": "Paulau",
+   "x": 0.8846,
+   "y": 0.7781
+  },
+  {
+   "text": "Rothe Haus",
+   "x": 0.1474,
+   "y": 0.105
+  },
+  {
+   "text": "Juden Kirchof",
+   "x": 0.5291,
+   "y": 0.7106
+  },
+  {
+   "text": "Brzeg. Fragment sekcyjnej mapy topograficznej, 1824",
+   "x": 0.0607,
+   "y": 0.9669
+  },
+  {
+   "text": "Brzeg. A fragment of a section topographic map, 1824",
+   "x": 0.0781,
+   "y": 0.9775
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7372,
+   "y": 0.9781
+  }
+ ],
+ "ahmp_brzeg_39": [
+  {
+   "text": "Plan der Stadt Brieg mit ihren Vorstädten",
+   "x": 0.1594,
+   "y": 0.7285
+  },
+  {
+   "text": "nach geometrischer Aufnahme gezeichnet im Herbst 1860 von E. Filitz jun.",
+   "x": 0.1594,
+   "y": 0.8369
+  },
+  {
+   "text": "Exercier-Platz",
+   "x": 0.4375,
+   "y": 0.0867
+  },
+  {
+   "text": "Die Oder",
+   "x": 0.175,
+   "y": 0.3079
+  },
+  {
+   "text": "Die Oder",
+   "x": 0.7344,
+   "y": 0.3712
+  },
+  {
+   "text": "Breslauer Vorstadt",
+   "x": 0.125,
+   "y": 0.3747
+  },
+  {
+   "text": "Breslauer Vorstadt",
+   "x": 0.2094,
+   "y": 0.516
+  },
+  {
+   "text": "Rathauer Territorium",
+   "x": 0.1875,
+   "y": 0.5204
+  },
+  {
+   "text": "Neu-Häuser",
+   "x": 0.6906,
+   "y": 0.5013
+  },
+  {
+   "text": "Neisser Vorstadt",
+   "x": 0.5625,
+   "y": 0.5984
+  },
+  {
+   "text": "Mollwitzer Vorstadt",
+   "x": 0.3469,
+   "y": 0.6765
+  },
+  {
+   "text": "Erklärung",
+   "x": 0.7688,
+   "y": 0.111
+  },
+  {
+   "text": "Öffentliche Gebäude",
+   "x": 0.6562,
+   "y": 0.6722
+  },
+  {
+   "text": "Gasthöfe",
+   "x": 0.8375,
+   "y": 0.6722
+  },
+  {
+   "text": "Nachricht",
+   "x": 0.8313,
+   "y": 0.804
+  },
+  {
+   "text": "Maasstab v. 50 Rheinl. Ruthen auf einen Dezimalzoll",
+   "x": 0.8438,
+   "y": 0.2134
+  },
+  {
+   "text": "Brzeg. Plan miasta z przedmieściami, 1860",
+   "x": 0.0612,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. The plan of the city with the suburbs, 1860",
+   "x": 0.075,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
+ ],
+ "ahmp_brzeg_42": [
+  {
+   "text": "Plan von Brieg",
+   "x": 0.8094,
+   "y": 0.8153
+  },
+  {
+   "text": "Verlag von Franz Leichter Nachf.",
+   "x": 0.8125,
+   "y": 0.85
+  },
+  {
+   "text": "Hugo Süssmann",
+   "x": 0.8125,
+   "y": 0.8786
+  },
+  {
+   "text": "Brieg, Bez. Breslau",
+   "x": 0.8125,
+   "y": 0.9089
+  },
+  {
+   "text": "Maasstab 1:3000",
+   "x": 0.2562,
+   "y": 0.9107
+  },
+  {
+   "text": "Oder",
+   "x": 0.3656,
+   "y": 0.2845
+  },
+  {
+   "text": "Strom",
+   "x": 0.6906,
+   "y": 0.2602
+  },
+  {
+   "text": "Westl. Oderaue",
+   "x": 0.3175,
+   "y": 0.0885
+  },
+  {
+   "text": "Östl. Oderaue",
+   "x": 0.4219,
+   "y": 0.0885
+  },
+  {
+   "text": "Oder-Canal",
+   "x": 0.5781,
+   "y": 0.1197
+  },
+  {
+   "text": "Gross-Neudorf",
+   "x": 0.7469,
+   "y": 0.1214
+  },
+  {
+   "text": "Provinzial-Irren-Anstalt",
+   "x": 0.5281,
+   "y": 0.379
+  },
+  {
+   "text": "Promenade",
+   "x": 0.4,
+   "y": 0.4944
+  },
+  {
+   "text": "Neue Kasernen",
+   "x": 0.2219,
+   "y": 0.5637
+  },
+  {
+   "text": "Bahnhof Brieg",
+   "x": 0.4844,
+   "y": 0.7069
+  },
+  {
+   "text": "Bismarck Strasse",
+   "x": 0.3594,
+   "y": 0.5481
+  },
+  {
+   "text": "Linden-Strasse",
+   "x": 0.3812,
+   "y": 0.4727
+  },
+  {
+   "text": "Feld-Strasse",
+   "x": 0.4813,
+   "y": 0.6357
+  },
+  {
+   "text": "Schönauer Strasse",
+   "x": 0.8063,
+   "y": 0.4059
+  },
+  {
+   "text": "Ufer-Strasse",
+   "x": 0.4156,
+   "y": 0.2298
+  },
+  {
+   "text": "Wilhelm-Strasse",
+   "x": 0.2188,
+   "y": 0.451
+  },
+  {
+   "text": "Stadtwäldchen",
+   "x": 0.1406,
+   "y": 0.8933
+  },
+  {
+   "text": "Eisenbahn",
+   "x": 0.1375,
+   "y": 0.7268
+  },
+  {
+   "text": "Vorplatz",
+   "x": 0.5563,
+   "y": 0.7069
+  },
+  {
+   "text": "Brzeg. Plan miasta, ok. 1900",
+   "x": 0.105,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. The plan of the city, ca. 1900",
+   "x": 0.1212,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
+ ],
+ "ahmp_brzeg_43": [
+  {
+   "text": "Michelwitz",
+   "x": 0.3575,
+   "y": 0.1518
+  },
+  {
+   "text": "Garbendorf",
+   "x": 0.2531,
+   "y": 0.2324
+  },
+  {
+   "text": "Schreibendorf",
+   "x": 0.4469,
+   "y": 0.3356
+  },
+  {
+   "text": "Neu Briesen",
+   "x": 0.1125,
+   "y": 0.392
+  },
+  {
+   "text": "Rathau",
+   "x": 0.1969,
+   "y": 0.4614
+  },
+  {
+   "text": "Breslauer Vorst.",
+   "x": 0.2281,
+   "y": 0.5013
+  },
+  {
+   "text": "Brieg",
+   "x": 0.2144,
+   "y": 0.5377
+  },
+  {
+   "text": "Odertor Vorst.",
+   "x": 0.3625,
+   "y": 0.464
+  },
+  {
+   "text": "Mollwitzer Vorst.",
+   "x": 0.2469,
+   "y": 0.6739
+  },
+  {
+   "text": "Neisser Vorst.",
+   "x": 0.375,
+   "y": 0.6921
+  },
+  {
+   "text": "Hermsdorf",
+   "x": 0.0906,
+   "y": 0.7242
+  },
+  {
+   "text": "Briegischdorf",
+   "x": 0.3925,
+   "y": 0.7563
+  },
+  {
+   "text": "Schüsseldorf",
+   "x": 0.3063,
+   "y": 0.8656
+  },
+  {
+   "text": "Stadtpark",
+   "x": 0.1688,
+   "y": 0.6592
+  },
+  {
+   "text": "Insel",
+   "x": 0.3969,
+   "y": 0.5551
+  },
+  {
+   "text": "Mühle",
+   "x": 0.3656,
+   "y": 0.523
+  },
+  {
+   "text": "Oder",
+   "x": 0.25,
+   "y": 0.4293
+  },
+  {
+   "text": "Rothhaus",
+   "x": 0.0656,
+   "y": 0.1214
+  },
+  {
+   "text": "Brzeg. Fragment mapy topograficznej, 1914",
+   "x": 0.0425,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. A fragment of a topographic map, 1914",
+   "x": 0.0563,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
+ ],
+ "ahmp_brzeg_44": [
+  {
+   "text": "Michelwitz",
+   "x": 0.8219,
+   "y": 0.1518
+  },
+  {
+   "text": "Garbendorf",
+   "x": 0.7219,
+   "y": 0.2359
+  },
+  {
+   "text": "Schreibendorf",
+   "x": 0.9094,
+   "y": 0.3365
+  },
+  {
+   "text": "Neu Briesen",
+   "x": 0.5781,
+   "y": 0.392
+  },
+  {
+   "text": "Rathau",
+   "x": 0.6656,
+   "y": 0.4657
+  },
+  {
+   "text": "Odertor",
+   "x": 0.825,
+   "y": 0.4709
+  },
+  {
+   "text": "Hermsdorf",
+   "x": 0.5437,
+   "y": 0.7268
+  },
+  {
+   "text": "Brieg",
+   "x": 0.8688,
+   "y": 0.7129
+  },
+  {
+   "text": "Schüsselndorf",
+   "x": 0.775,
+   "y": 0.8647
+  },
+  {
+   "text": "Oder",
+   "x": 0.7156,
+   "y": 0.4293
+  },
+  {
+   "text": "Brzeg. Fragment mapy topograficznej, 1932",
+   "x": 0.5094,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. A fragment of a topographic map, 1932",
+   "x": 0.5238,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
   }
  ]
 }

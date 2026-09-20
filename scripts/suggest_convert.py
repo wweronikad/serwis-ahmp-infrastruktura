@@ -12,6 +12,9 @@ OUT = ROOT / 'public' / 'ocr' / 'suggested_words.json'
 
 def main(path, qa=False):
     d = json.load(open(path, encoding='utf-8'))
+    if 'w' not in d:                           # default: size of the overview image
+        from PIL import Image
+        d['w'], d['h'] = Image.open(Path(os.environ.get('TEMP', '.')) / 'ahmp_suggest' / d['map'] / 'overview.png').size
     items = []
     tiles = None
     for it in d['items']:
