@@ -1,12 +1,20 @@
 import { useEffect, useRef, useState } from 'react'
 import maplibregl from 'maplibre-gl'
 import 'maplibre-gl/dist/maplibre-gl.css'
+import { asset } from '../../utils/asset'
+
+function boundsOf(coords) {
+  const lons = coords.map((c) => c[0]); const lats = coords.map((c) => c[1])
+  return [[Math.min(...lons), Math.min(...lats)], [Math.max(...lons), Math.max(...lats)]]
+}
 
 export default function PlannedMapView({ map }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const [opacity, setOpacity] = useState(0.85)
   const [large, setLarge] = useState(false)
+  const [place, setPlace] = useState(null)      // place whose photos are open
+  const [photoIdx, setPhotoIdx] = useState(null) // enlarged photo inside that place
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
@@ -22,26 +30,45 @@ export default function PlannedMapView({ map }) {
             tileSize: 256,
             attribution: '© <a href="https://www.openstreetmap.org/copyright">OpenStreetMap</a>',
           },
-          historical: {
-            type: 'raster',
-            tiles: [map.tiles],
-            tileSize: 256,
-            minzoom: map.minzoom,
-            maxzoom: map.maxzoom,
-          },
+          historical: map.image
+            ? { type: 'image', url: asset(map.image), coordinates: map.coordinates }
+            : {
+                type: 'raster',
+                tiles: [map.tiles],
+                tileSize: 256,
+                minzoom: map.minzoom,
+                maxzoom: map.maxzoom,
+              },
         },
         layers: [
           { id: 'osm', type: 'raster', source: 'osm' },
           { id: 'historical', type: 'raster', source: 'historical', paint: { 'raster-opacity': opacity } },
         ],
       },
-      bounds: map.bounds,
-      fitBoundsOptions: { padding: 30 },
+      ...(map.image
+        ? { bounds: boundsOf(map.coordinates), fitBoundsOptions: { padding: 30 } }
+        : { bounds: map.bounds, fitBoundsOptions: { padding: 30 } }),
     })
     glMap.addControl(new maplibregl.NavigationControl(), 'top-right')
     mapRef.current = glMap
 
+    // photo pins (places with photographs attached to the plan)
+    const markers = (map.places || []).map((pl) => {
+      const el = document.createElement('button')
+      el.type = 'button'
+      el.title = `${pl.name} — zdjęcia (${pl.photos.length})`
+      el.textContent = pl.photos.length
+      Object.assign(el.style, {
+        width: '30px', height: '30px', borderRadius: '50%', border: '2px solid #fff',
+        background: '#1a2942', color: '#f0d99a', fontWeight: '700', fontSize: '13px',
+        cursor: 'pointer', boxShadow: '0 2px 6px rgba(0,0,0,0.45)',
+      })
+      el.addEventListener('click', (ev) => { ev.stopPropagation(); setPhotoIdx(null); setPlace(pl) })
+      return new maplibregl.Marker({ element: el }).setLngLat(pl.lngLat).addTo(glMap)
+    })
+
     return () => {
+      markers.forEach((m) => m.remove())
       glMap.remove()
       mapRef.current = null
     }
@@ -90,11 +117,54 @@ export default function PlannedMapView({ map }) {
       <div style={s.caption}>
         {map.title} — {map.author}, {map.year}
       </div>
+      {place && (
+        <div style={s.panel}>
+          <div style={s.panelHead}>
+            <strong style={{ fontFamily: 'var(--font-serif)', fontSize: 15 }}>{place.name}</strong>
+            <button type="button" style={s.close} onClick={() => { setPlace(null); setPhotoIdx(null) }} aria-label="Zamknij">×</button>
+          </div>
+          {photoIdx === null ? (
+            <div style={s.thumbs}>
+              {place.photos.map((ph, i) => (
+                <button key={ph.file} type="button" style={s.thumbBtn} onClick={() => setPhotoIdx(i)} title={ph.title}>
+                  <img src={asset(`/galeria/pulawy/${ph.file}`)} alt={ph.title} style={s.thumb} loading="lazy" />
+                  <span style={s.thumbCap}>{ph.title}</span>
+                </button>
+              ))}
+            </div>
+          ) : (
+            <div>
+              <img src={asset(`/galeria/pulawy/${place.photos[photoIdx].file}`)} alt={place.photos[photoIdx].title} style={s.big} />
+              <div style={s.bigBar}>
+                <button type="button" style={s.nav} onClick={() => setPhotoIdx((photoIdx + place.photos.length - 1) % place.photos.length)}>‹</button>
+                <span style={{ flex: 1, textAlign: 'center' }}>{place.photos[photoIdx].title}</span>
+                <button type="button" style={s.nav} onClick={() => setPhotoIdx((photoIdx + 1) % place.photos.length)}>›</button>
+              </div>
+              <button type="button" style={s.back} onClick={() => setPhotoIdx(null)}>← wszystkie zdjęcia</button>
+            </div>
+          )}
+        </div>
+      )}
     </div>
   )
 }
 
 const s = {
+  panel: {
+    position: 'absolute', top: 10, right: 52, maxHeight: 'calc(100% - 44px)', width: 'min(360px, 60%)',
+    background: 'rgba(255,255,255,0.97)', border: '1px solid var(--border)', borderRadius: 8,
+    padding: '10px 12px', overflowY: 'auto', boxShadow: 'var(--shadow-sm)',
+  },
+  panelHead: { display: 'flex', justifyContent: 'space-between', alignItems: 'center', marginBottom: 8, color: 'var(--navy)' },
+  close: { background: 'none', border: 'none', fontSize: 22, lineHeight: 1, cursor: 'pointer', color: 'var(--text-muted)' },
+  thumbs: { display: 'grid', gridTemplateColumns: '1fr 1fr', gap: 8 },
+  thumbBtn: { background: 'var(--cream)', border: '1px solid var(--border-light)', borderRadius: 6, padding: 0, cursor: 'pointer', textAlign: 'left', overflow: 'hidden' },
+  thumb: { width: '100%', height: 96, objectFit: 'cover', display: 'block' },
+  thumbCap: { display: 'block', fontSize: 11, lineHeight: 1.35, padding: '4px 6px', color: 'var(--text)' },
+  big: { width: '100%', borderRadius: 4, display: 'block' },
+  bigBar: { display: 'flex', alignItems: 'center', gap: 6, marginTop: 8, fontSize: 12, color: 'var(--text)' },
+  nav: { background: 'var(--cream-dark)', border: '1px solid var(--border)', borderRadius: 4, width: 30, height: 26, cursor: 'pointer', fontSize: 16 },
+  back: { marginTop: 8, background: 'none', border: 'none', color: 'var(--navy)', fontSize: 12, cursor: 'pointer', padding: 0, textDecoration: 'underline' },
   wrap: {
     position: 'relative',
     border: '1px solid var(--border-light)',

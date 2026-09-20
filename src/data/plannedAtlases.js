@@ -44,7 +44,148 @@ export const plannedAtlases = [
     region: 'Lubelszczyzna',
     team: 'UMCS w Lublinie',
     coordinates: [21.9686, 51.4164],
-    map: null,
+    map: {
+      "image": "/pulawy/plan-zespol-palacowo-parkowy-1997.webp",
+      "coordinates": [
+        [
+          21.964276,
+          51.40521
+        ],
+        [
+          21.951992,
+          51.414541
+        ],
+        [
+          21.962242,
+          51.419787
+        ],
+        [
+          21.974525,
+          51.410454
+        ]
+      ],
+      "title": "Puławy. Zespół pałacowo-parkowy",
+      "author": "Towarzystwo Przyjaciół Puław",
+      "year": 1997,
+      "places": [
+        {
+          "id": "palac",
+          "name": "Pałac Czartoryskich",
+          "lngLat": [
+            21.959016,
+            51.412175
+          ],
+          "photos": [
+            {
+              "file": "pulawy_palac_canvas12.webp",
+              "title": "Pałac Czartoryskich od strony parku"
+            },
+            {
+              "file": "pulawy_palac_canvas13.webp",
+              "title": "Pałac w Puławach od strony Wisły"
+            },
+            {
+              "file": "pulawy_palac_canvas14.webp",
+              "title": "Dziedziniec pałacu Czartoryskich"
+            }
+          ]
+        },
+        {
+          "id": "sybilla",
+          "name": "Świątynia Sybilli",
+          "lngLat": [
+            21.962706,
+            51.410592
+          ],
+          "photos": [
+            {
+              "file": "pulawy_sybilla_11.webp",
+              "title": "Świątynia Sybilli (rycina)"
+            },
+            {
+              "file": "pulawy_sybilla_canvas9.webp",
+              "title": "Świątynia Sybilli (sepia)"
+            },
+            {
+              "file": "pulawy_sybilla_canvas4.webp",
+              "title": "Świątynia Sybilli (pocztówka)"
+            },
+            {
+              "file": "pulawy_sybilla_canvas5.webp",
+              "title": "Świątynia Sybilli (fotografia)"
+            }
+          ]
+        },
+        {
+          "id": "domek_gotycki",
+          "name": "Domek Gotycki",
+          "lngLat": [
+            21.962932,
+            51.411315
+          ],
+          "photos": [
+            {
+              "file": "pulawy_domek_gotycki_canvas6.webp",
+              "title": "Domek Gotycki (fotografia)"
+            },
+            {
+              "file": "pulawy_domek_gotycki_canvas7.webp",
+              "title": "Domek Gotycki (pocztówka)"
+            }
+          ]
+        },
+        {
+          "id": "kosciol",
+          "name": "Kościół Wniebowzięcia NMP",
+          "lngLat": [
+            21.955424,
+            51.415039
+          ],
+          "photos": [
+            {
+              "file": "pulawy_kosciol_2.webp",
+              "title": "Kościół Wniebowzięcia NMP (rycina)"
+            },
+            {
+              "file": "pulawy_kosciol_canvas0.webp",
+              "title": "Kościół Wniebowzięcia NMP z tłumem wiernych"
+            }
+          ]
+        },
+        {
+          "id": "bursa",
+          "name": "Dawna bursa studencka",
+          "lngLat": [
+            21.963074,
+            51.413618
+          ],
+          "photos": [
+            {
+              "file": "pulawy_bursa_canvas1.webp",
+              "title": "Internat (pocztówka kolorowa)"
+            },
+            {
+              "file": "pulawy_bursa_canvas2.webp",
+              "title": "Internat studencki (pocztówka)"
+            }
+          ]
+        },
+        {
+          "id": "marynki",
+          "name": "Pałac Marynki",
+          "lngLat": [
+            21.96727,
+            51.408503
+          ],
+          "photos": [
+            {
+              "file": "pulawy_marynki_canvas.webp",
+              "title": "Pałac Marynki"
+            }
+          ]
+        }
+      ]
+    },
     text: null,
   },
   {
