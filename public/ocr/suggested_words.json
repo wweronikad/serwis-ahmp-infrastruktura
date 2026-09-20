@@ -3369,5 +3369,166 @@
    "x": 0.8715,
    "y": 0.9644
   }
+ ],
+ "ahmp_chojnice_ii_9": [
+  {
+   "text": "Grundriss der Stadt Conitz",
+   "x": 0.3563,
+   "y": 0.1552
+  },
+  {
+   "text": "Ziegel See",
+   "x": 0.5625,
+   "y": 0.3342
+  },
+  {
+   "text": "Mönchen See",
+   "x": 0.6,
+   "y": 0.6496
+  },
+  {
+   "text": "Mühlen Vorstadt",
+   "x": 0.4375,
+   "y": 0.3282
+  },
+  {
+   "text": "Schönauer Vorstadt",
+   "x": 0.1,
+   "y": 0.5968
+  },
+  {
+   "text": "Danziger Vorstadt",
+   "x": 0.6281,
+   "y": 0.5141
+  },
+  {
+   "text": "Lutherischer Kirchhof",
+   "x": 0.6937,
+   "y": 0.4945
+  },
+  {
+   "text": "nach Tuchel",
+   "x": 0.7812,
+   "y": 0.48
+  },
+  {
+   "text": "nach Konitzanka",
+   "x": 0.7469,
+   "y": 0.3777
+  },
+  {
+   "text": "nach Lichtnau",
+   "x": 0.7469,
+   "y": 0.5882
+  },
+  {
+   "text": "von Zechlin",
+   "x": 0.42,
+   "y": 0.7204
+  },
+  {
+   "text": "von Schönfeld",
+   "x": 0.2925,
+   "y": 0.6777
+  },
+  {
+   "text": "von Muskendorf",
+   "x": 0.2844,
+   "y": 0.2685
+  },
+  {
+   "text": "Berliner Hauptarchiv",
+   "x": 0.7,
+   "y": 0.8636
+  }
+ ],
+ "ahmp_chojnice_ii_5": [
+  {
+   "text": "Chojnice",
+   "x": 0.43,
+   "y": 0.5609
+  },
+  {
+   "text": "Chojniczki",
+   "x": 0.355,
+   "y": 0.147
+  },
+  {
+   "text": "Charzykowy",
+   "x": 0.2062,
+   "y": 0.1776
+  },
+  {
+   "text": "Czartołomie",
+   "x": 0.4813,
+   "y": 0.2137
+  },
+  {
+   "text": "Krojanty",
+   "x": 0.6906,
+   "y": 0.2858
+  },
+  {
+   "text": "Pawłowo",
+   "x": 0.775,
+   "y": 0.9919
+  },
+  {
+   "text": "Niesewanz",
+   "x": 0.1469,
+   "y": 0.5699
+  },
+  {
+   "text": "Podlesie",
+   "x": 0.3719,
+   "y": 0.532
+  },
+  {
+   "text": "Jarcewo",
+   "x": 0.4288,
+   "y": 0.1488
+  }
+ ],
+ "ahmp_chojnice_ii_6": [
+  {
+   "text": "Grund Riss Der Stad Conitz in Pommerellen",
+   "x": 0.0572,
+   "y": 0.1
+  },
+  {
+   "text": "Weg von Tauchel",
+   "x": 0.3395,
+   "y": 0.0988
+  },
+  {
+   "text": "Weg nach Schlochau",
+   "x": 0.8469,
+   "y": 0.38
+  },
+  {
+   "text": "Weg von Danzig",
+   "x": 0.8164,
+   "y": 0.4875
+  },
+  {
+   "text": "Die Königliche Stadt Conitz",
+   "x": 0.3432,
+   "y": 0.6594
+  },
+  {
+   "text": "Grund Riss der Stadt",
+   "x": 0.1965,
+   "y": 0.7906
+  },
+  {
+   "text": "Johann Jacob Braemer delineavit",
+   "x": 0.3432,
+   "y": 0.9425
+  },
+  {
+   "text": "S. Bennet sculp. Dantzig",
+   "x": 0.6688,
+   "y": 0.945
+  }
  ]
 }
