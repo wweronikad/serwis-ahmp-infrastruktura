@@ -277,17 +277,6 @@ const pi = {
     lineHeight: '1.7',
     marginBottom: '14px',
   },
-  fact: {
-    fontSize: '13px',
-    color: 'var(--navy)',
-    lineHeight: '1.6',
-    fontStyle: 'italic',
-    background: 'var(--cream)',
-    border: '1px solid var(--border-light)',
-    borderRadius: 'var(--radius)',
-    padding: '10px 12px',
-    marginBottom: '14px',
-  },
   link: {
     color: 'var(--navy)',
     fontWeight: '600',
