@@ -3530,5 +3530,159 @@
    "x": 0.6688,
    "y": 0.945
   }
+ ],
+ "ahmp_chojnice_ii_14": [
+  {
+   "text": "Chojnice",
+   "x": 0.0644,
+   "y": 0.0935
+  },
+  {
+   "text": "Chronologia",
+   "x": 0.7488,
+   "y": 0.1037
+  },
+  {
+   "text": "Architektura gotycka",
+   "x": 0.07,
+   "y": 0.7049
+  },
+  {
+   "text": "Architektura barokowa i rokokowa (XVIII w.)",
+   "x": 0.07,
+   "y": 0.7202
+  },
+  {
+   "text": "Architektura klasycyzująca i romantyczna (około 1800-1870)",
+   "x": 0.07,
+   "y": 0.7321
+  },
+  {
+   "text": "Architektura eklektyczna i neorenesans i neogotyk (ok. 1870-1920)",
+   "x": 0.07,
+   "y": 0.7602
+  },
+  {
+   "text": "Architektura lat 1870-1920 o cechach malowniczego eklektyzmu",
+   "x": 0.07,
+   "y": 0.7874
+  },
+  {
+   "text": "Architektura lat 1870-1920 o cechach secesji",
+   "x": 0.07,
+   "y": 0.8146
+  },
+  {
+   "text": "Architektura lat 1870-1920 o cechach neoklasycyzmu ok. 1910",
+   "x": 0.07,
+   "y": 0.8418
+  },
+  {
+   "text": "Architektura lat 1920-1939",
+   "x": 0.07,
+   "y": 0.8699
+  },
+  {
+   "text": "Architektura po 1945 r.",
+   "x": 0.07,
+   "y": 0.8844
+  },
+  {
+   "text": "Obiekty ujęte w spisie zabytków o.d.z.",
+   "x": 0.07,
+   "y": 0.898
+  },
+  {
+   "text": "Daty budowy ważniejszych obiektów oraz przebudowy",
+   "x": 0.07,
+   "y": 0.9124
+  },
+  {
+   "text": "Plac Niepodległości",
+   "x": 0.6813,
+   "y": 0.7296
+  }
+ ],
+ "ahmp_chojnice_ii_16": [
+  {
+   "text": "Chojnice",
+   "x": 0.095,
+   "y": 0.22
+  },
+  {
+   "text": "Chojnice",
+   "x": 0.3552,
+   "y": 0.3725
+  },
+  {
+   "text": "Chojnice",
+   "x": 0.7934,
+   "y": 0.2231
+  },
+  {
+   "text": "Chojnice",
+   "x": 0.1568,
+   "y": 0.625
+  },
+  {
+   "text": "Chojnice",
+   "x": 0.869,
+   "y": 0.3675
+  },
+  {
+   "text": "Os. Bytowskie",
+   "x": 0.0923,
+   "y": 0.2425
+  },
+  {
+   "text": "Os. Słoneczne",
+   "x": 0.2611,
+   "y": 0.2344
+  },
+  {
+   "text": "Os. Bytowskie",
+   "x": 0.2076,
+   "y": 0.3719
+  },
+  {
+   "text": "Os. Słoneczne",
+   "x": 0.2103,
+   "y": 0.3606
+  },
+  {
+   "text": "Os. Hallera",
+   "x": 0.5489,
+   "y": 0.4406
+  },
+  {
+   "text": "Os. 700-lecia",
+   "x": 0.6827,
+   "y": 0.4562
+  },
+  {
+   "text": "Lasek Miejski",
+   "x": 0.3875,
+   "y": 0.1594
+  },
+  {
+   "text": "Dolina Śmierci",
+   "x": 0.6965,
+   "y": 0.1469
+  },
+  {
+   "text": "Park Tysiąclecia",
+   "x": 0.4935,
+   "y": 0.6731
+  },
+  {
+   "text": "Chojniczki-Wybudowanie",
+   "x": 0.3875,
+   "y": 0.0575
+  },
+  {
+   "text": "Leśne",
+   "x": 0.0461,
+   "y": 0.1031
+  }
  ]
 }
