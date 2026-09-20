@@ -6,7 +6,6 @@ export default function PlannedMapView({ map }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
   const [opacity, setOpacity] = useState(0.85)
-  const [large, setLarge] = useState(false)
 
   useEffect(() => {
     if (!containerRef.current || mapRef.current) return
@@ -58,14 +57,9 @@ export default function PlannedMapView({ map }) {
     else glMap.once('load', apply)
   }, [opacity])
 
-  // the container changes height when toggled — MapLibre must recompute its canvas
-  useEffect(() => {
-    mapRef.current?.resize()
-  }, [large])
-
   return (
     <div style={s.wrap}>
-      <div ref={containerRef} style={{ ...s.map, height: large ? 'min(86vh, 900px)' : 'min(62vh, 620px)' }} />
+      <div ref={containerRef} style={s.map} />
       <div style={s.controls}>
         <span style={s.label}>Przezroczystość mapy hist.</span>
         <input
@@ -78,14 +72,6 @@ export default function PlannedMapView({ map }) {
           style={s.slider}
         />
         <span style={s.value}>{Math.round(opacity * 100)}%</span>
-        <button
-          type="button"
-          onClick={() => setLarge((v) => !v)}
-          style={s.sizeBtn}
-          title={large ? 'Zmniejsz okno mapy' : 'Powiększ okno mapy'}
-        >
-          {large ? '⤡ Zmniejsz' : '⤢ Powiększ'}
-        </button>
       </div>
       <div style={s.caption}>
         {map.title} — {map.author}, {map.year}
@@ -104,7 +90,7 @@ const s = {
   },
   map: {
     width: '100%',
-    height: 620,
+    height: 480,
   },
   controls: {
     position: 'absolute',
@@ -126,18 +112,6 @@ const s = {
   },
   slider: {
     width: 110,
-  },
-  sizeBtn: {
-    marginLeft: 6,
-    padding: '4px 10px',
-    fontSize: 12,
-    fontWeight: 600,
-    color: 'var(--navy)',
-    background: 'var(--cream)',
-    border: '1px solid var(--border)',
-    borderRadius: 4,
-    cursor: 'pointer',
-    whiteSpace: 'nowrap',
   },
   value: {
     color: 'var(--navy)',
