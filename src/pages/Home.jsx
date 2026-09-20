@@ -177,7 +177,6 @@ const ABOUT_CARDS = [
     badge: 'Projekt polski',
     heading: 'Atlas Historyczny Miast Polskich',
     text: 'Projekt badawczy zapoczątkowany w 1993 r. przez prof. Antoniego Czacharowskiego (UMK Toruń) — dotąd blisko 50 miast, zespoły w Toruniu, Wrocławiu i Krakowie.',
-    fact: 'Dzięki georeferencji możesz nałożyć XIX-wieczny plan katastralny wprost na dzisiejszą mapę satelitarną — i zobaczyć, która uliczka przetrwała 150 lat bez zmian.',
     to: '/o-projekcie-polskim',
     cta: 'Odkryj projekt polski',
     image: 'https://atlasmiast.umk.pl/wp-content/uploads/2025/10/mapa.png',
@@ -188,7 +187,6 @@ const ABOUT_CARDS = [
     badge: 'Projekt europejski',
     heading: 'European Historic Towns Atlases',
     text: 'AHMP jest polską częścią międzynarodowej inicjatywy Komisji Historii Miast — blisko 600 atlasów miast w 21 krajach Europy, koordynowanej przez ISIG w Münster.',
-    fact: 'Wszystkie kraje rysują swoją „mapę zasadniczą” w tej samej skali 1:2500 — dzięki temu średniowieczny Toruń da się bezpośrednio porównać z Dublinem czy Wiedniem.',
     to: '/o-projekcie-europejskim',
     cta: 'Odkryj projekt europejski',
     image: 'europa-mapa-miniatura.webp',
@@ -213,7 +211,6 @@ function AboutTeasers() {
                   <figcaption style={pi.figCap}>{c.imageCaption}</figcaption>
                 </figure>
               )}
-              {c.fact && <p style={pi.fact}>💡 {c.fact}</p>}
               <span style={pi.link}>{c.cta} →</span>
             </Link>
           ))}

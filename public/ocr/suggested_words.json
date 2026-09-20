@@ -3684,5 +3684,231 @@
    "x": 0.0461,
    "y": 0.1031
   }
+ ],
+ "ahmp_elblag_ii_9": [
+  {
+   "text": "Elbing Flu",
+   "x": 0.3237,
+   "y": 0.3271
+  },
+  {
+   "text": "Elbing",
+   "x": 0.6362,
+   "y": 0.9173
+  },
+  {
+   "text": "Vorstatte",
+   "x": 0.5887,
+   "y": 0.4009
+  },
+  {
+   "text": "Speicher",
+   "x": 0.2362,
+   "y": 0.6098
+  },
+  {
+   "text": "Vorberg",
+   "x": 0.3887,
+   "y": 0.7822
+  },
+  {
+   "text": "Marienthum",
+   "x": 0.5012,
+   "y": 0.7644
+  },
+  {
+   "text": "Ros garten",
+   "x": 0.425,
+   "y": 0.8862
+  },
+  {
+   "text": "S. Anna kirchhof",
+   "x": 0.705,
+   "y": 0.5867
+  },
+  {
+   "text": "S. Gergen",
+   "x": 0.7644,
+   "y": 0.6338
+  },
+  {
+   "text": "Neuer Gut",
+   "x": 0.7094,
+   "y": 0.3484
+  },
+  {
+   "text": "Lastadia",
+   "x": 0.3719,
+   "y": 0.4107
+  },
+  {
+   "text": "Schiffs Molen",
+   "x": 0.2531,
+   "y": 0.3733
+  },
+  {
+   "text": "Wintergasse nach Tiegenhof",
+   "x": 0.1125,
+   "y": 0.5964
+  },
+  {
+   "text": "Weg nach Ellerwalde",
+   "x": 0.2719,
+   "y": 0.3271
+  }
+ ],
+ "ahmp_elblag_ii_10": [
+  {
+   "text": "Wahrhaftes Grundriss der Stadt und Vestung Elbing",
+   "x": 0.6656,
+   "y": 0.0959
+  },
+  {
+   "text": "Stadt Feld",
+   "x": 0.1925,
+   "y": 0.2398
+  },
+  {
+   "text": "Neustädter Feld",
+   "x": 0.5719,
+   "y": 0.1288
+  },
+  {
+   "text": "Alt Städter Rosgarten",
+   "x": 0.6906,
+   "y": 0.4991
+  },
+  {
+   "text": "Neustädter Rosgarten",
+   "x": 0.8187,
+   "y": 0.4956
+  },
+  {
+   "text": "Der Graben Haagen",
+   "x": 0.4531,
+   "y": 0.7442
+  },
+  {
+   "text": "Rosswiesen",
+   "x": 0.2469,
+   "y": 0.8242
+  },
+  {
+   "text": "Kuhwiesen",
+   "x": 0.5875,
+   "y": 0.8348
+  },
+  {
+   "text": "Wansau",
+   "x": 0.7812,
+   "y": 0.8659
+  },
+  {
+   "text": "Die Bauern Wiesen",
+   "x": 0.7063,
+   "y": 0.6528
+  },
+  {
+   "text": "Kraut Garte",
+   "x": 0.275,
+   "y": 0.524
+  },
+  {
+   "text": "Christ. Kretschmer fect. 1709",
+   "x": 0.7781,
+   "y": 0.2842
+  }
+ ],
+ "ahmp_elblag_ii_11": [
+  {
+   "text": "Plan von der Stadt und den Vorstädten Elbings",
+   "x": 0.6781,
+   "y": 0.1197
+  },
+  {
+   "text": "Die Alt Stadt",
+   "x": 0.3544,
+   "y": 0.3679
+  },
+  {
+   "text": "Der Elbing Fluss",
+   "x": 0.4,
+   "y": 0.3165
+  },
+  {
+   "text": "Die Flascher Wiesen",
+   "x": 0.1031,
+   "y": 0.2819
+  },
+  {
+   "text": "Der Gruben hägen Kirchen Garten",
+   "x": 0.2812,
+   "y": 0.1179
+  },
+  {
+   "text": "Zum Grubenhagen",
+   "x": 0.4938,
+   "y": 0.195
+  },
+  {
+   "text": "Die Altstädtsche Rossgarten",
+   "x": 0.0719,
+   "y": 0.4832
+  },
+  {
+   "text": "Aeustädter Feld",
+   "x": 0.1219,
+   "y": 0.6339
+  },
+  {
+   "text": "Neustädter Feld",
+   "x": 0.2531,
+   "y": 0.9309
+  },
+  {
+   "text": "Vorstädter Bürger Wiesen",
+   "x": 0.7094,
+   "y": 0.3679
+  },
+  {
+   "text": "Die sogenannte Conventsche Hube",
+   "x": 0.8187,
+   "y": 0.4521
+  },
+  {
+   "text": "Gross Wesseln",
+   "x": 0.8719,
+   "y": 0.6844
+  },
+  {
+   "text": "Gross Teichhof",
+   "x": 0.7063,
+   "y": 0.7287
+  },
+  {
+   "text": "Kämerei Wiesen",
+   "x": 0.8313,
+   "y": 0.3475
+  },
+  {
+   "text": "Erbpächtliches Kapsen Land",
+   "x": 0.6344,
+   "y": 0.8954
+  },
+  {
+   "text": "Altstädtsches Feld",
+   "x": 0.3406,
+   "y": 0.9929
+  },
+  {
+   "text": "Der auswendige Mühlen Damm",
+   "x": 0.5594,
+   "y": 0.82
+  },
+  {
+   "text": "Die Kramen der Wiesen",
+   "x": 0.6312,
+   "y": 0.3076
+  }
  ]
 }
