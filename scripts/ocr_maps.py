@@ -70,8 +70,15 @@ def preprocess(img):
     return img
 
 
+MAX_PIXELS = 40_000_000     # bigger scans are scaled down first: Tesseract time grows with pixels
+                            # (a 95 Mpx map ran for hours); positions are normalised, so nothing shifts
+
 def ocr_image(img):
     W, H = img.size
+    if W * H > MAX_PIXELS:
+        f = (MAX_PIXELS / (W * H)) ** 0.5
+        img = img.resize((int(W * f), int(H * f)), Image.LANCZOS)
+        W, H = img.size
     proc = preprocess(img)
     data = pytesseract.image_to_data(
         proc, lang=LANG,
