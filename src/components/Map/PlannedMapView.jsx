@@ -8,6 +8,29 @@ function boundsOf(coords) {
   return [[Math.min(...lons), Math.min(...lats)], [Math.max(...lons), Math.max(...lats)]]
 }
 
+// bearing (compass direction shown at the top of the screen) that makes the image upright:
+// corners are [top-left, top-right, bottom-right, bottom-left]
+function uprightBearing(c) {
+  const k = Math.cos((c[0][1] * Math.PI) / 180)
+  const dx = (c[3][0] - c[0][0]) * k          // top-left -> bottom-left (image "down")
+  const dy = c[3][1] - c[0][1]
+  const down = (Math.atan2(dx, dy) * 180) / Math.PI
+  return (down + 180 + 360) % 360
+}
+
+function fitRotated(glMap, coords, pad) {
+  const bearing = uprightBearing(coords)
+  const lon = coords.reduce((a, c) => a + c[0], 0) / 4
+  const lat = coords.reduce((a, c) => a + c[1], 0) / 4
+  glMap.jumpTo({ center: [lon, lat], zoom: 15, bearing })
+  const pts = coords.map((c) => glMap.project(c))
+  const w = Math.max(...pts.map((p) => p.x)) - Math.min(...pts.map((p) => p.x))
+  const h = Math.max(...pts.map((p) => p.y)) - Math.min(...pts.map((p) => p.y))
+  const box = glMap.getContainer().getBoundingClientRect()
+  const scale = Math.min((box.width - 2 * pad) / w, (box.height - 2 * pad) / h)
+  glMap.jumpTo({ zoom: 15 + Math.log2(scale) })
+}
+
 export default function PlannedMapView({ map }) {
   const containerRef = useRef(null)
   const mapRef = useRef(null)
@@ -49,6 +72,9 @@ export default function PlannedMapView({ map }) {
         ? { bounds: boundsOf(map.coordinates), fitBoundsOptions: { padding: 30 } }
         : { bounds: map.bounds, fitBoundsOptions: { padding: 30 } }),
     })
+    // A georeferenced image whose "up" is not north: open the view rotated so the plan
+    // stands upright and fills the window (the basemap turns with it).
+    if (map.image) fitRotated(glMap, map.coordinates, 40)
     glMap.addControl(new maplibregl.NavigationControl(), 'top-right')
     mapRef.current = glMap
 
