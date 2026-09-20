@@ -229,7 +229,7 @@ const styles = {
     color: 'var(--text)',
   },
   mapFig: { margin: '20px 0 0', display: 'flex', flexDirection: 'column', gap: '12px' },
-  mapImg: { width: '100%', display: 'block', borderRadius: '6px', border: '1px solid var(--border-light)' },
+  mapImg: { width: '100%', maxWidth: '640px', display: 'block', margin: '0 auto', borderRadius: '6px', border: '1px solid var(--border-light)' },
   mapLegend: { display: 'flex', flexDirection: 'column', gap: '5px', padding: '12px 16px', background: 'var(--cream-dark)', borderRadius: '6px', border: '1px solid var(--border-light)' },
   legendItem: { fontSize: '13px', color: 'var(--text)', display: 'flex', alignItems: 'baseline', gap: '8px' },
   legendSq: { fontSize: '13px', color: '#1a1a1a', flexShrink: 0 },
