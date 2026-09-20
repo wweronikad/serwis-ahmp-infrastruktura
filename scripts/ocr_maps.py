@@ -38,28 +38,12 @@ GARBAGE = re.compile(
 )
 
 # ── Parse cities.js with a simple regex (no JS interpreter needed) ─────────────
+sys.path.insert(0, str(Path(__file__).parent))
+from annotator_server import load_catalog   # parses cities.js per city block (no id-prefix clashes)
+
 def load_maps():
-    src = CITIES_JS.read_text(encoding='utf-8')
-
-    city_re  = re.compile(r"id:\s*'([^']+)'")
-    map_re   = re.compile(r"\{\s*id:\s*'([^']+)'[^}]*?pdfUrl:\s*'([^']+)'", re.S)
-
-    city_ids = city_re.findall(src)
-
-    result = []
-    for m in map_re.finditer(src):
-        map_id  = m.group(1)
-        pdf_url = m.group(2)
-        parts = map_id.split('_')
-        city_id = None
-        for cid in city_ids:
-            slug = cid.replace('-', '_')
-            if map_id.startswith(f'ahmp_{slug}_') or map_id.startswith(f'ahmp_{slug}'):
-                city_id = cid
-                break
-        if city_id:
-            result.append({'cityId': city_id, 'mapId': map_id, 'pdfUrl': pdf_url})
-    return result
+    return [{'cityId': e['cityId'], 'mapId': e['mapId'], 'pdfUrl': e['pdfUrl']}
+            for e in load_catalog()]
 
 
 def download_pdf(url, dest):
@@ -122,8 +106,15 @@ def process_map(entry, filter_cities=None):
 
     out_path = OUT_DIR / city_id / f'{map_id}.json'
     if out_path.exists():
-        print(f'  SKIP  {map_id}  (cached)')
-        return
+        # a file holding only hand-made pins (conf == 100, written by ocr_build_index.py)
+        # does not count as OCR'd; ocr_build_index.py re-adds the pins afterwards
+        try:
+            existing = json.loads(out_path.read_text(encoding='utf-8')).get('words', [])
+        except Exception:
+            existing = []
+        if any(w.get('conf') != 100 for w in existing):
+            print(f'  SKIP  {map_id}  (cached)')
+            return
 
     print(f'  OCR   {map_id}')
 
@@ -134,14 +125,18 @@ def process_map(entry, filter_cities=None):
         return
 
     try:
-        pages = convert_from_path(str(pdf_path), dpi=DPI, poppler_path=POPPLER)
-    except Exception as e:
-        print(f'        FAIL convert: {e}')
+        with open(pdf_path, 'rb') as fh:
+            magic = fh.read(4)
+        if magic.startswith(b'%PDF'):
+            pages = convert_from_path(str(pdf_path), dpi=DPI, poppler_path=POPPLER)
+        else:                                  # many "pdfUrl" targets are plain JPG/PNG/TIFF scans
+            pages = [Image.open(pdf_path)]
+        all_words = []
+        for page in pages:
+            all_words.extend(ocr_image(page))
+    except Exception as e:                     # one bad map must not stop the batch
+        print(f'        FAIL {type(e).__name__}: {e}')
         return
-
-    all_words = []
-    for page in pages:
-        all_words.extend(ocr_image(page))
 
     # Deduplicate across pages
     seen  = set()
@@ -164,6 +159,11 @@ def process_map(entry, filter_cities=None):
 
 # ── Main ──────────────────────────────────────────────────────────────────────
 if __name__ == '__main__':
+    Image.MAX_IMAGE_PIXELS = None              # large-format sheets exceed PIL's default limit
+    shard = None                               # --shard=i/n : every n-th map, offset i (parallel runs)
+    for a in sys.argv[1:]:
+        if a.startswith('--shard='):
+            i, n = a.split('=')[1].split('/'); shard = (int(i), int(n))
     args = [a for a in sys.argv[1:] if not a.startswith('--')]
     filter_cities = set(args) if args else None
 
@@ -174,6 +174,10 @@ if __name__ == '__main__':
         print(f'Filtered to {len(subset)} maps for: {", ".join(filter_cities)}')
     else:
         subset = maps
+
+    if shard:
+        subset = [m for k, m in enumerate(subset) if k % shard[1] == shard[0]]
+        print(f'Shard {shard[0]}/{shard[1]}: {len(subset)} maps')
 
     by_city = {}
     for m in subset:

@@ -98,3 +98,20 @@ body {
 .pointRow .rm { background: none; border: none; color: #8a8d94; cursor: pointer; font-size: 13px; }
 .pointRow .rm:hover { color: #ff6b6b; }
 .pointRow .jump { background: none; border: none; color: #6b93ff; cursor: pointer; font-size: 12px; }
+
+/* propozycje (do zatwierdzenia) */
+.badge.has-sugg { background: #b8660b; color: #fff1dc; }
+.sug { pointer-events: all; cursor: pointer; }
+.sug circle { fill: rgba(255,140,0,0.35); stroke: #ff8c00; stroke-width: 1.8; stroke-dasharray: 3 2; }
+.sug:hover circle { fill: rgba(255,140,0,0.7); }
+.sug text { fill: #ffb347; font-weight: 600; paint-order: stroke; stroke: #000; stroke-width: 2px; }
+#suggBox { border-bottom: 1px solid #3a3d44; margin-bottom: 8px; padding-bottom: 8px; }
+#suggBar { display: flex; gap: 6px; margin: 6px 0; }
+#suggBar button { flex: 1; font-size: 11px; padding: 4px 6px; cursor: pointer; border-radius: 4px; border: 1px solid #555b6e; background: #2c2f36; color: #dfe3ff; }
+#suggBar #acceptAll { background: #3d6a2d; border-color: #4a7c3a; color: #e6ffe0; }
+.suggRow { display: flex; gap: 4px; align-items: center; margin: 2px 0; }
+.suggRow input { flex: 1; background: transparent; border: none; border-bottom: 1px dashed #b8660b; color: #ffd9a3; font-size: 12px; padding: 2px 0; }
+.suggRow button { background: none; border: none; cursor: pointer; font-size: 13px; }
+.suggRow .ok { color: #6fcf58; }
+.suggRow .no { color: #ff6b6b; }
+.suggRow .jump { color: #6b93ff; font-size: 12px; }

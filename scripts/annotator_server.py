@@ -33,6 +33,7 @@ ROOT         = Path(__file__).resolve().parent.parent
 CITIES_JS    = ROOT / 'src' / 'data' / 'cities.js'
 OCR_DIR      = ROOT / 'public' / 'ocr'
 MANUAL_FILE  = OCR_DIR / 'manual_words.json'
+SUGG_FILE    = OCR_DIR / 'suggested_words.json'   # propozycje do zatwierdzenia (nie trafiają do wyszukiwarki)
 PDF_CACHE    = Path(tempfile.gettempdir()) / 'ahmp_pdf_cache'
 IMG_CACHE    = Path(__file__).parent / 'annotator' / '.cache'
 STATIC_DIR   = Path(__file__).parent / 'annotator'
@@ -117,6 +118,23 @@ def save_points_for_map(map_id, points):
     save_manual(manual)
 
 
+# ── suggestions (propozycje) ────────────────────────────────────────────────
+
+def load_suggestions():
+    if not SUGG_FILE.exists():
+        return {}
+    return json.loads(SUGG_FILE.read_text(encoding='utf-8'))
+
+
+def save_suggestions_for_map(map_id, items):
+    data = load_suggestions()
+    if items:
+        data[map_id] = items
+    else:
+        data.pop(map_id, None)
+    SUGG_FILE.write_text(json.dumps(data, ensure_ascii=False, indent=1), encoding='utf-8')
+
+
 # ── rebuild index.json + wstrzyknięcie pinezek do public/ocr/<city>/<mapId>.json ─
 # Deleguje do scripts/ocr_build_index.py (ta sama logika, wołana automatycznie
 # po każdym zapisie punktów, żeby nie trzeba było osobno pamiętać o
@@ -142,9 +160,16 @@ def download_pdf(url):
     return pdf_path
 
 
+def _is_pdf(path):
+    with open(path, 'rb') as fh:
+        return fh.read(4).startswith(b'%PDF')
+
+
 def page_count(map_id):
     entry = BY_MAP_ID[map_id]
     pdf_path = download_pdf(entry['pdfUrl'])
+    if not _is_pdf(pdf_path):          # ~polowa map w Atlasie to zwykle pliki JPG
+        return 1
     info = pdfinfo_from_path(str(pdf_path), poppler_path=POPPLER)
     return info['Pages']
 
@@ -155,6 +180,11 @@ def render_page(map_id, page):
         return cache_path
     entry = BY_MAP_ID[map_id]
     pdf_path = download_pdf(entry['pdfUrl'])
+    if not _is_pdf(pdf_path):
+        from PIL import Image
+        Image.MAX_IMAGE_PIXELS = None
+        Image.open(pdf_path).convert('RGB').save(cache_path, 'PNG')
+        return cache_path
     pages = convert_from_path(str(pdf_path), dpi=DPI, poppler_path=POPPLER,
                                first_page=page, last_page=page)
     pages[0].convert('RGB').save(cache_path, 'PNG')
@@ -197,6 +227,7 @@ class Handler(BaseHTTPRequestHandler):
 
             if parsed.path == '/api/maps':
                 manual = load_manual()
+                sugg = load_suggestions()
                 out = []
                 for m in CATALOG:
                     ocr_path = OCR_DIR / m['cityId'] / f'{m["mapId"]}.json'
@@ -207,7 +238,8 @@ class Handler(BaseHTTPRequestHandler):
                         except Exception:
                             pass
                     manual_points = len([e for e in manual.get(m['mapId'], []) if isinstance(e, dict)])
-                    out.append({**m, 'ocrWords': ocr_words, 'manualPoints': manual_points})
+                    out.append({**m, 'ocrWords': ocr_words, 'manualPoints': manual_points,
+                                'suggested': len(sugg.get(m['mapId'], []))})
                 return self._json(out)
 
             if parsed.path == '/api/pagecount':
@@ -224,6 +256,9 @@ class Handler(BaseHTTPRequestHandler):
                 map_id = qs['map'][0]
                 return self._json(points_for_map(map_id))
 
+            if parsed.path == '/api/suggestions':
+                return self._json(load_suggestions().get(qs['map'][0], []))
+
             self.send_error(404)
         except Exception as e:
             self._json({'error': str(e)}, 500)
@@ -232,6 +267,12 @@ class Handler(BaseHTTPRequestHandler):
         parsed = urlparse(self.path)
         qs = parse_qs(parsed.query)
         try:
+            if parsed.path == '/api/suggestions':
+                map_id = qs['map'][0]
+                length = int(self.headers.get('Content-Length', 0))
+                body = json.loads(self.rfile.read(length).decode('utf-8'))
+                save_suggestions_for_map(map_id, body['suggestions'])
+                return self._json({'ok': True, 'count': len(body['suggestions'])})
             if parsed.path == '/api/points':
                 map_id = qs['map'][0]
                 length = int(self.headers.get('Content-Length', 0))

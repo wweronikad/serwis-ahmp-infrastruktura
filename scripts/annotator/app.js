@@ -4,6 +4,7 @@ let CATALOG = [];      // flat list of maps (filtered order used for prev/next)
 let ALL = [];          // unfiltered
 let current = null;    // {cityId, cityName, mapId, title, ...}
 let points = [];       // [{text, x, y}] for current map
+let suggestions = [];  // proposals waiting for approval [{text, x, y}]
 let page = 1;
 let pageCount = 1;
 let zoom = 1;
@@ -61,6 +62,7 @@ function renderList() {
       row.innerHTML = `
         <span class="name">${m.title}</span>
         <span class="badges">
+          ${m.suggested > 0 ? `<span class="badge has-sugg" title="propozycje do sprawdzenia">${m.suggested}?</span>` : ''}
           ${m.manualPoints > 0 ? `<span class="badge has-points">${m.manualPoints}</span>` : ''}
           ${m.ocrWords > 0 ? `<span class="badge has-ocr">OCR ${m.ocrWords}</span>` : ''}
         </span>`;
@@ -121,6 +123,7 @@ async function loadMap(mapId) {
   setMapError(null);
   mapImage.removeAttribute('src');
   pointsLayer.innerHTML = '';
+  suggestions = [];
   points = []; // cleared up front so a failed load below doesn't leave the
   pointCountEl.textContent = 0;   // previous map's point list showing in the side panel
   renderPointsPanel();
@@ -132,6 +135,7 @@ async function loadMap(mapId) {
     $('#pageLabel').textContent = `${page}/${pageCount}`;
 
     points = await api(`/api/points?map=${mapId}`);
+    suggestions = await api(`/api/suggestions?map=${mapId}`);
     await loadImage();
   } catch (e) {
     // Most often the source PDF is 404 on atlasmiast.umk.pl (happens for
@@ -200,8 +204,22 @@ function renderPoints() {
     });
     pointsLayer.appendChild(g);
   });
+  suggestions.forEach((p, i) => {
+    const g = document.createElementNS('http://www.w3.org/2000/svg', 'g');
+    g.setAttribute('class', 'sug');
+    const cx = p.x * naturalW, cy = p.y * naturalH;
+    g.innerHTML = `
+      <circle cx="${cx}" cy="${cy}" r="${Math.max(6, naturalW * 0.0045)}"></circle>
+      <text x="${cx + 9}" y="${cy - 9}">${escapeXml(p.text)}</text>`;
+    g.addEventListener('click', (ev) => {
+      ev.stopPropagation();
+      openSuggBox(ev.clientX, ev.clientY, i);
+    });
+    pointsLayer.appendChild(g);
+  });
   pointCountEl.textContent = points.length;
   renderPointsPanel();
+  renderSuggPanel();
 }
 
 function escapeXml(s) {
@@ -237,6 +255,116 @@ function renderPointsPanel() {
     });
     pointsListEl.appendChild(row);
   });
+}
+
+// ── suggestions: approve / reject ─────────────────────────────────────────
+
+async function saveSuggestions() {
+  if (!current) return;
+  const mapId = current.mapId;
+  try {
+    await api(`/api/suggestions?map=${mapId}`, {
+      method: 'POST',
+      headers: { 'Content-Type': 'application/json' },
+      body: JSON.stringify({ suggestions }),
+    });
+    const row = ALL.find(m => m.mapId === mapId);
+    if (row) row.suggested = suggestions.length;
+    renderList();
+  } catch (e) {
+    saveStatus.textContent = 'błąd zapisu propozycji!';
+    saveStatus.className = 'saving';
+  }
+}
+
+function acceptSuggestion(i, text) {
+  const s = suggestions[i];
+  if (!s) return;
+  const t = (text ?? s.text).trim();
+  if (t) points.push({ text: t, x: s.x, y: s.y });
+  suggestions.splice(i, 1);
+  renderPoints();
+  scheduleSave();
+  saveSuggestions();
+}
+
+function rejectSuggestion(i) {
+  suggestions.splice(i, 1);
+  renderPoints();
+  saveSuggestions();
+}
+
+function renderSuggPanel() {
+  const box = $('#suggBox');
+  box.hidden = suggestions.length === 0;
+  $('#suggCount').textContent = suggestions.length;
+  const list = $('#suggList');
+  list.innerHTML = '';
+  suggestions.forEach((p, i) => {
+    const row = document.createElement('div');
+    row.className = 'suggRow';
+    row.innerHTML = `
+      <button class="jump" title="Pokaż na mapie">🎯</button>
+      <input type="text" value="${p.text.replace(/"/g, '&quot;')}" />
+      <button class="ok" title="Zatwierdź">✓</button>
+      <button class="no" title="Odrzuć">✕</button>`;
+    const input = row.querySelector('input');
+    input.addEventListener('change', () => { suggestions[i].text = input.value.trim(); renderPoints(); saveSuggestions(); });
+    row.querySelector('.ok').addEventListener('click', () => acceptSuggestion(i, input.value));
+    row.querySelector('.no').addEventListener('click', () => rejectSuggestion(i));
+    row.querySelector('.jump').addEventListener('click', () => {
+      const el = canvasWrap.closest('#viewport');
+      el.scrollTo({
+        left: p.x * naturalW * zoom - el.clientWidth / 2,
+        top: p.y * naturalH * zoom - el.clientHeight / 2,
+        behavior: 'smooth',
+      });
+    });
+    list.appendChild(row);
+  });
+}
+
+$('#acceptAll').onclick = () => {
+  if (!suggestions.length) return;
+  for (const s of suggestions) if (s.text.trim()) points.push({ text: s.text.trim(), x: s.x, y: s.y });
+  suggestions = [];
+  renderPoints();
+  scheduleSave();
+  saveSuggestions();
+};
+$('#rejectAll').onclick = () => {
+  if (!suggestions.length) return;
+  if (!confirm('Odrzucić wszystkie propozycje tej mapy?')) return;
+  suggestions = [];
+  renderPoints();
+  saveSuggestions();
+};
+
+function openSuggBox(clientX, clientY, i) {
+  closeEditBox();
+  const box = document.createElement('div');
+  box.className = 'editBox';
+  box.innerHTML = `
+    <input type="text" value="${suggestions[i].text.replace(/"/g, '&quot;')}" />
+    <button class="del">Odrzuć</button>
+    <button class="ok">Zatwierdź</button>`;
+  document.body.appendChild(box);
+  editBoxEl = box;
+  const vp = $('#viewport').getBoundingClientRect();
+  let left = clientX + 8, top = clientY + 8;
+  if (left + 260 > vp.right) left = clientX - 268;
+  if (top + 50 > vp.bottom) top = clientY - 58;
+  box.style.left = left + 'px';
+  box.style.top = top + 'px';
+  const input = box.querySelector('input');
+  input.focus(); input.select();
+  input.addEventListener('keydown', (ev) => {
+    ev.stopPropagation();
+    if (ev.key === 'Enter') { closeEditBox(); acceptSuggestion(i, input.value); }
+    if (ev.key === 'Escape') closeEditBox();
+  });
+  box.querySelector('.ok').addEventListener('click', () => { closeEditBox(); acceptSuggestion(i, input.value); });
+  box.querySelector('.del').addEventListener('click', () => { closeEditBox(); rejectSuggestion(i); });
 }
 
 // ── click-to-add / edit box ──────────────────────────────────────────────

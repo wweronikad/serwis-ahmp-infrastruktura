@@ -1,0 +1,828 @@
+{
+ "ahmp_brzeg_4": [
+  {
+   "text": "Zamek",
+   "x": 0.0462,
+   "y": 0.0541
+  },
+  {
+   "text": "Kolegiata św. Jadwigi",
+   "x": 0.0462,
+   "y": 0.0775
+  },
+  {
+   "text": "Ratusz i blok śródrynkowy",
+   "x": 0.0462,
+   "y": 0.1009
+  },
+  {
+   "text": "Kościół parafialny p.w. Św. Mikołaja z komendą joannitów",
+   "x": 0.0462,
+   "y": 0.1234
+  },
+  {
+   "text": "Klasztor dominikanów z kościołem św. Krzyża",
+   "x": 0.0462,
+   "y": 0.1459
+  },
+  {
+   "text": "Klasztor franciszkanów z kościołem św. Piotra i Pawła",
+   "x": 0.0462,
+   "y": 0.1685
+  },
+  {
+   "text": "Brama Wrocławska",
+   "x": 0.0462,
+   "y": 0.191
+  },
+  {
+   "text": "Brama Odrzańska",
+   "x": 0.0462,
+   "y": 0.2144
+  },
+  {
+   "text": "Brama Opolska",
+   "x": 0.0462,
+   "y": 0.2369
+  },
+  {
+   "text": "Brama Nyska",
+   "x": 0.0462,
+   "y": 0.2604
+  },
+  {
+   "text": "Brama Małujowicka",
+   "x": 0.0462,
+   "y": 0.2829
+  },
+  {
+   "text": "Brzeg w murach miejskich",
+   "x": 0.08,
+   "y": 0.7369
+  },
+  {
+   "text": "Rekonstrukcja układu działek lokacyjnych",
+   "x": 0.0375,
+   "y": 0.7784
+  },
+  {
+   "text": "Skala 1 : 2000",
+   "x": 0.105,
+   "y": 0.836
+  },
+  {
+   "text": "Oprac. M. Chorowska",
+   "x": 0.0488,
+   "y": 0.8658
+  },
+  {
+   "text": "Oprac. kart. P. Błoniewski",
+   "x": 0.0488,
+   "y": 0.8802
+  },
+  {
+   "text": "XIII w.",
+   "x": 0.9019,
+   "y": 0.7108
+  },
+  {
+   "text": "koniec XIII - poł. XIV w.",
+   "x": 0.9019,
+   "y": 0.7351
+  },
+  {
+   "text": "1350-1450",
+   "x": 0.9019,
+   "y": 0.7595
+  },
+  {
+   "text": "1450-1550",
+   "x": 0.9019,
+   "y": 0.7838
+  },
+  {
+   "text": "1550-1700",
+   "x": 0.9019,
+   "y": 0.8081
+  },
+  {
+   "text": "1700-1800",
+   "x": 0.9019,
+   "y": 0.8324
+  },
+  {
+   "text": "XIX-XX w.",
+   "x": 0.9019,
+   "y": 0.8604
+  },
+  {
+   "text": "150 stóp / feet",
+   "x": 0.7925,
+   "y": 0.9423
+  },
+  {
+   "text": "50 m",
+   "x": 0.795,
+   "y": 0.9153
+  },
+  {
+   "text": "ul. Panieńska",
+   "x": 0.5363,
+   "y": 0.3261
+  },
+  {
+   "text": "ul. Zamkowa",
+   "x": 0.3362,
+   "y": 0.3928
+  },
+  {
+   "text": "ul. Chopina",
+   "x": 0.3144,
+   "y": 0.4946
+  },
+  {
+   "text": "ul. Staromiejska",
+   "x": 0.4412,
+   "y": 0.5856
+  },
+  {
+   "text": "ul. Jabłkowa",
+   "x": 0.5062,
+   "y": 0.6018
+  },
+  {
+   "text": "ul. Mleczna",
+   "x": 0.5781,
+   "y": 0.6216
+  },
+  {
+   "text": "ul. Młynarska",
+   "x": 0.6094,
+   "y": 0.4252
+  },
+  {
+   "text": "ul. Zakonnic",
+   "x": 0.65,
+   "y": 0.4595
+  },
+  {
+   "text": "ul. Polska",
+   "x": 0.7188,
+   "y": 0.4865
+  },
+  {
+   "text": "ul. Reja",
+   "x": 0.7638,
+   "y": 0.5387
+  },
+  {
+   "text": "ul. Dzierżonia",
+   "x": 0.7406,
+   "y": 0.6414
+  },
+  {
+   "text": "ul. Długa",
+   "x": 0.5775,
+   "y": 0.7685
+  },
+  {
+   "text": "Rynek",
+   "x": 0.5162,
+   "y": 0.5396
+  },
+  {
+   "text": "Plac Zamkowy",
+   "x": 0.2412,
+   "y": 0.3541
+  },
+  {
+   "text": "Plac Kolegiacki",
+   "x": 0.2625,
+   "y": 0.4865
+  },
+  {
+   "text": "150 stóp x 10 = 1500 stóp",
+   "x": 0.5781,
+   "y": 0.1685
+  },
+  {
+   "text": "150 stóp x 6 = 900 stóp",
+   "x": 0.8187,
+   "y": 0.6216
+  },
+  {
+   "text": "nr 6",
+   "x": 0.2531,
+   "y": 0.4667
+  },
+  {
+   "text": "nr 1",
+   "x": 0.3787,
+   "y": 0.5135
+  },
+  {
+   "text": "nr 7",
+   "x": 0.5544,
+   "y": 0.573
+  },
+  {
+   "text": "nr 1",
+   "x": 0.6106,
+   "y": 0.3396
+  },
+  {
+   "text": "nr 1",
+   "x": 0.6169,
+   "y": 0.3883
+  },
+  {
+   "text": "nr 2-5",
+   "x": 0.5938,
+   "y": 0.5315
+  },
+  {
+   "text": "nr 1-3",
+   "x": 0.6038,
+   "y": 0.5883
+  },
+  {
+   "text": "nr 5-7",
+   "x": 0.6625,
+   "y": 0.5
+  },
+  {
+   "text": "nr 12",
+   "x": 0.6975,
+   "y": 0.5198
+  },
+  {
+   "text": "nr 5",
+   "x": 0.7106,
+   "y": 0.5459
+  },
+  {
+   "text": "nr 5",
+   "x": 0.6469,
+   "y": 0.6009
+  },
+  {
+   "text": "nr 10-12",
+   "x": 0.66,
+   "y": 0.6144
+  },
+  {
+   "text": "nr 1",
+   "x": 0.62,
+   "y": 0.609
+  },
+  {
+   "text": "nr 6",
+   "x": 0.4288,
+   "y": 0.6369
+  },
+  {
+   "text": "nr 41-43",
+   "x": 0.4906,
+   "y": 0.709
+  },
+  {
+   "text": "nr 6",
+   "x": 0.5431,
+   "y": 0.7387
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.8469,
+   "y": 0.9667
+  }
+ ],
+ "ahmp_brzeg_5": [
+  {
+   "text": "ul. Filozofów",
+   "x": 0.0945,
+   "y": 0.1274
+  },
+  {
+   "text": "ul. Oławska",
+   "x": 0.166,
+   "y": 0.1517
+  },
+  {
+   "text": "ul. Wrocławska",
+   "x": 0.0999,
+   "y": 0.2698
+  },
+  {
+   "text": "ul. Krakusa",
+   "x": 0.4441,
+   "y": 0.0955
+  },
+  {
+   "text": "ul. Lechicka",
+   "x": 0.0553,
+   "y": 0.4365
+  },
+  {
+   "text": "ul. Planty",
+   "x": 0.0918,
+   "y": 0.502
+  },
+  {
+   "text": "ul. Różana",
+   "x": 0.2794,
+   "y": 0.3709
+  },
+  {
+   "text": "ul. Jezuitów",
+   "x": 0.3483,
+   "y": 0.3503
+  },
+  {
+   "text": "ul. Górna",
+   "x": 0.3164,
+   "y": 0.3121
+  },
+  {
+   "text": "ul. Pańska",
+   "x": 0.3726,
+   "y": 0.2866
+  },
+  {
+   "text": "ul. Zamkowa",
+   "x": 0.3186,
+   "y": 0.369
+  },
+  {
+   "text": "ul. Władysława Jagiełły",
+   "x": 0.3591,
+   "y": 0.3878
+  },
+  {
+   "text": "ul. Wojska Polskiego",
+   "x": 0.3942,
+   "y": 0.3653
+  },
+  {
+   "text": "ul. Garbarska",
+   "x": 0.4374,
+   "y": 0.3784
+  },
+  {
+   "text": "ul. Młynarska",
+   "x": 0.4725,
+   "y": 0.4196
+  },
+  {
+   "text": "ul. Kapucyńska",
+   "x": 0.459,
+   "y": 0.4365
+  },
+  {
+   "text": "ul. Zakonnic",
+   "x": 0.4954,
+   "y": 0.4365
+  },
+  {
+   "text": "ul. Panieńska",
+   "x": 0.4198,
+   "y": 0.3645
+  },
+  {
+   "text": "ul. Panieńska",
+   "x": 0.4563,
+   "y": 0.3934
+  },
+  {
+   "text": "ul. Rzeźnicza",
+   "x": 0.4077,
+   "y": 0.399
+  },
+  {
+   "text": "ul. Szpitalna",
+   "x": 0.4482,
+   "y": 0.308
+  },
+  {
+   "text": "ul. Szpitalna",
+   "x": 0.486,
+   "y": 0.3372
+  },
+  {
+   "text": "ul. Nadodrzańska",
+   "x": 0.4711,
+   "y": 0.2885
+  },
+  {
+   "text": "ul. Fryderyka Chopina",
+   "x": 0.3051,
+   "y": 0.4215
+  },
+  {
+   "text": "ul. Długa",
+   "x": 0.2754,
+   "y": 0.4421
+  },
+  {
+   "text": "ul. Bolesława Chrobrego",
+   "x": 0.2443,
+   "y": 0.4871
+  },
+  {
+   "text": "ul. 3 Maja",
+   "x": 0.2983,
+   "y": 0.5058
+  },
+  {
+   "text": "ul. Sukiennice",
+   "x": 0.405,
+   "y": 0.4702
+  },
+  {
+   "text": "pl. Bramy Wrocławskiej",
+   "x": 0.2236,
+   "y": 0.3316
+  },
+  {
+   "text": "pl. Zamkowy",
+   "x": 0.2651,
+   "y": 0.3252
+  },
+  {
+   "text": "pl. Stanisława Moniuszki",
+   "x": 0.2551,
+   "y": 0.3889
+  },
+  {
+   "text": "pl. Nad Odrą",
+   "x": 0.4179,
+   "y": 0.2593
+  },
+  {
+   "text": "Rynek",
+   "x": 0.4077,
+   "y": 0.4477
+  },
+  {
+   "text": "Rynek",
+   "x": 0.3907,
+   "y": 0.4908
+  },
+  {
+   "text": "Rynek",
+   "x": 0.4293,
+   "y": 0.4908
+  },
+  {
+   "text": "ul. Błonie",
+   "x": 0.6205,
+   "y": 0.075
+  },
+  {
+   "text": "ul. Wał Śluzowy",
+   "x": 0.6718,
+   "y": 0.0918
+  },
+  {
+   "text": "ul. Nadbrzeżna",
+   "x": 0.5111,
+   "y": 0.1357
+  },
+  {
+   "text": "ul. Grobli",
+   "x": 0.7448,
+   "y": 0.2567
+  },
+  {
+   "text": "ul. Kępa Młyńska",
+   "x": 0.6024,
+   "y": 0.3403
+  },
+  {
+   "text": "pl. Młynów",
+   "x": 0.516,
+   "y": 0.3422
+  },
+  {
+   "text": "pl. Koszarowy",
+   "x": 0.5484,
+   "y": 0.3748
+  },
+  {
+   "text": "ul. Blacharska",
+   "x": 0.5165,
+   "y": 0.4434
+  },
+  {
+   "text": "ul. Polska",
+   "x": 0.5268,
+   "y": 0.4779
+  },
+  {
+   "text": "ul. Wysoka",
+   "x": 0.5544,
+   "y": 0.4752
+  },
+  {
+   "text": "ul. Stare Koszary",
+   "x": 0.5787,
+   "y": 0.4554
+  },
+  {
+   "text": "1250–1500",
+   "x": 0.8045,
+   "y": 0.0472
+  },
+  {
+   "text": "1501–1680",
+   "x": 0.8045,
+   "y": 0.0663
+  },
+  {
+   "text": "1681–1782",
+   "x": 0.8045,
+   "y": 0.0855
+  },
+  {
+   "text": "1783–1822",
+   "x": 0.8045,
+   "y": 0.1049
+  },
+  {
+   "text": "1823-1873",
+   "x": 0.8579,
+   "y": 0.0472
+  },
+  {
+   "text": "1874–1900",
+   "x": 0.8579,
+   "y": 0.0663
+  },
+  {
+   "text": "1901–1914",
+   "x": 0.8579,
+   "y": 0.0855
+  },
+  {
+   "text": "1915–1945",
+   "x": 0.8579,
+   "y": 0.1049
+  },
+  {
+   "text": "Skala liniowa / Linear scale",
+   "x": 0.8158,
+   "y": 0.1289
+  },
+  {
+   "text": "100 m",
+   "x": 0.8485,
+   "y": 0.1473
+  },
+  {
+   "text": "ul. Robotnicza",
+   "x": 0.0729,
+   "y": 0.5379
+  },
+  {
+   "text": "ul. Robotnicza",
+   "x": 0.1755,
+   "y": 0.6616
+  },
+  {
+   "text": "ul. Marszałka Piłsudskiego",
+   "x": 0.0472,
+   "y": 0.5904
+  },
+  {
+   "text": "ul. Słowiańska",
+   "x": 0.0985,
+   "y": 0.7121
+  },
+  {
+   "text": "ul. Kardynała Wyszyńskiego",
+   "x": 0.0607,
+   "y": 0.7871
+  },
+  {
+   "text": "Rondo Solidarności",
+   "x": 0.1755,
+   "y": 0.7979
+  },
+  {
+   "text": "ul. Armii Krajowej",
+   "x": 0.243,
+   "y": 0.6766
+  },
+  {
+   "text": "ul. Armii Krajowej",
+   "x": 0.1444,
+   "y": 0.8714
+  },
+  {
+   "text": "ul. Generała Andersa",
+   "x": 0.0675,
+   "y": 0.8508
+  },
+  {
+   "text": "ul. Staromiejska",
+   "x": 0.328,
+   "y": 0.5229
+  },
+  {
+   "text": "ul. Jabłkowa",
+   "x": 0.3739,
+   "y": 0.5304
+  },
+  {
+   "text": "ul. Mleczna",
+   "x": 0.4036,
+   "y": 0.5773
+  },
+  {
+   "text": "ul. Kościelna",
+   "x": 0.3591,
+   "y": 0.5154
+  },
+  {
+   "text": "ul. Kościelna",
+   "x": 0.3901,
+   "y": 0.5435
+  },
+  {
+   "text": "ul. Księdza Jana Dzierżonia",
+   "x": 0.4644,
+   "y": 0.5585
+  },
+  {
+   "text": "ul. Mikołaja Reja",
+   "x": 0.4995,
+   "y": 0.5192
+  },
+  {
+   "text": "ul. Emilii Plater",
+   "x": 0.3388,
+   "y": 0.5773
+  },
+  {
+   "text": "ul. Lekarska",
+   "x": 0.3699,
+   "y": 0.6316
+  },
+  {
+   "text": "ul. Jana Pawła II",
+   "x": 0.2902,
+   "y": 0.9107
+  },
+  {
+   "text": "ul. Spacerowa",
+   "x": 0.4468,
+   "y": 0.9126
+  },
+  {
+   "text": "ul. Piastowska",
+   "x": 0.4765,
+   "y": 0.9238
+  },
+  {
+   "text": "ul. Wydarzeń Brzeskich 1966 r.",
+   "x": 0.328,
+   "y": 0.9126
+  },
+  {
+   "text": "ul. Bartosza Głowackiego",
+   "x": 0.3888,
+   "y": 0.9463
+  },
+  {
+   "text": "ul. Bolesława Chrobrego",
+   "x": 0.3807,
+   "y": 0.684
+  },
+  {
+   "text": "ul. Długa",
+   "x": 0.3469,
+   "y": 0.551
+  },
+  {
+   "text": "ul. Długa",
+   "x": 0.4171,
+   "y": 0.6428
+  },
+  {
+   "text": "ul. Franciszka Krzyżowica",
+   "x": 0.6921,
+   "y": 0.5387
+  },
+  {
+   "text": "ul. Rybacka",
+   "x": 0.7866,
+   "y": 0.599
+  },
+  {
+   "text": "ul. Nowy Rynek",
+   "x": 0.5557,
+   "y": 0.5878
+  },
+  {
+   "text": "ul. Kamienna",
+   "x": 0.6286,
+   "y": 0.6729
+  },
+  {
+   "text": "ul. Księcia Jerzego II Piasta",
+   "x": 0.6867,
+   "y": 0.6129
+  },
+  {
+   "text": "ul. Adama Mickiewicza",
+   "x": 0.7475,
+   "y": 0.6523
+  },
+  {
+   "text": "ul. Zbigniewa Herberta",
+   "x": 0.5544,
+   "y": 0.6616
+  },
+  {
+   "text": "ul. Powstańców Śląskich",
+   "x": 0.6124,
+   "y": 0.7722
+  },
+  {
+   "text": "ul. Sergiusza Mossora",
+   "x": 0.6583,
+   "y": 0.8022
+  },
+  {
+   "text": "ul. Ofiar Katynia",
+   "x": 0.8042,
+   "y": 0.7898
+  },
+  {
+   "text": "ul. Władysława Łokietka",
+   "x": 0.5976,
+   "y": 0.924
+  },
+  {
+   "text": "Brzeg",
+   "x": 0.6948,
+   "y": 0.8348
+  },
+  {
+   "text": "Czas powstania najważniejszych obiektów (do 1945 r.)",
+   "x": 0.6948,
+   "y": 0.8629
+  },
+  {
+   "text": "Fazy budowlane",
+   "x": 0.6948,
+   "y": 0.8884
+  },
+  {
+   "text": "Skala 1 : 2500",
+   "x": 0.6948,
+   "y": 0.9082
+  },
+  {
+   "text": "Oprac. R. Eysymontt, R. Gliński",
+   "x": 0.6948,
+   "y": 0.9285
+  },
+  {
+   "text": "Oprac. kart. M. Siehankiewicz",
+   "x": 0.6948,
+   "y": 0.9386
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.8433,
+   "y": 0.975
+  }
+ ],
+ "ahmp_brzeg_7": [
+  {
+   "text": "Brzeg. Plan oblężenia szwedzkiego, 1642",
+   "x": 0.0807,
+   "y": 0.5094
+  },
+  {
+   "text": "Brzeg. The plan of the Swedish siege, 1642",
+   "x": 0.0997,
+   "y": 0.52
+  },
+  {
+   "text": "Brzeg. Plan miasta z czasów kampanii wojsk szwedzkich, 1642",
+   "x": 0.0807,
+   "y": 0.9675
+  },
+  {
+   "text": "Brzeg. The plan of the town from the time of the campaign of the Swedish army, 1642",
+   "x": 0.0997,
+   "y": 0.9781
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.6956,
+   "y": 0.98
+  }
+ ]
+}
