@@ -70,7 +70,7 @@ def preprocess(img):
     return img
 
 
-MAX_PIXELS = 40_000_000     # bigger scans are scaled down first: Tesseract time grows with pixels
+MAX_PIXELS = 12_000_000     # bigger scans are scaled down first: Tesseract time grows with pixels
                             # (a 95 Mpx map ran for hours); positions are normalised, so nothing shifts
 
 def ocr_image(img):
