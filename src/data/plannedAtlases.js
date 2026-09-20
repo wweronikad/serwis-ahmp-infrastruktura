@@ -194,7 +194,50 @@ export const plannedAtlases = [
     region: 'Lubelszczyzna',
     team: 'UMCS w Lublinie',
     coordinates: [21.9506, 51.3197],
-    map: null,
+    map: {
+      "image": "/kazimierz/plan-okolic-kazimierza-1911.webp",
+      "coordinates": [
+        [
+          21.856454,
+          51.365694
+        ],
+        [
+          22.06585,
+          51.360494
+        ],
+        [
+          22.037943,
+          51.11667
+        ],
+        [
+          21.829646,
+          51.121804
+        ]
+      ],
+      "title": "Plan okolic Kazimierza nad Wisłą",
+      "author": "autor nieznany („Ziemia”)",
+      "year": 1911,
+      "places": []
+    },
     text: null,
+    intro: [
+      'Kazimierz Dolny, w dawnych źródłach Kazimierz nad Wisłą, jest trzecim z miast Lubelszczyzny, dla których zespół z Uniwersytetu Marii Curie-Skłodowskiej przygotowuje zeszyt Atlasu Historycznego Miast Polskich. Nie ma jeszcze dla niego zgeoreferencjonowanego planu samego miasta, dlatego prezentujemy tu na razie plan jego okolic, opublikowany w 1911 roku w krajoznawczym tygodniku „Ziemia”. Jest to prosty, odręczny szkic, który pokazuje położenie miasta na tle wsi po obu stronach Wisły, dróg prowadzących do Opola i wzgórz, z których najważniejsze nazywane jest Górą Trzech Krzyży.',
+      'Plan nie był mierzony w terenie, więc nałożony na współczesną mapę zniekształca odległości. Dopasowano go do podkładu na podstawie położenia 13 miejscowości, a przeciętna rozbieżność wynosi około 270 metrów. Wystarcza to, by odczytać ogólny układ okolic Kazimierza, ale nie pozwala na dokładne pomiary.',
+    ],
+    mapCaption: 'Plan okolic Kazimierza z 1911 roku na tle współczesnej mapy. Georeferencja jest przybliżona, a suwak zmienia przezroczystość planu.',
+    historyTitle: 'Z dziejów miasta',
+    history: [
+      'Początki Kazimierza wiążą się z rokiem 1181, w którym Kazimierz II Sprawiedliwy przekazał tę osadę norbertankom ze Zwierzyńca pod Krakowem. Od fundatora wzięła się jej nazwa. Prawa miejskie miasto otrzymało w XIV wieku, a jego rozkwit przypadł na XVI i XVII wiek, gdy miejscowe rody kupieckie, między innymi Przybyłowie, Czarnotowie i Celejowie, bogaciły się na handlu zbożem spławianym Wisłą do Gdańska. Z tamtego okresu pochodzą zachowane do dziś spichlerze oraz kamienice Przybyłów z manierystycznymi zdobieniami z około 1615 roku.',
+      'Położenie nad Wisłą miało znaczenie także dla sąsiednich miejscowości. Wąwolnica leżała na szlaku od przeprawy przez Wisłę w rejonie Kazimierza Dolnego do przeprawy przez Bystrzycę pod Lublinem, a jej upadek w XV wieku wiązano między innymi z przeniesieniem dóbr królewskich do rozwijającego się Kazimierza.',
+      'Miasto straciło prawa miejskie w 1869 roku i odzyskało je 31 października 1927 roku. W tym czasie liczba jego mieszkańców spadła z ponad pięciu tysięcy w 1910 roku do około dwóch i pół tysiąca w 2019 roku. Od końca XIX wieku Kazimierz stawał się miejscem letniego wypoczynku i ośrodkiem skupiającym artystów, a od 1936 roku był plenerem co najmniej siedemnastu produkcji filmowych i telewizyjnych. W 1994 roku uznano go za pomnik historii.',
+      'Z okolicami miasta związane jest także wydarzenie zaznaczone na prezentowanym planie. W kwietniu 1831 roku, podczas powstania listopadowego, w walkach pod Kazimierzem poległ Juliusz Małachowski, prowadzący kosynierów. Miejsce jego śmierci oznaczono na planie, a w legendzie wskazano również rosyjskie baterie oraz Górę Trzech Krzyży, wzgórze wznoszące się około dziewięćdziesięciu metrów nad poziomem Wisły.',
+    ],
+    sources: [
+      { label: 'Kazimierz Dolny – Wikipedia', href: 'https://pl.wikipedia.org/wiki/Kazimierz_Dolny' },
+      { label: 'Plan okolic Kazimierza, „Ziemia” 1911, nr 2 – fotopolska.eu', href: 'https://fotopolska.eu/1589683,foto.html' },
+      { label: 'Góra Trzech Krzyży – kazimierzdolnynaweekend.pl', href: 'https://kazimierzdolnynaweekend.pl/gora-trzech-krzyzy/' },
+      { label: 'S. Partycki, „Dzieje Wąwolnicy”' },
+    ],
+
   },
 ]
