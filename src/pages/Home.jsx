@@ -212,8 +212,7 @@ function AboutTeasers() {
 const pi = {
   wrap: {
     background: 'var(--cream)',
-    borderTop: '3px solid var(--gold)',
-    padding: '40px 0',
+    padding: '32px 0 48px',
   },
   inner: {
     maxWidth: '80vw',
@@ -298,7 +297,7 @@ const EVENTS = [
 
 function StatsSection() {
   return (
-    <section style={ss.wrap}>
+    <section style={ss.statsWrap}>
       <div style={ss.inner}>
         <div style={ss.statsRow}>
           {STATS.map(({ n, label }) => (
@@ -366,21 +365,27 @@ const ss = {
     margin: '0 auto',
     padding: '0 32px',
   },
+  // Light band under the hero: navy cards on the site's cream background,
+  // so the hero image is not followed by a second heavy navy block.
+  statsWrap: {
+    background: 'var(--cream)',
+    padding: '44px 0 8px',
+  },
   statsRow: {
     display: 'grid',
     gridTemplateColumns: 'repeat(4, 1fr)',
     gap: '20px',
-    marginBottom: '56px',
   },
   statCard: {
-    border: '1px solid rgba(184,150,62,0.3)',
+    border: '1px solid rgba(184,150,62,0.45)',
     borderRadius: '8px',
     padding: '28px 20px',
     display: 'flex',
     flexDirection: 'column',
     alignItems: 'center',
     gap: '8px',
-    background: 'rgba(255,255,255,0.04)',
+    background: 'linear-gradient(160deg, #1e3054 0%, #1a2942 70%, #131e38 100%)',
+    boxShadow: '0 6px 18px rgba(26,41,66,0.18)',
   },
   statNum: {
     fontFamily: 'var(--font-serif)',
