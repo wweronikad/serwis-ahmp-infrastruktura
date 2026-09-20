@@ -3054,5 +3054,320 @@
    "x": 0.385,
    "y": 0.7019
   }
+ ],
+ "ahmp_chelmno_ii_6": [
+  {
+   "text": "Der Marckt oder Ring",
+   "x": 0.175,
+   "y": 0.1439
+  },
+  {
+   "text": "Das Rathhauss",
+   "x": 0.175,
+   "y": 0.1589
+  },
+  {
+   "text": "Englischer Packhauss",
+   "x": 0.175,
+   "y": 0.1739
+  },
+  {
+   "text": "Das Missionarien Collegium",
+   "x": 0.175,
+   "y": 0.2039
+  },
+  {
+   "text": "Das Thornische Thor",
+   "x": 0.175,
+   "y": 0.2277
+  },
+  {
+   "text": "St. Martins Kirchlein",
+   "x": 0.175,
+   "y": 0.2427
+  },
+  {
+   "text": "Die Pfarrkirche",
+   "x": 0.175,
+   "y": 0.2577
+  },
+  {
+   "text": "Die Schule",
+   "x": 0.175,
+   "y": 0.2718
+  },
+  {
+   "text": "Franciscaner Closter",
+   "x": 0.175,
+   "y": 0.2877
+  },
+  {
+   "text": "Ein ander Thor",
+   "x": 0.7769,
+   "y": 0.1395
+  },
+  {
+   "text": "Das Nonnen Closter und Kirch Benedictiner",
+   "x": 0.7769,
+   "y": 0.1589
+  },
+  {
+   "text": "Ein grosser Garten am berge",
+   "x": 0.7769,
+   "y": 0.1898
+  },
+  {
+   "text": "Dominicaner Kirch und Closter",
+   "x": 0.7769,
+   "y": 0.2312
+  },
+  {
+   "text": "Das Graudentzer Thor",
+   "x": 0.7769,
+   "y": 0.2489
+  },
+  {
+   "text": "Die neugebaute Brennerey",
+   "x": 0.7769,
+   "y": 0.278
+  },
+  {
+   "text": "Die Vogel Stange",
+   "x": 0.7769,
+   "y": 0.293
+  },
+  {
+   "text": "Die Trincke, ein Arm der Weixel",
+   "x": 0.3044,
+   "y": 0.2251
+  },
+  {
+   "text": "Der Grundriss der Stadt Culm",
+   "x": 0.1737,
+   "y": 0.6284
+  },
+  {
+   "text": "Weg nach Graudentz",
+   "x": 0.7063,
+   "y": 0.5543
+  },
+  {
+   "text": "Weg nach der Niedergang",
+   "x": 0.6438,
+   "y": 0.346
+  },
+  {
+   "text": "Weg nach Schwetz",
+   "x": 0.4731,
+   "y": 0.3001
+  },
+  {
+   "text": "Dorf Culmsee",
+   "x": 0.8313,
+   "y": 0.5896
+  },
+  {
+   "text": "Thal",
+   "x": 0.5875,
+   "y": 0.8032
+  },
+  {
+   "text": "Der Graben",
+   "x": 0.2938,
+   "y": 0.7255
+  }
+ ],
+ "ahmp_chelmno_ii_8": [
+  {
+   "text": "Culm",
+   "x": 0.1594,
+   "y": 0.6005
+  },
+  {
+   "text": "Graudenzer Thor",
+   "x": 0.1406,
+   "y": 0.6281
+  },
+  {
+   "text": "Hollandische Mühle",
+   "x": 0.1406,
+   "y": 0.6406
+  },
+  {
+   "text": "Cadetten Haus",
+   "x": 0.1406,
+   "y": 0.6539
+  },
+  {
+   "text": "Thorner Thor",
+   "x": 0.1406,
+   "y": 0.6797
+  },
+  {
+   "text": "Martins Kirche",
+   "x": 0.1406,
+   "y": 0.6931
+  },
+  {
+   "text": "Barmherzige Schwestern",
+   "x": 0.1406,
+   "y": 0.7064
+  },
+  {
+   "text": "Missionarien",
+   "x": 0.1406,
+   "y": 0.7189
+  },
+  {
+   "text": "Academie",
+   "x": 0.1406,
+   "y": 0.7438
+  },
+  {
+   "text": "Rathhaus",
+   "x": 0.1406,
+   "y": 0.7571
+  },
+  {
+   "text": "Franciscaner",
+   "x": 0.1406,
+   "y": 0.7829
+  },
+  {
+   "text": "Nonnen",
+   "x": 0.1406,
+   "y": 0.7963
+  },
+  {
+   "text": "Dominicaner",
+   "x": 0.1406,
+   "y": 0.8096
+  },
+  {
+   "text": "Wasser Thor",
+   "x": 0.1406,
+   "y": 0.823
+  }
+ ],
+ "ahmp_chelmno_ii_9": [
+  {
+   "text": "der Marckt",
+   "x": 0.47,
+   "y": 0.4987
+  },
+  {
+   "text": "Situations Plan der Stadt Culm",
+   "x": 0.5094,
+   "y": 0.7106
+  },
+  {
+   "text": "Berliner Hauptarchiv",
+   "x": 0.3469,
+   "y": 0.8442
+  }
+ ],
+ "ahmp_chelmno_ii_10": [
+  {
+   "text": "Grundriss von der Stadt Culm",
+   "x": 0.1313,
+   "y": 0.5568
+  },
+  {
+   "text": "Die Rossmühlen Strasse",
+   "x": 0.325,
+   "y": 0.3925
+  },
+  {
+   "text": "Die Thorner Strasse",
+   "x": 0.5656,
+   "y": 0.3925
+  },
+  {
+   "text": "Die Schul Strasse",
+   "x": 0.3237,
+   "y": 0.5133
+  },
+  {
+   "text": "Die Grubow oder Graudenzer Strasse",
+   "x": 0.5687,
+   "y": 0.5169
+  },
+  {
+   "text": "Berliner Hauptarchiv",
+   "x": 0.5969,
+   "y": 0.8393
+  }
+ ],
+ "ahmp_chelmno_ii_13": [
+  {
+   "text": "Głogówko Królewskie",
+   "x": 0.2157,
+   "y": 0.155
+  },
+  {
+   "text": "Żurawia Kępa",
+   "x": 0.5035,
+   "y": 0.1269
+  },
+  {
+   "text": "Popowska Kępa",
+   "x": 0.3063,
+   "y": 0.2731
+  },
+  {
+   "text": "Kępa Pijmeńska",
+   "x": 0.2113,
+   "y": 0.4412
+  },
+  {
+   "text": "Nowe Dobra",
+   "x": 0.7879,
+   "y": 0.2594
+  },
+  {
+   "text": "Nowe Dobra",
+   "x": 0.8803,
+   "y": 0.5112
+  },
+  {
+   "text": "Dołki",
+   "x": 0.904,
+   "y": 0.355
+  },
+  {
+   "text": "Rybaki",
+   "x": 0.3063,
+   "y": 0.5487
+  },
+  {
+   "text": "Brzozowo",
+   "x": 0.2746,
+   "y": 0.8862
+  },
+  {
+   "text": "Chełmno",
+   "x": 0.8143,
+   "y": 0.625
+  },
+  {
+   "text": "Chełmno",
+   "x": 0.4551,
+   "y": 0.3713
+  },
+  {
+   "text": "Wisła",
+   "x": 0.1717,
+   "y": 0.395
+  },
+  {
+   "text": "Wisła",
+   "x": 0.6646,
+   "y": 0.1688
+  },
+  {
+   "text": "Grubno-Rurowy",
+   "x": 0.8715,
+   "y": 0.9644
+  }
  ]
 }
