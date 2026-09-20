@@ -1510,5 +1510,520 @@
    "x": 0.7812,
    "y": 0.9714
   }
+ ],
+ "ahmp_brzeg_28": [
+  {
+   "text": "Der Thiergarthen",
+   "x": 0.275,
+   "y": 0.1258
+  },
+  {
+   "text": "Michel Wizer",
+   "x": 0.3812,
+   "y": 0.2342
+  },
+  {
+   "text": "Territorium",
+   "x": 0.1562,
+   "y": 0.2845
+  },
+  {
+   "text": "Territorium",
+   "x": 0.3312,
+   "y": 0.3747
+  },
+  {
+   "text": "Das Stadt Feld",
+   "x": 0.15,
+   "y": 0.301
+  },
+  {
+   "text": "Das Bruck Feld",
+   "x": 0.1156,
+   "y": 0.0971
+  },
+  {
+   "text": "Das Nieder Feld",
+   "x": 0.7312,
+   "y": 0.1735
+  },
+  {
+   "text": "Tschoeplowitzer Territorium",
+   "x": 0.8125,
+   "y": 0.0867
+  },
+  {
+   "text": "Zum Koenigliehen Brieg gehoerig",
+   "x": 0.85,
+   "y": 0.2602
+  },
+  {
+   "text": "Gross Neuendorffer Gründe",
+   "x": 0.7,
+   "y": 0.4441
+  },
+  {
+   "text": "Schreibendorffer Feld Mark",
+   "x": 0.4375,
+   "y": 0.5447
+  },
+  {
+   "text": "Dem Koeniglichen Amte Brieg gehoerig",
+   "x": 0.6813,
+   "y": 0.5256
+  },
+  {
+   "text": "Die Briegsche Stadt Aue",
+   "x": 0.4,
+   "y": 0.6331
+  },
+  {
+   "text": "Die Rathauer Aue",
+   "x": 0.2594,
+   "y": 0.7398
+  },
+  {
+   "text": "Die Stadt Brieg",
+   "x": 0.4313,
+   "y": 0.7806
+  },
+  {
+   "text": "Rathauer Grund",
+   "x": 0.3063,
+   "y": 0.8543
+  },
+  {
+   "text": "Briegschdorffer Gründe",
+   "x": 0.5625,
+   "y": 0.8673
+  },
+  {
+   "text": "Paulauer Territorium",
+   "x": 0.7875,
+   "y": 0.817
+  },
+  {
+   "text": "Der Oder Strohm",
+   "x": 0.8375,
+   "y": 0.6722
+  },
+  {
+   "text": "Der Oder Strohm",
+   "x": 0.1594,
+   "y": 0.5204
+  },
+  {
+   "text": "Die Neuen Häuser",
+   "x": 0.5188,
+   "y": 0.7589
+  },
+  {
+   "text": "Der Abrahams Garten",
+   "x": 0.575,
+   "y": 0.6895
+  },
+  {
+   "text": "Michelwitzer Wiesen",
+   "x": 0.375,
+   "y": 0.065
+  },
+  {
+   "text": "Gross Briesener Teich",
+   "x": 0.1187,
+   "y": 0.6331
+  },
+  {
+   "text": "Brzeg. Fragment mapy brzegu Odry na odcinku Szydłowice – Nowe Kolonie, powiat Brzeg, 1791",
+   "x": 0.0425,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. A fragment of the map of the bank of the Odra River in the area of Szydłowice – Nowe Kolonie, District Brzeg, 1791",
+   "x": 0.0563,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
+ ],
+ "ahmp_brzeg_45": [
+  {
+   "text": "Brieg",
+   "x": 0.1531,
+   "y": 0.7242
+  },
+  {
+   "text": "M. 1:5000",
+   "x": 0.1344,
+   "y": 0.8083
+  },
+  {
+   "text": "Arch. Prof. Dr. Ing. Hermann Jansen",
+   "x": 0.15,
+   "y": 0.8413
+  },
+  {
+   "text": "Berlin W. 35, 26. Nov. 1922",
+   "x": 0.8469,
+   "y": 0.8343
+  },
+  {
+   "text": "Nach Breslau",
+   "x": 0.2094,
+   "y": 0.1344
+  },
+  {
+   "text": "Breslauer Strasse",
+   "x": 0.5844,
+   "y": 0.2229
+  },
+  {
+   "text": "Oder",
+   "x": 0.8156,
+   "y": 0.2689
+  },
+  {
+   "text": "Grüningen",
+   "x": 0.1,
+   "y": 0.3712
+  },
+  {
+   "text": "Mollwitz",
+   "x": 0.0906,
+   "y": 0.4709
+  },
+  {
+   "text": "Stadtpark",
+   "x": 0.5344,
+   "y": 0.6184
+  },
+  {
+   "text": "Strehlener Str.",
+   "x": 0.7156,
+   "y": 0.5265
+  },
+  {
+   "text": "Nach Strehlen",
+   "x": 0.075,
+   "y": 0.6852
+  },
+  {
+   "text": "Heldenhain",
+   "x": 0.5781,
+   "y": 0.5343
+  },
+  {
+   "text": "Hermsdorfer Chaussee",
+   "x": 0.6094,
+   "y": 0.7667
+  },
+  {
+   "text": "Teich",
+   "x": 0.675,
+   "y": 0.7155
+  },
+  {
+   "text": "Anlage",
+   "x": 0.7156,
+   "y": 0.3252
+  },
+  {
+   "text": "Brzeg. Projekt planu zabudowy na południe od szosy wrocławskiej, 1922",
+   "x": 0.0406,
+   "y": 0.9159
+  },
+  {
+   "text": "Brzeg. The design of the development plan of the area south of the Wrocław road, 1922",
+   "x": 0.0563,
+   "y": 0.9332
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.8438,
+   "y": 0.9454
+  }
+ ],
+ "ahmp_brzeg_48": [
+  {
+   "text": "Paul Baron's Stadtplan Brieg Bez. Breslau",
+   "x": 0.1688,
+   "y": 0.1301
+  },
+  {
+   "text": "gefertigt vom Städt. Verkehrsamt Brieg",
+   "x": 0.1688,
+   "y": 0.1995
+  },
+  {
+   "text": "Maßstab 1:6000 (Jede Quadratseite = 300 m)",
+   "x": 0.1656,
+   "y": 0.2168
+  },
+  {
+   "text": "Gesetzlich geschützt",
+   "x": 0.1688,
+   "y": 0.2324
+  },
+  {
+   "text": "Oder",
+   "x": 0.4625,
+   "y": 0.2992
+  },
+  {
+   "text": "Schiffahrts-Kanal",
+   "x": 0.5062,
+   "y": 0.1865
+  },
+  {
+   "text": "Strom",
+   "x": 0.7,
+   "y": 0.4683
+  },
+  {
+   "text": "Julius-Peppel-Park",
+   "x": 0.175,
+   "y": 0.6505
+  },
+  {
+   "text": "Larisch-Platz",
+   "x": 0.3219,
+   "y": 0.6461
+  },
+  {
+   "text": "Stadtpark-Kolonie",
+   "x": 0.2656,
+   "y": 0.6904
+  },
+  {
+   "text": "Evang. Friedhof",
+   "x": 0.6188,
+   "y": 0.5551
+  },
+  {
+   "text": "Dorf Rathau",
+   "x": 0.2938,
+   "y": 0.1735
+  },
+  {
+   "text": "Verkäufliches Industrie-Gelände",
+   "x": 0.6937,
+   "y": 0.8153
+  },
+  {
+   "text": "Westl. Oderaue",
+   "x": 0.4125,
+   "y": 0.1232
+  },
+  {
+   "text": "Östl. Oderaue",
+   "x": 0.5875,
+   "y": 0.1431
+  },
+  {
+   "text": "Verlag Geographisches Institut Paul Baron, Liegnitz",
+   "x": 0.8562,
+   "y": 0.9263
+  },
+  {
+   "text": "Brzeg. Plan miasta, ok. 1930",
+   "x": 0.0425,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. The plan of the city, ca. 1930",
+   "x": 0.0563,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
+ ],
+ "ahmp_brzeg_49": [
+  {
+   "text": "Plan der Stadt Brieg Regbez. Breslau",
+   "x": 0.1562,
+   "y": 0.1388
+  },
+  {
+   "text": "gefertigt vom Städt. Verkehrsamt Brieg",
+   "x": 0.1562,
+   "y": 0.1865
+  },
+  {
+   "text": "Maßstab 1:6000",
+   "x": 0.155,
+   "y": 0.2012
+  },
+  {
+   "text": "Gesetzlich geschützt",
+   "x": 0.1531,
+   "y": 0.2203
+  },
+  {
+   "text": "Ortsgr. Breslauer-Tor",
+   "x": 0.3406,
+   "y": 0.3018
+  },
+  {
+   "text": "Ortsgr. Nord",
+   "x": 0.5312,
+   "y": 0.2949
+  },
+  {
+   "text": "Ortsgr. West",
+   "x": 0.2625,
+   "y": 0.431
+  },
+  {
+   "text": "Ortsgr. Mitte",
+   "x": 0.4863,
+   "y": 0.4753
+  },
+  {
+   "text": "Ortsgr. Neumarkt",
+   "x": 0.5863,
+   "y": 0.49
+  },
+  {
+   "text": "Ortsgr. Ost",
+   "x": 0.6925,
+   "y": 0.5637
+  },
+  {
+   "text": "Ortsgr. Strehlener-Tor",
+   "x": 0.3563,
+   "y": 0.5421
+  },
+  {
+   "text": "Ortsgr. Neißer-Tor",
+   "x": 0.4938,
+   "y": 0.6062
+  },
+  {
+   "text": "Ortsgr. Süd",
+   "x": 0.3375,
+   "y": 0.817
+  },
+  {
+   "text": "Verkäufliches Industrie-Gelände",
+   "x": 0.7,
+   "y": 0.8066
+  },
+  {
+   "text": "Dorf Rathau",
+   "x": 0.2938,
+   "y": 0.1821
+  },
+  {
+   "text": "Larisch-Platz",
+   "x": 0.3156,
+   "y": 0.6461
+  },
+  {
+   "text": "Brzeg. Plan miasta z oznaczonymi granicami administracyjnymi poszczególnych okręgów miejskich, ok. 1935",
+   "x": 0.0425,
+   "y": 0.9454
+  },
+  {
+   "text": "Brzeg. The plan of the city with administrative limits of particular municipal districts, ca. 1935",
+   "x": 0.0563,
+   "y": 0.961
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
+ ],
+ "ahmp_brzeg_53": [
+  {
+   "text": "Plan der Stadt Brieg Bezirk Breslau",
+   "x": 0.7812,
+   "y": 0.1084
+  },
+  {
+   "text": "Maßstab 1:5000",
+   "x": 0.7719,
+   "y": 0.1605
+  },
+  {
+   "text": "Bebaute Wohngebiete",
+   "x": 0.1344,
+   "y": 0.6826
+  },
+  {
+   "text": "Wohngebiet 1. Zeitzone bis 10 Jahre",
+   "x": 0.1344,
+   "y": 0.699
+  },
+  {
+   "text": "Wohngebiet 2. Zeitzone 10-20 Jahre",
+   "x": 0.1344,
+   "y": 0.7181
+  },
+  {
+   "text": "Kleinsiedlungen",
+   "x": 0.1187,
+   "y": 0.7346
+  },
+  {
+   "text": "Industriegebiet",
+   "x": 0.1187,
+   "y": 0.7528
+  },
+  {
+   "text": "Eisenbahn",
+   "x": 0.1062,
+   "y": 0.771
+  },
+  {
+   "text": "Reichsstr. u. Landstr.",
+   "x": 0.125,
+   "y": 0.7892
+  },
+  {
+   "text": "Ausfallstrassen",
+   "x": 0.125,
+   "y": 0.8066
+  },
+  {
+   "text": "Wasser",
+   "x": 0.1031,
+   "y": 0.8231
+  },
+  {
+   "text": "Hermsdorf",
+   "x": 0.2906,
+   "y": 0.9124
+  },
+  {
+   "text": "Schüsselndorf",
+   "x": 0.5687,
+   "y": 0.8907
+  },
+  {
+   "text": "Paulau",
+   "x": 0.8969,
+   "y": 0.5403
+  },
+  {
+   "text": "Brzeg. Plan zagospodarowania miasta, ok. 1940",
+   "x": 0.0737,
+   "y": 0.9549
+  },
+  {
+   "text": "Brzeg. The development plan of the city, ca. 1940",
+   "x": 0.0887,
+   "y": 0.9696
+  },
+  {
+   "text": "BRZEG. Atlas Historyczny Miast Polskich (IV, 18, 2023)",
+   "x": 0.7812,
+   "y": 0.9714
+  }
  ]
 }
