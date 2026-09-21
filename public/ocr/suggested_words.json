@@ -14077,5 +14077,79 @@
    "x": 0.6301,
    "y": 0.7933
   }
+ ],
+ "ahmp_gizycko_ii_7": [
+  {
+   "text": "Königlicher Wald Woysack",
+   "x": 0.1796,
+   "y": 0.1058
+  },
+  {
+   "text": "Woysack See",
+   "x": 0.3654,
+   "y": 0.1215
+  },
+  {
+   "text": "Angerburgsche See",
+   "x": 0.0864,
+   "y": 0.2206
+  },
+  {
+   "text": "Kisain See",
+   "x": 0.1796,
+   "y": 0.2206
+  },
+  {
+   "text": "Vorwerck Althoff",
+   "x": 0.3963,
+   "y": 0.3235
+  },
+  {
+   "text": "Lötzen",
+   "x": 0.46,
+   "y": 0.3235
+  },
+  {
+   "text": "Leventin See",
+   "x": 0.4127,
+   "y": 0.399
+  }
+ ],
+ "ahmp_gizycko_ii_8": [
+  {
+   "text": "Schönberg",
+   "x": 0.1176,
+   "y": 0.7008
+  },
+  {
+   "text": "Der grosse Mauer See",
+   "x": 0.2234,
+   "y": 0.6709
+  },
+  {
+   "text": "Der grosse Popowka See",
+   "x": 0.2674,
+   "y": 0.7624
+  },
+  {
+   "text": "Die Kleine Popowka",
+   "x": 0.4688,
+   "y": 0.8044
+  },
+  {
+   "text": "Schäfer",
+   "x": 0.3725,
+   "y": 0.8579
+  },
+  {
+   "text": "Wiese",
+   "x": 0.3684,
+   "y": 0.8781
+  },
+  {
+   "text": "Der Löwentin See",
+   "x": 0.4248,
+   "y": 0.9161
+  }
  ]
 }
