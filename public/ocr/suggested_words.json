@@ -12319,159 +12319,384 @@
  ],
  "ahmp_elblag_ii_5": [
   {
-   "text": "Zakrzewo",
-   "x": 0.4076,
-   "y": 0.1875
+   "text": "Przemysłowa",
+   "x": 0.1486,
+   "y": 0.106
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.0923,
+   "y": 0.1269
+  },
+  {
+   "text": "Elbląka",
+   "x": 0.1355,
+   "y": 0.1363
   },
   {
    "text": "Osiedle Zawada",
-   "x": 0.3239,
-   "y": 0.1344
-  },
-  {
-   "text": "Osiedle Kamionka",
-   "x": 0.5563,
-   "y": 0.1344
-  },
-  {
-   "text": "Osiedle Truso",
-   "x": 0.588,
-   "y": 0.1812
-  },
-  {
-   "text": "Osiedle 22 Lipca",
-   "x": 0.5194,
-   "y": 0.2231
-  },
-  {
-   "text": "Osiedle Metalowców",
-   "x": 0.7394,
-   "y": 0.2031
-  },
-  {
-   "text": "Bażantarnia",
-   "x": 0.8495,
-   "y": 0.245
-  },
-  {
-   "text": "Osiedle Kępa Północna",
-   "x": 0.3653,
-   "y": 0.2362
-  },
-  {
-   "text": "Osiedle na Stoku",
-   "x": 0.4032,
-   "y": 0.295
-  },
-  {
-   "text": "Rakowo",
-   "x": 0.4445,
-   "y": 0.3219
-  },
-  {
-   "text": "Osiedle Ogrody",
-   "x": 0.3239,
-   "y": 0.345
-  },
-  {
-   "text": "Osiedle Kopernika",
-   "x": 0.4974,
-   "y": 0.37
-  },
-  {
-   "text": "Osiedle Sadyba",
-   "x": 0.5915,
-   "y": 0.37
-  },
-  {
-   "text": "Śródmieście",
-   "x": 0.4137,
-   "y": 0.4394
-  },
-  {
-   "text": "Witoszewo",
-   "x": 0.5502,
-   "y": 0.4406
-  },
-  {
-   "text": "Winnica",
-   "x": 0.6954,
-   "y": 0.4781
-  },
-  {
-   "text": "Nowe Miasto",
-   "x": 0.3829,
-   "y": 0.5062
-  },
-  {
-   "text": "Stare Miasto",
-   "x": 0.3037,
-   "y": 0.55
-  },
-  {
-   "text": "Wyspa Spichrzów",
-   "x": 0.2685,
-   "y": 0.5312
-  },
-  {
-   "text": "Przedmieście Warszawskie",
-   "x": 0.6954,
-   "y": 0.5406
-  },
-  {
-   "text": "Przemysłowa",
-   "x": 0.2641,
-   "y": 0.4375
+   "x": 0.3118,
+   "y": 0.1406
   },
   {
    "text": "Zawodzie",
-   "x": 0.1673,
-   "y": 0.4313
+   "x": 0.1163,
+   "y": 0.2786
   },
   {
-   "text": "Nowe Pole",
-   "x": 0.3477,
-   "y": 0.5813
+   "text": "Elbląg-Zdrój",
+   "x": 0.2471,
+   "y": 0.2778
   },
   {
-   "text": "Zatorze",
-   "x": 0.3592,
-   "y": 0.6519
+   "text": "Mazurska",
+   "x": 0.1966,
+   "y": 0.1908
   },
   {
-   "text": "Nowe Pole",
-   "x": 0.6954,
-   "y": 0.6813
+   "text": "Dzierżyńskiego",
+   "x": 0.2818,
+   "y": 0.3016
+  },
+  {
+   "text": "Osiedle Kamionka",
+   "x": 0.5234,
+   "y": 0.1377
+  },
+  {
+   "text": "Zakrzewo",
+   "x": 0.4055,
+   "y": 0.1887
+  },
+  {
+   "text": "Osiedle Truso",
+   "x": 0.5932,
+   "y": 0.1814
+  },
+  {
+   "text": "Osiedle 22 Lipca",
+   "x": 0.5089,
+   "y": 0.2284
+  },
+  {
+   "text": "Osiedle Kępa Północna",
+   "x": 0.3669,
+   "y": 0.236
+  },
+  {
+   "text": "Osiedle Na Stoku",
+   "x": 0.4019,
+   "y": 0.2959
+  },
+  {
+   "text": "Rakowo",
+   "x": 0.4452,
+   "y": 0.3225
   },
   {
    "text": "Elbląg",
-   "x": 0.6294,
-   "y": 0.2656
+   "x": 0.6293,
+   "y": 0.2669
   },
   {
-   "text": "Elbląg",
-   "x": 0.5722,
-   "y": 0.7188
-  },
-  {
-   "text": "Przemysłowa",
-   "x": 0.1673,
-   "y": 0.1075
+   "text": "Stawnik",
+   "x": 0.6342,
+   "y": 0.2823
   },
   {
    "text": "Drewnik",
-   "x": 0.5678,
-   "y": 0.0925
-  },
-  {
-   "text": "Raczki Elbląskie",
-   "x": 0.2421,
-   "y": 0.9375
+   "x": 0.5705,
+   "y": 0.1027
   },
   {
    "text": "Bielany",
-   "x": 0.6382,
-   "y": 0.0375
+   "x": 0.6342,
+   "y": 0.0365
+  },
+  {
+   "text": "Armii Czerwonej",
+   "x": 0.5451,
+   "y": 0.2703
+  },
+  {
+   "text": "Osiedle Metalowców",
+   "x": 0.7422,
+   "y": 0.2029
+  },
+  {
+   "text": "Zakrzewo",
+   "x": 0.8153,
+   "y": 0.1321
+  },
+  {
+   "text": "Bażantarnia",
+   "x": 0.8513,
+   "y": 0.2456
+  },
+  {
+   "text": "Kumielka",
+   "x": 0.7146,
+   "y": 0.2932
+  },
+  {
+   "text": "Kumielka",
+   "x": 0.9162,
+   "y": 0.3121
+  },
+  {
+   "text": "Kazimierzewo",
+   "x": 0.0458,
+   "y": 0.3598
+  },
+  {
+   "text": "Zawodzie",
+   "x": 0.1779,
+   "y": 0.4296
+  },
+  {
+   "text": "Zawodzie",
+   "x": 0.1057,
+   "y": 0.4524
+  },
+  {
+   "text": "Zawodzie",
+   "x": 0.2595,
+   "y": 0.6232
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.0927,
+   "y": 0.4828
+  },
+  {
+   "text": "Przemysłowa",
+   "x": 0.2767,
+   "y": 0.4354
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.2471,
+   "y": 0.4072
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.2929,
+   "y": 0.6217
+  },
+  {
+   "text": "Bielnik",
+   "x": 0.1181,
+   "y": 0.5219
+  },
+  {
+   "text": "Bielnik",
+   "x": 0.1619,
+   "y": 0.5223
+  },
+  {
+   "text": "Bielnik",
+   "x": 0.1099,
+   "y": 0.5973
+  },
+  {
+   "text": "Bielnik",
+   "x": 0.1025,
+   "y": 0.654
+  },
+  {
+   "text": "Wyspa Spichrzów",
+   "x": 0.258,
+   "y": 0.55
+  },
+  {
+   "text": "Stare Miasto",
+   "x": 0.3027,
+   "y": 0.5416
+  },
+  {
+   "text": "Warszawska",
+   "x": 0.2705,
+   "y": 0.5345
+  },
+  {
+   "text": "Nowodworska",
+   "x": 0.1704,
+   "y": 0.4784
+  },
+  {
+   "text": "Osiedle Ogrody",
+   "x": 0.3212,
+   "y": 0.3449
+  },
+  {
+   "text": "Osiedle Kopernika",
+   "x": 0.4962,
+   "y": 0.3728
+  },
+  {
+   "text": "Osiedle Sadyba",
+   "x": 0.5861,
+   "y": 0.3647
+  },
+  {
+   "text": "Śródmieście",
+   "x": 0.4309,
+   "y": 0.4362
+  },
+  {
+   "text": "Witoszewo",
+   "x": 0.5627,
+   "y": 0.4423
+  },
+  {
+   "text": "Nowe Miasto",
+   "x": 0.3754,
+   "y": 0.5183
+  },
+  {
+   "text": "Nowe Pole",
+   "x": 0.3472,
+   "y": 0.5818
+  },
+  {
+   "text": "Zatorze",
+   "x": 0.3583,
+   "y": 0.6626
+  },
+  {
+   "text": "Aleja Kaliningradzka",
+   "x": 0.4493,
+   "y": 0.4893
+  },
+  {
+   "text": "Aleja Tysiąclecia",
+   "x": 0.3792,
+   "y": 0.5462
+  },
+  {
+   "text": "Aleja Grunwaldzka",
+   "x": 0.4937,
+   "y": 0.5612
+  },
+  {
+   "text": "Aleja Grunwaldzka",
+   "x": 0.6613,
+   "y": 0.6145
+  },
+  {
+   "text": "Hetmańska",
+   "x": 0.4087,
+   "y": 0.5183
+  },
+  {
+   "text": "Rycerska",
+   "x": 0.3445,
+   "y": 0.5339
+  },
+  {
+   "text": "12 Lutego",
+   "x": 0.407,
+   "y": 0.4508
+  },
+  {
+   "text": "gen. J. Bema",
+   "x": 0.6169,
+   "y": 0.4949
+  },
+  {
+   "text": "Kumiela",
+   "x": 0.4839,
+   "y": 0.5208
+  },
+  {
+   "text": "Pocztowa",
+   "x": 0.3397,
+   "y": 0.4788
+  },
+  {
+   "text": "Winnica",
+   "x": 0.6757,
+   "y": 0.4803
+  },
+  {
+   "text": "Przedmieście Warszawskie",
+   "x": 0.6953,
+   "y": 0.5443
+  },
+  {
+   "text": "Przedmieście Warszawskie",
+   "x": 0.8524,
+   "y": 0.5961
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.8338,
+   "y": 0.5306
+  },
+  {
+   "text": "Góra Chrobrego",
+   "x": 0.8091,
+   "y": 0.3686
+  },
+  {
+   "text": "Pasterska Dolina",
+   "x": 0.7671,
+   "y": 0.3661
+  },
+  {
+   "text": "Fiszewka",
+   "x": 0.1822,
+   "y": 0.7229
+  },
+  {
+   "text": "Raczki Elbląskie",
+   "x": 0.1056,
+   "y": 0.8589
+  },
+  {
+   "text": "Raczki Elbląskie",
+   "x": 0.2422,
+   "y": 0.9367
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.5765,
+   "y": 0.718
+  },
+  {
+   "text": "Nowe Pole",
+   "x": 0.4091,
+   "y": 0.7756
+  },
+  {
+   "text": "Nowe Pole",
+   "x": 0.6306,
+   "y": 0.8415
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.3803,
+   "y": 0.8194
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.5644,
+   "y": 0.954
+  },
+  {
+   "text": "Kanał Tina",
+   "x": 0.3549,
+   "y": 0.8514
+  },
+  {
+   "text": "Nowe Pole",
+   "x": 0.6739,
+   "y": 0.6833
+  },
+  {
+   "text": "Nowe Pole",
+   "x": 0.7602,
+   "y": 0.9719
   }
  ],
  "ahmp_elblag_ii_6": [
