@@ -8828,5 +8828,277 @@
    "x": 0.6382,
    "y": 0.0375
   }
+ ],
+ "ahmp_elblag_ii_6": [
+  {
+   "text": "Am Markttor",
+   "x": 0.4012,
+   "y": 0.1259
+  },
+  {
+   "text": "Wollweber-straße",
+   "x": 0.4313,
+   "y": 0.1684
+  },
+  {
+   "text": "Kürschner-straße",
+   "x": 0.2406,
+   "y": 0.2154
+  },
+  {
+   "text": "Kurze Hinterstraße",
+   "x": 0.43,
+   "y": 0.2509
+  },
+  {
+   "text": "Lange Hinterstraße",
+   "x": 0.2425,
+   "y": 0.2739
+  },
+  {
+   "text": "Kettenbrunnen-straße",
+   "x": 0.4288,
+   "y": 0.3484
+  },
+  {
+   "text": "Spiering-straße",
+   "x": 0.2406,
+   "y": 0.367
+  },
+  {
+   "text": "Schmiedestraße",
+   "x": 0.4313,
+   "y": 0.4468
+  },
+  {
+   "text": "Fischer-straße",
+   "x": 0.245,
+   "y": 0.4725
+  },
+  {
+   "text": "Fleischer-straße",
+   "x": 0.4269,
+   "y": 0.5417
+  },
+  {
+   "text": "Brück-straße",
+   "x": 0.2437,
+   "y": 0.5718
+  },
+  {
+   "text": "Heilige-Geist-Straße",
+   "x": 0.4313,
+   "y": 0.6285
+  },
+  {
+   "text": "Heilige-Geist-Straße",
+   "x": 0.2437,
+   "y": 0.6551
+  },
+  {
+   "text": "Große Hommelstraße",
+   "x": 0.3794,
+   "y": 0.727
+  },
+  {
+   "text": "Hommelstallstraße",
+   "x": 0.3956,
+   "y": 0.7651
+  },
+  {
+   "text": "Am Gymnasium",
+   "x": 0.2656,
+   "y": 0.7544
+  },
+  {
+   "text": "Klappenberg",
+   "x": 0.1425,
+   "y": 0.727
+  },
+  {
+   "text": "Am Junkergarten",
+   "x": 0.1631,
+   "y": 0.1817
+  },
+  {
+   "text": "Wasserstraße",
+   "x": 0.1562,
+   "y": 0.305
+  },
+  {
+   "text": "Wasserstraße",
+   "x": 0.1388,
+   "y": 0.539
+  },
+  {
+   "text": "Straße am Elbing",
+   "x": 0.1062,
+   "y": 0.3945
+  },
+  {
+   "text": "Straße am Elbing",
+   "x": 0.1113,
+   "y": 0.7092
+  },
+  {
+   "text": "Elbing Fluß",
+   "x": 0.0862,
+   "y": 0.477
+  },
+  {
+   "text": "Alter Markt",
+   "x": 0.375,
+   "y": 0.3014
+  },
+  {
+   "text": "Alter Markt",
+   "x": 0.3694,
+   "y": 0.5922
+  },
+  {
+   "text": "Mauer-straße",
+   "x": 0.4769,
+   "y": 0.281
+  },
+  {
+   "text": "Mauer-straße",
+   "x": 0.475,
+   "y": 0.5824
+  },
+  {
+   "text": "Am Markttor",
+   "x": 0.8719,
+   "y": 0.1259
+  },
+  {
+   "text": "Wollweber-straße",
+   "x": 0.9,
+   "y": 0.1684
+  },
+  {
+   "text": "Kürschner-straße",
+   "x": 0.7125,
+   "y": 0.2163
+  },
+  {
+   "text": "Kurze Hinterstraße",
+   "x": 0.9,
+   "y": 0.2509
+  },
+  {
+   "text": "Lange Hinterstraße",
+   "x": 0.7231,
+   "y": 0.2748
+  },
+  {
+   "text": "Kettenbrunnen-straße",
+   "x": 0.9,
+   "y": 0.3484
+  },
+  {
+   "text": "Spiering-straße",
+   "x": 0.7125,
+   "y": 0.3661
+  },
+  {
+   "text": "Schmiedestraße",
+   "x": 0.9031,
+   "y": 0.4468
+  },
+  {
+   "text": "Fischer-straße",
+   "x": 0.7175,
+   "y": 0.4725
+  },
+  {
+   "text": "Fleischer-straße",
+   "x": 0.9,
+   "y": 0.5417
+  },
+  {
+   "text": "Brück-straße",
+   "x": 0.7156,
+   "y": 0.5718
+  },
+  {
+   "text": "Heilige-Geist-Straße",
+   "x": 0.8938,
+   "y": 0.6356
+  },
+  {
+   "text": "Heilige-Geist-Straße",
+   "x": 0.725,
+   "y": 0.6605
+  },
+  {
+   "text": "Große Hommelstraße",
+   "x": 0.8506,
+   "y": 0.7358
+  },
+  {
+   "text": "Hommelstallstraße",
+   "x": 0.8688,
+   "y": 0.7686
+  },
+  {
+   "text": "Am Gymnasium",
+   "x": 0.7362,
+   "y": 0.7562
+  },
+  {
+   "text": "Klappenberg",
+   "x": 0.615,
+   "y": 0.727
+  },
+  {
+   "text": "Am Junkergarten",
+   "x": 0.6331,
+   "y": 0.1817
+  },
+  {
+   "text": "Wasserstraße",
+   "x": 0.6281,
+   "y": 0.305
+  },
+  {
+   "text": "Wasserstraße",
+   "x": 0.6112,
+   "y": 0.539
+  },
+  {
+   "text": "Straße am Elbing",
+   "x": 0.5787,
+   "y": 0.3945
+  },
+  {
+   "text": "Straße am Elbing",
+   "x": 0.5844,
+   "y": 0.7092
+  },
+  {
+   "text": "Elbing Fluß",
+   "x": 0.5594,
+   "y": 0.477
+  },
+  {
+   "text": "Alter Markt",
+   "x": 0.8469,
+   "y": 0.3014
+  },
+  {
+   "text": "Alter Markt",
+   "x": 0.8406,
+   "y": 0.5922
+  },
+  {
+   "text": "Mauer-straße",
+   "x": 0.9456,
+   "y": 0.281
+  },
+  {
+   "text": "Mauer-straße",
+   "x": 0.945,
+   "y": 0.5824
+  }
  ]
 }
