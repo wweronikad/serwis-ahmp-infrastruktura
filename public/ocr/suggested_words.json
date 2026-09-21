@@ -13998,5 +13998,32 @@
    "x": 0.9313,
    "y": 0.682
   }
+ ],
+ "ahmp_gizycko_ii_5": [
+  {
+   "text": "Districtus Lecensis",
+   "x": 0.2238,
+   "y": 0.12
+  },
+  {
+   "text": "Districtus Bartensis",
+   "x": 0.2372,
+   "y": 0.23
+  },
+  {
+   "text": "Districtus Rastemborgensis Pars",
+   "x": 0.2238,
+   "y": 0.2844
+  },
+  {
+   "text": "Angeburgensis Pars",
+   "x": 0.7431,
+   "y": 0.1406
+  },
+  {
+   "text": "Districtus Reinensis Pars",
+   "x": 0.5192,
+   "y": 0.4138
+  }
  ]
 }
