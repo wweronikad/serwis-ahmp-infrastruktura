@@ -4544,5 +4544,136 @@
    "x": 0.3406,
    "y": 0.5406
   }
+ ],
+ "ahmp_grudziadz_ii_20": [
+  {
+   "text": "Wisła",
+   "x": 0.475,
+   "y": 0.8326
+  },
+  {
+   "text": "Dworzec",
+   "x": 0.4625,
+   "y": 0.4517
+  },
+  {
+   "text": "Port Lotniczy",
+   "x": 0.6156,
+   "y": 0.2657
+  },
+  {
+   "text": "Wielki Plac Ćwiczeń",
+   "x": 0.6937,
+   "y": 0.5049
+  },
+  {
+   "text": "Plac Promowy",
+   "x": 0.2812,
+   "y": 0.7821
+  },
+  {
+   "text": "Tarpno",
+   "x": 0.0762,
+   "y": 0.3525
+  }
+ ],
+ "ahmp_grudziadz_ii_18": [
+  {
+   "text": "Weichsel-Strom",
+   "x": 0.25,
+   "y": 0.769
+  },
+  {
+   "text": "Weichsel-Strom",
+   "x": 0.7281,
+   "y": 0.7848
+  },
+  {
+   "text": "Stadtwald",
+   "x": 0.6719,
+   "y": 0.3219
+  },
+  {
+   "text": "Stadtwald",
+   "x": 0.8469,
+   "y": 0.3598
+  },
+  {
+   "text": "Stadtwald",
+   "x": 0.9062,
+   "y": 0.485
+  },
+  {
+   "text": "Stadtwald",
+   "x": 0.6,
+   "y": 0.4286
+  },
+  {
+   "text": "Exercier-Platz",
+   "x": 0.7125,
+   "y": 0.4383
+  },
+  {
+   "text": "Gutsbezirk Klein Kunterstein",
+   "x": 0.2844,
+   "y": 0.4603
+  },
+  {
+   "text": "Feste Courbière",
+   "x": 0.1075,
+   "y": 0.6437
+  }
+ ],
+ "ahmp_grudziadz_ii_16": [
+  {
+   "text": "Weichsel-Strom",
+   "x": 0.5125,
+   "y": 0.9186
+  },
+  {
+   "text": "Marktplatz",
+   "x": 0.5969,
+   "y": 0.7795
+  },
+  {
+   "text": "Fährplatz",
+   "x": 0.625,
+   "y": 0.8688
+  },
+  {
+   "text": "Hafen-Bassin",
+   "x": 0.9375,
+   "y": 0.7568
+  },
+  {
+   "text": "Kl. Kunterstein",
+   "x": 0.3844,
+   "y": 0.1137
+  },
+  {
+   "text": "Oberberg-Strasse",
+   "x": 0.3469,
+   "y": 0.7594
+  },
+  {
+   "text": "Schützen-Strasse",
+   "x": 0.8438,
+   "y": 0.4287
+  },
+  {
+   "text": "Unter Thorner Strasse",
+   "x": 0.8063,
+   "y": 0.6299
+  },
+  {
+   "text": "Der Schwan",
+   "x": 0.0969,
+   "y": 0.0892
+  },
+  {
+   "text": "Die Trienke",
+   "x": 0.4,
+   "y": 0.3018
+  }
  ]
 }
