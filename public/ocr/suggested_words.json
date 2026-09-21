@@ -4675,5 +4675,121 @@
    "x": 0.4,
    "y": 0.3018
   }
+ ],
+ "ahmp_ketrzyn_7": [
+  {
+   "text": "Rastenburg",
+   "x": 0.73,
+   "y": 0.1789
+  },
+  {
+   "text": "Ober Teich",
+   "x": 0.6075,
+   "y": 0.2973
+  },
+  {
+   "text": "See",
+   "x": 0.8387,
+   "y": 0.3475
+  },
+  {
+   "text": "Ziegelei",
+   "x": 0.5387,
+   "y": 0.2104
+  }
+ ],
+ "ahmp_ketrzyn_8": [
+  {
+   "text": "Mühlen Teich",
+   "x": 0.7656,
+   "y": 0.7198
+  },
+  {
+   "text": "Mühlen Graben",
+   "x": 0.5019,
+   "y": 0.6576
+  },
+  {
+   "text": "Mühlen Flies",
+   "x": 0.2606,
+   "y": 0.7359
+  },
+  {
+   "text": "Gr. Bastion auf dem Markt",
+   "x": 0.4,
+   "y": 0.356
+  }
+ ],
+ "ahmp_ketrzyn_10": [
+  {
+   "text": "Der Oberteich",
+   "x": 0.3294,
+   "y": 0.3348
+  },
+  {
+   "text": "Friedhof",
+   "x": 0.5206,
+   "y": 0.2853
+  },
+  {
+   "text": "Gasfabrik",
+   "x": 0.5581,
+   "y": 0.4216
+  },
+  {
+   "text": "Gestüt",
+   "x": 0.3931,
+   "y": 0.1942
+  },
+  {
+   "text": "Bahnhof",
+   "x": 0.7144,
+   "y": 0.46
+  },
+  {
+   "text": "Mühlen Teich",
+   "x": 0.5794,
+   "y": 0.5988
+  },
+  {
+   "text": "Schlachthof",
+   "x": 0.2144,
+   "y": 0.8305
+  },
+  {
+   "text": "Wilhelms-Platz",
+   "x": 0.28,
+   "y": 0.4753
+  },
+  {
+   "text": "Molcke Strasse",
+   "x": 0.2031,
+   "y": 0.6542
+  },
+  {
+   "text": "Sembeck Strasse",
+   "x": 0.4656,
+   "y": 0.2215
+  },
+  {
+   "text": "Schützen-Strasse",
+   "x": 0.33,
+   "y": 0.7453
+  },
+  {
+   "text": "Schiller Strasse",
+   "x": 0.325,
+   "y": 0.6712
+  },
+  {
+   "text": "Etablissement Georgenthal",
+   "x": 0.3125,
+   "y": 0.8024
+  },
+  {
+   "text": "Kaiser Strasse",
+   "x": 0.1562,
+   "y": 0.5537
+  }
  ]
 }
