@@ -7294,5 +7294,352 @@
    "x": 0.8666,
    "y": 0.7421
   }
+ ],
+ "ahmp_chojnice_ii_1": [
+  {
+   "text": "Staatsanwaltschaft [Prokuratura]",
+   "x": 0.4072,
+   "y": 0.3534
+  },
+  {
+   "text": "GefĂ¤ngniĂź WiÄ™zienie",
+   "x": 0.4084,
+   "y": 0.3884
+  },
+  {
+   "text": "Amts- u. Landgericht SÄ…d",
+   "x": 0.3991,
+   "y": 0.4173
+  },
+  {
+   "text": "MĂ¶nchsee-AbfluĂź",
+   "x": 0.4801,
+   "y": 0.3648
+  },
+  {
+   "text": "Ziegel-Str. Mickiewicza",
+   "x": 0.5495,
+   "y": 0.4067
+  },
+  {
+   "text": "Denkmal-Platz Pl. JagielloĹ„ski",
+   "x": 0.3622,
+   "y": 0.4645
+  },
+  {
+   "text": "Am Graben [Grobelna]",
+   "x": 0.4498,
+   "y": 0.4873
+  },
+  {
+   "text": "MĂĽhlen-Str. MĹ‚yĹ„ska",
+   "x": 0.5397,
+   "y": 0.475
+  },
+  {
+   "text": "Paulscher-Str.",
+   "x": 0.5323,
+   "y": 0.4523
+  },
+  {
+   "text": "Schuhmacher-Str. [Szewska]",
+   "x": 0.4984,
+   "y": 0.4978
+  },
+  {
+   "text": "Podmurna",
+   "x": 0.4752,
+   "y": 0.5066
+  },
+  {
+   "text": "Hospital-Kirche [KoĹ›ciĂłĹ‚ szpitalny]",
+   "x": 0.3927,
+   "y": 0.496
+  },
+  {
+   "text": "Poststall-Str. Pocztowa",
+   "x": 0.6235,
+   "y": 0.475
+  },
+  {
+   "text": "Berg-Str.",
+   "x": 0.5822,
+   "y": 0.461
+  },
+  {
+   "text": "Kasernen-Str.",
+   "x": 0.6502,
+   "y": 0.4873
+  },
+  {
+   "text": "Rathaus [Ratusz]",
+   "x": 0.6199,
+   "y": 0.4864
+  },
+  {
+   "text": "Hauptmarkt-Platz Rynek",
+   "x": 0.5883,
+   "y": 0.4978
+  },
+  {
+   "text": "Post [Poczta]",
+   "x": 0.553,
+   "y": 0.5056
+  },
+  {
+   "text": "Rathaus [Ratusz]",
+   "x": 0.609,
+   "y": 0.5056
+  },
+  {
+   "text": "Ev. Kirche [KoĹ›ciĂłĹ‚ ewangelicki]",
+   "x": 0.5883,
+   "y": 0.5162
+  },
+  {
+   "text": "Gymnasial-Str. [Gimnazjalna]",
+   "x": 0.6491,
+   "y": 0.5074
+  },
+  {
+   "text": "Neustadt Nowe Miasto",
+   "x": 0.6442,
+   "y": 0.4541
+  },
+  {
+   "text": "See-Str.",
+   "x": 0.638,
+   "y": 0.433
+  },
+  {
+   "text": "Schlochauer-Str. CzĹ‚uchowska",
+   "x": 0.508,
+   "y": 0.5241
+  },
+  {
+   "text": "Stadtschule SzkoĹ‚a",
+   "x": 0.3974,
+   "y": 0.5302
+  },
+  {
+   "text": "MĂ¤dchenschule SzkoĹ‚a",
+   "x": 0.3886,
+   "y": 0.5591
+  },
+  {
+   "text": "Hospital-Str. [Szpitalna]",
+   "x": 0.3611,
+   "y": 0.5503
+  },
+  {
+   "text": "Waligasse [WaĹ‚owa]",
+   "x": 0.4133,
+   "y": 0.5467
+  },
+  {
+   "text": "Mauer-Str.",
+   "x": 0.4615,
+   "y": 0.5538
+  },
+  {
+   "text": "MĂĽhlradt-Str.",
+   "x": 0.5446,
+   "y": 0.552
+  },
+  {
+   "text": "Danziger-Str.",
+   "x": 0.6478,
+   "y": 0.5459
+  },
+  {
+   "text": "RĂ¤hmegasse [KrĂłtka]",
+   "x": 0.6284,
+   "y": 0.5538
+  },
+  {
+   "text": "Kirchpl. [KoĹ›cielna]",
+   "x": 0.6672,
+   "y": 0.5275
+  },
+  {
+   "text": "Alte Schulen-Str. [Staroszkolna]",
+   "x": 0.5274,
+   "y": 0.5695
+  },
+  {
+   "text": "AugustyĹ„ska",
+   "x": 0.5894,
+   "y": 0.5731
+  },
+  {
+   "text": "RĂ¤hme-Str. [Ramy]",
+   "x": 0.5348,
+   "y": 0.5923
+  },
+  {
+   "text": "Convict-Str.",
+   "x": 0.5809,
+   "y": 0.6081
+  },
+  {
+   "text": "Krankenhaus",
+   "x": 0.4279,
+   "y": 0.601
+  },
+  {
+   "text": "Synagoge [Synagoga]",
+   "x": 0.6028,
+   "y": 0.6142
+  },
+  {
+   "text": "MĂ¶nchanger-Str. [BĹ‚onie Zakonne]",
+   "x": 0.4474,
+   "y": 0.6238
+  },
+  {
+   "text": "Freimauerloge",
+   "x": 0.5323,
+   "y": 0.6317
+  },
+  {
+   "text": "Seiten-Str. [Boczna]",
+   "x": 0.4643,
+   "y": 0.6614
+  },
+  {
+   "text": "Gasanstalt Gazownia i elektrownia",
+   "x": 0.3667,
+   "y": 0.6614
+  },
+  {
+   "text": "Convict Konwikt",
+   "x": 0.5809,
+   "y": 0.6632
+  },
+  {
+   "text": "Stadion",
+   "x": 0.6885,
+   "y": 0.393
+  },
+  {
+   "text": "Der ehemalige Ziegel-See",
+   "x": 0.7347,
+   "y": 0.414
+  },
+  {
+   "text": "Kaserne [Koszary]",
+   "x": 0.6933,
+   "y": 0.4453
+  },
+  {
+   "text": "Gymnasium Gimnazjum",
+   "x": 0.7176,
+   "y": 0.4887
+  },
+  {
+   "text": "Kath. Kirche Kościół [katolicki]",
+   "x": 0.6982,
+   "y": 0.5268
+  },
+  {
+   "text": "Kirchpl. [Kościelna]",
+   "x": 0.6738,
+   "y": 0.5299
+  },
+  {
+   "text": "Gdańska",
+   "x": 0.6787,
+   "y": 0.5492
+  },
+  {
+   "text": "Kloster Zakład św. Boromeusza",
+   "x": 0.8128,
+   "y": 0.551
+  },
+  {
+   "text": "Kloster-Str.",
+   "x": 0.8237,
+   "y": 0.5774
+  },
+  {
+   "text": "Hohe Höfe [Wysoka]",
+   "x": 0.8836,
+   "y": 0.4633
+  },
+  {
+   "text": "Neuer kath. Begräbnis platz Cmentarz katolicki",
+   "x": 0.9834,
+   "y": 0.4175
+  },
+  {
+   "text": "Alter kath. Begräbnis platz [Cmentarz katolicki]",
+   "x": 0.9103,
+   "y": 0.5589
+  },
+  {
+   "text": "Heu-Marktplatz",
+   "x": 0.7482,
+   "y": 0.6151
+  },
+  {
+   "text": "Georgs-Platz",
+   "x": 0.8128,
+   "y": 0.6265
+  },
+  {
+   "text": "Kirchhofsweg [Cmentarna]",
+   "x": 0.8714,
+   "y": 0.6301
+  },
+  {
+   "text": "Evangelischer Begräbnis platz Cmentarz ewangelicki",
+   "x": 0.9225,
+   "y": 0.6159
+  },
+  {
+   "text": "Kreishaus Starostwo",
+   "x": 0.1607,
+   "y": 0.4983
+  },
+  {
+   "text": "Schlochauer Chaussee",
+   "x": 0.1804,
+   "y": 0.514
+  },
+  {
+   "text": "Szosa Człuchowska",
+   "x": 0.2388,
+   "y": 0.5071
+  },
+  {
+   "text": "Reichsbank [Bank]",
+   "x": 0.3266,
+   "y": 0.3982
+  },
+  {
+   "text": "Königs-Platz Plac Piastowski",
+   "x": 0.3253,
+   "y": 0.6307
+  },
+  {
+   "text": "Der Mönch-See [Jezioro Zakonne]",
+   "x": 0.6944,
+   "y": 0.775
+  },
+  {
+   "text": "Wasserturm",
+   "x": 0.0564,
+   "y": 0.795
+  },
+  {
+   "text": "Jüdischer Begräbnis platz",
+   "x": 0.7422,
+   "y": 0.15
+  },
+  {
+   "text": "Peter-Str. [Piotra]",
+   "x": 0.3602,
+   "y": 0.2394
+  }
  ]
 }
