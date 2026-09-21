@@ -4291,5 +4291,109 @@
    "x": 0.305,
    "y": 0.5178
   }
+ ],
+ "ahmp_elblag_ii_4": [
+  {
+   "text": "Elbing",
+   "x": 0.3719,
+   "y": 0.5603
+  },
+  {
+   "text": "Lärchwalde",
+   "x": 0.1875,
+   "y": 0.1844
+  },
+  {
+   "text": "Roland",
+   "x": 0.3812,
+   "y": 0.266
+  },
+  {
+   "text": "Gr. Wesseln",
+   "x": 0.3688,
+   "y": 0.3635
+  },
+  {
+   "text": "Mattendorf",
+   "x": 0.2,
+   "y": 0.3927
+  },
+  {
+   "text": "Vogelsang",
+   "x": 0.4406,
+   "y": 0.4105
+  },
+  {
+   "text": "Stadtfeld",
+   "x": 0.3688,
+   "y": 0.6028
+  },
+  {
+   "text": "Weingarten",
+   "x": 0.4313,
+   "y": 0.6498
+  },
+  {
+   "text": "Neustädterfeld",
+   "x": 0.2969,
+   "y": 0.8085
+  },
+  {
+   "text": "Spittelhof",
+   "x": 0.4688,
+   "y": 0.8865
+  },
+  {
+   "text": "Schillingsbrücke",
+   "x": 0.1594,
+   "y": 0.836
+  },
+  {
+   "text": "Flughafen",
+   "x": 0.375,
+   "y": 0.8493
+  },
+  {
+   "text": "Elbing",
+   "x": 0.705,
+   "y": 0.6321
+  },
+  {
+   "text": "Tolkemit",
+   "x": 0.805,
+   "y": 0.2615
+  },
+  {
+   "text": "Drausen See",
+   "x": 0.7375,
+   "y": 0.8865
+  },
+  {
+   "text": "Holland",
+   "x": 0.9706,
+   "y": 0.9238
+  },
+  {
+   "text": "Das Frische Haff",
+   "x": 0.6281,
+   "y": 0.2996
+  }
+ ],
+ "ahmp_elblag_ii_8": [
+  {
+   "text": "Elbing Fl.",
+   "x": 0.3478,
+   "y": 0.2169
+  },
+  {
+   "text": "Elbing",
+   "x": 0.1156,
+   "y": 0.5656
+  },
+  {
+   "text": "Elbing Fl.",
+   "x": 0.3722,
+   "y": 0.6281
+  }
  ]
 }
