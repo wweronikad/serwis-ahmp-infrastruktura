@@ -4791,5 +4791,368 @@
    "x": 0.1562,
    "y": 0.5537
   }
+ ],
+ "ahmp_kwidzyn_9": [
+  {
+   "text": "Nogat",
+   "x": 0.15,
+   "y": 0.3236
+  },
+  {
+   "text": "Liebe",
+   "x": 0.155,
+   "y": 0.6392
+  },
+  {
+   "text": "Liebe",
+   "x": 0.2219,
+   "y": 0.8333
+  },
+  {
+   "text": "Der Knieberg",
+   "x": 0.275,
+   "y": 0.1294
+  },
+  {
+   "text": "Amts Grund",
+   "x": 0.5112,
+   "y": 0.1173
+  },
+  {
+   "text": "Brauhaus",
+   "x": 0.35,
+   "y": 0.3544
+  },
+  {
+   "text": "Der Schloss Platz",
+   "x": 0.3656,
+   "y": 0.4353
+  },
+  {
+   "text": "Das Dyksche",
+   "x": 0.2231,
+   "y": 0.5461
+  },
+  {
+   "text": "Brau u. Brand Haus",
+   "x": 0.2394,
+   "y": 0.6028
+  },
+  {
+   "text": "Der alte Kirchhof",
+   "x": 0.5875,
+   "y": 0.6553
+  },
+  {
+   "text": "Alt Schlösschen",
+   "x": 0.4269,
+   "y": 0.8269
+  },
+  {
+   "text": "n. Riesenburg",
+   "x": 0.6531,
+   "y": 0.2629
+  },
+  {
+   "text": "nach Graudenz",
+   "x": 0.7219,
+   "y": 0.8697
+  },
+  {
+   "text": "von Neuenburg",
+   "x": 0.1562,
+   "y": 0.7913
+  }
+ ],
+ "ahmp_kwidzyn_7": [
+  {
+   "text": "Kirchhof",
+   "x": 0.7156,
+   "y": 0.5259
+  },
+  {
+   "text": "Schloss Platz",
+   "x": 0.3375,
+   "y": 0.3924
+  },
+  {
+   "text": "Graudentzer Vorstadt",
+   "x": 0.6844,
+   "y": 0.9547
+  },
+  {
+   "text": "Die Liebe",
+   "x": 0.1344,
+   "y": 0.8414
+  }
+ ],
+ "ahmp_kwidzyn_13": [
+  {
+   "text": "Roßgarten",
+   "x": 0.356,
+   "y": 0.07
+  },
+  {
+   "text": "Marienau",
+   "x": 0.6173,
+   "y": 0.1113
+  },
+  {
+   "text": "Schäferei",
+   "x": 0.8843,
+   "y": 0.125
+  },
+  {
+   "text": "Mareese",
+   "x": 0.089,
+   "y": 0.2294
+  },
+  {
+   "text": "Höllengrund",
+   "x": 0.5583,
+   "y": 0.2687
+  },
+  {
+   "text": "Marienfelde",
+   "x": 0.7767,
+   "y": 0.4469
+  },
+  {
+   "text": "Gorken",
+   "x": 0.9142,
+   "y": 0.4106
+  },
+  {
+   "text": "Karschwitz",
+   "x": 0.3155,
+   "y": 0.9137
+  },
+  {
+   "text": "Liebenthal",
+   "x": 0.6958,
+   "y": 0.7894
+  },
+  {
+   "text": "Wilhelm-Park",
+   "x": 0.2144,
+   "y": 0.5594
+  },
+  {
+   "text": "Promenade",
+   "x": 0.1618,
+   "y": 0.6562
+  },
+  {
+   "text": "Die Liebe",
+   "x": 0.0874,
+   "y": 0.65
+  },
+  {
+   "text": "Nogat",
+   "x": 0.2549,
+   "y": 0.2344
+  },
+  {
+   "text": "Klein-Bhf.",
+   "x": 0.1254,
+   "y": 0.3769
+  },
+  {
+   "text": "Reichs-Bhf.",
+   "x": 0.5178,
+   "y": 0.4888
+  },
+  {
+   "text": "Hochmeister-Platz",
+   "x": 0.5097,
+   "y": 0.7344
+  },
+  {
+   "text": "Sportplatz",
+   "x": 0.5324,
+   "y": 0.8169
+  },
+  {
+   "text": "Schießhalle",
+   "x": 0.6052,
+   "y": 0.7769
+  },
+  {
+   "text": "Schrebergärten",
+   "x": 0.5623,
+   "y": 0.7531
+  },
+  {
+   "text": "Hammer-M.",
+   "x": 0.7322,
+   "y": 0.8738
+  },
+  {
+   "text": "Malzfabrik",
+   "x": 0.8374,
+   "y": 0.8781
+  },
+  {
+   "text": "Schupo-Kaserne",
+   "x": 0.4409,
+   "y": 0.5406
+  },
+  {
+   "text": "Wasserturm",
+   "x": 0.4733,
+   "y": 0.7656
+  },
+  {
+   "text": "Bade-Anst.",
+   "x": 0.1011,
+   "y": 0.445
+  },
+  {
+   "text": "Kreishaus",
+   "x": 0.538,
+   "y": 0.3394
+  },
+  {
+   "text": "Diakonissenhaus",
+   "x": 0.4571,
+   "y": 0.2425
+  },
+  {
+   "text": "Gas-Anst.",
+   "x": 0.2994,
+   "y": 0.1938
+  },
+  {
+   "text": "Russen-Berge",
+   "x": 0.4248,
+   "y": 0.1613
+  },
+  {
+   "text": "Jüdischer Friedhof",
+   "x": 0.3964,
+   "y": 0.5969
+  }
+ ],
+ "ahmp_kwidzyn_12": [
+  {
+   "text": "Gemeinde Marienau",
+   "x": 0.445,
+   "y": 0.1281
+  },
+  {
+   "text": "Gemeinde Mareese",
+   "x": 0.1497,
+   "y": 0.1844
+  },
+  {
+   "text": "Vorstadt Marienfelde",
+   "x": 0.534,
+   "y": 0.3375
+  },
+  {
+   "text": "Zucker-Fabrik",
+   "x": 0.3236,
+   "y": 0.6094
+  },
+  {
+   "text": "Exerzier-Platz",
+   "x": 0.4693,
+   "y": 0.6644
+  },
+  {
+   "text": "Gut Liebenthal",
+   "x": 0.6068,
+   "y": 0.6312
+  },
+  {
+   "text": "Liebenthal Schule",
+   "x": 0.5583,
+   "y": 0.7356
+  },
+  {
+   "text": "Wasserturm",
+   "x": 0.4773,
+   "y": 0.4094
+  },
+  {
+   "text": "Brauerei Hammermühle",
+   "x": 0.6917,
+   "y": 0.6831
+  },
+  {
+   "text": "Städt. Wasserwerk",
+   "x": 0.6392,
+   "y": 0.7562
+  },
+  {
+   "text": "Militär Badeanstalt",
+   "x": 0.6149,
+   "y": 0.7812
+  },
+  {
+   "text": "Liebenthaler Wäldchen",
+   "x": 0.7241,
+   "y": 0.8313
+  },
+  {
+   "text": "Infanterie-Schiesstände",
+   "x": 0.7646,
+   "y": 0.7894
+  },
+  {
+   "text": "Gut Karschwitz",
+   "x": 0.267,
+   "y": 0.7356
+  },
+  {
+   "text": "Rospitz",
+   "x": 0.093,
+   "y": 0.65
+  },
+  {
+   "text": "Gut Gorken",
+   "x": 0.7727,
+   "y": 0.3406
+  },
+  {
+   "text": "Mühle Gorken",
+   "x": 0.7565,
+   "y": 0.4062
+  },
+  {
+   "text": "Siechenhaus",
+   "x": 0.2225,
+   "y": 0.5406
+  },
+  {
+   "text": "Evang. Friedhof",
+   "x": 0.1942,
+   "y": 0.475
+  },
+  {
+   "text": "Promenade",
+   "x": 0.1942,
+   "y": 0.6375
+  },
+  {
+   "text": "Russen Berge",
+   "x": 0.3034,
+   "y": 0.1469
+  },
+  {
+   "text": "Höllengrund",
+   "x": 0.4167,
+   "y": 0.2031
+  },
+  {
+   "text": "Diakonissenhaus",
+   "x": 0.3641,
+   "y": 0.2156
+  },
+  {
+   "text": "Waisenhaus",
+   "x": 0.3358,
+   "y": 0.2794
+  }
  ]
 }
