@@ -4054,64 +4054,84 @@
  ],
  "ahmp_elblag_ii_10": [
   {
-   "text": "Wahrhaftes Grundriss der Stadt und Vestung Elbing",
-   "x": 0.6656,
-   "y": 0.0959
+   "text": "Stadt Feldt",
+   "x": 0.223,
+   "y": 0.242
   },
   {
-   "text": "Stadt Feld",
-   "x": 0.1925,
-   "y": 0.2398
+   "text": "Tolkemiter Weg",
+   "x": 0.1629,
+   "y": 0.3303
   },
   {
-   "text": "Neustädter Feld",
-   "x": 0.5719,
-   "y": 0.1288
+   "text": "Neustädter Feldt",
+   "x": 0.6011,
+   "y": 0.1396
   },
   {
-   "text": "Alt Städter Rosgarten",
-   "x": 0.6906,
-   "y": 0.4991
+   "text": "Kraut Gärte",
+   "x": 0.3006,
+   "y": 0.5207
+  },
+  {
+   "text": "Altstädter Rosgarten",
+   "x": 0.7435,
+   "y": 0.4936
   },
   {
    "text": "Neustädter Rosgarten",
-   "x": 0.8187,
-   "y": 0.4956
-  },
-  {
-   "text": "Der Graben Haagen",
-   "x": 0.4531,
-   "y": 0.7442
+   "x": 0.8573,
+   "y": 0.5093
   },
   {
    "text": "Rosswiesen",
-   "x": 0.2469,
-   "y": 0.8242
+   "x": 0.2831,
+   "y": 0.8228
+  },
+  {
+   "text": "Der Gruben Haagen",
+   "x": 0.4872,
+   "y": 0.7687
+  },
+  {
+   "text": "Die Sorge",
+   "x": 0.5711,
+   "y": 0.7991
+  },
+  {
+   "text": "Land Strasse nach Dantzig",
+   "x": 0.5307,
+   "y": 0.8676
   },
   {
    "text": "Kuhwiesen",
-   "x": 0.5875,
-   "y": 0.8348
+   "x": 0.6264,
+   "y": 0.8362
   },
   {
    "text": "Wansau",
-   "x": 0.7812,
-   "y": 0.8659
+   "x": 0.8067,
+   "y": 0.8642
   },
   {
-   "text": "Die Bauern Wiesen",
-   "x": 0.7063,
-   "y": 0.6528
+   "text": "alte Nogat",
+   "x": 0.7356,
+   "y": 0.8451
   },
   {
-   "text": "Kraut Garte",
-   "x": 0.275,
-   "y": 0.524
+   "text": "Weg nach Marienburg",
+   "x": 0.7466,
+   "y": 0.7013
   },
   {
-   "text": "Christ. Kretschmer fect. 1709",
-   "x": 0.7781,
-   "y": 0.2842
+   "text": "Kerbs Waldt",
+   "x": 0.8842,
+   "y": 0.771
+  },
+  {
+   "text": "Fischau",
+   "x": 0.87,
+   "y": 0.8564
   }
  ],
  "ahmp_elblag_ii_11": [
