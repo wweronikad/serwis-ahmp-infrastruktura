@@ -1535,79 +1535,64 @@
  ],
  "ahmp_brzeg_48": [
   {
+   "text": "Die Promenaden",
+   "x": 0.4592,
+   "y": 0.3391
+  },
+  {
+   "text": "Evangl. Friedhof",
+   "x": 0.6094,
+   "y": 0.5603
+  },
+  {
+   "text": "Pflege-Anstalt",
+   "x": 0.5729,
+   "y": 0.4687
+  },
+  {
+   "text": "Bahnhof",
+   "x": 0.512,
+   "y": 0.687
+  },
+  {
+   "text": "Larisch-Platz",
+   "x": 0.3191,
+   "y": 0.6392
+  },
+  {
    "text": "Paul Baron's Stadtplan Brieg Bez. Breslau",
    "x": 0.1688,
-   "y": 0.1301
+   "y": 0.1474
   },
   {
-   "text": "gefertigt vom Städt. Verkehrsamt Brieg",
-   "x": 0.1688,
-   "y": 0.1995
-  },
-  {
-   "text": "Gesetzlich geschützt",
-   "x": 0.1688,
-   "y": 0.2324
+   "text": "Schiffahrts-Kanal",
+   "x": 0.525,
+   "y": 0.2038
   },
   {
    "text": "Oder",
    "x": 0.4625,
-   "y": 0.2992
-  },
-  {
-   "text": "Schiffahrts-Kanal",
-   "x": 0.5062,
-   "y": 0.1865
+   "y": 0.2949
   },
   {
    "text": "Strom",
-   "x": 0.7,
+   "x": 0.7125,
    "y": 0.4683
   },
   {
-   "text": "Julius-Peppel-Park",
-   "x": 0.175,
-   "y": 0.6505
+   "text": "Julius-Peppe-Park",
+   "x": 0.1688,
+   "y": 0.6418
   },
   {
-   "text": "Larisch-Platz",
-   "x": 0.3219,
-   "y": 0.6461
+   "text": "Industrie-Gelände",
+   "x": 0.725,
+   "y": 0.8153
   },
   {
    "text": "Stadtpark-Kolonie",
    "x": 0.2656,
-   "y": 0.6904
-  },
-  {
-   "text": "Evang. Friedhof",
-   "x": 0.6188,
-   "y": 0.5551
-  },
-  {
-   "text": "Dorf Rathau",
-   "x": 0.2938,
-   "y": 0.1735
-  },
-  {
-   "text": "Verkäufliches Industrie-Gelände",
-   "x": 0.6937,
-   "y": 0.8153
-  },
-  {
-   "text": "Westl. Oderaue",
-   "x": 0.4125,
-   "y": 0.1232
-  },
-  {
-   "text": "Östl. Oderaue",
-   "x": 0.5875,
-   "y": 0.1431
-  },
-  {
-   "text": "Verlag Geographisches Institut Paul Baron, Liegnitz",
-   "x": 0.8562,
-   "y": 0.9263
+   "y": 0.6895
   }
  ],
  "ahmp_brzeg_49": [
