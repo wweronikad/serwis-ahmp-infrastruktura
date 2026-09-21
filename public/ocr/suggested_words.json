@@ -7927,5 +7927,42 @@
    "x": 0.4938,
    "y": 0.3097
   }
+ ],
+ "ahmp_chojnice_ii_8": [
+  {
+   "text": "die MĂĽhlen Vorstadt",
+   "x": 0.5256,
+   "y": 0.4309
+  },
+  {
+   "text": "der Ziegel See",
+   "x": 0.7439,
+   "y": 0.5098
+  },
+  {
+   "text": "Danziger Vorstadt",
+   "x": 0.748,
+   "y": 0.6399
+  },
+  {
+   "text": "nach Tuchel",
+   "x": 0.8841,
+   "y": 0.634
+  },
+  {
+   "text": "der Mönchen See",
+   "x": 0.6838,
+   "y": 0.7219
+  },
+  {
+   "text": "Situations Plan",
+   "x": 0.2137,
+   "y": 0.0875
+  },
+  {
+   "text": "Schlochauer Vorstadt",
+   "x": 0.453,
+   "y": 0.5844
+  }
  ]
 }
