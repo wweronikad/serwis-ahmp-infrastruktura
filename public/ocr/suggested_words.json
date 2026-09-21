@@ -4395,5 +4395,154 @@
    "x": 0.3722,
    "y": 0.6281
   }
+ ],
+ "ahmp_gizycko_ii_13": [
+  {
+   "text": "Die Feste Boyen",
+   "x": 0.42,
+   "y": 0.4766
+  },
+  {
+   "text": "Stadt Loetzen",
+   "x": 0.6031,
+   "y": 0.7149
+  },
+  {
+   "text": "Der Loewentin See",
+   "x": 0.325,
+   "y": 0.7502
+  },
+  {
+   "text": "Der Kisain See",
+   "x": 0.275,
+   "y": 0.3107
+  },
+  {
+   "text": "Der Tayta See",
+   "x": 0.1875,
+   "y": 0.481
+  },
+  {
+   "text": "Der Woysak See",
+   "x": 0.6219,
+   "y": 0.2718
+  },
+  {
+   "text": "Der Grosse Wilkassen See",
+   "x": 0.0688,
+   "y": 0.6284
+  },
+  {
+   "text": "Die Grosse Popowka",
+   "x": 0.3406,
+   "y": 0.4634
+  },
+  {
+   "text": "Die Kleine Popowka",
+   "x": 0.455,
+   "y": 0.5296
+  },
+  {
+   "text": "Der Kleine Werder",
+   "x": 0.1906,
+   "y": 0.2383
+  },
+  {
+   "text": "Der grosse Werder",
+   "x": 0.2844,
+   "y": 0.1986
+  },
+  {
+   "text": "Schöneberg",
+   "x": 0.225,
+   "y": 0.3751
+  }
+ ],
+ "ahmp_gizycko_ii_21": [
+  {
+   "text": "Jezioro Kisajno",
+   "x": 0.105,
+   "y": 0.2352
+  },
+  {
+   "text": "Jezioro Niegocin",
+   "x": 0.6613,
+   "y": 0.8212
+  },
+  {
+   "text": "Antonowo",
+   "x": 0.3575,
+   "y": 0.1369
+  },
+  {
+   "text": "Wilanów",
+   "x": 0.425,
+   "y": 0.2429
+  },
+  {
+   "text": "Gajewo",
+   "x": 0.6012,
+   "y": 0.2447
+  },
+  {
+   "text": "Sulimy",
+   "x": 0.7262,
+   "y": 0.3867
+  },
+  {
+   "text": "Bystry",
+   "x": 0.7762,
+   "y": 0.6784
+  },
+  {
+   "text": "Wilkasy",
+   "x": 0.1656,
+   "y": 0.8426
+  },
+  {
+   "text": "Piękna Góra",
+   "x": 0.1769,
+   "y": 0.5475
+  },
+  {
+   "text": "Las Miejski",
+   "x": 0.7063,
+   "y": 0.1625
+  },
+  {
+   "text": "Osiedle XXX-lecia",
+   "x": 0.5719,
+   "y": 0.4021
+  },
+  {
+   "text": "Jezioro Tajty",
+   "x": 0.1,
+   "y": 0.6399
+  },
+  {
+   "text": "Duży Ostrów",
+   "x": 0.1031,
+   "y": 0.3567
+  },
+  {
+   "text": "Sosnowy Ostrów",
+   "x": 0.0375,
+   "y": 0.2652
+  },
+  {
+   "text": "Ostrów",
+   "x": 0.1187,
+   "y": 0.4038
+  },
+  {
+   "text": "Kiermusz",
+   "x": 0.0406,
+   "y": 0.0984
+  },
+  {
+   "text": "Boyen",
+   "x": 0.3406,
+   "y": 0.5406
+  }
  ]
 }
