@@ -8333,5 +8333,37 @@
    "x": 0.2212,
    "y": 0.4062
   }
+ ],
+ "ahmp_brzeg_38": [
+  {
+   "text": "Brieg mit seinen Vorstädten",
+   "x": 0.8125,
+   "y": 0.7387
+  },
+  {
+   "text": "Die Stadt-Au zu Brieg gehörig",
+   "x": 0.35,
+   "y": 0.1874
+  },
+  {
+   "text": "Oder-Strom",
+   "x": 0.375,
+   "y": 0.3712
+  },
+  {
+   "text": "Territorium",
+   "x": 0.2344,
+   "y": 0.6712
+  },
+  {
+   "text": "Militair Exercier-Platz",
+   "x": 0.4469,
+   "y": 0.0793
+  },
+  {
+   "text": "Signatur",
+   "x": 0.1,
+   "y": 0.7477
+  }
  ]
 }
