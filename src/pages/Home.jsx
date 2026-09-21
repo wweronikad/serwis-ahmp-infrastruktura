@@ -176,7 +176,7 @@ const ABOUT_CARDS = [
   {
     badge: 'Projekt polski',
     heading: 'Atlas Historyczny Miast Polskich',
-    text: 'Projekt badawczy zapoczątkowany w 1990 r. przez prof. Antoniego Czacharowskiego (UMK Toruń), z pierwszymi zeszytami od 1993 r. — dotąd blisko 50 miast, zespoły w Toruniu, Wrocławiu i Krakowie.',
+    text: 'Projekt badawczy zapoczątkowany w 1993 r. przez prof. Antoniego Czacharowskiego (UMK Toruń) — dotąd atlasy 47 miast, zespoły w Toruniu, Wrocławiu i Krakowie.',
     to: '/o-projekcie-polskim',
     cta: 'Odkryj projekt polski',
     image: 'https://atlasmiast.umk.pl/wp-content/uploads/2025/10/mapa.png',
@@ -298,8 +298,8 @@ const STATS = [
 const EVENTS = [
   { year: '1965', text: 'Międzynarodowa Komisja Historii Miast uznaje wydawanie atlasów miast europejskich za główny cel swojej działalności naukowej.' },
   { year: '1968', text: 'Konferencja w Oxfordzie – wypracowanie podstawowych zasad edycji atlasów historycznych miast.' },
-  { year: '1990', text: 'Prof. Antoni Czacharowski rozpoczyna w UMK Toruń prace nad polską edycją atlasu; pierwsze zeszyty ukazują się od 1993 r.' },
-  { year: 'DZIŚ', text: 'Atlasy około 50 polskich miast, współpraca z zespołami w Toruniu, Wrocławiu i Krakowie.', hi: true },
+  { year: '1993', text: 'Prof. Antoni Czacharowski inicjuje w UMK Toruń projekt polskiej edycji atlasu; ukazuje się pierwszy zeszyt (Elbląg).' },
+  { year: 'DZIŚ', text: 'Atlasy 47 polskich miast, współpraca z zespołami w Toruniu, Wrocławiu i Krakowie.', hi: true },
 ]
 
 function StatsSection() {

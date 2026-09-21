@@ -60,12 +60,11 @@ export default function AboutPolish() {
         <section style={styles.section}>
           <h2 style={styles.h2}>Historia i zespoły</h2>
           <p style={styles.p}>
-            Prace przygotowawcze nad polską edycją atlasu rozpoczęto w{' '}
-            <strong>1990 r.</strong> w Instytucie Historii i Archiwistyki
-            Uniwersytetu Mikołaja Kopernika w Toruniu, pod kierunkiem{' '}
-            <strong>prof. Antoniego Czacharowskiego</strong>; początkowo dotyczyły
-            one Atlasu historycznego Elbląga, a pierwsze zeszyty ukazały się od{' '}
-            <strong>1993 r.</strong> Zeszyty wydaje Towarzystwo Naukowe w Toruniu.
+            Projekt polskiej edycji atlasu zapoczątkował w{' '}
+            <strong>1993 r.</strong> w Instytucie Historii i Archiwistyki
+            Uniwersytetu Mikołaja Kopernika w Toruniu{' '}
+            <strong>prof. Antoni Czacharowski</strong>; pierwszy zeszyt dotyczył
+            Elbląga. Zeszyty ukazują się głównie nakładem Towarzystwa Naukowego w Toruniu.
             Z czasem dołączyły kolejne zespoły regionalne:
           </p>
           <div className="ap-teams">
@@ -79,8 +78,8 @@ export default function AboutPolish() {
           </div>
           <p style={styles.p}>
             Redaktorem serii jest <strong>prof. Roman Czaja</strong>. Do
-            chwili obecnej ukazały się atlasy około{' '}
-            <strong>50 miast</strong> (według strony projektu); prace prowadzone
+            chwili obecnej ukazało się <strong>50 atlasów dla 47 miast</strong>{' '}
+            (według wykazu na stronie projektu); prace prowadzone
             są interdyscyplinarnie przez historyków, historyków sztuki i
             architektury, archeologów oraz kartografów.
           </p>
