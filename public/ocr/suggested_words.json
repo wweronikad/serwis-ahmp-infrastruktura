@@ -1050,24 +1050,89 @@
  ],
  "ahmp_brzeg_42": [
   {
-   "text": "Plan von Brieg",
-   "x": 0.8094,
-   "y": 0.8153
+   "text": "Rathaus",
+   "x": 0.4196,
+   "y": 0.3961
   },
   {
-   "text": "Verlag von Franz Leichter Nachf.",
-   "x": 0.8125,
-   "y": 0.85
+   "text": "Ring",
+   "x": 0.4237,
+   "y": 0.4175
   },
   {
-   "text": "Hugo Süssmann",
-   "x": 0.8125,
-   "y": 0.8786
+   "text": "Kurz-Strasse",
+   "x": 0.3821,
+   "y": 0.3884
   },
   {
-   "text": "Brieg, Bez. Breslau",
-   "x": 0.8125,
-   "y": 0.9089
+   "text": "Wagner-Strasse",
+   "x": 0.38,
+   "y": 0.4166
+  },
+  {
+   "text": "Linden-Strasse",
+   "x": 0.376,
+   "y": 0.4687
+  },
+  {
+   "text": "Stein-Strasse",
+   "x": 0.5485,
+   "y": 0.42
+  },
+  {
+   "text": "Provinzial-Irren-Anstalt",
+   "x": 0.5282,
+   "y": 0.387
+  },
+  {
+   "text": "Ev. Kirchhof",
+   "x": 0.6257,
+   "y": 0.471
+  },
+  {
+   "text": "Hauptsche KunstgĂ¤rtnerei",
+   "x": 0.3506,
+   "y": 0.5842
+  },
+  {
+   "text": "Bismarck-Strasse",
+   "x": 0.3577,
+   "y": 0.5476
+  },
+  {
+   "text": "Feld-Strasse",
+   "x": 0.4491,
+   "y": 0.6223
+  },
+  {
+   "text": "Breslauer Strasse",
+   "x": 0.5709,
+   "y": 0.6603
+  },
+  {
+   "text": "Piasten-Strasse",
+   "x": 0.5252,
+   "y": 0.5786
+  },
+  {
+   "text": "Chemische Fabrik",
+   "x": 0.3465,
+   "y": 0.6575
+  },
+  {
+   "text": "Promenade",
+   "x": 0.3679,
+   "y": 0.511
+  },
+  {
+   "text": "NeuhĂ¤user Strasse",
+   "x": 0.6622,
+   "y": 0.4194
+  },
+  {
+   "text": "Piasten-Schloss",
+   "x": 0.3374,
+   "y": 0.3603
   },
   {
    "text": "Oder",
@@ -1077,22 +1142,17 @@
   {
    "text": "Strom",
    "x": 0.6906,
-   "y": 0.2602
+   "y": 0.2619
   },
   {
-   "text": "Westl. Oderaue",
-   "x": 0.3175,
-   "y": 0.0885
+   "text": "Plan von Brieg",
+   "x": 0.8063,
+   "y": 0.817
   },
   {
-   "text": "Östl. Oderaue",
-   "x": 0.4219,
-   "y": 0.0885
-  },
-  {
-   "text": "Oder-Canal",
-   "x": 0.5781,
-   "y": 0.1197
+   "text": "Hugo Süssmann",
+   "x": 0.8125,
+   "y": 0.8777
   },
   {
    "text": "Gross-Neudorf",
@@ -1100,69 +1160,34 @@
    "y": 0.1214
   },
   {
-   "text": "Provinzial-Irren-Anstalt",
-   "x": 0.5281,
-   "y": 0.379
+   "text": "Westl. Oderaue",
+   "x": 0.3187,
+   "y": 0.0867
   },
   {
-   "text": "Promenade",
-   "x": 0.4,
-   "y": 0.4944
+   "text": "Östl. Oderaue",
+   "x": 0.425,
+   "y": 0.0867
+  },
+  {
+   "text": "Oder-Canal",
+   "x": 0.6,
+   "y": 0.1214
+  },
+  {
+   "text": "Bahnhof Brieg",
+   "x": 0.4906,
+   "y": 0.7008
   },
   {
    "text": "Neue Kasernen",
    "x": 0.2219,
-   "y": 0.5637
-  },
-  {
-   "text": "Bahnhof Brieg",
-   "x": 0.4844,
-   "y": 0.7069
-  },
-  {
-   "text": "Bismarck Strasse",
-   "x": 0.3594,
-   "y": 0.5481
-  },
-  {
-   "text": "Linden-Strasse",
-   "x": 0.3812,
-   "y": 0.4727
-  },
-  {
-   "text": "Feld-Strasse",
-   "x": 0.4813,
-   "y": 0.6357
-  },
-  {
-   "text": "Schönauer Strasse",
-   "x": 0.8063,
-   "y": 0.4059
-  },
-  {
-   "text": "Ufer-Strasse",
-   "x": 0.4156,
-   "y": 0.2298
-  },
-  {
-   "text": "Wilhelm-Strasse",
-   "x": 0.2188,
-   "y": 0.451
+   "y": 0.5794
   },
   {
    "text": "Stadtwäldchen",
-   "x": 0.1406,
+   "x": 0.1531,
    "y": 0.8933
-  },
-  {
-   "text": "Eisenbahn",
-   "x": 0.1375,
-   "y": 0.7268
-  },
-  {
-   "text": "Vorplatz",
-   "x": 0.5563,
-   "y": 0.7069
   }
  ],
  "ahmp_brzeg_43": [
