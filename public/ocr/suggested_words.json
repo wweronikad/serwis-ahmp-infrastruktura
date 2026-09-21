@@ -5634,5 +5634,111 @@
    "x": 0.1581,
    "y": 0.8768
   }
+ ],
+ "ahmp_puck_3": [
+  {
+   "text": "Maris Baltici Pars",
+   "x": 0.7219,
+   "y": 0.3327
+  },
+  {
+   "text": "Vulgo",
+   "x": 0.695,
+   "y": 0.3788
+  },
+  {
+   "text": "Putzker Wick",
+   "x": 0.6937,
+   "y": 0.5292
+  },
+  {
+   "text": "Stadt wiesen",
+   "x": 0.5525,
+   "y": 0.1619
+  },
+  {
+   "text": "Lutherisch Kirchhof",
+   "x": 0.4,
+   "y": 0.2796
+  },
+  {
+   "text": "Koppel",
+   "x": 0.4844,
+   "y": 0.2991
+  }
+ ],
+ "ahmp_puck_8": [
+  {
+   "text": "Stadt Putzig",
+   "x": 0.4637,
+   "y": 0.6965
+  },
+  {
+   "text": "Das Putziger Wyck",
+   "x": 0.5625,
+   "y": 0.7788
+  }
+ ],
+ "ahmp_puck_13": [
+  {
+   "text": "Putziger Wiek",
+   "x": 0.7031,
+   "y": 0.4021
+  },
+  {
+   "text": "Putziger Kämpe",
+   "x": 0.4469,
+   "y": 0.8293
+  },
+  {
+   "text": "Putzig",
+   "x": 0.4375,
+   "y": 0.6731
+  },
+  {
+   "text": "Gnesdau",
+   "x": 0.2637,
+   "y": 0.322
+  },
+  {
+   "text": "Schwarzau",
+   "x": 0.4031,
+   "y": 0.0971
+  },
+  {
+   "text": "Löbsch",
+   "x": 0.0762,
+   "y": 0.0672
+  },
+  {
+   "text": "Polzin",
+   "x": 0.2031,
+   "y": 0.8034
+  },
+  {
+   "text": "Seefeld",
+   "x": 0.5781,
+   "y": 0.7176
+  },
+  {
+   "text": "Tannenburg",
+   "x": 0.4,
+   "y": 0.7322
+  },
+  {
+   "text": "Heinrichshof",
+   "x": 0.455,
+   "y": 0.8803
+  },
+  {
+   "text": "Putziger Hinterbruch",
+   "x": 0.1187,
+   "y": 0.5235
+  },
+  {
+   "text": "Mühl-Gr.",
+   "x": 0.3187,
+   "y": 0.678
+  }
  ]
 }
