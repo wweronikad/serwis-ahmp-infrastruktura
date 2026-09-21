@@ -8218,5 +8218,57 @@
    "x": 0.072,
    "y": 0.5375
   }
+ ],
+ "ahmp_chojnice_ii_2": [
+  {
+   "text": "Jezioro Cegielniane",
+   "x": 0.3702,
+   "y": 0.38
+  },
+  {
+   "text": "Jezioro Zakonne",
+   "x": 0.3746,
+   "y": 0.57
+  },
+  {
+   "text": "Park Tysiąclecia",
+   "x": 0.3005,
+   "y": 0.5913
+  },
+  {
+   "text": "Nowe Miasto",
+   "x": 0.3615,
+   "y": 0.4125
+  },
+  {
+   "text": "Przedmieście Gdańskie",
+   "x": 0.4199,
+   "y": 0.5062
+  },
+  {
+   "text": "Osiedle Halera",
+   "x": 0.5357,
+   "y": 0.2731
+  },
+  {
+   "text": "Osiedle 700-lecia",
+   "x": 0.5662,
+   "y": 0.33
+  },
+  {
+   "text": "Osiedle Kaszubskie",
+   "x": 0.9477,
+   "y": 0.2406
+  },
+  {
+   "text": "Długa Wieś",
+   "x": 0.1847,
+   "y": 0.4512
+  },
+  {
+   "text": "Folwark Igły Cegiel",
+   "x": 0.7056,
+   "y": 0.2562
+  }
  ]
 }
