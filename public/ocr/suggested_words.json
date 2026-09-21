@@ -5221,5 +5221,237 @@
    "x": 0.3469,
    "y": 0.5712
   }
+ ],
+ "ahmp_legnica_ii_5": [
+  {
+   "text": "Brama Chojnowska",
+   "x": 0.1175,
+   "y": 0.3852
+  },
+  {
+   "text": "Brama Złotoryjska",
+   "x": 0.0856,
+   "y": 0.6256
+  },
+  {
+   "text": "Brama Nowa",
+   "x": 0.3669,
+   "y": 0.8038
+  },
+  {
+   "text": "Brama Wrocławska",
+   "x": 0.8469,
+   "y": 0.6355
+  },
+  {
+   "text": "Brama Głogowska",
+   "x": 0.8356,
+   "y": 0.243
+  },
+  {
+   "text": "Ratusz",
+   "x": 0.3625,
+   "y": 0.5941
+  },
+  {
+   "text": "Rynek",
+   "x": 0.3613,
+   "y": 0.6355
+  },
+  {
+   "text": "Targ Skórny",
+   "x": 0.3719,
+   "y": 0.4248
+  },
+  {
+   "text": "Targ Bydlęcy",
+   "x": 0.4781,
+   "y": 0.4248
+  },
+  {
+   "text": "Targ Węglowy",
+   "x": 0.5737,
+   "y": 0.2637
+  },
+  {
+   "text": "Synagoga",
+   "x": 0.6375,
+   "y": 0.2835
+  },
+  {
+   "text": "Kościół parafii św. Piotra",
+   "x": 0.3844,
+   "y": 0.7426
+  },
+  {
+   "text": "Kościół parafii Marii Panny",
+   "x": 0.7875,
+   "y": 0.6301
+  },
+  {
+   "text": "Kuria klasztoru św. Jana",
+   "x": 0.3394,
+   "y": 0.2268
+  },
+  {
+   "text": "Więzienie",
+   "x": 0.5363,
+   "y": 0.1647
+  },
+  {
+   "text": "ul. Chojnowska",
+   "x": 0.2781,
+   "y": 0.405
+  },
+  {
+   "text": "ul. Piekarska",
+   "x": 0.2487,
+   "y": 0.5176
+  },
+  {
+   "text": "ul. Złotoryjska",
+   "x": 0.2281,
+   "y": 0.6391
+  },
+  {
+   "text": "ul. Środkowa",
+   "x": 0.6062,
+   "y": 0.5059
+  },
+  {
+   "text": "ul. Grodzka",
+   "x": 0.6144,
+   "y": 0.3861
+  },
+  {
+   "text": "ul. Panny Marii",
+   "x": 0.5269,
+   "y": 0.6274
+  },
+  {
+   "text": "ul. Mniszek",
+   "x": 0.2981,
+   "y": 0.2898
+  },
+  {
+   "text": "ul. Żydowska",
+   "x": 0.6,
+   "y": 0.2862
+  },
+  {
+   "text": "Gospoda",
+   "x": 0.3094,
+   "y": 0.5986
+  },
+  {
+   "text": "Winiarnia",
+   "x": 0.3044,
+   "y": 0.6328
+  },
+  {
+   "text": "Dom Wójta",
+   "x": 0.345,
+   "y": 0.6931
+  },
+  {
+   "text": "Jatki",
+   "x": 0.4688,
+   "y": 0.477
+  },
+  {
+   "text": "Ławy chlebowe",
+   "x": 0.3944,
+   "y": 0.5401
+  },
+  {
+   "text": "Ławy szewskie",
+   "x": 0.4156,
+   "y": 0.4455
+  },
+  {
+   "text": "Cyrulik",
+   "x": 0.4581,
+   "y": 0.5959
+  },
+  {
+   "text": "Apteka",
+   "x": 0.4719,
+   "y": 0.6598
+  },
+  {
+   "text": "Kuria plebana",
+   "x": 0.7419,
+   "y": 0.5923
+  },
+  {
+   "text": "Szkoła",
+   "x": 0.7581,
+   "y": 0.6436
+  },
+  {
+   "text": "Szpital szkolarzy",
+   "x": 0.7269,
+   "y": 0.4482
+  },
+  {
+   "text": "Młyn poruszany kieratem",
+   "x": 0.8925,
+   "y": 0.4068
+  },
+  {
+   "text": "Bursa szkolarzy",
+   "x": 0.7469,
+   "y": 0.3375
+  },
+  {
+   "text": "Nowiny",
+   "x": 0.8237,
+   "y": 0.5086
+  },
+  {
+   "text": "Kuria klasztoru św. Krzyża",
+   "x": 0.8825,
+   "y": 0.5518
+  },
+  {
+   "text": "Kuria biskupa wrocławskiego",
+   "x": 0.6719,
+   "y": 0.6706
+  },
+  {
+   "text": "ul. św. Piotra",
+   "x": 0.4706,
+   "y": 0.7444
+  },
+  {
+   "text": "Łaźnia",
+   "x": 0.3656,
+   "y": 0.3492
+  },
+  {
+   "text": "Domy duchowe",
+   "x": 0.3175,
+   "y": 0.3168
+  },
+  {
+   "text": "Dom opata z Lubiąża",
+   "x": 0.3956,
+   "y": 0.306
+  },
+  {
+   "text": "Dom Kartuzów",
+   "x": 0.6156,
+   "y": 0.3375
+  },
+  {
+   "text": "Dom chmielu",
+   "x": 0.4175,
+   "y": 0.4887
+  },
+  {
+   "text": "Kramy ubogie",
+   "x": 0.3281,
+   "y": 0.486
+  }
  ]
 }
