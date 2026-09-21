@@ -4136,94 +4136,344 @@
  ],
  "ahmp_elblag_ii_11": [
   {
-   "text": "Plan von der Stadt und den Vorstädten Elbings",
-   "x": 0.6781,
-   "y": 0.1197
+   "text": "Kuh Wiesen",
+   "x": 0.2204,
+   "y": 0.056
   },
   {
-   "text": "Die Alt Stadt",
-   "x": 0.3544,
-   "y": 0.3679
+   "text": "Kuh Wiesen",
+   "x": 0.1326,
+   "y": 0.1647
   },
   {
-   "text": "Der Elbing Fluss",
-   "x": 0.4,
-   "y": 0.3165
-  },
-  {
-   "text": "Die Flascher Wiesen",
-   "x": 0.1031,
-   "y": 0.2819
-  },
-  {
-   "text": "Der Gruben hägen Kirchen Garten",
-   "x": 0.2812,
-   "y": 0.1179
+   "text": "Der Gruben-hägner Küchen Gärten",
+   "x": 0.2928,
+   "y": 0.1159
   },
   {
    "text": "Zum Grubenhagen",
-   "x": 0.4938,
-   "y": 0.195
+   "x": 0.2118,
+   "y": 0.2234
   },
   {
-   "text": "Die Altstädtsche Rossgarten",
-   "x": 0.0719,
-   "y": 0.4832
+   "text": "Berliner Post Strasse",
+   "x": 0.1774,
+   "y": 0.2453
   },
   {
-   "text": "Aeustädter Feld",
-   "x": 0.1219,
-   "y": 0.6339
+   "text": "Die Fleischer Wiesen",
+   "x": 0.124,
+   "y": 0.2856
   },
   {
-   "text": "Neustädter Feld",
-   "x": 0.2531,
-   "y": 0.9309
+   "text": "Stadt Graben",
+   "x": 0.2979,
+   "y": 0.1977
   },
   {
-   "text": "Vorstädter Bürger Wiesen",
-   "x": 0.7094,
-   "y": 0.3679
+   "text": "Speicher Insel",
+   "x": 0.3014,
+   "y": 0.2429
   },
   {
-   "text": "Die sogenannte Conventsche Hube",
-   "x": 0.8187,
-   "y": 0.4521
+   "text": "Fischer Thor",
+   "x": 0.2428,
+   "y": 0.3553
   },
   {
-   "text": "Gross Wesseln",
-   "x": 0.8719,
-   "y": 0.6844
+   "text": "Berliner Thor",
+   "x": 0.2755,
+   "y": 0.2734
   },
   {
-   "text": "Gross Teichhof",
-   "x": 0.7063,
-   "y": 0.7287
+   "text": "Elbing Fluss",
+   "x": 0.3695,
+   "y": 0.3162
+  },
+  {
+   "text": "Ross Wiesen",
+   "x": 0.4151,
+   "y": 0.0475
+  },
+  {
+   "text": "Die Sorge",
+   "x": 0.4074,
+   "y": 0.0621
+  },
+  {
+   "text": "Zum Grubenhagen gehörig",
+   "x": 0.4668,
+   "y": 0.2136
+  },
+  {
+   "text": "Pohlnische Brücke",
+   "x": 0.4651,
+   "y": 0.282
+  },
+  {
+   "text": "Schiffswerft",
+   "x": 0.4892,
+   "y": 0.2991
+  },
+  {
+   "text": "Der Schifsholm",
+   "x": 0.5314,
+   "y": 0.293
+  },
+  {
+   "text": "Die Krümen Crt. Wiesen",
+   "x": 0.5994,
+   "y": 0.293
+  },
+  {
+   "text": "Die Ross Wiesen",
+   "x": 0.5624,
+   "y": 0.1794
+  },
+  {
+   "text": "Holz Höfe",
+   "x": 0.5719,
+   "y": 0.3479
   },
   {
    "text": "Kämerei Wiesen",
-   "x": 0.8313,
-   "y": 0.3475
+   "x": 0.8544,
+   "y": 0.3284
   },
   {
-   "text": "Erbpächtliches Kapsen Land",
-   "x": 0.6344,
-   "y": 0.8954
+   "text": "Vorstädter Bürger Wiesen",
+   "x": 0.7218,
+   "y": 0.3602
   },
   {
-   "text": "Altstädtsches Feld",
-   "x": 0.3406,
-   "y": 0.9929
+   "text": "Vorberg",
+   "x": 0.1584,
+   "y": 0.377
+  },
+  {
+   "text": "Der Jungfern Damm",
+   "x": 0.1395,
+   "y": 0.4027
+  },
+  {
+   "text": "Altstädsche Rossgarten",
+   "x": 0.0982,
+   "y": 0.4601
+  },
+  {
+   "text": "Vorberg",
+   "x": 0.2299,
+   "y": 0.4772
+  },
+  {
+   "text": "Vorberg",
+   "x": 0.2376,
+   "y": 0.5138
+  },
+  {
+   "text": "Der Marienburger Damm",
+   "x": 0.26,
+   "y": 0.5407
+  },
+  {
+   "text": "Vor Stauenberg Damm",
+   "x": 0.1171,
+   "y": 0.5749
+  },
+  {
+   "text": "Neustädter Feld",
+   "x": 0.1274,
+   "y": 0.6335
+  },
+  {
+   "text": "Stadt Graben",
+   "x": 0.3014,
+   "y": 0.6653
+  },
+  {
+   "text": "Mühlen Damm",
+   "x": 0.3979,
+   "y": 0.6017
+  },
+  {
+   "text": "Der Stadt Graben",
+   "x": 0.4358,
+   "y": 0.5529
+  },
+  {
+   "text": "Die Bleichen",
+   "x": 0.4427,
+   "y": 0.5798
+  },
+  {
+   "text": "Thie Damm",
+   "x": 0.4771,
+   "y": 0.6335
+  },
+  {
+   "text": "Todten Gasse",
+   "x": 0.4496,
+   "y": 0.6286
+  },
+  {
+   "text": "Damm",
+   "x": 0.534,
+   "y": 0.6335
+  },
+  {
+   "text": "Lastadie",
+   "x": 0.5064,
+   "y": 0.3868
+  },
+  {
+   "text": "Die Lastadie im sogenannten Rahmen",
+   "x": 0.5426,
+   "y": 0.4234
+  },
+  {
+   "text": "Kirchhoff zu heilige Leichnam",
+   "x": 0.5581,
+   "y": 0.5089
+  },
+  {
+   "text": "Kuhdamm",
+   "x": 0.5099,
+   "y": 0.5358
+  },
+  {
+   "text": "Kuhdamm",
+   "x": 0.6132,
+   "y": 0.5602
+  },
+  {
+   "text": "Kuhdamm",
+   "x": 0.5779,
+   "y": 0.6164
+  },
+  {
+   "text": "Grund Garten",
+   "x": 0.5667,
+   "y": 0.592
+  },
+  {
+   "text": "Gran Garten",
+   "x": 0.596,
+   "y": 0.6579
+  },
+  {
+   "text": "Conventsche Hube",
+   "x": 0.8251,
+   "y": 0.4772
+  },
+  {
+   "text": "Kuhdamm in der langen Nieder Gasse",
+   "x": 0.7442,
+   "y": 0.5138
+  },
+  {
+   "text": "Kuhdamm in der Rosengasse",
+   "x": 0.6839,
+   "y": 0.5431
+  },
+  {
+   "text": "Kuhdamm hinter der Rosengasse nach dem Anger",
+   "x": 0.7597,
+   "y": 0.6017
+  },
+  {
+   "text": "Anger hinter der Stern Schanze",
+   "x": 0.851,
+   "y": 0.6237
+  },
+  {
+   "text": "Anger auf der Stern Schanze",
+   "x": 0.7407,
+   "y": 0.6457
+  },
+  {
+   "text": "Wittendorf",
+   "x": 0.9353,
+   "y": 0.6164
+  },
+  {
+   "text": "Neustaedter Feld",
+   "x": 0.2497,
+   "y": 0.8262
+  },
+  {
+   "text": "Strasse nach Preussch Holland",
+   "x": 0.229,
+   "y": 0.7407
   },
   {
    "text": "Der auswendige Mühlen Damm",
-   "x": 0.5594,
-   "y": 0.82
+   "x": 0.3876,
+   "y": 0.8409
   },
   {
-   "text": "Die Kramen der Wiesen",
-   "x": 0.6312,
-   "y": 0.3076
+   "text": "Der auswendige Mühlen Damm",
+   "x": 0.4272,
+   "y": 0.8751
+  },
+  {
+   "text": "Damm",
+   "x": 0.3635,
+   "y": 0.9459
+  },
+  {
+   "text": "Altstaedtsches Feld",
+   "x": 0.3979,
+   "y": 0.9337
+  },
+  {
+   "text": "Der äussere Mühlen Damm",
+   "x": 0.5185,
+   "y": 0.9069
+  },
+  {
+   "text": "Hospital Pestbad",
+   "x": 0.4944,
+   "y": 0.6907
+  },
+  {
+   "text": "Galgen Berge",
+   "x": 0.5874,
+   "y": 0.7053
+  },
+  {
+   "text": "Königsberger Strasse",
+   "x": 0.6149,
+   "y": 0.7725
+  },
+  {
+   "text": "Das neue Guth",
+   "x": 0.5719,
+   "y": 0.8385
+  },
+  {
+   "text": "erbpächtliches Kapsen Land",
+   "x": 0.6442,
+   "y": 0.8409
+  },
+  {
+   "text": "Hommel Fluss",
+   "x": 0.5684,
+   "y": 0.9606
+  },
+  {
+   "text": "Gross Teichhoff",
+   "x": 0.7304,
+   "y": 0.731
+  },
+  {
+   "text": "Gross Wesseln",
+   "x": 0.851,
+   "y": 0.7139
+  },
+  {
+   "text": "Der alte Anger",
+   "x": 0.7235,
+   "y": 0.7029
   }
  ],
  "ahmp_elblag_ii_1": [
