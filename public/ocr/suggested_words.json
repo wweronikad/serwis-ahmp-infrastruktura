@@ -8294,5 +8294,44 @@
    "x": 0.7415,
    "y": 0.8638
   }
+ ],
+ "ahmp_brzeg_11-12": [
+  {
+   "text": "Plan von Brig in Schlesien",
+   "x": 0.8656,
+   "y": 0.1171
+  },
+  {
+   "text": "Erzeichnung der Zahlen",
+   "x": 0.9,
+   "y": 0.7476
+  }
+ ],
+ "ahmp_brzeg_13-14": [
+  {
+   "text": "Plan de la Fortresse de Brieg en Silesie",
+   "x": 0.5464,
+   "y": 0.2531
+  },
+  {
+   "text": "L'Oder Rivière",
+   "x": 0.2515,
+   "y": 0.3125
+  },
+  {
+   "text": "L'Isle de Moulin",
+   "x": 0.4727,
+   "y": 0.075
+  },
+  {
+   "text": "Explication des Couleurs et des lettres",
+   "x": 0.2342,
+   "y": 0.0594
+  },
+  {
+   "text": "Observ.",
+   "x": 0.2212,
+   "y": 0.4062
+  }
  ]
 }
