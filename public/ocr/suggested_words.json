@@ -8365,5 +8365,22 @@
    "x": 0.1,
    "y": 0.7477
   }
+ ],
+ "ahmp_brzeg_32": [
+  {
+   "text": "Oderstromkarte",
+   "x": 0.1325,
+   "y": 0.3001
+  },
+  {
+   "text": "Königliche Stadt Brieg",
+   "x": 0.7125,
+   "y": 0.2671
+  },
+  {
+   "text": "Feldmark von Schreibendorf",
+   "x": 0.6969,
+   "y": 0.5334
+  }
  ]
 }
