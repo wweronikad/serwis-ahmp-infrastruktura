@@ -13340,5 +13340,227 @@
    "x": 0.945,
    "y": 0.5824
   }
+ ],
+ "ahmp_fordon_ii_1": [
+  {
+   "text": "Judischer Kirchhof",
+   "x": 0.2263,
+   "y": 0.1757
+  },
+  {
+   "text": "Weg nach Schwetz",
+   "x": 0.3123,
+   "y": 0.0699
+  },
+  {
+   "text": "Sandstraße",
+   "x": 0.3114,
+   "y": 0.2528
+  },
+  {
+   "text": "Schule",
+   "x": 0.4278,
+   "y": 0.2742
+  },
+  {
+   "text": "Turnplatz",
+   "x": 0.4684,
+   "y": 0.2494
+  },
+  {
+   "text": "Katholischer Kirchhof",
+   "x": 0.5014,
+   "y": 0.1554
+  },
+  {
+   "text": "Evangelischer Kirchhof",
+   "x": 0.5199,
+   "y": 0.1436
+  },
+  {
+   "text": "Gefängnis Kirchhof",
+   "x": 0.5556,
+   "y": 0.1437
+  },
+  {
+   "text": "Weg nach Niecponie",
+   "x": 0.6369,
+   "y": 0.1143
+  },
+  {
+   "text": "Scheunenstraße",
+   "x": 0.3567,
+   "y": 0.3224
+  },
+  {
+   "text": "Dorfstraße",
+   "x": 0.2365,
+   "y": 0.5001
+  },
+  {
+   "text": "Windmühle",
+   "x": 0.2046,
+   "y": 0.5034
+  },
+  {
+   "text": "Bergstraße",
+   "x": 0.322,
+   "y": 0.4975
+  },
+  {
+   "text": "Schwetzerstraße",
+   "x": 0.4187,
+   "y": 0.3302
+  },
+  {
+   "text": "Katholische Kirche",
+   "x": 0.4681,
+   "y": 0.3851
+  },
+  {
+   "text": "Markt",
+   "x": 0.4728,
+   "y": 0.4438
+  },
+  {
+   "text": "Synagoge",
+   "x": 0.3665,
+   "y": 0.5039
+  },
+  {
+   "text": "Strafanstalt",
+   "x": 0.5037,
+   "y": 0.4784
+  },
+  {
+   "text": "Evangelische Kirche",
+   "x": 0.5706,
+   "y": 0.3721
+  },
+  {
+   "text": "Rathaus",
+   "x": 0.5556,
+   "y": 0.4015
+  },
+  {
+   "text": "Kirchenstraße",
+   "x": 0.532,
+   "y": 0.4322
+  },
+  {
+   "text": "Fußsteig nach der Weichsel",
+   "x": 0.5768,
+   "y": 0.4492
+  },
+  {
+   "text": "Weg nach der Weichsel",
+   "x": 0.6037,
+   "y": 0.4322
+  },
+  {
+   "text": "Mühlenstraße",
+   "x": 0.2994,
+   "y": 0.5373
+  },
+  {
+   "text": "Weg nach Ziegelei jetzigen Fährstelle",
+   "x": 0.2679,
+   "y": 0.6667
+  },
+  {
+   "text": "Straße nach der Weichsel",
+   "x": 0.329,
+   "y": 0.6118
+  },
+  {
+   "text": "Straße nach der Weichsel",
+   "x": 0.3558,
+   "y": 0.6
+  },
+  {
+   "text": "Winter-Hafen",
+   "x": 0.3549,
+   "y": 0.7111
+  },
+  {
+   "text": "Brombergerstraße",
+   "x": 0.3891,
+   "y": 0.5242
+  },
+  {
+   "text": "Fährstraße",
+   "x": 0.4252,
+   "y": 0.5555
+  },
+  {
+   "text": "Fußsteig",
+   "x": 0.4062,
+   "y": 0.5928
+  },
+  {
+   "text": "Hinter Straße / Anstalt-gasse",
+   "x": 0.4584,
+   "y": 0.5216
+  },
+  {
+   "text": "Straße nach der Weichsel",
+   "x": 0.4668,
+   "y": 0.5764
+  },
+  {
+   "text": "Fähre",
+   "x": 0.4691,
+   "y": 0.6489
+  },
+  {
+   "text": "Buhne",
+   "x": 0.4341,
+   "y": 0.7214
+  },
+  {
+   "text": "Hafen",
+   "x": 0.5565,
+   "y": 0.551
+  },
+  {
+   "text": "Buhne",
+   "x": 0.5454,
+   "y": 0.6196
+  },
+  {
+   "text": "Die Weichsel",
+   "x": 0.6323,
+   "y": 0.6849
+  },
+  {
+   "text": "Chaussee von Bromberg",
+   "x": 0.1018,
+   "y": 0.7003
+  },
+  {
+   "text": "Windmühle",
+   "x": 0.1848,
+   "y": 0.7789
+  },
+  {
+   "text": "Ziegelei",
+   "x": 0.1123,
+   "y": 0.9271
+  },
+  {
+   "text": "Weg nach der Ziegelei",
+   "x": 0.1884,
+   "y": 0.8641
+  },
+  {
+   "text": "Fußsteig",
+   "x": 0.2758,
+   "y": 0.7491
+  },
+  {
+   "text": "Fähre",
+   "x": 0.299,
+   "y": 0.8601
+  }
  ]
 }
