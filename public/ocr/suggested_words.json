@@ -8539,5 +8539,137 @@
    "x": 0.7437,
    "y": 0.605
   }
+ ],
+ "ahmp_gizycko_ii_20": [
+  {
+   "text": "Stadt Lötzen",
+   "x": 0.1344,
+   "y": 0.0847
+  },
+  {
+   "text": "Stand vom Jahre 1941",
+   "x": 0.1344,
+   "y": 0.1426
+  },
+  {
+   "text": "Woysack",
+   "x": 0.1644,
+   "y": 0.2014
+  },
+  {
+   "text": "Antonsdorf",
+   "x": 0.4406,
+   "y": 0.1381
+  },
+  {
+   "text": "Stadtrand-Siedlung",
+   "x": 0.3906,
+   "y": 0.2478
+  },
+  {
+   "text": "Althof-Siedlung",
+   "x": 0.3531,
+   "y": 0.4501
+  },
+  {
+   "text": "Althof-Lötzen",
+   "x": 0.3094,
+   "y": 0.5793
+  },
+  {
+   "text": "Stadtwald",
+   "x": 0.825,
+   "y": 0.1711
+  },
+  {
+   "text": "Karpfenteiche",
+   "x": 0.825,
+   "y": 0.2451
+  },
+  {
+   "text": "Schulzenplatz",
+   "x": 0.8313,
+   "y": 0.303
+  },
+  {
+   "text": "Grünhof",
+   "x": 0.7156,
+   "y": 0.2451
+  },
+  {
+   "text": "Woysack-See",
+   "x": 0.3625,
+   "y": 0.3342
+  },
+  {
+   "text": "Kissain-See",
+   "x": 0.1938,
+   "y": 0.5214
+  },
+  {
+   "text": "Tratz-See",
+   "x": 0.2844,
+   "y": 0.5036
+  },
+  {
+   "text": "Kl. Pfaffen-Teich",
+   "x": 0.3688,
+   "y": 0.6551
+  },
+  {
+   "text": "Gr. Pfaffen-Teich",
+   "x": 0.2719,
+   "y": 0.7237
+  },
+  {
+   "text": "Kl. Werder",
+   "x": 0.0781,
+   "y": 0.7086
+  },
+  {
+   "text": "Feste Boyen",
+   "x": 0.3375,
+   "y": 0.7531
+  },
+  {
+   "text": "Schönberg",
+   "x": 0.0875,
+   "y": 0.8378
+  },
+  {
+   "text": "Tayta-See",
+   "x": 0.1719,
+   "y": 0.8779
+  },
+  {
+   "text": "Wolfsee",
+   "x": 0.2188,
+   "y": 0.9269
+  },
+  {
+   "text": "Bruno Kreuz",
+   "x": 0.3812,
+   "y": 0.8449
+  },
+  {
+   "text": "Löwentin-See",
+   "x": 0.7469,
+   "y": 0.8734
+  },
+  {
+   "text": "Freibad",
+   "x": 0.8375,
+   "y": 0.9073
+  },
+  {
+   "text": "Schießstände",
+   "x": 0.2344,
+   "y": 0.4305
+  },
+  {
+   "text": "Sulimmen",
+   "x": 0.9156,
+   "y": 0.4171
+  }
  ]
 }
