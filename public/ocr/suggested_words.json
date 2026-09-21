@@ -6713,5 +6713,192 @@
    "x": 0.6941,
    "y": 0.8306
   }
+ ],
+ "ahmp_chelmno_ii_2": [
+  {
+   "text": "Niedwitz",
+   "x": 0.1109,
+   "y": 0.1337
+  },
+  {
+   "text": "Dzikowo",
+   "x": 0.2382,
+   "y": 0.0468
+  },
+  {
+   "text": "Weichsel",
+   "x": 0.2363,
+   "y": 0.18
+  },
+  {
+   "text": "Forst Jammi",
+   "x": 0.2163,
+   "y": 0.285
+  },
+  {
+   "text": "Rybaki Fischerei",
+   "x": 0.2882,
+   "y": 0.3343
+  },
+  {
+   "text": "Rybaki (Stare Miasto)",
+   "x": 0.5706,
+   "y": 0.2475
+  },
+  {
+   "text": "Stare Planty",
+   "x": 0.6238,
+   "y": 0.3061
+  },
+  {
+   "text": "ul. Kaznodziejska (Dominikańska) (51)",
+   "x": 0.6562,
+   "y": 0.3234
+  },
+  {
+   "text": "Przedmieście Rorgasse od XIV w.",
+   "x": 0.7455,
+   "y": 0.1363
+  },
+  {
+   "text": "Droga Kamienna (73)",
+   "x": 0.7855,
+   "y": 0.1646
+  },
+  {
+   "text": "Nowe Planty",
+   "x": 0.8064,
+   "y": 0.2572
+  },
+  {
+   "text": "Przedmieście Pankensee od XIV w.",
+   "x": 0.92,
+   "y": 0.2978
+  },
+  {
+   "text": "ul. Dworcowa (74)",
+   "x": 0.9573,
+   "y": 0.3369
+  },
+  {
+   "text": "ul. Handlowa (52)",
+   "x": 0.6855,
+   "y": 0.3176
+  },
+  {
+   "text": "ul. Sadłowa (53)",
+   "x": 0.7209,
+   "y": 0.3369
+  },
+  {
+   "text": "ul. Poprzeczna (54)",
+   "x": 0.7782,
+   "y": 0.3215
+  },
+  {
+   "text": "Góra Św. Wawrzyńca St. Lorenz Berg",
+   "x": 0.1545,
+   "y": 0.6153
+  },
+  {
+   "text": "Ust",
+   "x": 0.2254,
+   "y": 0.558
+  },
+  {
+   "text": "Althausen",
+   "x": 0.0545,
+   "y": 0.6295
+  },
+  {
+   "text": "Culm",
+   "x": 0.3721,
+   "y": 0.386
+  },
+  {
+   "text": "Brosowo",
+   "x": 0.3419,
+   "y": 0.6343
+  },
+  {
+   "text": "ul. Rybacka (49)",
+   "x": 0.6345,
+   "y": 0.3668
+  },
+  {
+   "text": "ul. Franciszkańska (50)",
+   "x": 0.5743,
+   "y": 0.46
+  },
+  {
+   "text": "ul. Rozmelska (44)",
+   "x": 0.5969,
+   "y": 0.4387
+  },
+  {
+   "text": "ul. Biskupia (56)",
+   "x": 0.6223,
+   "y": 0.452
+  },
+  {
+   "text": "ul. Mostowa (Szkolna) (43)",
+   "x": 0.6204,
+   "y": 0.4893
+  },
+  {
+   "text": "ul. Grudziądzka (55)",
+   "x": 0.7564,
+   "y": 0.378
+  },
+  {
+   "text": "ul. Sukiennicza (Knapska) (45)",
+   "x": 0.8,
+   "y": 0.4101
+  },
+  {
+   "text": "ul. Toruńska (48)",
+   "x": 0.6919,
+   "y": 0.5091
+  },
+  {
+   "text": "ul. Ducha Św. (46)",
+   "x": 0.7328,
+   "y": 0.5271
+  },
+  {
+   "text": "ul. Podmurna (47)",
+   "x": 0.7428,
+   "y": 0.5554
+  },
+  {
+   "text": "Browina",
+   "x": 0.8415,
+   "y": 0.5925
+  },
+  {
+   "text": "Przedmieście Frobina od XIV w.",
+   "x": 0.82,
+   "y": 0.6537
+  },
+  {
+   "text": "Kaldus",
+   "x": 0.2363,
+   "y": 0.6881
+  },
+  {
+   "text": "Althausen",
+   "x": 0.15,
+   "y": 0.8353
+  },
+  {
+   "text": "Starogród Althausen",
+   "x": 0.0991,
+   "y": 0.8463
+  },
+  {
+   "text": "Waltersdorf",
+   "x": 0.3072,
+   "y": 0.8643
+  }
  ]
 }
