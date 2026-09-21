@@ -14025,5 +14025,57 @@
    "x": 0.5192,
    "y": 0.4138
   }
+ ],
+ "ahmp_gizycko_ii_6": [
+  {
+   "text": "Der Mauer See",
+   "x": 0.4566,
+   "y": 0.5188
+  },
+  {
+   "text": "Der Dobische See",
+   "x": 0.2686,
+   "y": 0.6344
+  },
+  {
+   "text": "Der Dargeinen See",
+   "x": 0.4655,
+   "y": 0.6344
+  },
+  {
+   "text": "Der Lötzensche Kisain See",
+   "x": 0.3984,
+   "y": 0.75
+  },
+  {
+   "text": "Der Deygubnen See",
+   "x": 0.2077,
+   "y": 0.7656
+  },
+  {
+   "text": "Der Löwentin See",
+   "x": 0.4969,
+   "y": 0.8875
+  },
+  {
+   "text": "Der Goldapper See",
+   "x": 0.8953,
+   "y": 0.6969
+  },
+  {
+   "text": "Lötzen",
+   "x": 0.5237,
+   "y": 0.8263
+  },
+  {
+   "text": "Königlicher Wald Roggen",
+   "x": 0.4643,
+   "y": 0.6854
+  },
+  {
+   "text": "Tannen Wald",
+   "x": 0.6301,
+   "y": 0.7933
+  }
  ]
 }
