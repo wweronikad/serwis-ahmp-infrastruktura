@@ -5154,5 +5154,72 @@
    "x": 0.3358,
    "y": 0.2794
   }
+ ],
+ "ahmp_kwidzyn_14": [
+  {
+   "text": "Marienau",
+   "x": 0.5656,
+   "y": 0.038
+  },
+  {
+   "text": "Schäferei",
+   "x": 0.7188,
+   "y": 0.1214
+  },
+  {
+   "text": "Gemarkung",
+   "x": 0.8719,
+   "y": 0.2346
+  },
+  {
+   "text": "Gemarkung Marienfelde",
+   "x": 0.7,
+   "y": 0.3786
+  },
+  {
+   "text": "Gemarkung Schwanenland",
+   "x": 0.1388,
+   "y": 0.538
+  },
+  {
+   "text": "Gemarkung",
+   "x": 0.7812,
+   "y": 0.7265
+  },
+  {
+   "text": "Stadtfeld",
+   "x": 0.8375,
+   "y": 0.8657
+  },
+  {
+   "text": "Gorken",
+   "x": 0.8875,
+   "y": 0.5364
+  },
+  {
+   "text": "Gemarkung Mareese",
+   "x": 0.1062,
+   "y": 0.3058
+  },
+  {
+   "text": "Hochmeisterplatz",
+   "x": 0.4844,
+   "y": 0.7565
+  },
+  {
+   "text": "Schrebergärten",
+   "x": 0.5312,
+   "y": 0.7565
+  },
+  {
+   "text": "Liebenthal",
+   "x": 0.6906,
+   "y": 0.8495
+  },
+  {
+   "text": "Schlesier-Kaserne",
+   "x": 0.3469,
+   "y": 0.5712
+  }
  ]
 }
