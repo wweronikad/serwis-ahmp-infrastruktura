@@ -13562,5 +13562,22 @@
    "x": 0.299,
    "y": 0.8601
   }
+ ],
+ "ahmp_fordon_ii_2": [
+  {
+   "text": "Wyszogród",
+   "x": 0.1649,
+   "y": 0.8913
+  },
+  {
+   "text": "Wisła River",
+   "x": 0.9125,
+   "y": 0.4601
+  },
+  {
+   "text": "Kolej normalnotorowa 1885, 1893, nieczynna w latach 2000–2008",
+   "x": 0.396,
+   "y": 0.4733
+  }
  ]
 }
