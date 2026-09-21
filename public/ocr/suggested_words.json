@@ -8270,5 +8270,29 @@
    "x": 0.7056,
    "y": 0.2562
   }
+ ],
+ "ahmp_brzeg_20": [
+  {
+   "text": "Plan de Brig in Schlesien",
+   "x": 0.6071,
+   "y": 0.0844
+  },
+  {
+   "text": "Oder Strohm",
+   "x": 0.2905,
+   "y": 0.2938
+  }
+ ],
+ "ahmp_brzeg_21": [
+  {
+   "text": "Festung Brieg",
+   "x": 0.7415,
+   "y": 0.6175
+  },
+  {
+   "text": "Explication",
+   "x": 0.7415,
+   "y": 0.8638
+  }
  ]
 }
