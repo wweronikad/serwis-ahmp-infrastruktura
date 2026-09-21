@@ -13579,5 +13579,297 @@
    "x": 0.396,
    "y": 0.4733
   }
+ ],
+ "ahmp_gizycko_ii_1": [
+  {
+   "text": "Tiefe Wiesen",
+   "x": 0.0894,
+   "y": 0.1539
+  },
+  {
+   "text": "Teich",
+   "x": 0.3625,
+   "y": 0.0346
+  },
+  {
+   "text": "Wilhelm Platz",
+   "x": 0.4213,
+   "y": 0.0373
+  },
+  {
+   "text": "Schlachthaus",
+   "x": 0.6975,
+   "y": 0.038
+  },
+  {
+   "text": "Schlachthofplatz",
+   "x": 0.7325,
+   "y": 0.0976
+  },
+  {
+   "text": "Friedhof",
+   "x": 0.8512,
+   "y": 0.1247
+  },
+  {
+   "text": "Feierabend Haus",
+   "x": 0.9519,
+   "y": 0.1308
+  },
+  {
+   "text": "Post",
+   "x": 0.4319,
+   "y": 0.0834
+  },
+  {
+   "text": "Gymnasium",
+   "x": 0.5094,
+   "y": 0.1037
+  },
+  {
+   "text": "Gymnasium Turnhalle",
+   "x": 0.53,
+   "y": 0.1207
+  },
+  {
+   "text": "Gymnasial-Strasse",
+   "x": 0.5219,
+   "y": 0.139
+  },
+  {
+   "text": "Kaslak Platz",
+   "x": 0.4394,
+   "y": 0.1715
+  },
+  {
+   "text": "Städt. Turnhalle",
+   "x": 0.4725,
+   "y": 0.1647
+  },
+  {
+   "text": "Knaben Volksschule",
+   "x": 0.4788,
+   "y": 0.1851
+  },
+  {
+   "text": "Polizei",
+   "x": 0.455,
+   "y": 0.1993
+  },
+  {
+   "text": "Bismarck-Strasse",
+   "x": 0.6125,
+   "y": 0.0746
+  },
+  {
+   "text": "Boyen-Strasse",
+   "x": 0.5094,
+   "y": 0.2292
+  },
+  {
+   "text": "Synagoge",
+   "x": 0.6769,
+   "y": 0.2461
+  },
+  {
+   "text": "Amtsgericht",
+   "x": 0.95,
+   "y": 0.2359
+  },
+  {
+   "text": "Neuendorfer Strasse",
+   "x": 0.3269,
+   "y": 0.2034
+  },
+  {
+   "text": "Hospital",
+   "x": 0.3225,
+   "y": 0.2576
+  },
+  {
+   "text": "Gemeindehaus",
+   "x": 0.3719,
+   "y": 0.2536
+  },
+  {
+   "text": "Angerburger Strasse",
+   "x": 0.4394,
+   "y": 0.3051
+  },
+  {
+   "text": "Lycker-Strasse",
+   "x": 0.8031,
+   "y": 0.2963
+  },
+  {
+   "text": "Gesundheitsamt",
+   "x": 0.765,
+   "y": 0.322
+  },
+  {
+   "text": "Lichtspiele",
+   "x": 0.5519,
+   "y": 0.3763
+  },
+  {
+   "text": "T. O. Becker-Strasse",
+   "x": 0.2325,
+   "y": 0.3505
+  },
+  {
+   "text": "Markt",
+   "x": 0.5112,
+   "y": 0.4075
+  },
+  {
+   "text": "Rathaus",
+   "x": 0.405,
+   "y": 0.4156
+  },
+  {
+   "text": "Evgl. Kirche",
+   "x": 0.6156,
+   "y": 0.4061
+  },
+  {
+   "text": "Berufs-Schule",
+   "x": 0.6144,
+   "y": 0.4407
+  },
+  {
+   "text": "Kino Dresski",
+   "x": 0.3075,
+   "y": 0.4698
+  },
+  {
+   "text": "Städt. Werke",
+   "x": 0.9594,
+   "y": 0.4122
+  },
+  {
+   "text": "Schmidt-Strasse",
+   "x": 0.9594,
+   "y": 0.4285
+  },
+  {
+   "text": "Feldartillerie Kaserne",
+   "x": 0.2156,
+   "y": 0.4224
+  },
+  {
+   "text": "Busse-Strasse",
+   "x": 0.2844,
+   "y": 0.4136
+  },
+  {
+   "text": "Königsberger Strasse",
+   "x": 0.2775,
+   "y": 0.5166
+  },
+  {
+   "text": "Kultur- und Wasserbauamt",
+   "x": 0.7125,
+   "y": 0.4732
+  },
+  {
+   "text": "See-Strasse",
+   "x": 0.5031,
+   "y": 0.5492
+  },
+  {
+   "text": "Heeresstandortverw.",
+   "x": 0.2975,
+   "y": 0.5505
+  },
+  {
+   "text": "Wasser-Strasse",
+   "x": 0.335,
+   "y": 0.6373
+  },
+  {
+   "text": "Hafen-Strasse",
+   "x": 0.2775,
+   "y": 0.6339
+  },
+  {
+   "text": "Bahnhof-Strasse",
+   "x": 0.8856,
+   "y": 0.5085
+  },
+  {
+   "text": "Bahnhof-Strasse",
+   "x": 0.9375,
+   "y": 0.5844
+  },
+  {
+   "text": "Schwarzer-Weg",
+   "x": 0.7438,
+   "y": 0.6122
+  },
+  {
+   "text": "Kurhaus",
+   "x": 0.0275,
+   "y": 0.6068
+  },
+  {
+   "text": "Wende Hafen",
+   "x": 0.1,
+   "y": 0.6034
+  },
+  {
+   "text": "Kanal",
+   "x": 0.0269,
+   "y": 0.5505
+  },
+  {
+   "text": "Ufer-Strasse",
+   "x": 0.11,
+   "y": 0.5831
+  },
+  {
+   "text": "Hafen",
+   "x": 0.2306,
+   "y": 0.7403
+  },
+  {
+   "text": "Komendantur",
+   "x": 0.1175,
+   "y": 0.6725
+  },
+  {
+   "text": "Schloss",
+   "x": 0.1319,
+   "y": 0.7078
+  },
+  {
+   "text": "Offz. Kasino",
+   "x": 0.0419,
+   "y": 0.7227
+  },
+  {
+   "text": "Vaterl. Gedenkhalle",
+   "x": 0.1562,
+   "y": 0.7356
+  },
+  {
+   "text": "Gymnasial-Ruderverein",
+   "x": 0.5719,
+   "y": 0.6814
+  },
+  {
+   "text": "Kläranlage",
+   "x": 0.6969,
+   "y": 0.68
+  },
+  {
+   "text": "Mühlenwerke",
+   "x": 0.9313,
+   "y": 0.6814
+  },
+  {
+   "text": "Strand",
+   "x": 0.4881,
+   "y": 0.7458
+  }
  ]
 }
