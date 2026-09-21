@@ -4906,153 +4906,1088 @@
  "ahmp_elblag_ii_2": [
   {
    "text": "Die Roßwiesen",
-   "x": 0.1,
-   "y": 0.1421
+   "x": 0.1099,
+   "y": 0.1424
   },
   {
-   "text": "Rahmen",
-   "x": 0.4444,
-   "y": 0.1643
-  },
-  {
-   "text": "Königsberger Vorstadt",
-   "x": 0.6356,
-   "y": 0.1794
-  },
-  {
-   "text": "Das neue Gut",
-   "x": 0.8544,
-   "y": 0.1909
-  },
-  {
-   "text": "Lastadie",
-   "x": 0.4,
-   "y": 0.2513
-  },
-  {
-   "text": "Vordergarten",
-   "x": 0.2,
-   "y": 0.2886
-  },
-  {
-   "text": "Der äußere Mühlendamm",
-   "x": 0.8063,
-   "y": 0.3535
-  },
-  {
-   "text": "Der kleine Wunderberg",
-   "x": 0.5938,
-   "y": 0.04
-  },
-  {
-   "text": "Der große Wunderberg",
-   "x": 0.6781,
-   "y": 0.0933
-  },
-  {
-   "text": "Innerer Mühlendamm",
-   "x": 0.5656,
-   "y": 0.4645
-  },
-  {
-   "text": "Außerer Sct. Georgendamm",
-   "x": 0.8875,
-   "y": 0.468
-  },
-  {
-   "text": "Grubenhagen",
-   "x": 0.1031,
-   "y": 0.4769
-  },
-  {
-   "text": "Altstadt",
-   "x": 0.395,
-   "y": 0.5302
-  },
-  {
-   "text": "Innerer Sct. Georgedamm",
-   "x": 0.7719,
-   "y": 0.6128
-  },
-  {
-   "text": "Neustadt",
-   "x": 0.5938,
-   "y": 0.6279
-  },
-  {
-   "text": "Speicher Insel",
-   "x": 0.2313,
-   "y": 0.635
-  },
-  {
-   "text": "Holländer Vorstadt",
-   "x": 0.7425,
-   "y": 0.7238
-  },
-  {
-   "text": "Die Kuhwiesen",
-   "x": 0.0437,
-   "y": 0.6456
-  },
-  {
-   "text": "Die Kumst Morgen",
-   "x": 0.2375,
-   "y": 0.8393
-  },
-  {
-   "text": "Das Neustädter Feld",
-   "x": 0.7625,
-   "y": 0.8721
-  },
-  {
-   "text": "Der Roßgarten",
-   "x": 0.4906,
-   "y": 0.9254
-  },
-  {
-   "text": "Elbing Fluß",
-   "x": 0.3206,
-   "y": 0.2664
-  },
-  {
-   "text": "Elbing Fluß",
-   "x": 0.325,
-   "y": 0.7638
-  },
-  {
-   "text": "Der katholische Winkel",
-   "x": 0.7094,
-   "y": 0.429
-  },
-  {
-   "text": "Danziger Graben",
-   "x": 0.2469,
-   "y": 0.7815
-  },
-  {
-   "text": "Stadtgraben",
-   "x": 0.1875,
-   "y": 0.4796
+   "text": "Schleusendammstraße",
+   "x": 0.2662,
+   "y": 0.2168
   },
   {
    "text": "Schiffsholm",
+   "x": 0.2811,
+   "y": 0.2658
+  },
+  {
+   "text": "Schiffsholm",
+   "x": 0.2925,
+   "y": 0.3045
+  },
+  {
+   "text": "Vordergarten",
+   "x": 0.1998,
+   "y": 0.2888
+  },
+  {
+   "text": "Elbing Fluß",
+   "x": 0.3121,
+   "y": 0.2697
+  },
+  {
+   "text": "Erste Niederstraße",
+   "x": 0.404,
+   "y": 0.0342
+  },
+  {
+   "text": "Lange Niederstraße",
+   "x": 0.5319,
+   "y": 0.0508
+  },
+  {
+   "text": "Der kleine Wunderberg",
+   "x": 0.599,
+   "y": 0.0395
+  },
+  {
+   "text": "Kleine Wunderberg",
+   "x": 0.6015,
+   "y": 0.0761
+  },
+  {
+   "text": "Große Wunderbergstraße",
+   "x": 0.6203,
+   "y": 0.1055
+  },
+  {
+   "text": "Rahmen",
+   "x": 0.4454,
+   "y": 0.1635
+  },
+  {
+   "text": "Heilige Leichnam Kirche",
+   "x": 0.5168,
+   "y": 0.1322
+  },
+  {
+   "text": "Heilige Leichnamstraße",
+   "x": 0.5328,
+   "y": 0.187
+  },
+  {
+   "text": "Kleine Ziegelscheun",
+   "x": 0.562,
+   "y": 0.1483
+  },
+  {
+   "text": "Große Ziegelscheunstraße",
+   "x": 0.5657,
+   "y": 0.2043
+  },
+  {
+   "text": "Königsberger Vorstadt",
+   "x": 0.6259,
+   "y": 0.1806
+  },
+  {
+   "text": "Königsberger Straße",
+   "x": 0.6175,
+   "y": 0.2337
+  },
+  {
+   "text": "Königsberger Straße",
+   "x": 0.5535,
+   "y": 0.2837
+  },
+  {
+   "text": "Predigerstraße",
+   "x": 0.5428,
+   "y": 0.2471
+  },
+  {
+   "text": "Reiferbahn",
+   "x": 0.4896,
+   "y": 0.2222
+  },
+  {
+   "text": "Brandenburgerstraße",
+   "x": 0.3946,
+   "y": 0.2351
+  },
+  {
+   "text": "Lastadie",
+   "x": 0.4087,
+   "y": 0.2484
+  },
+  {
+   "text": "Exercirplatz",
+   "x": 0.4576,
+   "y": 0.2671
+  },
+  {
+   "text": "Große Segelstraße",
+   "x": 0.356,
+   "y": 0.2711
+  },
+  {
+   "text": "Kl. Segelstr.",
+   "x": 0.3448,
+   "y": 0.2872
+  },
+  {
+   "text": "Große Lastadienstraße",
+   "x": 0.3664,
+   "y": 0.1149
+  },
+  {
+   "text": "Große Lastadienstraße",
+   "x": 0.3899,
+   "y": 0.2858
+  },
+  {
+   "text": "Kl. Lastadienstr.",
+   "x": 0.4153,
+   "y": 0.2698
+  },
+  {
+   "text": "Kleine Strohmstraße",
+   "x": 0.3626,
+   "y": 0.2952
+  },
+  {
+   "text": "Gr. Strohmstr.",
+   "x": 0.4106,
+   "y": 0.3072
+  },
+  {
+   "text": "Königsbergertor",
+   "x": 0.4717,
+   "y": 0.2952
+  },
+  {
+   "text": "Am Königsbergertor",
+   "x": 0.4576,
+   "y": 0.3339
+  },
+  {
+   "text": "Sonnenstraße",
+   "x": 0.6034,
+   "y": 0.2978
+  },
+  {
+   "text": "Stadtgraben",
+   "x": 0.5413,
+   "y": 0.3371
+  },
+  {
+   "text": "Galgenberg",
+   "x": 0.7164,
+   "y": 0.0429
+  },
+  {
+   "text": "Schweden Schanze",
+   "x": 0.8442,
+   "y": 0.0372
+  },
+  {
+   "text": "Der große Wunderberg",
+   "x": 0.6879,
+   "y": 0.0924
+  },
+  {
+   "text": "Chaussee nach Königsberg",
+   "x": 0.7528,
+   "y": 0.062
+  },
+  {
+   "text": "Neuegutstraße",
+   "x": 0.8046,
+   "y": 0.1257
+  },
+  {
+   "text": "Nach Wittenfelde",
+   "x": 0.9437,
+   "y": 0.1678
+  },
+  {
+   "text": "Hommel Fluß",
+   "x": 0.9618,
+   "y": 0.1872
+  },
+  {
+   "text": "Das neue Gut",
+   "x": 0.8573,
+   "y": 0.1913
+  },
+  {
+   "text": "Grünstraße",
+   "x": 0.7233,
+   "y": 0.222
+  },
+  {
+   "text": "Äußerer Mühlendamm",
+   "x": 0.904,
+   "y": 0.2685
+  },
+  {
+   "text": "Sonnenstraße",
+   "x": 0.7637,
+   "y": 0.2956
+  },
+  {
+   "text": "Pestbudenstift",
+   "x": 0.6919,
+   "y": 0.2861
+  },
+  {
+   "text": "Die Sorge",
+   "x": 0.0463,
+   "y": 0.3858
+  },
+  {
+   "text": "Grubenhagenstraße",
+   "x": 0.1562,
+   "y": 0.3755
+  },
+  {
+   "text": "Grubenhagen",
+   "x": 0.0981,
+   "y": 0.4764
+  },
+  {
+   "text": "Schleusendammstraße",
+   "x": 0.218,
+   "y": 0.4395
+  },
+  {
+   "text": "Stadtgraben",
+   "x": 0.2153,
+   "y": 0.4555
+  },
+  {
+   "text": "Roßmühle",
+   "x": 0.174,
+   "y": 0.4651
+  },
+  {
+   "text": "Der neue Packhof",
+   "x": 0.2807,
+   "y": 0.4261
+  },
+  {
+   "text": "Wallstraße",
    "x": 0.2731,
-   "y": 0.278
+   "y": 0.4457
   },
   {
-   "text": "Gymnasium",
-   "x": 0.35,
-   "y": 0.6616
+   "text": "Leege Brücke",
+   "x": 0.3074,
+   "y": 0.464
   },
   {
-   "text": "Casino Garten",
-   "x": 0.5375,
-   "y": 0.4396
+   "text": "Scharfe Ecke",
+   "x": 0.3352,
+   "y": 0.3536
+  },
+  {
+   "text": "Hauptsteueramt",
+   "x": 0.3325,
+   "y": 0.4759
+  },
+  {
+   "text": "Berlinerstraße",
+   "x": 0.2652,
+   "y": 0.5394
+  },
+  {
+   "text": "Am Wasser",
+   "x": 0.2912,
+   "y": 0.5278
+  },
+  {
+   "text": "Straße am Elbing",
+   "x": 0.3297,
+   "y": 0.5484
+  },
+  {
+   "text": "Fischerbrücke",
+   "x": 0.3307,
+   "y": 0.5845
+  },
+  {
+   "text": "Danziger Tor",
+   "x": 0.2053,
+   "y": 0.5742
+  },
+  {
+   "text": "Danzigerstraße",
+   "x": 0.2389,
+   "y": 0.5696
+  },
+  {
+   "text": "Wallstraße",
+   "x": 0.2071,
+   "y": 0.6
+  },
+  {
+   "text": "Hopfenstraße",
+   "x": 0.2371,
+   "y": 0.5995
+  },
+  {
+   "text": "Hohe Brücke",
+   "x": 0.3143,
+   "y": 0.6072
+  },
+  {
+   "text": "Börse",
+   "x": 0.2989,
+   "y": 0.6163
+  },
+  {
+   "text": "Lange Bahn",
+   "x": 0.238,
+   "y": 0.6225
+  },
+  {
+   "text": "Speicher Insel",
+   "x": 0.2416,
+   "y": 0.6343
+  },
+  {
+   "text": "Georgenstraße",
+   "x": 0.2385,
+   "y": 0.647
+  },
+  {
+   "text": "Morchenstraße",
+   "x": 0.2416,
+   "y": 0.6702
+  },
+  {
+   "text": "Erste Trift",
+   "x": 0.1068,
+   "y": 0.6122
+  },
+  {
+   "text": "Die Kuhwiesen",
+   "x": 0.0445,
+   "y": 0.6462
+  },
+  {
+   "text": "Aschhofgraben",
+   "x": 0.3861,
+   "y": 0.3635
+  },
+  {
+   "text": "Wallstraße",
+   "x": 0.4764,
+   "y": 0.3923
+  },
+  {
+   "text": "Altstädtische Wall",
+   "x": 0.3961,
+   "y": 0.3947
+  },
+  {
+   "text": "Lustgarten",
+   "x": 0.4623,
+   "y": 0.3966
+  },
+  {
+   "text": "Markttor",
+   "x": 0.4337,
+   "y": 0.4043
+  },
+  {
+   "text": "Am Markttor",
+   "x": 0.4473,
+   "y": 0.4145
+  },
+  {
+   "text": "Sct. Marien Kirche",
+   "x": 0.3927,
+   "y": 0.4198
+  },
+  {
+   "text": "Klosterhof",
+   "x": 0.3673,
+   "y": 0.4332
+  },
+  {
+   "text": "Conventstraße",
+   "x": 0.4068,
+   "y": 0.4262
+  },
+  {
+   "text": "Am Junkergarten",
+   "x": 0.3517,
+   "y": 0.4417
+  },
+  {
+   "text": "Wollweberstraße",
+   "x": 0.4576,
+   "y": 0.431
+  },
+  {
+   "text": "Kürschnerstraße",
+   "x": 0.3931,
+   "y": 0.4489
+  },
+  {
+   "text": "Kurze Hinterstraße",
+   "x": 0.4529,
+   "y": 0.4636
+  },
+  {
+   "text": "Lange Hinterstraße",
+   "x": 0.3927,
+   "y": 0.4711
+  },
+  {
+   "text": "Alter Markt",
+   "x": 0.4337,
+   "y": 0.4711
+  },
+  {
+   "text": "Kettenbrunnenstraße",
+   "x": 0.4567,
+   "y": 0.5005
+  },
+  {
+   "text": "Spieringstraße",
+   "x": 0.3903,
+   "y": 0.5112
+  },
+  {
+   "text": "Krahntor",
+   "x": 0.3504,
+   "y": 0.5165
+  },
+  {
+   "text": "Wasserstraße",
+   "x": 0.3495,
+   "y": 0.4898
+  },
+  {
+   "text": "Wasserstraße",
+   "x": 0.3457,
+   "y": 0.6234
+  },
+  {
+   "text": "Altstadt",
+   "x": 0.4106,
+   "y": 0.5317
+  },
+  {
+   "text": "Schmiedestraße",
+   "x": 0.4548,
+   "y": 0.5419
+  },
+  {
+   "text": "Fischerstraße",
+   "x": 0.3875,
+   "y": 0.5528
+  },
+  {
+   "text": "Fischertor",
+   "x": 0.3485,
+   "y": 0.5579
+  },
+  {
+   "text": "Mauerstraße",
+   "x": 0.4728,
+   "y": 0.5192
+  },
+  {
+   "text": "Sct. Nicolai Kirche",
+   "x": 0.4134,
+   "y": 0.5798
+  },
+  {
+   "text": "Fleischerstraße",
+   "x": 0.4595,
+   "y": 0.5798
+  },
+  {
+   "text": "Alter Markt",
+   "x": 0.4332,
+   "y": 0.5913
+  },
+  {
+   "text": "Brückstraße",
+   "x": 0.3899,
+   "y": 0.5905
+  },
+  {
+   "text": "Heilige Geiststraße",
+   "x": 0.4068,
+   "y": 0.6207
+  },
+  {
+   "text": "Gerstentor",
+   "x": 0.3495,
+   "y": 0.6354
+  },
+  {
+   "text": "Hospital Sct. Spiritus",
+   "x": 0.3767,
+   "y": 0.6381
+  },
+  {
+   "text": "Kirche Sct. Spiritus",
+   "x": 0.4002,
+   "y": 0.6359
+  },
+  {
+   "text": "Klappenberg",
+   "x": 0.3451,
+   "y": 0.6554
+  },
+  {
+   "text": "Große Hommelstraße",
+   "x": 0.435,
+   "y": 0.6559
+  },
+  {
+   "text": "Am Gymnasium",
+   "x": 0.389,
+   "y": 0.6688
+  },
+  {
+   "text": "Hommelstallstraße",
+   "x": 0.4529,
+   "y": 0.6701
+  },
+  {
+   "text": "Straße am Elbing",
+   "x": 0.3307,
+   "y": 0.5699
+  },
+  {
+   "text": "Krankenstift",
+   "x": 0.5592,
+   "y": 0.3779
+  },
+  {
+   "text": "Loge Constantia et Concordia",
+   "x": 0.5586,
+   "y": 0.4185
+  },
+  {
+   "text": "Logenstraße",
+   "x": 0.5319,
+   "y": 0.4417
+  },
+  {
+   "text": "Cassino Garten",
+   "x": 0.5968,
+   "y": 0.4508
+  },
+  {
+   "text": "Innerer Mühlendamm",
+   "x": 0.5977,
+   "y": 0.4639
+  },
+  {
+   "text": "Traubenstraße",
+   "x": 0.6231,
+   "y": 0.4017
+  },
+  {
+   "text": "Hohezinnstraße",
+   "x": 0.6569,
+   "y": 0.4017
+  },
+  {
+   "text": "Jakobstraße",
+   "x": 0.5428,
+   "y": 0.4925
+  },
+  {
+   "text": "Pfefferstraße",
+   "x": 0.5556,
+   "y": 0.5005
+  },
+  {
+   "text": "Töpferstraße",
+   "x": 0.577,
+   "y": 0.4965
+  },
+  {
+   "text": "Taubenstraße",
+   "x": 0.5996,
+   "y": 0.4871
+  },
+  {
+   "text": "Mühlendamm",
+   "x": 0.6231,
+   "y": 0.5032
+  },
+  {
+   "text": "Mühlentor",
+   "x": 0.6541,
+   "y": 0.4965
   },
   {
    "text": "Friedrich Wilhelms Platz",
-   "x": 0.5238,
-   "y": 0.5284
+   "x": 0.5121,
+   "y": 0.5152
+  },
+  {
+   "text": "Innerer Mühlendamm",
+   "x": 0.5939,
+   "y": 0.512
+  },
+  {
+   "text": "Hospital Sct. Elisabeth",
+   "x": 0.5686,
+   "y": 0.5392
+  },
+  {
+   "text": "Kehrwiederstraße",
+   "x": 0.5827,
+   "y": 0.5379
+  },
+  {
+   "text": "Mühlenstraße",
+   "x": 0.609,
+   "y": 0.5325
+  },
+  {
+   "text": "Sturmstraße",
+   "x": 0.5338,
+   "y": 0.5566
+  },
+  {
+   "text": "Hospitalstraße",
+   "x": 0.5516,
+   "y": 0.5566
+  },
+  {
+   "text": "Rathaus",
+   "x": 0.5099,
+   "y": 0.5606
+  },
+  {
+   "text": "Hommel Kanal",
+   "x": 0.5676,
+   "y": 0.5814
+  },
+  {
+   "text": "Neustädtische Stallstraße",
+   "x": 0.5845,
+   "y": 0.5921
+  },
+  {
+   "text": "Junkerstraße",
+   "x": 0.5883,
+   "y": 0.61
+  },
+  {
+   "text": "Neustadt",
+   "x": 0.5977,
+   "y": 0.6274
+  },
+  {
+   "text": "Exercirhaus",
+   "x": 0.5046,
+   "y": 0.6362
+  },
+  {
+   "text": "Lustgarten",
+   "x": 0.5074,
+   "y": 0.6474
+  },
+  {
+   "text": "Wachtstraße",
+   "x": 0.4886,
+   "y": 0.6367
+  },
+  {
+   "text": "Am Lustgarten",
+   "x": 0.5253,
+   "y": 0.6474
+  },
+  {
+   "text": "Baderstraße",
+   "x": 0.546,
+   "y": 0.6501
+  },
+  {
+   "text": "Schmiedestraße",
+   "x": 0.5667,
+   "y": 0.6554
+  },
+  {
+   "text": "Schulstraße",
+   "x": 0.5958,
+   "y": 0.6568
+  },
+  {
+   "text": "Grünstraße",
+   "x": 0.6165,
+   "y": 0.6554
+  },
+  {
+   "text": "Heilige Drei Könige Kirche",
+   "x": 0.5864,
+   "y": 0.6501
+  },
+  {
+   "text": "Wallstraße",
+   "x": 0.6423,
+   "y": 0.6367
+  },
+  {
+   "text": "Herrenstraße",
+   "x": 0.5714,
+   "y": 0.6795
+  },
+  {
+   "text": "Der äußere Mühlendamm",
+   "x": 0.8082,
+   "y": 0.3536
+  },
+  {
+   "text": "Eulenwinkel",
+   "x": 0.7361,
+   "y": 0.382
+  },
+  {
+   "text": "Grünstraße",
+   "x": 0.7692,
+   "y": 0.391
+  },
+  {
+   "text": "Hommel Kanal",
+   "x": 0.8655,
+   "y": 0.3936
+  },
+  {
+   "text": "Der katholische Winkel",
+   "x": 0.7097,
+   "y": 0.4259
+  },
+  {
+   "text": "Sct. Nicolai Kirchhof",
+   "x": 0.6746,
+   "y": 0.4342
+  },
+  {
+   "text": "Äußerer Sct. Georgendamm",
+   "x": 0.9055,
+   "y": 0.4672
+  },
+  {
+   "text": "Sct. Marien Kirchhof",
+   "x": 0.8533,
+   "y": 0.5235
+  },
+  {
+   "text": "Sct. Annen Kirche",
+   "x": 0.8359,
+   "y": 0.5392
+  },
+  {
+   "text": "Sct. Annen Platz",
+   "x": 0.8555,
+   "y": 0.5671
+  },
+  {
+   "text": "Äußerer Mühlendamm",
+   "x": 0.727,
+   "y": 0.5116
+  },
+  {
+   "text": "Innerer Georgendamm",
+   "x": 0.7882,
+   "y": 0.5808
+  },
+  {
+   "text": "Innerer Sct. Georgedamm",
+   "x": 0.7755,
+   "y": 0.6113
+  },
+  {
+   "text": "Äußerer Georgendamm",
+   "x": 0.8991,
+   "y": 0.5718
+  },
+  {
+   "text": "Chaussee nach Dambitzen",
+   "x": 0.9509,
+   "y": 0.5705
+  },
+  {
+   "text": "Brandenburger Brücke",
+   "x": 0.88,
+   "y": 0.5834
+  },
+  {
+   "text": "Kleine Scheunstraße",
+   "x": 0.741,
+   "y": 0.6324
+  },
+  {
+   "text": "Große Scheunstraße",
+   "x": 0.7392,
+   "y": 0.6453
+  },
+  {
+   "text": "Sct. Johannis Kirchhof",
+   "x": 0.7192,
+   "y": 0.6691
+  },
+  {
+   "text": "Johannisstraße",
+   "x": 0.7001,
+   "y": 0.6182
+  },
+  {
+   "text": "Die Sorge",
+   "x": 0.0808,
+   "y": 0.6973
+  },
+  {
+   "text": "Todenstraße",
+   "x": 0.2603,
+   "y": 0.7051
+  },
+  {
+   "text": "Am Wasser",
+   "x": 0.3076,
+   "y": 0.7231
+  },
+  {
+   "text": "Straße am Elbing",
+   "x": 0.3361,
+   "y": 0.6986
+  },
+  {
+   "text": "Elbing Fluß",
+   "x": 0.3234,
+   "y": 0.7605
+  },
+  {
+   "text": "Wallstraße",
+   "x": 0.2507,
+   "y": 0.7489
+  },
+  {
+   "text": "Danziger Graben",
+   "x": 0.2353,
+   "y": 0.7897
+  },
+  {
+   "text": "Die Kumst Morgen",
+   "x": 0.2353,
+   "y": 0.8374
+  },
+  {
+   "text": "Grubenhagenstraße",
+   "x": 0.2044,
+   "y": 0.8638
+  },
+  {
+   "text": "Berlinerstraße",
+   "x": 0.2734,
+   "y": 0.8599
+  },
+  {
+   "text": "Gymnasium",
+   "x": 0.3641,
+   "y": 0.6838
+  },
+  {
+   "text": "Malzhäuser",
+   "x": 0.3843,
+   "y": 0.7142
+  },
+  {
+   "text": "Dienerstraße",
+   "x": 0.389,
+   "y": 0.695
+  },
+  {
+   "text": "Stadthoffstraße",
+   "x": 0.467,
+   "y": 0.6985
+  },
+  {
+   "text": "Stadthof",
+   "x": 0.467,
+   "y": 0.6856
+  },
+  {
+   "text": "Burgstraße",
+   "x": 0.4237,
+   "y": 0.7351
+  },
+  {
+   "text": "Vorbergstallstraße",
+   "x": 0.4899,
+   "y": 0.711
+  },
+  {
+   "text": "Zimmerstraße",
+   "x": 0.5244,
+   "y": 0.7124
+  },
+  {
+   "text": "Graben",
+   "x": 0.5845,
+   "y": 0.7084
+  },
+  {
+   "text": "Stallstraße",
+   "x": 0.6137,
+   "y": 0.71
+  },
+  {
+   "text": "Kalkscheunstraße",
+   "x": 0.3777,
+   "y": 0.7564
+  },
+  {
+   "text": "Kleine Vorbergstraße",
+   "x": 0.4783,
+   "y": 0.7524
+  },
+  {
+   "text": "Große Vorbergstraße",
+   "x": 0.5074,
+   "y": 0.7751
+  },
+  {
+   "text": "Große Vorberg Kreuzstr.",
+   "x": 0.4679,
+   "y": 0.8179
+  },
+  {
+   "text": "Kl. Vorb. Kreuz.",
+   "x": 0.4595,
+   "y": 0.8085
+  },
+  {
+   "text": "Innere Vorbergstraße",
+   "x": 0.3852,
+   "y": 0.8205
+  },
+  {
+   "text": "Innerer Marienburgerdamm",
+   "x": 0.5661,
+   "y": 0.7858
+  },
+  {
+   "text": "Fischerbaum",
+   "x": 0.3419,
+   "y": 0.8587
+  },
+  {
+   "text": "Fischervorbergstraße",
+   "x": 0.3589,
+   "y": 0.8847
+  },
+  {
+   "text": "Jungferndamm",
+   "x": 0.3848,
+   "y": 0.8847
+  },
+  {
+   "text": "Stadtgraben",
+   "x": 0.4726,
+   "y": 0.8841
+  },
+  {
+   "text": "Schottland",
+   "x": 0.5366,
+   "y": 0.8465
+  },
+  {
+   "text": "Schottlandstraße",
+   "x": 0.514,
+   "y": 0.8424
+  },
+  {
+   "text": "Kälberpforte",
+   "x": 0.5751,
+   "y": 0.8678
+  },
+  {
+   "text": "Der Roßgarten",
+   "x": 0.482,
+   "y": 0.9239
+  },
+  {
+   "text": "Holländer Tor",
+   "x": 0.6269,
+   "y": 0.7484
+  },
+  {
+   "text": "Holländerstraße",
+   "x": 0.6504,
+   "y": 0.7556
+  },
+  {
+   "text": "Stadtgraben",
+   "x": 0.6682,
+   "y": 0.7377
+  },
+  {
+   "text": "Äußere Marienburger Dammstraße",
+   "x": 0.6297,
+   "y": 0.8713
+  },
+  {
+   "text": "Neustädtische",
+   "x": 0.6419,
+   "y": 0.691
+  },
+  {
+   "text": "Johannisstraße",
+   "x": 0.6937,
+   "y": 0.6767
+  },
+  {
+   "text": "Petristraße",
+   "x": 0.7359,
+   "y": 0.711
+  },
+  {
+   "text": "Holländer Vorstadt",
+   "x": 0.7473,
+   "y": 0.7239
+  },
+  {
+   "text": "Große Zahlerstraße",
+   "x": 0.7328,
+   "y": 0.7516
+  },
+  {
+   "text": "Hommel Fluß",
+   "x": 0.7673,
+   "y": 0.7529
+  },
+  {
+   "text": "Zahlersbrücke",
+   "x": 0.7179,
+   "y": 0.7751
+  },
+  {
+   "text": "Das Neustädter Feld",
+   "x": 0.7724,
+   "y": 0.8724
+  },
+  {
+   "text": "Chaussee nach Pr. Holland",
+   "x": 0.851,
+   "y": 0.8949
+  },
+  {
+   "text": "Trettinkenhof",
+   "x": 0.6868,
+   "y": 0.9256
   }
  ],
  "ahmp_elblag_ii_3": [
