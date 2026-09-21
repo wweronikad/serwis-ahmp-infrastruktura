@@ -5740,5 +5740,137 @@
    "x": 0.3187,
    "y": 0.678
   }
+ ],
+ "ahmp_raciborz_ii_1": [
+  {
+   "text": "Brunken (Bronki)",
+   "x": 0.2188,
+   "y": 0.2679
+  },
+  {
+   "text": "Altendorf (Stara Wieś)",
+   "x": 0.0762,
+   "y": 0.5877
+  },
+  {
+   "text": "Ostrog (Ostróg)",
+   "x": 0.6531,
+   "y": 0.1901
+  },
+  {
+   "text": "Bosatz (Bosacz)",
+   "x": 0.7375,
+   "y": 0.2792
+  },
+  {
+   "text": "Neugarten (Nowe Zagrody)",
+   "x": 0.4625,
+   "y": 0.9637
+  },
+  {
+   "text": "Die Oder (Odra)",
+   "x": 0.625,
+   "y": 0.3483
+  },
+  {
+   "text": "Herzogl. Schloß",
+   "x": 0.575,
+   "y": 0.2463
+  },
+  {
+   "text": "Herzogl. Kammer",
+   "x": 0.6562,
+   "y": 0.2282
+  },
+  {
+   "text": "Viehmarkt",
+   "x": 0.1969,
+   "y": 0.3379
+  },
+  {
+   "text": "Holzmarkt",
+   "x": 0.33,
+   "y": 0.4468
+  },
+  {
+   "text": "Garnison Platz",
+   "x": 0.6062,
+   "y": 0.5402
+  },
+  {
+   "text": "Dominikanerkirche",
+   "x": 0.5906,
+   "y": 0.5678
+  },
+  {
+   "text": "Rathaus",
+   "x": 0.5813,
+   "y": 0.592
+  },
+  {
+   "text": "Ring (Rynek)",
+   "x": 0.5531,
+   "y": 0.6085
+  },
+  {
+   "text": "Synagoge",
+   "x": 0.6388,
+   "y": 0.6569
+  },
+  {
+   "text": "Liebfrauenkirche",
+   "x": 0.5906,
+   "y": 0.6932
+  },
+  {
+   "text": "Neumarkt (Neuer Ring, Roßmarkt)",
+   "x": 0.5656,
+   "y": 0.7416
+  },
+  {
+   "text": "Bahnhof",
+   "x": 0.8219,
+   "y": 0.758
+  },
+  {
+   "text": "Garnisonstall",
+   "x": 0.6188,
+   "y": 0.5203
+  },
+  {
+   "text": "Amtsgericht",
+   "x": 0.35,
+   "y": 0.427
+  },
+  {
+   "text": "Kgl. Gymnasium",
+   "x": 0.4031,
+   "y": 0.4503
+  },
+  {
+   "text": "Oberschl. Forstlehranstalt",
+   "x": 0.7156,
+   "y": 0.8729
+  },
+  {
+   "text": "Alter Begräbnissplatz",
+   "x": 0.4313,
+   "y": 0.8902
+  },
+  {
+   "text": "Anlagen",
+   "x": 0.5156,
+   "y": 0.8384
+  },
+  {
+   "text": "Nicolauskirche",
+   "x": 0.0688,
+   "y": 0.0432
+  },
+  {
+   "text": "Psina Bach (Psina)",
+   "x": 0.2219,
+   "y": 0.8686
+  }
  ]
 }
