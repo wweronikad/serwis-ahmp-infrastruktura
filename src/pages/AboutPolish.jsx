@@ -1,20 +1,62 @@
 import { Link } from 'react-router-dom'
 
+const TEAMS = [
+  {
+    city: 'Toruń',
+    region: 'Prusy Królewskie, Warmia, Kujawy i Mazury',
+    note: 'Zespół UMK, inicjator i koordynator całego przedsięwzięcia.',
+  },
+  {
+    city: 'Wrocław',
+    region: 'Śląsk',
+    note: 'Zespół Instytutu Archeologii i Etnologii PAN, pod kierunkiem prof. Marty Młynarskiej‑Kaletynowej.',
+  },
+  {
+    city: 'Kraków',
+    region: 'Małopolska',
+    note: 'Zespół pod kierunkiem prof. Zdzisława Nogi.',
+  },
+  {
+    city: 'Lublin',
+    region: 'Lubelszczyzna',
+    note: 'Zespół Uniwersytetu Marii Curie‑Skłodowskiej, który dołączył do przedsięwzięcia w 2022 r.',
+  },
+]
+
+const VOLUMES = [
+  ['Tom I', 'Prusy Królewskie i Warmia'],
+  ['Tom II', 'Kujawy'],
+  ['Tom III', 'Mazury i Prusy Książęce'],
+  ['Tom IV', 'Śląsk'],
+  ['Tom V', 'Małopolska'],
+  ['Tom VI', 'Wielkopolska (dotąd Kalisz)'],
+]
+
+const CANON = [
+  ['Mapa pomiarowa 1:2500', 'Przerys planu katastralnego (pruskiego lub austriackiego) albo planu pomiarowego z okresu Królestwa Kongresowego, z epoki przedprzemysłowej; najważniejsza mapa każdego zeszytu.'],
+  ['Współczesny plan miasta', 'Element stały każdego zeszytu.'],
+  ['Historyczna mapa regionu', 'Skala od 1:25 000 do 1:100 000.'],
+  ['Mapa rozwoju przestrzennego', 'Skala 1:10 000, z fazami chronologicznymi.'],
+  ['Mapy tematyczne i reprodukcje', 'Mapy tematyczne oraz reprodukcje ważnych źródeł kartograficznych i widoków (wedut).'],
+  ['Część tekstowa', 'Dzieje miasta ze szczególnym uwzględnieniem urbanistyki, opis reprodukcji i bibliografia.'],
+]
+
 export default function AboutPolish() {
   return (
     <div style={{ height: '100%', overflowY: 'auto', overflowX: 'hidden' }}>
-    <div style={styles.page}>
-      <div style={styles.hero}>
-        <p style={styles.kicker}>Projekt polski</p>
-        <h1 style={styles.title}>Atlas Historyczny Miast Polskich</h1>
-        <p style={styles.subtitle}>
-          Wieloletnie przedsięwzięcie dokumentujące genezę i rozwój
-          przestrzenny polskich miast — w formie zeszytów atlasowych
-          łączących wieloskalową kartografię historyczną z narracją naukową.
-        </p>
-      </div>
+      <header style={styles.hero}>
+        <div style={styles.inner}>
+          <p style={styles.kicker}>Projekt polski</p>
+          <h1 style={styles.title}>Atlas Historyczny Miast Polskich</h1>
+          <p style={styles.subtitle}>
+            Wieloletnie przedsięwzięcie dokumentujące genezę i rozwój
+            przestrzenny polskich miast — w formie zeszytów atlasowych
+            łączących wieloskalową kartografię historyczną z narracją naukową.
+          </p>
+        </div>
+      </header>
 
-      <div style={styles.content}>
+      <div style={{ ...styles.inner, paddingBottom: 64 }}>
         <section style={styles.section}>
           <h2 style={styles.h2}>Historia i zespoły</h2>
           <p style={styles.p}>
@@ -26,24 +68,15 @@ export default function AboutPolish() {
             <strong>1993 r.</strong> Zeszyty wydaje Towarzystwo Naukowe w Toruniu.
             Z czasem dołączyły kolejne zespoły regionalne:
           </p>
-          <ul style={styles.ul}>
-            <li style={styles.li}>
-              <strong>Toruń</strong> — Prusy Królewskie, Warmia, Kujawy i Mazury;
-              zespół UMK, inicjator i koordynator całego przedsięwzięcia
-            </li>
-            <li style={styles.li}>
-              <strong>Wrocław</strong> — Śląsk; zespół Instytutu Archeologii i
-              Etnologii PAN, pod kierunkiem prof. Marty Młynarskiej‑Kaletynowej
-            </li>
-            <li style={styles.li}>
-              <strong>Kraków</strong> — Małopolska; pod kierunkiem prof.
-              Zdzisława Nogi
-            </li>
-            <li style={styles.li}>
-              <strong>Lublin</strong> — Lubelszczyzna; zespół Uniwersytetu Marii
-              Curie‑Skłodowskiej, który dołączył do przedsięwzięcia w 2022 r.
-            </li>
-          </ul>
+          <div className="ap-teams">
+            {TEAMS.map((t) => (
+              <div key={t.city} style={styles.team}>
+                <div style={styles.teamCity}>{t.city}</div>
+                <div style={styles.teamRegion}>{t.region}</div>
+                <p style={styles.teamNote}>{t.note}</p>
+              </div>
+            ))}
+          </div>
           <p style={styles.p}>
             Redaktorem serii jest <strong>prof. Roman Czaja</strong>. Do
             chwili obecnej ukazały się atlasy około{' '}
@@ -54,84 +87,53 @@ export default function AboutPolish() {
         </section>
 
         <section style={styles.section}>
-          <h2 style={styles.h2}>Tomy regionalne</h2>
-          <table style={styles.table}>
-            <thead>
-              <tr>
-                <th style={styles.th}>Tom</th>
-                <th style={styles.th}>Region</th>
-              </tr>
-            </thead>
-            <tbody>
-              {[
-                ['Tom I', 'Prusy Królewskie i Warmia'],
-                ['Tom II', 'Kujawy'],
-                ['Tom III', 'Mazury i Prusy Książęce'],
-                ['Tom IV', 'Śląsk'],
-                ['Tom V', 'Małopolska'],
-                ['Tom VI', 'Wielkopolska (dotąd Kalisz)'],
-              ].map(([tom, region]) => (
-                <tr key={tom}>
-                  <td style={styles.td}>{tom}</td>
-                  <td style={styles.td}>{region}</td>
+          <h2 style={styles.h2}>Tomy regionalne i zasięg serii</h2>
+          <div className="ap-split">
+            <table style={styles.table}>
+              <thead>
+                <tr>
+                  <th style={styles.th}>Tom</th>
+                  <th style={styles.th}>Region</th>
                 </tr>
-              ))}
-            </tbody>
-          </table>
-        </section>
+              </thead>
+              <tbody>
+                {VOLUMES.map(([tom, region]) => (
+                  <tr key={tom}>
+                    <td style={{ ...styles.td, whiteSpace: 'nowrap', fontWeight: 600, color: 'var(--navy)' }}>{tom}</td>
+                    <td style={styles.td}>{region}</td>
+                  </tr>
+                ))}
+              </tbody>
+            </table>
 
-        <section style={styles.section}>
-          <h2 style={styles.h2}>Zasięg terytorialny serii</h2>
-          <figure style={styles.mapFig}>
-            <img
-              src="https://atlasmiast.umk.pl/wp-content/uploads/2025/10/mapa.png"
-              alt="Mapa Polski z zaznaczonymi miastami objętymi seriami atlasowymi AHMP i Deutscher Städte-Atlas"
-              style={styles.mapImg}
-            />
-            <div style={styles.mapLegend}>
-              <span style={styles.legendItem}><span style={styles.legendSq}>■</span> atlasy wydane w serii <em>Atlas Historyczny Miast Polskich</em></span>
-              <span style={styles.legendItem}><span style={styles.legendTri}>▲</span> atlasy w przygotowaniu</span>
-              <span style={styles.legendItem}><span style={styles.legendCir}>●</span> atlasy wydane w serii <em>Deutscher Städte-Atlas</em></span>
-            </div>
-            <figcaption style={styles.mapCaption}>
-              Rozmieszczenie miast objętych seriami atlasowymi — stan aktualny.{' '}
-              <a href="https://atlasmiast.umk.pl/" target="_blank" rel="noopener noreferrer" style={styles.mapSrc}>
-                Źródło: atlasmiast.umk.pl
-              </a>
-            </figcaption>
-          </figure>
+            <figure style={styles.fig}>
+              <img
+                src="https://atlasmiast.umk.pl/wp-content/uploads/2025/10/mapa.png"
+                alt="Mapa Polski z zaznaczonymi miastami objętymi seriami atlasowymi AHMP i Deutscher Städte-Atlas"
+                style={styles.img}
+              />
+              <figcaption style={styles.caption}>
+                Rozmieszczenie miast objętych seriami atlasowymi — stan aktualny.{' '}
+                <a href="https://atlasmiast.umk.pl/" target="_blank" rel="noopener noreferrer" style={styles.src}>
+                  Źródło: atlasmiast.umk.pl
+                </a>
+              </figcaption>
+            </figure>
+          </div>
         </section>
 
         <section style={styles.section}>
           <h2 style={styles.h2}>Kanon edytorski — co zawiera zeszyt</h2>
-          <p style={styles.p}>
-            Każdy zeszyt AHMP opiera się na tym samym modelu:
-          </p>
-          <ul style={styles.ul}>
-            <li style={styles.li}>
-              <strong>Mapa pomiarowa 1:2500</strong> — przerys planu
-              katastralnego (pruskiego lub austriackiego) albo planu
-              pomiarowego z okresu Królestwa Kongresowego, z epoki
-              przedprzemysłowej; najważniejsza mapa każdego zeszytu
-            </li>
-            <li style={styles.li}>
-              Współczesny plan miasta
-            </li>
-            <li style={styles.li}>
-              Historyczna mapa regionu (skala 1:25 000–1:100 000)
-            </li>
-            <li style={styles.li}>
-              Mapa rozwoju przestrzennego 1:10 000 z fazami chronologicznymi
-            </li>
-            <li style={styles.li}>
-              Mapy tematyczne oraz reprodukcje ważnych źródeł kartograficznych
-              i widoków (wedut)
-            </li>
-            <li style={styles.li}>
-              Część tekstowa: dzieje miasta ze szczególnym uwzględnieniem
-              urbanistyki, opis reprodukcji i bibliografia
-            </li>
-          </ul>
+          <p style={styles.p}>Każdy zeszyt AHMP opiera się na tym samym modelu:</p>
+          <div className="ap-canon">
+            {CANON.map(([title, text], i) => (
+              <div key={title} style={styles.canon}>
+                <div style={styles.canonNo}>{i + 1}</div>
+                <div style={styles.canonTitle}>{title}</div>
+                <p style={styles.canonText}>{text}</p>
+              </div>
+            ))}
+          </div>
         </section>
 
         <section style={styles.section}>
@@ -149,7 +151,7 @@ export default function AboutPolish() {
             W opracowaniu są zeszyty dla trzech miast Lubelszczyzny —{' '}
             <strong>Kazimierza Dolnego, Puław i Wąwolnicy</strong> — przygotowywane
             przez zespół UMCS w Lublinie. Materiały robocze prezentujemy w zakładce{' '}
-            <Link to="/atlasy-projektowane" style={{ color: 'var(--gold)' }}>Atlasy projektowane</Link>.
+            <Link to="/atlasy-projektowane" style={{ color: 'var(--navy)', fontWeight: 600 }}>Atlasy projektowane</Link>.
           </p>
         </section>
 
@@ -168,46 +170,45 @@ export default function AboutPolish() {
         </div>
       </div>
     </div>
-    </div>
   )
 }
 
 const styles = {
-  page: { maxWidth: '80vw', margin: '0 auto', paddingBottom: '64px' },
   hero: {
-    background: 'var(--navy)',
-    color: 'var(--white)',
-    padding: '52px 40px',
+    background: 'var(--cream)',
+    borderBottom: '1px solid var(--border-light)',
+    padding: '48px 0 36px',
   },
+  inner: { maxWidth: 1080, margin: '0 auto', padding: '0 32px' },
   kicker: {
     fontSize: '11px',
     fontWeight: '600',
     textTransform: 'uppercase',
     letterSpacing: '1.5px',
-    color: 'var(--gold-light)',
+    color: 'var(--gold)',
     marginBottom: '12px',
   },
   title: {
     fontFamily: 'var(--font-serif)',
     fontSize: '34px',
-    color: 'var(--white)',
+    color: 'var(--navy)',
     lineHeight: '1.2',
-    marginBottom: '16px',
+    marginBottom: '14px',
     fontWeight: 'normal',
   },
   subtitle: {
     fontSize: '15px',
-    color: 'rgba(255,255,255,0.78)',
+    color: 'var(--text-muted)',
     lineHeight: '1.7',
-    maxWidth: '580px',
+    maxWidth: '640px',
   },
-  content: { padding: '0 40px' },
-  section: { padding: '36px 0 0' },
+  section: { padding: '40px 0 0' },
   h2: {
     fontFamily: 'var(--font-serif)',
     fontSize: '22px',
+    fontWeight: 'normal',
     color: 'var(--navy)',
-    marginBottom: '14px',
+    marginBottom: '16px',
     paddingBottom: '8px',
     borderBottom: '1px solid var(--border-light)',
   },
@@ -215,14 +216,25 @@ const styles = {
     color: 'var(--text)',
     lineHeight: '1.75',
     marginBottom: '12px',
-    fontSize: '14px',
+    fontSize: '15px',
+    maxWidth: '760px',
   },
-  ul: { paddingLeft: '24px', marginBottom: '12px' },
-  li: { color: 'var(--text)', lineHeight: '1.75', fontSize: '14px', marginBottom: '4px' },
+  team: {
+    background: 'var(--white)',
+    border: '1px solid var(--border-light)',
+    borderTop: '3px solid var(--navy)',
+    borderRadius: 'var(--radius)',
+    padding: '14px 16px 6px',
+  },
+  teamCity: { fontFamily: 'var(--font-serif)', fontSize: '18px', color: 'var(--navy)' },
+  teamRegion: { fontSize: '12px', color: 'var(--gold)', fontWeight: 600, margin: '2px 0 8px' },
+  teamNote: { fontSize: '13px', lineHeight: 1.6, color: 'var(--text)' },
   table: {
     width: '100%',
     borderCollapse: 'collapse',
     fontSize: '14px',
+    background: 'var(--white)',
+    border: '1px solid var(--border-light)',
   },
   th: {
     background: 'var(--navy)',
@@ -234,19 +246,29 @@ const styles = {
     fontWeight: '600',
   },
   td: {
-    padding: '9px 14px',
+    padding: '10px 14px',
     borderBottom: '1px solid var(--border-light)',
     color: 'var(--text)',
   },
-  mapFig: { margin: '20px 0 0', display: 'flex', flexDirection: 'column', gap: '12px' },
-  mapImg: { width: '100%', maxWidth: '640px', display: 'block', margin: '0 auto', borderRadius: '6px', border: '1px solid var(--border-light)' },
-  mapLegend: { display: 'flex', flexDirection: 'column', gap: '5px', padding: '12px 16px', background: 'var(--cream-dark)', borderRadius: '6px', border: '1px solid var(--border-light)' },
-  legendItem: { fontSize: '13px', color: 'var(--text)', display: 'flex', alignItems: 'baseline', gap: '8px' },
-  legendSq: { fontSize: '13px', color: '#1a1a1a', flexShrink: 0 },
-  legendTri: { fontSize: '13px', color: '#1a1a1a', flexShrink: 0 },
-  legendCir: { fontSize: '13px', color: '#1a1a1a', flexShrink: 0 },
-  mapCaption: { fontSize: '12px', color: 'var(--text-muted)', fontStyle: 'italic', lineHeight: 1.5 },
-  mapSrc: { color: 'var(--navy)', opacity: 0.7, textDecoration: 'none' },
+  fig: { margin: 0 },
+  img: {
+    width: '100%',
+    display: 'block',
+    borderRadius: '4px',
+    border: '1px solid var(--border-light)',
+    background: 'var(--white)',
+  },
+  caption: { marginTop: 10, fontSize: '12px', color: 'var(--text-muted)', lineHeight: 1.6 },
+  src: { color: 'var(--navy)', opacity: 0.75, textDecoration: 'none' },
+  canon: {
+    background: 'var(--white)',
+    border: '1px solid var(--border-light)',
+    borderRadius: 'var(--radius)',
+    padding: '14px 16px 6px',
+  },
+  canonNo: { fontFamily: 'var(--font-serif)', fontSize: '13px', color: 'var(--gold)', marginBottom: 2 },
+  canonTitle: { fontFamily: 'var(--font-serif)', fontSize: '16px', color: 'var(--navy)', marginBottom: 6 },
+  canonText: { fontSize: '13px', lineHeight: 1.6, color: 'var(--text)' },
   cta: { display: 'flex', gap: '14px', flexWrap: 'wrap', padding: '40px 0 0' },
   btnPrimary: {
     background: 'var(--navy)',

@@ -211,3 +211,16 @@ a[target="_blank"]:hover {
   color: var(--navy);
   animation: none;
 }
+
+/* Strona Projekt polski */
+.ap-teams { display: grid; grid-template-columns: repeat(4, 1fr); gap: 14px; margin: 18px 0 20px; }
+.ap-split { display: grid; grid-template-columns: minmax(260px, 340px) 1fr; gap: 36px; align-items: start; }
+.ap-canon { display: grid; grid-template-columns: repeat(3, 1fr); gap: 14px; margin-top: 18px; }
+@media (max-width: 1000px) {
+  .ap-teams { grid-template-columns: repeat(2, 1fr); }
+  .ap-canon { grid-template-columns: repeat(2, 1fr); }
+  .ap-split { grid-template-columns: 1fr; gap: 24px; }
+}
+@media (max-width: 560px) {
+  .ap-teams, .ap-canon { grid-template-columns: 1fr; }
+}
