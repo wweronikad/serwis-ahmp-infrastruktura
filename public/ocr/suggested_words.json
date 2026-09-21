@@ -3882,74 +3882,174 @@
  ],
  "ahmp_elblag_ii_9": [
   {
-   "text": "Elbing Flu",
-   "x": 0.3237,
-   "y": 0.3271
+   "text": "Weg nach Ellernwaldt",
+   "x": 0.2899,
+   "y": 0.2956
   },
   {
-   "text": "Elbing",
-   "x": 0.6362,
-   "y": 0.9173
+   "text": "Elbing Flu.",
+   "x": 0.33,
+   "y": 0.3279
   },
   {
-   "text": "Vorstatte",
-   "x": 0.5887,
-   "y": 0.4009
+   "text": "Elbing Flu.",
+   "x": 0.3267,
+   "y": 0.4482
   },
   {
-   "text": "Speicher",
-   "x": 0.2362,
-   "y": 0.6098
+   "text": "Schiffs Holm",
+   "x": 0.2695,
+   "y": 0.3751
   },
   {
-   "text": "Vorberg",
-   "x": 0.3887,
-   "y": 0.7822
-  },
-  {
-   "text": "Marienthum",
-   "x": 0.5012,
-   "y": 0.7644
-  },
-  {
-   "text": "Ros garten",
-   "x": 0.425,
-   "y": 0.8862
-  },
-  {
-   "text": "S. Anna kirchhof",
-   "x": 0.705,
-   "y": 0.5867
-  },
-  {
-   "text": "S. Gergen",
-   "x": 0.7644,
-   "y": 0.6338
-  },
-  {
-   "text": "Neuer Gut",
-   "x": 0.7094,
-   "y": 0.3484
+   "text": "Holtzhauff",
+   "x": 0.265,
+   "y": 0.4074
   },
   {
    "text": "Lastadia",
-   "x": 0.3719,
-   "y": 0.4107
+   "x": 0.3798,
+   "y": 0.4117
   },
   {
-   "text": "Schiffs Molen",
-   "x": 0.2531,
-   "y": 0.3733
+   "text": "Rofferbahn",
+   "x": 0.4546,
+   "y": 0.4009
   },
   {
-   "text": "Wintergasse nach Tiegenhof",
-   "x": 0.1125,
-   "y": 0.5964
+   "text": "Zigelschein",
+   "x": 0.5271,
+   "y": 0.2623
   },
   {
-   "text": "Weg nach Ellerwalde",
-   "x": 0.2719,
-   "y": 0.3271
+   "text": "H. Leiche",
+   "x": 0.4931,
+   "y": 0.2763
+  },
+  {
+   "text": "Kalckstadt",
+   "x": 0.5196,
+   "y": 0.3311
+  },
+  {
+   "text": "Diebetham",
+   "x": 0.5845,
+   "y": 0.3429
+  },
+  {
+   "text": "Vorstatte",
+   "x": 0.5929,
+   "y": 0.402
+  },
+  {
+   "text": "Hohe Zinn",
+   "x": 0.5982,
+   "y": 0.4461
+  },
+  {
+   "text": "Gericht",
+   "x": 0.6329,
+   "y": 0.2859
+  },
+  {
+   "text": "Neue Gutt",
+   "x": 0.7303,
+   "y": 0.3257
+  },
+  {
+   "text": "Neue Hommel",
+   "x": 0.8353,
+   "y": 0.3246
+  },
+  {
+   "text": "Alte Hommel",
+   "x": 0.821,
+   "y": 0.4611
+  },
+  {
+   "text": "Wintertrifft nach Dantzick",
+   "x": 0.1275,
+   "y": 0.6054
+  },
+  {
+   "text": "Grubenhagen",
+   "x": 0.2151,
+   "y": 0.6721
+  },
+  {
+   "text": "Speicher",
+   "x": 0.2416,
+   "y": 0.6087
+  },
+  {
+   "text": "S. Jacob",
+   "x": 0.4856,
+   "y": 0.5324
+  },
+  {
+   "text": "Scheinen",
+   "x": 0.6366,
+   "y": 0.6721
+  },
+  {
+   "text": "Kirchhoff",
+   "x": 0.6457,
+   "y": 0.7258
+  },
+  {
+   "text": "S. Anna kirchberg",
+   "x": 0.7288,
+   "y": 0.5882
+  },
+  {
+   "text": "S. Gergen",
+   "x": 0.7749,
+   "y": 0.6673
+  },
+  {
+   "text": "Weingartt",
+   "x": 0.8618,
+   "y": 0.656
+  },
+  {
+   "text": "Ther hoff",
+   "x": 0.3005,
+   "y": 0.8166
+  },
+  {
+   "text": "Pher tham nach H. Marienburg",
+   "x": 0.2952,
+   "y": 0.9134
+  },
+  {
+   "text": "Vorberg",
+   "x": 0.4153,
+   "y": 0.7812
+  },
+  {
+   "text": "Marienb tham",
+   "x": 0.515,
+   "y": 0.7661
+  },
+  {
+   "text": "Marienburg tham",
+   "x": 0.4999,
+   "y": 0.937
+  },
+  {
+   "text": "Ros garten",
+   "x": 0.4357,
+   "y": 0.8897
+  },
+  {
+   "text": "Hollandische Strass nach Polen",
+   "x": 0.694,
+   "y": 0.8274
+  },
+  {
+   "text": "Elbing",
+   "x": 0.6729,
+   "y": 0.9241
   }
  ],
  "ahmp_elblag_ii_10": [
