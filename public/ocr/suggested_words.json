@@ -6095,5 +6095,87 @@
    "x": 0.5586,
    "y": 0.5906
   }
+ ],
+ "ahmp_wloclawek_ii_7": [
+  {
+   "text": "Rzeka Wisła",
+   "x": 0.1656,
+   "y": 0.2988
+  },
+  {
+   "text": "Wisła",
+   "x": 0.8219,
+   "y": 0.311
+  },
+  {
+   "text": "Wysep Piaszczysty",
+   "x": 0.5687,
+   "y": 0.3467
+  },
+  {
+   "text": "Zamek",
+   "x": 0.1737,
+   "y": 0.5026
+  },
+  {
+   "text": "Katedra",
+   "x": 0.2481,
+   "y": 0.7404
+  },
+  {
+   "text": "Rynek Stary",
+   "x": 0.5,
+   "y": 0.6246
+  },
+  {
+   "text": "Ulica Gdańska",
+   "x": 0.2294,
+   "y": 0.601
+  },
+  {
+   "text": "Ulica Toruńska",
+   "x": 0.1531,
+   "y": 0.6664
+  },
+  {
+   "text": "Ulica Emuńska",
+   "x": 0.3875,
+   "y": 0.6768
+  },
+  {
+   "text": "Ulica Zamera",
+   "x": 0.425,
+   "y": 0.6037
+  },
+  {
+   "text": "Ulica Bednarska",
+   "x": 0.2863,
+   "y": 0.6098
+  },
+  {
+   "text": "Ulica Nowa",
+   "x": 0.4894,
+   "y": 0.7404
+  },
+  {
+   "text": "Ulica Zapicherna",
+   "x": 0.625,
+   "y": 0.6124
+  },
+  {
+   "text": "Ulica Ślęzka",
+   "x": 0.7,
+   "y": 0.7474
+  },
+  {
+   "text": "Źródło",
+   "x": 0.7812,
+   "y": 0.7378
+  },
+  {
+   "text": "Rzeka Zglowaczka",
+   "x": 0.0906,
+   "y": 0.601
+  }
  ]
 }
