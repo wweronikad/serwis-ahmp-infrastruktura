@@ -7708,5 +7708,192 @@
    "x": 0.7037,
    "y": 0.6581
   }
+ ],
+ "ahmp_chojnice_ii_12": [
+  {
+   "text": "Bettelakademie",
+   "x": 0.4189,
+   "y": 0.34
+  },
+  {
+   "text": "Neuer jĂĽdischer BegrĂ¤bnisplatz",
+   "x": 0.4434,
+   "y": 0.3482
+  },
+  {
+   "text": "MĂ¶nchsee-AbfluĂź",
+   "x": 0.3662,
+   "y": 0.4436
+  },
+  {
+   "text": "Ziegel-StraĂźe",
+   "x": 0.3935,
+   "y": 0.449
+  },
+  {
+   "text": "Garten-StraĂźe",
+   "x": 0.417,
+   "y": 0.4395
+  },
+  {
+   "text": "Hohe HĂ¶fe",
+   "x": 0.4717,
+   "y": 0.4558
+  },
+  {
+   "text": "Der ehemalige Ziegelsee",
+   "x": 0.4265,
+   "y": 0.494
+  },
+  {
+   "text": "Neuer kath. Friedhof",
+   "x": 0.5329,
+   "y": 0.5185
+  },
+  {
+   "text": "Alter kath. Friedhof",
+   "x": 0.4999,
+   "y": 0.5907
+  },
+  {
+   "text": "Evangelischer Friedhof",
+   "x": 0.5169,
+   "y": 0.6289
+  },
+  {
+   "text": "KunststraĂźe nach Danzig",
+   "x": 0.6487,
+   "y": 0.5308
+  },
+  {
+   "text": "MĂĽhlen-Str.",
+   "x": 0.3492,
+   "y": 0.524
+  },
+  {
+   "text": "Poststall-Str.",
+   "x": 0.4057,
+   "y": 0.5357
+  },
+  {
+   "text": "Neustadt",
+   "x": 0.4227,
+   "y": 0.528
+  },
+  {
+   "text": "Rathaus",
+   "x": 0.4001,
+   "y": 0.558
+  },
+  {
+   "text": "Gymnasium",
+   "x": 0.4406,
+   "y": 0.5471
+  },
+  {
+   "text": "Haupt-Markt",
+   "x": 0.3963,
+   "y": 0.5812
+  },
+  {
+   "text": "Danziger StraĂźe",
+   "x": 0.4246,
+   "y": 0.5894
+  },
+  {
+   "text": "Schlochauer-Str.",
+   "x": 0.3662,
+   "y": 0.5766
+  },
+  {
+   "text": "RĂ¤hme-Str.",
+   "x": 0.3681,
+   "y": 0.6174
+  },
+  {
+   "text": "Wilhelms-Platz",
+   "x": 0.4509,
+   "y": 0.6275
+  },
+  {
+   "text": "BorromĂ¤us-Stift",
+   "x": 0.4622,
+   "y": 0.6044
+  },
+  {
+   "text": "Staatsanwaltschaft",
+   "x": 0.3492,
+   "y": 0.4714
+  },
+  {
+   "text": "Knaben Schule",
+   "x": 0.3389,
+   "y": 0.5785
+  },
+  {
+   "text": "MĂ¤dchen Schule",
+   "x": 0.3351,
+   "y": 0.6098
+  },
+  {
+   "text": "Convict",
+   "x": 0.4001,
+   "y": 0.6316
+  },
+  {
+   "text": "Loge",
+   "x": 0.3831,
+   "y": 0.6411
+  },
+  {
+   "text": "GefĂ¤ngniĂź",
+   "x": 0.3926,
+   "y": 0.6234
+  },
+  {
+   "text": "StĂ¤dt. Krankenhaus",
+   "x": 0.3586,
+   "y": 0.6275
+  },
+  {
+   "text": "Georgs-Platz",
+   "x": 0.4735,
+   "y": 0.6439
+  },
+  {
+   "text": "Plan der Stadt Konitz",
+   "x": 0.7312,
+   "y": 0.2914
+  },
+  {
+   "text": "Bahnhof",
+   "x": 0.7188,
+   "y": 0.8036
+  },
+  {
+   "text": "Heerbruch",
+   "x": 0.3844,
+   "y": 0.9005
+  },
+  {
+   "text": "Mönch-See",
+   "x": 0.425,
+   "y": 0.7348
+  },
+  {
+   "text": "Städtisches Schlachthaus",
+   "x": 0.4,
+   "y": 0.324
+  },
+  {
+   "text": "Stadt-Wald",
+   "x": 0.2062,
+   "y": 0.1719
+  },
+  {
+   "text": "Provinzial-Landerziehungs- und Besserungs-Anstalt",
+   "x": 0.5469,
+   "y": 0.1357
+  }
  ]
 }
