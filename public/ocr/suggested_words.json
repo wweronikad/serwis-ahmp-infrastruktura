@@ -5872,5 +5872,92 @@
    "x": 0.2219,
    "y": 0.8686
   }
+ ],
+ "ahmp_swiecie_ii_7": [
+  {
+   "text": "Die Weichsel",
+   "x": 0.3875,
+   "y": 0.2375
+  },
+  {
+   "text": "Das Schwarzwasser",
+   "x": 0.3875,
+   "y": 0.6183
+  },
+  {
+   "text": "Altes Schloß",
+   "x": 0.1938,
+   "y": 0.345
+  },
+  {
+   "text": "Rent-Amt",
+   "x": 0.2675,
+   "y": 0.336
+  },
+  {
+   "text": "Garten-länderein",
+   "x": 0.4688,
+   "y": 0.4211
+  },
+  {
+   "text": "Amts-Str.",
+   "x": 0.6438,
+   "y": 0.3199
+  },
+  {
+   "text": "Culmer-Str.",
+   "x": 0.8688,
+   "y": 0.3199
+  },
+  {
+   "text": "Marktplatz",
+   "x": 0.7531,
+   "y": 0.3423
+  },
+  {
+   "text": "Herren-Str.",
+   "x": 0.6562,
+   "y": 0.4615
+  },
+  {
+   "text": "Kirchen-Str.",
+   "x": 0.8438,
+   "y": 0.4498
+  },
+  {
+   "text": "Blancowanie",
+   "x": 0.6813,
+   "y": 0.5197
+  },
+  {
+   "text": "Garten-länderein",
+   "x": 0.6719,
+   "y": 0.5556
+  },
+  {
+   "text": "Kirchhof",
+   "x": 0.8719,
+   "y": 0.5108
+  },
+  {
+   "text": "Stadtmauer",
+   "x": 0.8719,
+   "y": 0.5538
+  },
+  {
+   "text": "Ackerländereien",
+   "x": 0.8,
+   "y": 0.6855
+  },
+  {
+   "text": "Frühjahrslauf des Weichselwassers",
+   "x": 0.7438,
+   "y": 0.6111
+  },
+  {
+   "text": "Brücken-Str.",
+   "x": 0.555,
+   "y": 0.4211
+  }
  ]
 }
