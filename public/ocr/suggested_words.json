@@ -3621,44 +3621,99 @@
  ],
  "ahmp_chojnice_ii_6": [
   {
-   "text": "Grund Riss Der Stad Conitz in Pommerellen",
-   "x": 0.0572,
-   "y": 0.1
+   "text": "Schlochauesches Thor",
+   "x": 0.2652,
+   "y": 0.8028
+  },
+  {
+   "text": "Dantziger Thor",
+   "x": 0.2538,
+   "y": 0.8109
+  },
+  {
+   "text": "MĂĽhlen Thor",
+   "x": 0.2475,
+   "y": 0.8183
+  },
+  {
+   "text": "MĂĽnchener Pfohrte",
+   "x": 0.259,
+   "y": 0.8261
+  },
+  {
+   "text": "Evangelische Stadt Kirche zur H. Dreyfaltigkeit",
+   "x": 0.2551,
+   "y": 0.842
+  },
+  {
+   "text": "Evangelische Stadt Schule",
+   "x": 0.2678,
+   "y": 0.8573
+  },
+  {
+   "text": "Stadt Rathaus",
+   "x": 0.2551,
+   "y": 0.8648
+  },
+  {
+   "text": "Jesuiter Collegium",
+   "x": 0.259,
+   "y": 0.8732
+  },
+  {
+   "text": "Pfarrkirche zu S. Joann",
+   "x": 0.2577,
+   "y": 0.8809
+  },
+  {
+   "text": "Der gefangenen Thurm",
+   "x": 0.2678,
+   "y": 0.897
+  },
+  {
+   "text": "Der Marckt Platz",
+   "x": 0.2614,
+   "y": 0.9047
   },
   {
    "text": "Weg von Tauchel",
-   "x": 0.3395,
-   "y": 0.0988
+   "x": 0.4013,
+   "y": 0.1187
   },
   {
    "text": "Weg nach Schlochau",
-   "x": 0.8469,
-   "y": 0.38
+   "x": 0.8764,
+   "y": 0.4094
   },
   {
-   "text": "Weg von Danzig",
-   "x": 0.8164,
-   "y": 0.4875
+   "text": "Schlochausche Thor",
+   "x": 0.7288,
+   "y": 0.7981
   },
   {
-   "text": "Die Königliche Stadt Conitz",
-   "x": 0.3432,
-   "y": 0.6594
+   "text": "Dantziger Thor",
+   "x": 0.7149,
+   "y": 0.8069
   },
   {
-   "text": "Grund Riss der Stadt",
-   "x": 0.1965,
-   "y": 0.7906
+   "text": "Evangelische Stadt Kirche zur H. Dreyfaltigkeit",
+   "x": 0.7472,
+   "y": 0.83
   },
   {
-   "text": "Johann Jacob Braemer delineavit",
-   "x": 0.3432,
-   "y": 0.9425
+   "text": "Evangelische Kirche und Hospitahl zum H. Geist",
+   "x": 0.7472,
+   "y": 0.8531
   },
   {
-   "text": "S. Bennet sculp. Dantzig",
-   "x": 0.6688,
-   "y": 0.945
+   "text": "Pfarrkirche zu S. Joann",
+   "x": 0.7242,
+   "y": 0.8719
+  },
+  {
+   "text": "Augustiner Kirche",
+   "x": 0.7426,
+   "y": 0.8856
   }
  ],
  "ahmp_chojnice_ii_14": [
