@@ -6311,5 +6311,407 @@
    "x": 0.3362,
    "y": 0.2166
   }
+ ],
+ "ahmp_chelmno_ii_1": [
+  {
+   "text": "Fischerei",
+   "x": 0.251,
+   "y": 0.3124
+  },
+  {
+   "text": "Wasserwerk",
+   "x": 0.3212,
+   "y": 0.2757
+  },
+  {
+   "text": "Trinkestrasse",
+   "x": 0.4203,
+   "y": 0.2022
+  },
+  {
+   "text": "Gasanstalt",
+   "x": 0.5354,
+   "y": 0.1582
+  },
+  {
+   "text": "Städtisches Armenhaus",
+   "x": 0.3598,
+   "y": 0.2481
+  },
+  {
+   "text": "Weichselstrasse",
+   "x": 0.4622,
+   "y": 0.252
+  },
+  {
+   "text": "Kulmer Stadtniederung",
+   "x": 0.7153,
+   "y": 0.0817
+  },
+  {
+   "text": "Unterbergstrasse",
+   "x": 0.6977,
+   "y": 0.1043
+  },
+  {
+   "text": "Fischbachstrasse",
+   "x": 0.7952,
+   "y": 0.3016
+  },
+  {
+   "text": "Weidenweg",
+   "x": 0.1152,
+   "y": 0.369
+  },
+  {
+   "text": "Segelstrasse",
+   "x": 0.2006,
+   "y": 0.3489
+  },
+  {
+   "text": "Kämpenstrasse",
+   "x": 0.2447,
+   "y": 0.3715
+  },
+  {
+   "text": "Alte Promenade",
+   "x": 0.3059,
+   "y": 0.3891
+  },
+  {
+   "text": "Burgweg",
+   "x": 0.1988,
+   "y": 0.4311
+  },
+  {
+   "text": "Klostergarten",
+   "x": 0.162,
+   "y": 0.5015
+  },
+  {
+   "text": "Klosterkirche",
+   "x": 0.1889,
+   "y": 0.5336
+  },
+  {
+   "text": "Nonnenkloster",
+   "x": 0.1634,
+   "y": 0.5583
+  },
+  {
+   "text": "Kapelle",
+   "x": 0.1386,
+   "y": 0.6108
+  },
+  {
+   "text": "Klostergarten",
+   "x": 0.179,
+   "y": 0.6153
+  },
+  {
+   "text": "Feuerstrasse",
+   "x": 0.2231,
+   "y": 0.4876
+  },
+  {
+   "text": "Fischerstrasse",
+   "x": 0.3095,
+   "y": 0.5123
+  },
+  {
+   "text": "Post",
+   "x": 0.3226,
+   "y": 0.5206
+  },
+  {
+   "text": "Franziskanerstrasse",
+   "x": 0.2843,
+   "y": 0.6128
+  },
+  {
+   "text": "Predigerstrasse",
+   "x": 0.3311,
+   "y": 0.4431
+  },
+  {
+   "text": "Bergstrasse",
+   "x": 0.1053,
+   "y": 0.6228
+  },
+  {
+   "text": "Bischofstrasse",
+   "x": 0.2015,
+   "y": 0.6354
+  },
+  {
+   "text": "Nonnenstrasse",
+   "x": 0.2375,
+   "y": 0.658
+  },
+  {
+   "text": "Realschule",
+   "x": 0.2831,
+   "y": 0.6492
+  },
+  {
+   "text": "Schulstrasse",
+   "x": 0.3131,
+   "y": 0.6354
+  },
+  {
+   "text": "Pfarrkirche",
+   "x": 0.3329,
+   "y": 0.6588
+  },
+  {
+   "text": "Evangelische Kirche",
+   "x": 0.4373,
+   "y": 0.3542
+  },
+  {
+   "text": "Kirchgasse",
+   "x": 0.4456,
+   "y": 0.3697
+  },
+  {
+   "text": "Ritterstrasse",
+   "x": 0.4664,
+   "y": 0.4243
+  },
+  {
+   "text": "Marktstrasse",
+   "x": 0.3764,
+   "y": 0.4501
+  },
+  {
+   "text": "Wasserstrasse",
+   "x": 0.4603,
+   "y": 0.4977
+  },
+  {
+   "text": "Querstrasse",
+   "x": 0.5018,
+   "y": 0.4423
+  },
+  {
+   "text": "Graudenzerstrasse",
+   "x": 0.4926,
+   "y": 0.4951
+  },
+  {
+   "text": "Friedrichstrasse",
+   "x": 0.5231,
+   "y": 0.5621
+  },
+  {
+   "text": "Mauerstrasse",
+   "x": 0.5738,
+   "y": 0.4552
+  },
+  {
+   "text": "Marktplatz",
+   "x": 0.3672,
+   "y": 0.5423
+  },
+  {
+   "text": "Rathaus",
+   "x": 0.3736,
+   "y": 0.5575
+  },
+  {
+   "text": "Kaserne",
+   "x": 0.4825,
+   "y": 0.6337
+  },
+  {
+   "text": "Thornerstrasse",
+   "x": 0.3657,
+   "y": 0.6575
+  },
+  {
+   "text": "Hornstrasse",
+   "x": 0.4603,
+   "y": 0.6665
+  },
+  {
+   "text": "Denkmal",
+   "x": 0.5904,
+   "y": 0.4119
+  },
+  {
+   "text": "Evangelischer",
+   "x": 0.6015,
+   "y": 0.472
+  },
+  {
+   "text": "Jüdischer",
+   "x": 0.6636,
+   "y": 0.5974
+  },
+  {
+   "text": "Begräbnisplatz",
+   "x": 0.6323,
+   "y": 0.5987
+  },
+  {
+   "text": "Parkstrasse",
+   "x": 0.781,
+   "y": 0.3527
+  },
+  {
+   "text": "Schmidtstrasse",
+   "x": 0.7477,
+   "y": 0.3703
+  },
+  {
+   "text": "Mühlenstrasse",
+   "x": 0.8371,
+   "y": 0.4075
+  },
+  {
+   "text": "Feldstrasse",
+   "x": 0.9358,
+   "y": 0.4137
+  },
+  {
+   "text": "Bahnhofstrasse",
+   "x": 0.7652,
+   "y": 0.4595
+  },
+  {
+   "text": "Eisenbahn",
+   "x": 0.9163,
+   "y": 0.5065
+  },
+  {
+   "text": "Bahnhof",
+   "x": 0.91,
+   "y": 0.5293
+  },
+  {
+   "text": "Der Kleine Exerzierplatz",
+   "x": 0.7454,
+   "y": 0.5726
+  },
+  {
+   "text": "Roonstrasse",
+   "x": 0.7589,
+   "y": 0.609
+  },
+  {
+   "text": "Georgenstrasse",
+   "x": 0.8632,
+   "y": 0.5864
+  },
+  {
+   "text": "Schützenstrasse",
+   "x": 0.9172,
+   "y": 0.6266
+  },
+  {
+   "text": "Kasernement der Maschinen Gewerabteilung",
+   "x": 0.0824,
+   "y": 0.7067
+  },
+  {
+   "text": "Höcherbräulagerkeller",
+   "x": 0.1467,
+   "y": 0.6798
+  },
+  {
+   "text": "Schule",
+   "x": 0.2105,
+   "y": 0.6954
+  },
+  {
+   "text": "Wache",
+   "x": 0.2451,
+   "y": 0.7034
+  },
+  {
+   "text": "Kasernenstrasse",
+   "x": 0.1808,
+   "y": 0.8343
+  },
+  {
+   "text": "Steg nach der Chaussee",
+   "x": 0.2168,
+   "y": 0.8243
+  },
+  {
+   "text": "Thorner Vorstadt",
+   "x": 0.1359,
+   "y": 0.8534
+  },
+  {
+   "text": "Thorner Vorstadt",
+   "x": 0.2894,
+   "y": 0.9291
+  },
+  {
+   "text": "Katholischer",
+   "x": 0.3149,
+   "y": 0.776
+  },
+  {
+   "text": "Begräbnisplatz",
+   "x": 0.3029,
+   "y": 0.8225
+  },
+  {
+   "text": "Chaussee",
+   "x": 0.2523,
+   "y": 0.9085
+  },
+  {
+   "text": "von Thorn",
+   "x": 0.3131,
+   "y": 0.8771
+  },
+  {
+   "text": "Kasino",
+   "x": 0.5074,
+   "y": 0.6809
+  },
+  {
+   "text": "Kirche",
+   "x": 0.4954,
+   "y": 0.6992
+  },
+  {
+   "text": "Mädchenschule",
+   "x": 0.3487,
+   "y": 0.7301
+  },
+  {
+   "text": "Casinogarten",
+   "x": 0.5009,
+   "y": 0.7701
+  },
+  {
+   "text": "An der Fribbe",
+   "x": 0.5581,
+   "y": 0.8041
+  },
+  {
+   "text": "An der Fribbe",
+   "x": 0.436,
+   "y": 0.8824
+  },
+  {
+   "text": "von Brosowo",
+   "x": 0.358,
+   "y": 0.9007
+  },
+  {
+   "text": "Infanterie Kaserne",
+   "x": 0.7373,
+   "y": 0.6753
+  },
+  {
+   "text": "Die Fribbe",
+   "x": 0.6941,
+   "y": 0.8306
+  }
  ]
 }
