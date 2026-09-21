@@ -8671,5 +8671,162 @@
    "x": 0.9156,
    "y": 0.4171
   }
+ ],
+ "ahmp_elblag_ii_5": [
+  {
+   "text": "Zakrzewo",
+   "x": 0.4076,
+   "y": 0.1875
+  },
+  {
+   "text": "Osiedle Zawada",
+   "x": 0.3239,
+   "y": 0.1344
+  },
+  {
+   "text": "Osiedle Kamionka",
+   "x": 0.5563,
+   "y": 0.1344
+  },
+  {
+   "text": "Osiedle Truso",
+   "x": 0.588,
+   "y": 0.1812
+  },
+  {
+   "text": "Osiedle 22 Lipca",
+   "x": 0.5194,
+   "y": 0.2231
+  },
+  {
+   "text": "Osiedle Metalowców",
+   "x": 0.7394,
+   "y": 0.2031
+  },
+  {
+   "text": "Bażantarnia",
+   "x": 0.8495,
+   "y": 0.245
+  },
+  {
+   "text": "Osiedle Kępa Północna",
+   "x": 0.3653,
+   "y": 0.2362
+  },
+  {
+   "text": "Osiedle na Stoku",
+   "x": 0.4032,
+   "y": 0.295
+  },
+  {
+   "text": "Rakowo",
+   "x": 0.4445,
+   "y": 0.3219
+  },
+  {
+   "text": "Osiedle Ogrody",
+   "x": 0.3239,
+   "y": 0.345
+  },
+  {
+   "text": "Osiedle Kopernika",
+   "x": 0.4974,
+   "y": 0.37
+  },
+  {
+   "text": "Osiedle Sadyba",
+   "x": 0.5915,
+   "y": 0.37
+  },
+  {
+   "text": "Śródmieście",
+   "x": 0.4137,
+   "y": 0.4394
+  },
+  {
+   "text": "Witoszewo",
+   "x": 0.5502,
+   "y": 0.4406
+  },
+  {
+   "text": "Winnica",
+   "x": 0.6954,
+   "y": 0.4781
+  },
+  {
+   "text": "Nowe Miasto",
+   "x": 0.3829,
+   "y": 0.5062
+  },
+  {
+   "text": "Stare Miasto",
+   "x": 0.3037,
+   "y": 0.55
+  },
+  {
+   "text": "Wyspa Spichrzów",
+   "x": 0.2685,
+   "y": 0.5312
+  },
+  {
+   "text": "Przedmieście Warszawskie",
+   "x": 0.6954,
+   "y": 0.5406
+  },
+  {
+   "text": "Przemysłowa",
+   "x": 0.2641,
+   "y": 0.4375
+  },
+  {
+   "text": "Zawodzie",
+   "x": 0.1673,
+   "y": 0.4313
+  },
+  {
+   "text": "Nowe Pole",
+   "x": 0.3477,
+   "y": 0.5813
+  },
+  {
+   "text": "Zatorze",
+   "x": 0.3592,
+   "y": 0.6519
+  },
+  {
+   "text": "Nowe Pole",
+   "x": 0.6954,
+   "y": 0.6813
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.6294,
+   "y": 0.2656
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.5722,
+   "y": 0.7188
+  },
+  {
+   "text": "Przemysłowa",
+   "x": 0.1673,
+   "y": 0.1075
+  },
+  {
+   "text": "Drewnik",
+   "x": 0.5678,
+   "y": 0.0925
+  },
+  {
+   "text": "Raczki Elbląskie",
+   "x": 0.2421,
+   "y": 0.9375
+  },
+  {
+   "text": "Bielany",
+   "x": 0.6382,
+   "y": 0.0375
+  }
  ]
 }
