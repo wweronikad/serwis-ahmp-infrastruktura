@@ -7280,88 +7280,943 @@
  "ahmp_elblag_ii_4": [
   {
    "text": "Elbing",
-   "x": 0.3719,
-   "y": 0.5603
+   "x": 0.0931,
+   "y": 0.2646
+  },
+  {
+   "text": "Schneidemühle",
+   "x": 0.1071,
+   "y": 0.2691
+  },
+  {
+   "text": "Rothebude",
+   "x": 0.1117,
+   "y": 0.3508
+  },
+  {
+   "text": "Villa Ziese",
+   "x": 0.1692,
+   "y": 0.309
+  },
+  {
+   "text": "Englisch Brunnen",
+   "x": 0.1529,
+   "y": 0.3633
   },
   {
    "text": "Lärchwalde",
-   "x": 0.1875,
-   "y": 0.1844
-  },
-  {
-   "text": "Roland",
-   "x": 0.3812,
-   "y": 0.266
+   "x": 0.2131,
+   "y": 0.1881
   },
   {
    "text": "Gr. Wesseln",
-   "x": 0.3688,
-   "y": 0.3635
+   "x": 0.3435,
+   "y": 0.3634
+  },
+  {
+   "text": "Schwedenschanze",
+   "x": 0.3575,
+   "y": 0.1829
+  },
+  {
+   "text": "Gr. Bieland",
+   "x": 0.4227,
+   "y": 0.2137
+  },
+  {
+   "text": "Roland",
+   "x": 0.3937,
+   "y": 0.2645
+  },
+  {
+   "text": "Freiwalde",
+   "x": 0.3811,
+   "y": 0.3075
+  },
+  {
+   "text": "zu Freiwalde",
+   "x": 0.4585,
+   "y": 0.3007
+  },
+  {
+   "text": "Schichau-Werft",
+   "x": 0.1665,
+   "y": 0.5524
   },
   {
    "text": "Mattendorf",
-   "x": 0.2,
-   "y": 0.3927
+   "x": 0.2149,
+   "y": 0.4103
+  },
+  {
+   "text": "Stolzenmorgen",
+   "x": 0.3146,
+   "y": 0.4009
+  },
+  {
+   "text": "Strauch-M.",
+   "x": 0.3373,
+   "y": 0.4392
+  },
+  {
+   "text": "Whs. Pulvergrund",
+   "x": 0.3327,
+   "y": 0.4971
+  },
+  {
+   "text": "Scheeder M.",
+   "x": 0.3219,
+   "y": 0.5036
+  },
+  {
+   "text": "Vahsack-M.",
+   "x": 0.3228,
+   "y": 0.5151
+  },
+  {
+   "text": "Whs. Sanssouci",
+   "x": 0.3391,
+   "y": 0.5344
+  },
+  {
+   "text": "Sportpl.",
+   "x": 0.3318,
+   "y": 0.5438
+  },
+  {
+   "text": "Waldschlößchen",
+   "x": 0.3629,
+   "y": 0.4045
+  },
+  {
+   "text": "Kl. Teichhof",
+   "x": 0.3711,
+   "y": 0.4179
+  },
+  {
+   "text": "Hommel",
+   "x": 0.3792,
+   "y": 0.4353
   },
   {
    "text": "Vogelsang",
-   "x": 0.4406,
-   "y": 0.4105
+   "x": 0.4263,
+   "y": 0.4205
+  },
+  {
+   "text": "Wesseln-M.",
+   "x": 0.4617,
+   "y": 0.3852
+  },
+  {
+   "text": "Wilde Hommel",
+   "x": 0.4435,
+   "y": 0.479
+  },
+  {
+   "text": "Wittenfelde",
+   "x": 0.4001,
+   "y": 0.5163
+  },
+  {
+   "text": "Thumberg",
+   "x": 0.4594,
+   "y": 0.5156
+  },
+  {
+   "text": "ELBING",
+   "x": 0.3955,
+   "y": 0.5606
+  },
+  {
+   "text": "Kuhwiesen",
+   "x": 0.0886,
+   "y": 0.6896
+  },
+  {
+   "text": "Clausenhöfchen",
+   "x": 0.0876,
+   "y": 0.7326
+  },
+  {
+   "text": "Roßwiesen",
+   "x": 0.2158,
+   "y": 0.7333
+  },
+  {
+   "text": "Trettinkenhof",
+   "x": 0.2439,
+   "y": 0.714
   },
   {
    "text": "Stadtfeld",
-   "x": 0.3688,
-   "y": 0.6028
+   "x": 0.3883,
+   "y": 0.5962
+  },
+  {
+   "text": "Bellevue",
+   "x": 0.3647,
+   "y": 0.6215
   },
   {
    "text": "Weingarten",
-   "x": 0.4313,
-   "y": 0.6498
+   "x": 0.4137,
+   "y": 0.6226
   },
   {
-   "text": "Neustädterfeld",
-   "x": 0.2969,
-   "y": 0.8085
+   "text": "Ludendorffhöhe",
+   "x": 0.4263,
+   "y": 0.5827
   },
   {
-   "text": "Spittelhof",
-   "x": 0.4688,
-   "y": 0.8865
+   "text": "Napoleonseiche",
+   "x": 0.4041,
+   "y": 0.6701
+  },
+  {
+   "text": "Weingrundforst",
+   "x": 0.4508,
+   "y": 0.6637
+  },
+  {
+   "text": "Schützenhs.",
+   "x": 0.4589,
+   "y": 0.6425
+  },
+  {
+   "text": "Talsperre",
+   "x": 0.4807,
+   "y": 0.6939
+  },
+  {
+   "text": "Wansau",
+   "x": 0.075,
+   "y": 0.7533
   },
   {
    "text": "Schillingsbrücke",
-   "x": 0.1594,
-   "y": 0.836
+   "x": 0.1103,
+   "y": 0.7971
+  },
+  {
+   "text": "Badeanst.",
+   "x": 0.1702,
+   "y": 0.7688
+  },
+  {
+   "text": "Pumpst.",
+   "x": 0.1647,
+   "y": 0.8009
+  },
+  {
+   "text": "Neustädterfeld",
+   "x": 0.2629,
+   "y": 0.8086
+  },
+  {
+   "text": "Drausenkampe",
+   "x": 0.2584,
+   "y": 0.9032
   },
   {
    "text": "Flughafen",
-   "x": 0.375,
-   "y": 0.8493
+   "x": 0.3761,
+   "y": 0.8491
   },
   {
-   "text": "Elbing",
-   "x": 0.705,
-   "y": 0.6321
+   "text": "Eichwalde",
+   "x": 0.4109,
+   "y": 0.8979
+  },
+  {
+   "text": "Spittelhof",
+   "x": 0.4653,
+   "y": 0.8066
+  },
+  {
+   "text": "Vogelsang",
+   "x": 0.6573,
+   "y": 0.2145
+  },
+  {
+   "text": "Bodenwinkel",
+   "x": 0.5794,
+   "y": 0.2354
+  },
+  {
+   "text": "Licht Camp",
+   "x": 0.5277,
+   "y": 0.2712
+  },
+  {
+   "text": "Kobbel Camp",
+   "x": 0.5491,
+   "y": 0.2624
+  },
+  {
+   "text": "Schweine Camp",
+   "x": 0.531,
+   "y": 0.3264
+  },
+  {
+   "text": "Drebbenau",
+   "x": 0.7309,
+   "y": 0.2234
   },
   {
    "text": "Tolkemit",
-   "x": 0.805,
-   "y": 0.2615
-  },
-  {
-   "text": "Drausen See",
-   "x": 0.7375,
-   "y": 0.8865
-  },
-  {
-   "text": "Holland",
-   "x": 0.9706,
-   "y": 0.9238
+   "x": 0.8174,
+   "y": 0.2598
   },
   {
    "text": "Das Frische Haff",
-   "x": 0.6281,
-   "y": 0.2996
+   "x": 0.7879,
+   "y": 0.2227
+  },
+  {
+   "text": "Kickelhof",
+   "x": 0.8241,
+   "y": 0.3009
+  },
+  {
+   "text": "Grenze",
+   "x": 0.9136,
+   "y": 0.1788
+  },
+  {
+   "text": "heilige Stein",
+   "x": 0.8842,
+   "y": 0.2152
+  },
+  {
+   "text": "Capelle",
+   "x": 0.841,
+   "y": 0.2475
+  },
+  {
+   "text": "Conradswalde",
+   "x": 0.9136,
+   "y": 0.2879
+  },
+  {
+   "text": "Neuendorf",
+   "x": 0.8842,
+   "y": 0.3114
+  },
+  {
+   "text": "Neukirch",
+   "x": 0.9089,
+   "y": 0.3599
+  },
+  {
+   "text": "Jungfer",
+   "x": 0.5405,
+   "y": 0.4766
+  },
+  {
+   "text": "Hegewald",
+   "x": 0.5329,
+   "y": 0.4908
+  },
+  {
+   "text": "Keitelau",
+   "x": 0.5453,
+   "y": 0.5016
+  },
+  {
+   "text": "Neuendorf",
+   "x": 0.5718,
+   "y": 0.5191
+  },
+  {
+   "text": "Aube",
+   "x": 0.5956,
+   "y": 0.5487
+  },
+  {
+   "text": "Langehorst",
+   "x": 0.5548,
+   "y": 0.5548
+  },
+  {
+   "text": "Zeyer",
+   "x": 0.6117,
+   "y": 0.511
+  },
+  {
+   "text": "Terranova",
+   "x": 0.663,
+   "y": 0.515
+  },
+  {
+   "text": "Königsberg",
+   "x": 0.8165,
+   "y": 0.4039
+  },
+  {
+   "text": "Tolkemit",
+   "x": 0.8212,
+   "y": 0.4316
+  },
+  {
+   "text": "Rehberg",
+   "x": 0.8041,
+   "y": 0.4794
+  },
+  {
+   "text": "Rakau",
+   "x": 0.8174,
+   "y": 0.5186
+  },
+  {
+   "text": "Berendshagen",
+   "x": 0.8079,
+   "y": 0.5381
+  },
+  {
+   "text": "Dorbeck",
+   "x": 0.7718,
+   "y": 0.4626
+  },
+  {
+   "text": "Lenzen",
+   "x": 0.7822,
+   "y": 0.439
+  },
+  {
+   "text": "Elbingsche Fahrwasser",
+   "x": 0.7043,
+   "y": 0.4316
+  },
+  {
+   "text": "Burkau",
+   "x": 0.9336,
+   "y": 0.3775
+  },
+  {
+   "text": "Rückenau",
+   "x": 0.9421,
+   "y": 0.4213
+  },
+  {
+   "text": "Karschau",
+   "x": 0.9421,
+   "y": 0.4778
+  },
+  {
+   "text": "Maybaum",
+   "x": 0.9079,
+   "y": 0.5041
+  },
+  {
+   "text": "Truntz",
+   "x": 0.8747,
+   "y": 0.5256
+  },
+  {
+   "text": "Baumgarth",
+   "x": 0.8377,
+   "y": 0.5028
+  },
+  {
+   "text": "Haselau",
+   "x": 0.8823,
+   "y": 0.4698
+  },
+  {
+   "text": "Forst",
+   "x": 0.8928,
+   "y": 0.461
+  },
+  {
+   "text": "Huette",
+   "x": 0.8947,
+   "y": 0.4334
+  },
+  {
+   "text": "Dünhöfen",
+   "x": 0.8804,
+   "y": 0.395
+  },
+  {
+   "text": "Rosengart",
+   "x": 0.6003,
+   "y": 0.5801
+  },
+  {
+   "text": "Einlage",
+   "x": 0.5785,
+   "y": 0.599
+  },
+  {
+   "text": "Wolfszagel",
+   "x": 0.5481,
+   "y": 0.63
+  },
+  {
+   "text": "Hackendorf",
+   "x": 0.5538,
+   "y": 0.6623
+  },
+  {
+   "text": "Kirchen Weide",
+   "x": 0.5377,
+   "y": 0.6704
+  },
+  {
+   "text": "Röbach",
+   "x": 0.5624,
+   "y": 0.6785
+  },
+  {
+   "text": "Nogathau",
+   "x": 0.5899,
+   "y": 0.7075
+  },
+  {
+   "text": "Hoppenau",
+   "x": 0.5785,
+   "y": 0.7344
+  },
+  {
+   "text": "Friedrichsberg",
+   "x": 0.6298,
+   "y": 0.7452
+  },
+  {
+   "text": "Neukirch",
+   "x": 0.6222,
+   "y": 0.7317
+  },
+  {
+   "text": "Nogat",
+   "x": 0.6288,
+   "y": 0.6791
+  },
+  {
+   "text": "Fünfte Trift",
+   "x": 0.644,
+   "y": 0.6057
+  },
+  {
+   "text": "Vierte Trift",
+   "x": 0.6421,
+   "y": 0.6212
+  },
+  {
+   "text": "Dritte Trift",
+   "x": 0.6326,
+   "y": 0.6401
+  },
+  {
+   "text": "Zweite Trift",
+   "x": 0.6269,
+   "y": 0.6562
+  },
+  {
+   "text": "Erste Trift",
+   "x": 0.5994,
+   "y": 0.6738
+  },
+  {
+   "text": "Stuthof",
+   "x": 0.6678,
+   "y": 0.6852
+  },
+  {
+   "text": "Neu Langehorst",
+   "x": 0.5548,
+   "y": 0.5545
+  },
+  {
+   "text": "Ob. Kerbswalde",
+   "x": 0.6649,
+   "y": 0.7418
+  },
+  {
+   "text": "ELBING",
+   "x": 0.6796,
+   "y": 0.6429
+  },
+  {
+   "text": "Bürger Pfarr",
+   "x": 0.6853,
+   "y": 0.572
+  },
+  {
+   "text": "Kuh Wiesen",
+   "x": 0.6929,
+   "y": 0.6604
+  },
+  {
+   "text": "Trettinkenhof",
+   "x": 0.7395,
+   "y": 0.6732
+  },
+  {
+   "text": "Freyheit",
+   "x": 0.7323,
+   "y": 0.684
+  },
+  {
+   "text": "Eichwalde",
+   "x": 0.749,
+   "y": 0.6941
+  },
+  {
+   "text": "Spittelhof",
+   "x": 0.7689,
+   "y": 0.682
+  },
+  {
+   "text": "Grunau",
+   "x": 0.7851,
+   "y": 0.7029
+  },
+  {
+   "text": "Boehmschgath",
+   "x": 0.8051,
+   "y": 0.713
+  },
+  {
+   "text": "Neudorf",
+   "x": 0.8103,
+   "y": 0.7386
+  },
+  {
+   "text": "Thumberg",
+   "x": 0.7765,
+   "y": 0.6354
+  },
+  {
+   "text": "Dambitzen",
+   "x": 0.7927,
+   "y": 0.6557
+  },
+  {
+   "text": "Damerau",
+   "x": 0.7946,
+   "y": 0.6044
+  },
+  {
+   "text": "Freywalde",
+   "x": 0.7395,
+   "y": 0.595
+  },
+  {
+   "text": "Rothebude",
+   "x": 0.6938,
+   "y": 0.5835
+  },
+  {
+   "text": "Unter Kerbswalde",
+   "x": 0.6777,
+   "y": 0.7413
+  },
+  {
+   "text": "Strohmsee",
+   "x": 0.7261,
+   "y": 0.7467
+  },
+  {
+   "text": "Serpien",
+   "x": 0.8298,
+   "y": 0.6982
+  },
+  {
+   "text": "Blumenau",
+   "x": 0.9079,
+   "y": 0.5834
+  },
+  {
+   "text": "Gr. Stoboy",
+   "x": 0.8643,
+   "y": 0.5841
+  },
+  {
+   "text": "Pomehrendorf",
+   "x": 0.9013,
+   "y": 0.6555
+  },
+  {
+   "text": "Wolfsdorf",
+   "x": 0.8614,
+   "y": 0.6757
+  },
+  {
+   "text": "Schönmohr",
+   "x": 0.9203,
+   "y": 0.6925
+  },
+  {
+   "text": "Rogau",
+   "x": 0.8947,
+   "y": 0.7154
+  },
+  {
+   "text": "Briensdorf",
+   "x": 0.9459,
+   "y": 0.716
+  },
+  {
+   "text": "Preuschmarck",
+   "x": 0.8539,
+   "y": 0.7201
+  },
+  {
+   "text": "Schönberg",
+   "x": 0.9507,
+   "y": 0.6225
+  },
+  {
+   "text": "Judendorf",
+   "x": 0.9516,
+   "y": 0.6736
+  },
+  {
+   "text": "Fichthof",
+   "x": 0.5899,
+   "y": 0.753
+  },
+  {
+   "text": "Königl. Tort Bruch",
+   "x": 0.6174,
+   "y": 0.7691
+  },
+  {
+   "text": "Neuhof",
+   "x": 0.5908,
+   "y": 0.7806
+  },
+  {
+   "text": "Grunau",
+   "x": 0.6174,
+   "y": 0.8257
+  },
+  {
+   "text": "Königsdorf",
+   "x": 0.6241,
+   "y": 0.8433
+  },
+  {
+   "text": "Fischau",
+   "x": 0.5813,
+   "y": 0.8675
+  },
+  {
+   "text": "Sparrau",
+   "x": 0.6089,
+   "y": 0.879
+  },
+  {
+   "text": "Wöschanerfelde",
+   "x": 0.5927,
+   "y": 0.8884
+  },
+  {
+   "text": "Schlablau",
+   "x": 0.5472,
+   "y": 0.8904
+  },
+  {
+   "text": "Kokeut",
+   "x": 0.5605,
+   "y": 0.908
+  },
+  {
+   "text": "Nenzendorf",
+   "x": 0.5396,
+   "y": 0.9275
+  },
+  {
+   "text": "Sommerau",
+   "x": 0.5396,
+   "y": 0.8332
+  },
+  {
+   "text": "Rosengarth",
+   "x": 0.6184,
+   "y": 0.914
+  },
+  {
+   "text": "Thiergartherfelde",
+   "x": 0.6611,
+   "y": 0.9275
+  },
+  {
+   "text": "Eschenhorst",
+   "x": 0.6659,
+   "y": 0.8332
+  },
+  {
+   "text": "Mörbruch",
+   "x": 0.6203,
+   "y": 0.7853
+  },
+  {
+   "text": "Jonasdorf",
+   "x": 0.7157,
+   "y": 0.7989
+  },
+  {
+   "text": "Wengeln",
+   "x": 0.749,
+   "y": 0.8022
+  },
+  {
+   "text": "Schmansdorf",
+   "x": 0.7271,
+   "y": 0.842
+  },
+  {
+   "text": "Rothhorst",
+   "x": 0.7537,
+   "y": 0.8501
+  },
+  {
+   "text": "Hohenwalde",
+   "x": 0.7318,
+   "y": 0.8778
+  },
+  {
+   "text": "Marcus",
+   "x": 0.6834,
+   "y": 0.896
+  },
+  {
+   "text": "Baalau",
+   "x": 0.7233,
+   "y": 0.9068
+  },
+  {
+   "text": "Spitzendorf",
+   "x": 0.7566,
+   "y": 0.9263
+  },
+  {
+   "text": "Thierhof",
+   "x": 0.6815,
+   "y": 0.8704
+  },
+  {
+   "text": "Kerbshorst",
+   "x": 0.6777,
+   "y": 0.7833
+  },
+  {
+   "text": "Drausen See",
+   "x": 0.7832,
+   "y": 0.8137
+  },
+  {
+   "text": "Hansdorf",
+   "x": 0.8136,
+   "y": 0.7746
+  },
+  {
+   "text": "Rohrkrug",
+   "x": 0.8117,
+   "y": 0.8609
+  },
+  {
+   "text": "Drausen",
+   "x": 0.8212,
+   "y": 0.8832
+  },
+  {
+   "text": "Rapendorf",
+   "x": 0.9317,
+   "y": 0.7718
+  },
+  {
+   "text": "Marienfeld",
+   "x": 0.9526,
+   "y": 0.8176
+  },
+  {
+   "text": "Schönwiese",
+   "x": 0.9374,
+   "y": 0.8331
+  },
+  {
+   "text": "Weskenhof",
+   "x": 0.9193,
+   "y": 0.856
+  },
+  {
+   "text": "Meislatein",
+   "x": 0.8747,
+   "y": 0.796
+  },
+  {
+   "text": "Bartkam",
+   "x": 0.8852,
+   "y": 0.7866
+  },
+  {
+   "text": "Wöcklitz",
+   "x": 0.9004,
+   "y": 0.7846
+  },
+  {
+   "text": "Kamerau",
+   "x": 0.8425,
+   "y": 0.8122
+  },
+  {
+   "text": "Althof",
+   "x": 0.8377,
+   "y": 0.8465
+  },
+  {
+   "text": "Melkhof",
+   "x": 0.8728,
+   "y": 0.8452
+  },
+  {
+   "text": "Langereihe",
+   "x": 0.8529,
+   "y": 0.8701
+  },
+  {
+   "text": "Neuguth",
+   "x": 0.8633,
+   "y": 0.8795
+  },
+  {
+   "text": "Crossen",
+   "x": 0.9013,
+   "y": 0.8788
+  },
+  {
+   "text": "Radland",
+   "x": 0.8577,
+   "y": 0.9118
+  },
+  {
+   "text": "Kussfeld",
+   "x": 0.9146,
+   "y": 0.9192
+  },
+  {
+   "text": "Holland",
+   "x": 0.9478,
+   "y": 0.8997
+  },
+  {
+   "text": "Elske Fl.",
+   "x": 0.8368,
+   "y": 0.827
+  },
+  {
+   "text": "Weske Fl.",
+   "x": 0.888,
+   "y": 0.86
+  },
+  {
+   "text": "Marienfelder Wiesenhof",
+   "x": 0.8956,
+   "y": 0.8331
   }
  ],
  "ahmp_elblag_ii_8": [
