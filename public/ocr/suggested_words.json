@@ -5992,89 +5992,1289 @@
  ],
  "ahmp_elblag_ii_3": [
   {
-   "text": "Stare Miasto",
-   "x": 0.4062,
-   "y": 0.5222
+   "text": "Niedrestr. 1565",
+   "x": 0.3983,
+   "y": 0.0347
   },
   {
-   "text": "Nowe Miasto",
-   "x": 0.5356,
-   "y": 0.5924
+   "text": "Kuhdamm 1565",
+   "x": 0.5625,
+   "y": 0.0494
   },
   {
-   "text": "Elbląg",
-   "x": 0.3856,
-   "y": 0.5817
+   "text": "Kleine Wunderbergstr. 1709",
+   "x": 0.6184,
+   "y": 0.0727
   },
   {
-   "text": "Wyspa Spichrzów",
-   "x": 0.2644,
-   "y": 0.548
+   "text": "Gr. Wunderbergstr. 1565",
+   "x": 0.6052,
+   "y": 0.0922
   },
   {
-   "text": "Przedmieścia",
-   "x": 0.4531,
-   "y": 0.2282
+   "text": "place składowe drewna (31) 1396",
+   "x": 0.3617,
+   "y": 0.0842
+  },
+  {
+   "text": "szpital Bożego Ciała (49)",
+   "x": 0.5357,
+   "y": 0.0901
+  },
+  {
+   "text": "ramy sukienników (46) 1399",
+   "x": 0.3485,
+   "y": 0.1256
+  },
+  {
+   "text": "kościół św. Jerzego (47) 1295",
+   "x": 0.5262,
+   "y": 0.1235
+  },
+  {
+   "text": "leprozorium (48) 1295",
+   "x": 0.5253,
+   "y": 0.1462
   },
   {
    "text": "Rosengarten 1335",
-   "x": 0.3544,
-   "y": 0.1581
+   "x": 0.4484,
+   "y": 0.1577
   },
   {
-   "text": "Przedmieścia",
-   "x": 0.6781,
-   "y": 0.3526
+   "text": "Kl. Ziegelscheunstr. 1565",
+   "x": 0.5695,
+   "y": 0.1684
   },
   {
-   "text": "Przedmieścia",
-   "x": 0.2531,
-   "y": 0.5968
+   "text": "cegielnie (50) XIII—XIV w.",
+   "x": 0.5902,
+   "y": 0.1697
   },
   {
-   "text": "Przedmieścia",
-   "x": 0.7125,
-   "y": 0.635
+   "text": "Reperschune",
+   "x": 0.4836,
+   "y": 0.2352
   },
   {
-   "text": "Zamek",
-   "x": 0.355,
-   "y": 0.706
+   "text": "tory powoźników (45) 1397",
+   "x": 0.4943,
+   "y": 0.2165
   },
   {
-   "text": "wola zamkowa",
-   "x": 0.5375,
-   "y": 0.8215
+   "text": "H. Leichnamstraße 1823",
+   "x": 0.5281,
+   "y": 0.1871
   },
   {
-   "text": "ogrody staromiejskie",
-   "x": 0.375,
-   "y": 0.9059
+   "text": "Przedmieścia (42)",
+   "x": 0.4503,
+   "y": 0.22
   },
   {
-   "text": "ogrody nowomiejskie",
-   "x": 0.6062,
-   "y": 0.706
+   "text": "Brandenburgerstr. 1703",
+   "x": 0.4256,
+   "y": 0.2347
   },
   {
-   "text": "pola staromiejskie",
-   "x": 0.9187,
-   "y": 0.5018
+   "text": "Lastadiengasse ok. 1400",
+   "x": 0.3664,
+   "y": 0.228
   },
   {
-   "text": "pola nowomiejskie",
-   "x": 0.9062,
-   "y": 0.6528
+   "text": "via S. Georgii 1338",
+   "x": 0.5074,
+   "y": 0.2512
+  },
+  {
+   "text": "Poppengasse 1430",
+   "x": 0.5413,
+   "y": 0.2512
+  },
+  {
+   "text": "czur czygelschune 1430",
+   "x": 0.5808,
+   "y": 0.2272
+  },
+  {
+   "text": "Dybetam 1381",
+   "x": 0.6071,
+   "y": 0.2485
+  },
+  {
+   "text": "Königsbergerstr. 1823",
+   "x": 0.641,
+   "y": 0.2218
+  },
+  {
+   "text": "Sonnenstraße 1823",
+   "x": 0.6269,
+   "y": 0.286
+  },
+  {
+   "text": "Gr. Segelstr. 1823",
+   "x": 0.3589,
+   "y": 0.2681
+  },
+  {
+   "text": "Kl. Segelstr. 1823",
+   "x": 0.3429,
+   "y": 0.2779
+  },
+  {
+   "text": "szkoła (44) 1751",
+   "x": 0.372,
+   "y": 0.2787
+  },
+  {
+   "text": "lasztownia (43) ok. 1300",
+   "x": 0.372,
+   "y": 0.2908
+  },
+  {
+   "text": "garbarnia ? 1400 [Gärberhaus]",
+   "x": 0.3617,
+   "y": 0.31
+  },
+  {
+   "text": "walkusz ? 1400 [Walkhaus]",
+   "x": 0.3946,
+   "y": 0.3127
+  },
+  {
+   "text": "Markentor 1635",
+   "x": 0.4689,
+   "y": 0.2913
+  },
+  {
+   "text": "Brettergasse XVII w.",
+   "x": 0.5733,
+   "y": 0.3127
+  },
+  {
+   "text": "fortyfikacje (34) 1558",
+   "x": 0.3382,
+   "y": 0.3585
+  },
+  {
+   "text": "dwór smolny (38) 1786",
+   "x": 0.3429,
+   "y": 0.3767
+  },
+  {
+   "text": "fortyfikacje (34) 1626—1635",
+   "x": 0.3871,
+   "y": 0.3732
+  },
+  {
+   "text": "fosa (9) 1410—1437",
+   "x": 0.3777,
+   "y": 0.3823
+  },
+  {
+   "text": "ogród strzelecki od 1601 (12)",
+   "x": 0.3805,
+   "y": 0.3917
+  },
+  {
+   "text": "Wallstraße 1781",
+   "x": 0.4538,
+   "y": 0.3818
+  },
+  {
+   "text": "spichrz solny XVIII—XIX w. (41c)",
+   "x": 0.3382,
+   "y": 0.3978
+  },
+  {
+   "text": "mur obronny (8) XIII—XIV w.",
+   "x": 0.3683,
+   "y": 0.4032
+  },
+  {
+   "text": "fosa (9) XIII—XIV w.",
+   "x": 0.4322,
+   "y": 0.3986
+  },
+  {
+   "text": "valva Fori 1319",
+   "x": 0.4322,
+   "y": 0.4139
+  },
+  {
+   "text": "klasztor dominikanów 1238 (25)",
+   "x": 0.3654,
+   "y": 0.4259
+  },
+  {
+   "text": "kościół NMP 1238 (25)",
+   "x": 0.3965,
+   "y": 0.4205
+  },
+  {
+   "text": "konwent beginek (24) 1298",
+   "x": 0.4172,
+   "y": 0.4253
+  },
+  {
+   "text": "synagoga (28) 1807",
+   "x": 0.4576,
+   "y": 0.4187
+  },
+  {
+   "text": "pl. Wullenwebere 1333",
+   "x": 0.4529,
+   "y": 0.4291
+  },
+  {
+   "text": "IV KWATRAŁ (5)",
+   "x": 0.4237,
+   "y": 0.4368
+  },
+  {
+   "text": "Muckenberg 1355",
+   "x": 0.3494,
+   "y": 0.4339
+  },
+  {
+   "text": "pl. Monachorum 1377",
+   "x": 0.3673,
+   "y": 0.4499
+  },
+  {
+   "text": "Kurschnerstr. 1606",
+   "x": 0.404,
+   "y": 0.4459
+  },
+  {
+   "text": "konwent beginek (24) 1417",
+   "x": 0.4059,
+   "y": 0.4545
+  },
+  {
+   "text": "valva Thobie 1335",
+   "x": 0.3466,
+   "y": 0.4636
+  },
+  {
+   "text": "pl. Thobie 1330",
+   "x": 0.3664,
+   "y": 0.4694
+  },
+  {
+   "text": "Kettenbrunnenstr. 1413",
+   "x": 0.3683,
+   "y": 0.4729
+  },
+  {
+   "text": "pl. Cerdonum 1340",
+   "x": 0.4491,
+   "y": 0.4641
+  },
+  {
+   "text": "Kurze Hinsterstr. 1810",
+   "x": 0.4755,
+   "y": 0.4606
+  },
+  {
+   "text": "Lange Hinsterstr. 1810",
+   "x": 0.4106,
+   "y": 0.466
+  },
+  {
+   "text": "konwent beginek (24) 1343",
+   "x": 0.3908,
+   "y": 0.4793
+  },
+  {
+   "text": "zbór menonicki (27) 1590",
+   "x": 0.4529,
+   "y": 0.4708
+  },
+  {
+   "text": "zbór kalwiński (26) 1701",
+   "x": 0.4529,
+   "y": 0.486
+  },
+  {
+   "text": "Kolemarket",
+   "x": 0.4322,
+   "y": 0.4873
+  },
+  {
+   "text": "III KWARTAŁ (4)",
+   "x": 0.4078,
+   "y": 0.4935
+  },
+  {
+   "text": "pl. Turris 1364",
+   "x": 0.4444,
+   "y": 0.4999
+  },
+  {
+   "text": "Bodekertor 1382",
+   "x": 0.3391,
+   "y": 0.5098
+  },
+  {
+   "text": "pl. Doleatorum 1338",
+   "x": 0.3739,
+   "y": 0.5098
+  },
+  {
+   "text": "Spieringstr. XVII w.",
+   "x": 0.4096,
+   "y": 0.5074
+  },
+  {
+   "text": "STARE MIASTO",
+   "x": 0.4002,
+   "y": 0.5194
+  },
+  {
+   "text": "II KWARTAŁ (3)",
+   "x": 0.4002,
+   "y": 0.5336
+  },
+  {
+   "text": "dwór Artusa (19) 1578",
+   "x": 0.4444,
+   "y": 0.5296
+  },
+  {
+   "text": "valva Fabrorum 1345",
+   "x": 0.4698,
+   "y": 0.5274
+  },
+  {
+   "text": "Forum teni 1364",
+   "x": 0.4313,
+   "y": 0.5154
+  },
+  {
+   "text": "pl. Fabrorum 1342",
+   "x": 0.4491,
+   "y": 0.5435
+  },
+  {
+   "text": "pl. Piscatorum 1330",
+   "x": 0.3739,
+   "y": 0.552
+  },
+  {
+   "text": "budy szewskie 1327 (17)",
+   "x": 0.4134,
+   "y": 0.5456
+  },
+  {
+   "text": "szkoła 1327 (18)",
+   "x": 0.3965,
+   "y": 0.555
+  },
+  {
+   "text": "kościół św. Mikołaja 1238 (13)",
+   "x": 0.4106,
+   "y": 0.5648
+  },
+  {
+   "text": "ratusz (20) 1319",
+   "x": 0.4416,
+   "y": 0.555
+  },
+  {
+   "text": "dwór Artusa (19) 1319",
+   "x": 0.3626,
+   "y": 0.5608
+  },
+  {
+   "text": "dom proboszcza 1356 (14)",
+   "x": 0.3692,
+   "y": 0.5795
+  },
+  {
+   "text": "ławy chlebowe 1321 (15)",
+   "x": 0.3908,
+   "y": 0.5809
+  },
+  {
+   "text": "ławy rzeźnickie (22) 1384",
+   "x": 0.4557,
+   "y": 0.5648
+  },
+  {
+   "text": "dom pisarza (21) 1385",
+   "x": 0.4501,
+   "y": 0.5707
+  },
+  {
+   "text": "Forum 1330",
+   "x": 0.4313,
+   "y": 0.5542
+  },
+  {
+   "text": "pl. Carnificium 1377",
+   "x": 0.4473,
+   "y": 0.5801
+  },
+  {
+   "text": "valva Piscium 1362",
+   "x": 0.3419,
+   "y": 0.5488
+  },
+  {
+   "text": "pl. Pontis 1330",
+   "x": 0.3899,
+   "y": 0.5876
+  },
+  {
+   "text": "porta Pontis 1342",
+   "x": 0.34,
+   "y": 0.5948
+  },
+  {
+   "text": "ELBLĄG (1)",
+   "x": 0.4049,
+   "y": 0.5983
+  },
+  {
+   "text": "I KWARTAŁ (2)",
+   "x": 0.404,
+   "y": 0.6116
+  },
+  {
+   "text": "Forum panis 1344",
+   "x": 0.4303,
+   "y": 0.6023
+  },
+  {
+   "text": "pl. Sancti Spiritus 1333",
+   "x": 0.4049,
+   "y": 0.6196
+  },
+  {
+   "text": "porta S. Spiritus 1335",
+   "x": 0.3457,
+   "y": 0.6269
+  },
+  {
+   "text": "zbór kalwiński (26) 1580",
+   "x": 0.4341,
+   "y": 0.6271
+  },
+  {
+   "text": "kościół Ducha Św. 1242 (23)",
+   "x": 0.3767,
+   "y": 0.6349
+  },
+  {
+   "text": "szpital Ducha Św. 1242 (23)",
+   "x": 0.3777,
+   "y": 0.6437
+  },
+  {
+   "text": "konwent beginek (24) 1417",
+   "x": 0.451,
+   "y": 0.6362
+  },
+  {
+   "text": "spichrze",
+   "x": 0.4322,
+   "y": 0.6437
+  },
+  {
+   "text": "ultra Humulam 1330",
+   "x": 0.4416,
+   "y": 0.649
+  },
+  {
+   "text": "i ogrody ok. 1290 (7)",
+   "x": 0.4378,
+   "y": 0.6563
+  },
+  {
+   "text": "Klappenberg 1376",
+   "x": 0.3447,
+   "y": 0.6552
+  },
+  {
+   "text": "Am Königsbergertor 1777",
+   "x": 0.4473,
+   "y": 0.351
+  },
+  {
+   "text": "szpital miejski (54) 1817",
+   "x": 0.5582,
+   "y": 0.3764
+  },
+  {
+   "text": "loża wolnomularska (53) 1804",
+   "x": 0.5592,
+   "y": 0.4066
+  },
+  {
+   "text": "Breitestraße 1389",
+   "x": 0.5347,
+   "y": 0.3831
+  },
+  {
+   "text": "Hundegasse 1379",
+   "x": 0.5272,
+   "y": 0.4793
+  },
+  {
+   "text": "Logengasse XIX w.",
+   "x": 0.5309,
+   "y": 0.4419
+  },
+  {
+   "text": "Pepligasse 1385",
+   "x": 0.5503,
+   "y": 0.462
+  },
+  {
+   "text": "Kobildrehergasse 1378",
+   "x": 0.5727,
+   "y": 0.4767
+  },
+  {
+   "text": "Toplargasse XVII w.",
+   "x": 0.5776,
+   "y": 0.4767
+  },
+  {
+   "text": "Verlorenegasse 1399",
+   "x": 0.5968,
+   "y": 0.4726
+  },
+  {
+   "text": "Grünegasse 1613",
+   "x": 0.6122,
+   "y": 0.474
+  },
+  {
+   "text": "Todegasse XVII w.",
+   "x": 0.6203,
+   "y": 0.3671
+  },
+  {
+   "text": "Traubengasse 1823",
+   "x": 0.6244,
+   "y": 0.3564
+  },
+  {
+   "text": "Grünegasse 1430",
+   "x": 0.6541,
+   "y": 0.3804
+  },
+  {
+   "text": "fortyfikacje (34) 1626—1635",
+   "x": 0.6193,
+   "y": 0.4414
+  },
+  {
+   "text": "Mühlentor 1632",
+   "x": 0.6541,
+   "y": 0.497
+  },
+  {
+   "text": "Mohle tamme 1409",
+   "x": 0.6203,
+   "y": 0.5034
+  },
+  {
+   "text": "Innerer Mühlendamm 1823",
+   "x": 0.6579,
+   "y": 0.5087
+  },
+  {
+   "text": "via versus molendinum 1349",
+   "x": 0.5714,
+   "y": 0.5154
+  },
+  {
+   "text": "Friedrich Wilhelm",
+   "x": 0.5103,
+   "y": 0.5074
+  },
+  {
+   "text": "Platz 1776—1778",
+   "x": 0.5131,
+   "y": 0.5528
+  },
+  {
+   "text": "kościół św. Jakuba ok. 1310 1601 (52)",
+   "x": 0.5422,
+   "y": 0.5007
+  },
+  {
+   "text": "szpital św. Elżbiety (58) 1319",
+   "x": 0.5676,
+   "y": 0.5301
+  },
+  {
+   "text": "Stormesschegasse 1383",
+   "x": 0.5338,
+   "y": 0.5515
+  },
+  {
+   "text": "Katzhodischegasse 1430",
+   "x": 0.5526,
+   "y": 0.5555
+  },
+  {
+   "text": "Albrechtgasse 1430",
+   "x": 0.5814,
+   "y": 0.5488
+  },
+  {
+   "text": "Kreuczgasse 1430",
+   "x": 0.6028,
+   "y": 0.5461
+  },
+  {
+   "text": "Mühlenstraße 1639",
+   "x": 0.6256,
+   "y": 0.5515
+  },
+  {
+   "text": "synagoga (28) 1807",
+   "x": 0.5394,
+   "y": 0.5721
+  },
+  {
+   "text": "ratusz (56) 1776—1778",
+   "x": 0.5093,
+   "y": 0.5729
+  },
+  {
+   "text": "mur obronny (10) 1410—1437",
+   "x": 0.4915,
+   "y": 0.5381
+  },
+  {
+   "text": "fosa (9) 1410—1437",
+   "x": 0.5014,
+   "y": 0.4473
+  },
+  {
+   "text": "odwach (57)",
+   "x": 0.4811,
+   "y": 0.5635
+  },
+  {
+   "text": "valva S. Jacobi 1340—1414",
+   "x": 0.5093,
+   "y": 0.5916
+  },
+  {
+   "text": "Jacobstor 1412",
+   "x": 0.5366,
+   "y": 0.5975
+  },
+  {
+   "text": "ławy rzeźnickie (74) 1381",
+   "x": 0.5526,
+   "y": 0.6036
+  },
+  {
+   "text": "valva Hollandia 1350—1360",
+   "x": 0.6485,
+   "y": 0.6028
+  },
+  {
+   "text": "NOWE MIASTO",
+   "x": 0.5563,
+   "y": 0.6188
+  },
+  {
+   "text": "Exercirhaus",
+   "x": 0.4915,
+   "y": 0.6477
+  },
+  {
+   "text": "ramy farbiarzy (70) do 1410",
+   "x": 0.5018,
+   "y": 0.637
+  },
+  {
+   "text": "Fleischergasse ok. 1400",
+   "x": 0.5234,
+   "y": 0.6611
+  },
+  {
+   "text": "Dy andere Twergasse ok. 1400",
+   "x": 0.5451,
+   "y": 0.6584
+  },
+  {
+   "text": "Dy dritte Twergasse ok. 1400",
+   "x": 0.5657,
+   "y": 0.6611
+  },
+  {
+   "text": "ratusz (71) 1356",
+   "x": 0.5836,
+   "y": 0.6357
+  },
+  {
+   "text": "Kościół Trzech Króli (72) 1340",
+   "x": 0.5846,
+   "y": 0.6611
+  },
+  {
+   "text": "szkoła (73) 1355",
+   "x": 0.609,
+   "y": 0.6397
+  },
+  {
+   "text": "Schulgasse ok. 1400",
+   "x": 0.5992,
+   "y": 0.6544
+  },
+  {
+   "text": "Dy letzte gasse ok. 1400",
+   "x": 0.6146,
+   "y": 0.6611
+  },
+  {
+   "text": "Herrengasse XIV w.",
+   "x": 0.5827,
+   "y": 0.6776
+  },
+  {
+   "text": "by den graben ok. 1400",
+   "x": 0.64,
+   "y": 0.6691
+  },
+  {
+   "text": "ogród strzelecki (75) 1410",
+   "x": 0.6523,
+   "y": 0.6731
+  },
+  {
+   "text": "Galgenberg",
+   "x": 0.715,
+   "y": 0.0382
+  },
+  {
+   "text": "mons patibulum 1354",
+   "x": 0.7152,
+   "y": 0.0478
+  },
+  {
+   "text": "wal obronny (32)",
+   "x": 0.906,
+   "y": 0.046
+  },
+  {
+   "text": "Nyen gute 1398",
+   "x": 0.8037,
+   "y": 0.1235
+  },
+  {
+   "text": "Reynevelt 1372",
+   "x": 0.8255,
+   "y": 0.2854
+  },
+  {
+   "text": "Hundebeke",
+   "x": 0.7724,
+   "y": 0.2195
+  },
+  {
+   "text": "Pesthaus 1631",
+   "x": 0.6919,
+   "y": 0.2893
+  },
+  {
+   "text": "Krumegasse XVII w.",
+   "x": 0.7528,
+   "y": 0.297
+  },
+  {
+   "text": "Die Sorge (Zarge) 1612",
+   "x": 0.0918,
+   "y": 0.771
+  },
+  {
+   "text": "łąki (30) XIII—XVIII w.",
+   "x": 0.0409,
+   "y": 0.6209
+  },
+  {
+   "text": "ogrody mieszczańskie (33)",
+   "x": 0.0872,
+   "y": 0.6184
   },
   {
    "text": "Grubenhagen",
-   "x": 0.0488,
-   "y": 0.5906
+   "x": 0.099,
+   "y": 0.5456
+  },
+  {
+   "text": "WYSPA",
+   "x": 0.2489,
+   "y": 0.5375
+  },
+  {
+   "text": "fortyfikacje (34) 1558",
+   "x": 0.2843,
+   "y": 0.3963
+  },
+  {
+   "text": "pakownia 1792 (39)",
+   "x": 0.2771,
+   "y": 0.4216
+  },
+  {
+   "text": "fortyfikacje (34) 1626—1635",
+   "x": 0.2525,
+   "y": 0.4557
+  },
+  {
+   "text": "Lege Brücke 1614",
+   "x": 0.3052,
+   "y": 0.458
+  },
+  {
+   "text": "waga 1785 (41b)",
+   "x": 0.327,
+   "y": 0.4498
+  },
+  {
+   "text": "pakownia 1692 (41a)",
+   "x": 0.318,
+   "y": 0.4888
   },
   {
    "text": "Elbing Fluß",
-   "x": 0.305,
-   "y": 0.5178
+   "x": 0.3089,
+   "y": 0.5383
+  },
+  {
+   "text": "dwór smolny 1405 (38)",
+   "x": 0.278,
+   "y": 0.5486
+  },
+  {
+   "text": "mała cieślarnia 1404 (37)",
+   "x": 0.2816,
+   "y": 0.5848
+  },
+  {
+   "text": "Przedmieścia (42)",
+   "x": 0.2389,
+   "y": 0.592
+  },
+  {
+   "text": "pons longus 1319",
+   "x": 0.3107,
+   "y": 0.6003
+  },
+  {
+   "text": "giełda 1789 (41)",
+   "x": 0.3161,
+   "y": 0.6127
+  },
+  {
+   "text": "pl. Yben? 1346",
+   "x": 0.238,
+   "y": 0.6209
+  },
+  {
+   "text": "rzeźnia 1345 (40)",
+   "x": 0.2762,
+   "y": 0.6227
+  },
+  {
+   "text": "porta Yben? 1346",
+   "x": 0.1971,
+   "y": 0.63
+  },
+  {
+   "text": "Mitteltor 1635",
+   "x": 0.188,
+   "y": 0.575
+  },
+  {
+   "text": "SPICHRZÓW (29)",
+   "x": 0.2453,
+   "y": 0.6442
+  },
+  {
+   "text": "wozownia i stajnia miejska 1321 (36)",
+   "x": 0.2889,
+   "y": 0.6519
+  },
+  {
+   "text": "pons piscium 1359",
+   "x": 0.327,
+   "y": 0.5461
+  },
+  {
+   "text": "OK. 1310",
+   "x": 0.2489,
+   "y": 0.7439
+  },
+  {
+   "text": "duża cieślarnia 1324 (35)",
+   "x": 0.2943,
+   "y": 0.7206
+  },
+  {
+   "text": "Marienburgertor 1643",
+   "x": 0.2771,
+   "y": 0.7955
+  },
+  {
+   "text": "fortyfikacje (34) 1558",
+   "x": 0.3043,
+   "y": 0.804
+  },
+  {
+   "text": "fortyfikacje (34) 1626—1635",
+   "x": 0.2634,
+   "y": 0.771
+  },
+  {
+   "text": "Marienburgerdamm 1635",
+   "x": 0.2707,
+   "y": 0.8807
+  },
+  {
+   "text": "Przedmieścia (42)",
+   "x": 0.7001,
+   "y": 0.3499
+  },
+  {
+   "text": "Hohezinnegasse 1705",
+   "x": 0.6655,
+   "y": 0.3447
+  },
+  {
+   "text": "Grünegasse 1709",
+   "x": 0.7355,
+   "y": 0.3318
+  },
+  {
+   "text": "Eulenwinkel 1709",
+   "x": 0.7419,
+   "y": 0.3757
+  },
+  {
+   "text": "Angergasse 1386",
+   "x": 0.7655,
+   "y": 0.3881
+  },
+  {
+   "text": "cmentarz katolicki (51) 1689",
+   "x": 0.6783,
+   "y": 0.4338
+  },
+  {
+   "text": "Äußerer Mühlendamm 1823",
+   "x": 0.7173,
+   "y": 0.5139
+  },
+  {
+   "text": "młyn (60) ok. 1400",
+   "x": 0.7637,
+   "y": 0.5229
+  },
+  {
+   "text": "młyn (59) ok. 1400",
+   "x": 0.7364,
+   "y": 0.5346
+  },
+  {
+   "text": "szkoła św. Anny (63) 1782",
+   "x": 0.8164,
+   "y": 0.5191
+  },
+  {
+   "text": "kościół św. Anny 1610 (61)",
+   "x": 0.8255,
+   "y": 0.5328
+  },
+  {
+   "text": "cimiterium prutenorum 1310",
+   "x": 0.8291,
+   "y": 0.5054
+  },
+  {
+   "text": "cmentarz NMP (62) 1821",
+   "x": 0.8582,
+   "y": 0.5229
+  },
+  {
+   "text": "wał obronny (32)",
+   "x": 0.86,
+   "y": 0.4894
+  },
+  {
+   "text": "Kanał Kumieli",
+   "x": 0.8364,
+   "y": 0.4429
+  },
+  {
+   "text": "pola staromiejskie (64)",
+   "x": 0.9337,
+   "y": 0.5015
+  },
+  {
+   "text": "pola nowomiejskie (65)",
+   "x": 0.9351,
+   "y": 0.6516
+  },
+  {
+   "text": "gasse nach S. Georgii 1565",
+   "x": 0.7982,
+   "y": 0.5785
+  },
+  {
+   "text": "Johannisstraße 1750",
+   "x": 0.7001,
+   "y": 0.625
+  },
+  {
+   "text": "Kl. Scheunstr. 1823",
+   "x": 0.7328,
+   "y": 0.6281
+  },
+  {
+   "text": "stodoły nowomiejskie (67) 1547",
+   "x": 0.7364,
+   "y": 0.6392
+  },
+  {
+   "text": "Gr. Scheunstr. 1823",
+   "x": 0.7301,
+   "y": 0.6423
+  },
+  {
+   "text": "cmentarz św. Jana (68) 1350—1360",
+   "x": 0.7155,
+   "y": 0.6689
+  },
+  {
+   "text": "klasztor brygidek (82) 1458—1521",
+   "x": 0.3626,
+   "y": 0.6777
+  },
+  {
+   "text": "gimnazjum (81) 1535",
+   "x": 0.3683,
+   "y": 0.6892
+  },
+  {
+   "text": "przedzamcze (79)",
+   "x": 0.3607,
+   "y": 0.7058
+  },
+  {
+   "text": "valva Castrum 1322",
+   "x": 0.4021,
+   "y": 0.6932
+  },
+  {
+   "text": "wozownia (85) 1578",
+   "x": 0.436,
+   "y": 0.7023
+  },
+  {
+   "text": "Burgtor do 1663",
+   "x": 0.4642,
+   "y": 0.7066
+  },
+  {
+   "text": "słodownia (84)",
+   "x": 0.3795,
+   "y": 0.7138
+  },
+  {
+   "text": "Zamek (80)",
+   "x": 0.3936,
+   "y": 0.7392
+  },
+  {
+   "text": "farbiarnia (83) ok. 1800",
+   "x": 0.356,
+   "y": 0.7466
+  },
+  {
+   "text": "fabryka tytoniu A. F. Jebens (88) 1809",
+   "x": 0.4068,
+   "y": 0.7565
+  },
+  {
+   "text": "słodownia (84) 1704",
+   "x": 0.3532,
+   "y": 0.7587
+  },
+  {
+   "text": "wapiennik (87) 1627—1781",
+   "x": 0.3476,
+   "y": 0.7712
+  },
+  {
+   "text": "do 1454",
+   "x": 0.3983,
+   "y": 0.7798
+  },
+  {
+   "text": "cukrownia (86) 1796",
+   "x": 0.3466,
+   "y": 0.8145
+  },
+  {
+   "text": "fortyfikacje (34) 1558",
+   "x": 0.3485,
+   "y": 0.8252
+  },
+  {
+   "text": "fortyfikacje (34) 1558",
+   "x": 0.4877,
+   "y": 0.7271
+  },
+  {
+   "text": "przedzamcze (79) do 1454",
+   "x": 0.3889,
+   "y": 0.8493
+  },
+  {
+   "text": "fortyfikacje (34) 1626—1635",
+   "x": 0.4642,
+   "y": 0.8661
+  },
+  {
+   "text": "Osiek Hakelwerk XIV—XV w.",
+   "x": 0.3645,
+   "y": 0.9383
+  },
+  {
+   "text": "ogrody staromiejskie (78) XVI—XVIII w.",
+   "x": 0.483,
+   "y": 0.9329
+  },
+  {
+   "text": "wola zamkowa (77) do 1454",
+   "x": 0.4999,
+   "y": 0.81
+  },
+  {
+   "text": "Kleine Vorbergstr. XVII w.",
+   "x": 0.4623,
+   "y": 0.7605
+  },
+  {
+   "text": "Große Vorbergstr. XVII w.",
+   "x": 0.4698,
+   "y": 0.7846
+  },
+  {
+   "text": "Innere Vorbergstr. XVII w.",
+   "x": 0.4021,
+   "y": 0.8041
+  },
+  {
+   "text": "Schottlandstraße ok. 1750",
+   "x": 0.5074,
+   "y": 0.8469
+  },
+  {
+   "text": "Kälberpforte 1635",
+   "x": 0.5723,
+   "y": 0.868
+  },
+  {
+   "text": "Marienburgerdamm XVIII w.",
+   "x": 0.5639,
+   "y": 0.7699
+  },
+  {
+   "text": "Innerer Marienburgerdamm XVIII w.",
+   "x": 0.5648,
+   "y": 0.8314
+  },
+  {
+   "text": "Mergenburgisches Tor 430",
+   "x": 0.5742,
+   "y": 0.7226
+  },
+  {
+   "text": "Polensche Tor 1350—1360",
+   "x": 0.5676,
+   "y": 0.7079
+  },
+  {
+   "text": "ELBLĄG (69) 1340",
+   "x": 0.5545,
+   "y": 0.6932
+  },
+  {
+   "text": "ogrody nowomiejskie (76) XIV—XV w.",
+   "x": 0.5958,
+   "y": 0.7565
+  },
+  {
+   "text": "ROßGARTEN",
+   "x": 0.594,
+   "y": 0.802
+  },
+  {
+   "text": "fortyfikacje (34) 1626—1635",
+   "x": 0.6579,
+   "y": 0.7298
+  },
+  {
+   "text": "Hollandertor 1636",
+   "x": 0.6419,
+   "y": 0.7579
+  },
+  {
+   "text": "Przedmieścia (42)",
+   "x": 0.7301,
+   "y": 0.6897
+  },
+  {
+   "text": "Petristraße 1823",
+   "x": 0.7273,
+   "y": 0.7085
+  },
+  {
+   "text": "Hollanderstr. 1823",
+   "x": 0.6737,
+   "y": 0.7486
+  },
+  {
+   "text": "Große Zahlerstraße",
+   "x": 0.7437,
+   "y": 0.7499
+  },
+  {
+   "text": "Zahlersbrücke 1674",
+   "x": 0.7164,
+   "y": 0.7739
+  },
+  {
+   "text": "Hommel Kumiela",
+   "x": 0.8073,
+   "y": 0.6941
+  },
+  {
+   "text": "nowomiejskie place składowe drewna XIV—XV w. (66)",
+   "x": 0.9037,
+   "y": 0.7155
+  },
+  {
+   "text": "Schwefkengarten 1565",
+   "x": 0.6932,
+   "y": 0.8932
+  },
+  {
+   "text": "Treidinicken Höfchen 1750",
+   "x": 0.6928,
+   "y": 0.9079
   }
  ],
  "ahmp_elblag_ii_4": [
