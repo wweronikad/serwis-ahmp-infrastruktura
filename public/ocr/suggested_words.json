@@ -3910,5 +3910,386 @@
    "x": 0.6312,
    "y": 0.3076
   }
+ ],
+ "ahmp_elblag_ii_1": [
+  {
+   "text": "Vordergärten",
+   "x": 0.1406,
+   "y": 0.0638
+  },
+  {
+   "text": "Lastadie",
+   "x": 0.4738,
+   "y": 0.0367
+  },
+  {
+   "text": "Altstadt",
+   "x": 0.4387,
+   "y": 0.4
+  },
+  {
+   "text": "Neustadt",
+   "x": 0.6813,
+   "y": 0.5389
+  },
+  {
+   "text": "Innerer Mühlendamm",
+   "x": 0.67,
+   "y": 0.3074
+  },
+  {
+   "text": "Innerer Sct. Georgedamm",
+   "x": 0.8844,
+   "y": 0.4821
+  },
+  {
+   "text": "Holländer Vorstadt",
+   "x": 0.8531,
+   "y": 0.6786
+  },
+  {
+   "text": "Speicher Insel",
+   "x": 0.1831,
+   "y": 0.5485
+  },
+  {
+   "text": "Grubenhagen",
+   "x": 0.0488,
+   "y": 0.4271
+  },
+  {
+   "text": "Die Kumst Morgen",
+   "x": 0.1769,
+   "y": 0.862
+  },
+  {
+   "text": "Der Roßgarten",
+   "x": 0.5094,
+   "y": 0.9345
+  },
+  {
+   "text": "Elbing Fluß",
+   "x": 0.3094,
+   "y": 0.0961
+  },
+  {
+   "text": "Elbing Fluß",
+   "x": 0.3094,
+   "y": 0.7686
+  },
+  {
+   "text": "Sct. Marien Kirche",
+   "x": 0.4106,
+   "y": 0.262
+  },
+  {
+   "text": "Sct. Nicolai Kirche",
+   "x": 0.4469,
+   "y": 0.4541
+  },
+  {
+   "text": "Rathaus",
+   "x": 0.5856,
+   "y": 0.4541
+  },
+  {
+   "text": "Gymnasium",
+   "x": 0.3644,
+   "y": 0.6114
+  },
+  {
+   "text": "Casino Garten",
+   "x": 0.7063,
+   "y": 0.2838
+  },
+  {
+   "text": "Der katholische Winkel",
+   "x": 0.85,
+   "y": 0.1878
+  },
+  {
+   "text": "Sct. Nicolai Kirchhof",
+   "x": 0.8063,
+   "y": 0.2533
+  },
+  {
+   "text": "Sct. Johannis Kirchhof",
+   "x": 0.8594,
+   "y": 0.6
+  },
+  {
+   "text": "Friedrich Wilhelms Platz",
+   "x": 0.5938,
+   "y": 0.3843
+  },
+  {
+   "text": "Schiffsholm",
+   "x": 0.2606,
+   "y": 0.041
+  },
+  {
+   "text": "Danziger Graben",
+   "x": 0.1906,
+   "y": 0.7668
+  },
+  {
+   "text": "Aachholtgraben",
+   "x": 0.3906,
+   "y": 0.1659
+  },
+  {
+   "text": "Kälberfloss",
+   "x": 0.7594,
+   "y": 0.8996
+  },
+  {
+   "text": "Trettinkenhof",
+   "x": 0.9487,
+   "y": 0.9624
+  },
+  {
+   "text": "Der neue Packhof",
+   "x": 0.2575,
+   "y": 0.2288
+  }
+ ],
+ "ahmp_elblag_ii_2": [
+  {
+   "text": "Die Roßwiesen",
+   "x": 0.1,
+   "y": 0.1421
+  },
+  {
+   "text": "Rahmen",
+   "x": 0.4444,
+   "y": 0.1643
+  },
+  {
+   "text": "Königsberger Vorstadt",
+   "x": 0.6356,
+   "y": 0.1794
+  },
+  {
+   "text": "Das neue Gut",
+   "x": 0.8544,
+   "y": 0.1909
+  },
+  {
+   "text": "Lastadie",
+   "x": 0.4,
+   "y": 0.2513
+  },
+  {
+   "text": "Vordergarten",
+   "x": 0.2,
+   "y": 0.2886
+  },
+  {
+   "text": "Der äußere Mühlendamm",
+   "x": 0.8063,
+   "y": 0.3535
+  },
+  {
+   "text": "Der kleine Wunderberg",
+   "x": 0.5938,
+   "y": 0.04
+  },
+  {
+   "text": "Der große Wunderberg",
+   "x": 0.6781,
+   "y": 0.0933
+  },
+  {
+   "text": "Innerer Mühlendamm",
+   "x": 0.5656,
+   "y": 0.4645
+  },
+  {
+   "text": "Außerer Sct. Georgendamm",
+   "x": 0.8875,
+   "y": 0.468
+  },
+  {
+   "text": "Grubenhagen",
+   "x": 0.1031,
+   "y": 0.4769
+  },
+  {
+   "text": "Altstadt",
+   "x": 0.395,
+   "y": 0.5302
+  },
+  {
+   "text": "Innerer Sct. Georgedamm",
+   "x": 0.7719,
+   "y": 0.6128
+  },
+  {
+   "text": "Neustadt",
+   "x": 0.5938,
+   "y": 0.6279
+  },
+  {
+   "text": "Speicher Insel",
+   "x": 0.2313,
+   "y": 0.635
+  },
+  {
+   "text": "Holländer Vorstadt",
+   "x": 0.7425,
+   "y": 0.7238
+  },
+  {
+   "text": "Die Kuhwiesen",
+   "x": 0.0437,
+   "y": 0.6456
+  },
+  {
+   "text": "Die Kumst Morgen",
+   "x": 0.2375,
+   "y": 0.8393
+  },
+  {
+   "text": "Das Neustädter Feld",
+   "x": 0.7625,
+   "y": 0.8721
+  },
+  {
+   "text": "Der Roßgarten",
+   "x": 0.4906,
+   "y": 0.9254
+  },
+  {
+   "text": "Elbing Fluß",
+   "x": 0.3206,
+   "y": 0.2664
+  },
+  {
+   "text": "Elbing Fluß",
+   "x": 0.325,
+   "y": 0.7638
+  },
+  {
+   "text": "Der katholische Winkel",
+   "x": 0.7094,
+   "y": 0.429
+  },
+  {
+   "text": "Danziger Graben",
+   "x": 0.2469,
+   "y": 0.7815
+  },
+  {
+   "text": "Stadtgraben",
+   "x": 0.1875,
+   "y": 0.4796
+  },
+  {
+   "text": "Schiffsholm",
+   "x": 0.2731,
+   "y": 0.278
+  },
+  {
+   "text": "Gymnasium",
+   "x": 0.35,
+   "y": 0.6616
+  },
+  {
+   "text": "Casino Garten",
+   "x": 0.5375,
+   "y": 0.4396
+  },
+  {
+   "text": "Friedrich Wilhelms Platz",
+   "x": 0.5238,
+   "y": 0.5284
+  }
+ ],
+ "ahmp_elblag_ii_3": [
+  {
+   "text": "Stare Miasto",
+   "x": 0.4062,
+   "y": 0.5222
+  },
+  {
+   "text": "Nowe Miasto",
+   "x": 0.5356,
+   "y": 0.5924
+  },
+  {
+   "text": "Elbląg",
+   "x": 0.3856,
+   "y": 0.5817
+  },
+  {
+   "text": "Wyspa Spichrzów",
+   "x": 0.2644,
+   "y": 0.548
+  },
+  {
+   "text": "Przedmieścia",
+   "x": 0.4531,
+   "y": 0.2282
+  },
+  {
+   "text": "Rosengarten 1335",
+   "x": 0.3544,
+   "y": 0.1581
+  },
+  {
+   "text": "Przedmieścia",
+   "x": 0.6781,
+   "y": 0.3526
+  },
+  {
+   "text": "Przedmieścia",
+   "x": 0.2531,
+   "y": 0.5968
+  },
+  {
+   "text": "Przedmieścia",
+   "x": 0.7125,
+   "y": 0.635
+  },
+  {
+   "text": "Zamek",
+   "x": 0.355,
+   "y": 0.706
+  },
+  {
+   "text": "wola zamkowa",
+   "x": 0.5375,
+   "y": 0.8215
+  },
+  {
+   "text": "ogrody staromiejskie",
+   "x": 0.375,
+   "y": 0.9059
+  },
+  {
+   "text": "ogrody nowomiejskie",
+   "x": 0.6062,
+   "y": 0.706
+  },
+  {
+   "text": "pola staromiejskie",
+   "x": 0.9187,
+   "y": 0.5018
+  },
+  {
+   "text": "pola nowomiejskie",
+   "x": 0.9062,
+   "y": 0.6528
+  },
+  {
+   "text": "Grubenhagen",
+   "x": 0.0488,
+   "y": 0.5906
+  },
+  {
+   "text": "Elbing Fluß",
+   "x": 0.305,
+   "y": 0.5178
+  }
  ]
 }
