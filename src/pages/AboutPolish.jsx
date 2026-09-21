@@ -18,26 +18,38 @@ export default function AboutPolish() {
         <section style={styles.section}>
           <h2 style={styles.h2}>Historia i zespoły</h2>
           <p style={styles.p}>
-            Projekt zapoczątkował <strong>prof. Antoni Czacharowski</strong> w
-            1993 r. w Instytucie Historii i Archiwistyki Uniwersytetu Mikołaja
-            Kopernika w Toruniu. Z czasem dołączyły kolejne zespoły regionalne:
+            Prace przygotowawcze nad polską edycją atlasu rozpoczęto w{' '}
+            <strong>1990 r.</strong> w Instytucie Historii i Archiwistyki
+            Uniwersytetu Mikołaja Kopernika w Toruniu, pod kierunkiem{' '}
+            <strong>prof. Antoniego Czacharowskiego</strong>; początkowo dotyczyły
+            one Atlasu historycznego Elbląga, a pierwsze zeszyty ukazały się od{' '}
+            <strong>1993 r.</strong> Zeszyty wydaje Towarzystwo Naukowe w Toruniu.
+            Z czasem dołączyły kolejne zespoły regionalne:
           </p>
           <ul style={styles.ul}>
             <li style={styles.li}>
-              <strong>Wrocław</strong> — Śląsk; pod kierunkiem prof. Marty
-              Młynarskiej‑Kaletynowej
+              <strong>Toruń</strong> — Prusy Królewskie, Warmia, Kujawy i Mazury;
+              zespół UMK, inicjator i koordynator całego przedsięwzięcia
+            </li>
+            <li style={styles.li}>
+              <strong>Wrocław</strong> — Śląsk; zespół Instytutu Archeologii i
+              Etnologii PAN, pod kierunkiem prof. Marty Młynarskiej‑Kaletynowej
             </li>
             <li style={styles.li}>
               <strong>Kraków</strong> — Małopolska; pod kierunkiem prof.
               Zdzisława Nogi
             </li>
+            <li style={styles.li}>
+              <strong>Lublin</strong> — Lubelszczyzna; zespół Uniwersytetu Marii
+              Curie‑Skłodowskiej, który dołączył do przedsięwzięcia w 2022 r.
+            </li>
           </ul>
           <p style={styles.p}>
-            Redaktorem naczelnym serii jest <strong>prof. Roman Czaja</strong>.
-            Dotychczas ukazały się atlasy około{' '}
-            <strong>50 miast</strong>; prace prowadzone są interdyscyplinarnie
-            przez historyków, historyków sztuki i architektury, archeologów
-            oraz kartografów.
+            Redaktorem serii jest <strong>prof. Roman Czaja</strong>. Do
+            chwili obecnej ukazały się atlasy około{' '}
+            <strong>50 miast</strong> (według strony projektu); prace prowadzone
+            są interdyscyplinarnie przez historyków, historyków sztuki i
+            architektury, archeologów oraz kartografów.
           </p>
         </section>
 
@@ -57,6 +69,7 @@ export default function AboutPolish() {
                 ['Tom III', 'Mazury i Prusy Książęce'],
                 ['Tom IV', 'Śląsk'],
                 ['Tom V', 'Małopolska'],
+                ['Tom VI', 'Wielkopolska (dotąd Kalisz)'],
               ].map(([tom, region]) => (
                 <tr key={tom}>
                   <td style={styles.td}>{tom}</td>
@@ -96,9 +109,10 @@ export default function AboutPolish() {
           </p>
           <ul style={styles.ul}>
             <li style={styles.li}>
-              <strong>Mapa pomiarowa 1:2500</strong> — przerys katastru
-              (galicyjskiego, pruskiego lub rosyjskiego) z epoki
-              przedprzemysłowej; serce atlasu
+              <strong>Mapa pomiarowa 1:2500</strong> — przerys planu
+              katastralnego (pruskiego lub austriackiego) albo planu
+              pomiarowego z okresu Królestwa Kongresowego, z epoki
+              przedprzemysłowej; najważniejsza mapa każdego zeszytu
             </li>
             <li style={styles.li}>
               Współczesny plan miasta
@@ -123,24 +137,20 @@ export default function AboutPolish() {
         <section style={styles.section}>
           <h2 style={styles.h2}>GIS i nowe atlasy</h2>
           <p style={styles.p}>
-            Nowsza odsłona projektu (zespół toruński, od 1999 r.) jako pierwsza
-            w polskiej historiografii miast wprowdziła{' '}
-            <strong>technologię GIS</strong> oraz szerokie stosowanie map
-            tematycznych. Stanowi to naturalne uzasadnienie potrzeby serwisu
-            cyfrowego — <em>serwis ten jest jego bezpośrednią kontynuacją</em>.
+            Zespół toruński rozwija w pracach nad Atlasem techniki
+            geoinformacyjne: opisał koncepcję referencyjnej bazy danych
+            przestrzennych obiektów topograficzno‑historycznych, opartej na
+            planie katastralnym Torunia (Czaja, Golba, Pilarska 2023). Ten kierunek
+            uzasadnia potrzebę serwisu cyfrowego — <em>niniejszy serwis jest
+            cyfrowym uzupełnieniem wydań drukowanych, a nie oficjalną edycją
+            Atlasu</em>.
           </p>
           <p style={styles.p}>
-            W przygotowaniu lub planowaniu znajdują się m.in.:
+            W opracowaniu są zeszyty dla trzech miast Lubelszczyzny —{' '}
+            <strong>Kazimierza Dolnego, Puław i Wąwolnicy</strong> — przygotowywane
+            przez zespół UMCS w Lublinie. Materiały robocze prezentujemy w zakładce{' '}
+            <Link to="/atlasy-projektowane" style={{ color: 'var(--gold)' }}>Atlasy projektowane</Link>.
           </p>
-          <ul style={styles.ul}>
-            <li style={styles.li}>
-              <strong>Kazimierz Dolny, Puławy, Wąwolnica</strong> — UMCS w
-              Lublinie
-            </li>
-            <li style={styles.li}>
-              Włocławek, Ostróda, Mrągowo, Kętrzyn — zespół toruński
-            </li>
-          </ul>
         </section>
 
         <div style={styles.cta}>
