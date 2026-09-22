@@ -15798,5 +15798,97 @@
    "x": 0.2316,
    "y": 0.4094
   }
+ ],
+ "ahmp_jelenia_gora_ii_3": [
+  {
+   "text": "ul. Kopernika (d. ul. Kaznodziejska)",
+   "x": 0.5583,
+   "y": 0.1117
+  },
+  {
+   "text": "ul. Męczenników (d. ul. Sądowa)",
+   "x": 0.6303,
+   "y": 0.1273
+  },
+  {
+   "text": "ul. Forteczna (d. do Furty)",
+   "x": 0.4901,
+   "y": 0.1344
+  },
+  {
+   "text": "ul. Jasna (d. ul. Jasna, ul. Grodzka)",
+   "x": 0.4512,
+   "y": 0.1825
+  },
+  {
+   "text": "ul. Grodzka (d. ul. Ciemna)",
+   "x": 0.4512,
+   "y": 0.2405
+  },
+  {
+   "text": "ul. Druciana (d. ul. Druciana)",
+   "x": 0.4901,
+   "y": 0.2758
+  },
+  {
+   "text": "ul. Długa",
+   "x": 0.5972,
+   "y": 0.2971
+  },
+  {
+   "text": "Wieża Bramy Zamkowej",
+   "x": 0.422,
+   "y": 0.2094
+  },
+  {
+   "text": "Plac Ratuszowy",
+   "x": 0.5777,
+   "y": 0.2277
+  },
+  {
+   "text": "Kościół parafialny pw. Pankracego i Erazma",
+   "x": 0.739,
+   "y": 0.0929
+  },
+  {
+   "text": "Wieża Bramy Wojanowskiej",
+   "x": 0.7889,
+   "y": 0.1184
+  },
+  {
+   "text": "Kościół pw. św. Anny",
+   "x": 0.8186,
+   "y": 0.1252
+  },
+  {
+   "text": "ul. M. Konopnickiej (d. ul. Wojanowska)",
+   "x": 0.7686,
+   "y": 0.1467
+  },
+  {
+   "text": "ul. Kościelna",
+   "x": 0.7093,
+   "y": 0.1346
+  },
+  {
+   "text": "ul. Solna",
+   "x": 0.7593,
+   "y": 0.1642
+  },
+  {
+   "text": "ul. Szkolna (d. ul. Żydowska)",
+   "x": 0.7408,
+   "y": 0.179
+  },
+  {
+   "text": "ul. Mroczna",
+   "x": 0.7093,
+   "y": 0.2099
+  },
+  {
+   "text": "ul. Pańska (d. ul. Więzienna)",
+   "x": 0.7001,
+   "y": 0.2463
+  }
  ]
 }
