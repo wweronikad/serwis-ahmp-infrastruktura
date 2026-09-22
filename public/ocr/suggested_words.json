@@ -14383,5 +14383,132 @@
    "x": 0.3908,
    "y": 0.8407
   }
+ ],
+ "ahmp_gizycko_ii_9": [
+  {
+   "text": "Grenze mit dem Königreiche Pohlen",
+   "x": 0.1018,
+   "y": 0.1877
+  },
+  {
+   "text": "Johannisburgsche Forst",
+   "x": 0.0477,
+   "y": 0.1075
+  },
+  {
+   "text": "Königl. neu Johannisburgsche Forst",
+   "x": 0.21,
+   "y": 0.1075
+  },
+  {
+   "text": "Nikolaiker See",
+   "x": 0.1577,
+   "y": 0.1037
+  },
+  {
+   "text": "Nikolaiken",
+   "x": 0.1937,
+   "y": 0.1037
+  },
+  {
+   "text": "Lukusiner See",
+   "x": 0.1955,
+   "y": 0.1228
+  },
+  {
+   "text": "Toll- Krossder See",
+   "x": 0.2713,
+   "y": 0.1018
+  },
+  {
+   "text": "Rhein",
+   "x": 0.3362,
+   "y": 0.112
+  },
+  {
+   "text": "Der Spirding See",
+   "x": 0.1252,
+   "y": 0.1559
+  },
+  {
+   "text": "Der Sexter See",
+   "x": 0.0531,
+   "y": 0.1635
+  },
+  {
+   "text": "Der Ublokafeer See",
+   "x": 0.0882,
+   "y": 0.1948
+  },
+  {
+   "text": "Der Kessel See",
+   "x": 0.0639,
+   "y": 0.2062
+  },
+  {
+   "text": "Der Roschsee",
+   "x": 0.3254,
+   "y": 0.2075
+  },
+  {
+   "text": "Aarys",
+   "x": 0.145,
+   "y": 0.2508
+  },
+  {
+   "text": "Ostpreussen",
+   "x": 0.8764,
+   "y": 0.1024
+  },
+  {
+   "text": "Der Doblische See",
+   "x": 0.7934,
+   "y": 0.1674
+  },
+  {
+   "text": "Lötzen",
+   "x": 0.7465,
+   "y": 0.1954
+  },
+  {
+   "text": "Der Lötzensche Kissain See",
+   "x": 0.7627,
+   "y": 0.1954
+  },
+  {
+   "text": "Dargeinen See",
+   "x": 0.8223,
+   "y": 0.2081
+  },
+  {
+   "text": "Der grosse Mauer See",
+   "x": 0.8547,
+   "y": 0.203
+  },
+  {
+   "text": "Der Löwentin See",
+   "x": 0.6599,
+   "y": 0.2164
+  },
+  {
+   "text": "Loetzen",
+   "x": 0.7131,
+   "y": 0.2164
+  },
+  {
+   "text": "Der Roschsee",
+   "x": 0.8583,
+   "y": 0.2374
+  },
+  {
+   "text": "Der Sarensee",
+   "x": 0.8439,
+   "y": 0.2374
+  },
+  {
+   "text": "Angerburg",
+   "x": 0.8818,
+   "y": 0.2387
+  }
  ]
 }
