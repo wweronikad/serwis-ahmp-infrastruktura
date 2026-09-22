@@ -15890,5 +15890,107 @@
    "x": 0.7001,
    "y": 0.2463
   }
+ ],
+ "ahmp_jelenia_gora_ii_4": [
+  {
+   "text": "ul. Forteczna (d. do Furty)",
+   "x": 0.496,
+   "y": 0.6802
+  },
+  {
+   "text": "ul. Jasna (d. ul. Jasna, ul. Grodzka)",
+   "x": 0.4882,
+   "y": 0.7064
+  },
+  {
+   "text": "Podcienia niciane",
+   "x": 0.5427,
+   "y": 0.7064
+  },
+  {
+   "text": "ul. Kopernika (d. ul. Kaznodziejska)",
+   "x": 0.568,
+   "y": 0.6647
+  },
+  {
+   "text": "ul. Męczenników (d. ul. Sądowa)",
+   "x": 0.5913,
+   "y": 0.6958
+  },
+  {
+   "text": "Podcienia maślane",
+   "x": 0.6011,
+   "y": 0.7064
+  },
+  {
+   "text": "Wieża Bramy Zamkowej",
+   "x": 0.423,
+   "y": 0.7226
+  },
+  {
+   "text": "ul. Grodzka (d. ul. Ciemna)",
+   "x": 0.4765,
+   "y": 0.7516
+  },
+  {
+   "text": "Ratusz",
+   "x": 0.5592,
+   "y": 0.7241
+  },
+  {
+   "text": "Domy kramarskie (Rzemieślnicy)",
+   "x": 0.5913,
+   "y": 0.7219
+  },
+  {
+   "text": "Jatki mięsne",
+   "x": 0.5913,
+   "y": 0.7262
+  },
+  {
+   "text": "Ławy piekarskie",
+   "x": 0.5913,
+   "y": 0.7297
+  },
+  {
+   "text": "Ławy szewskie",
+   "x": 0.5913,
+   "y": 0.7318
+  },
+  {
+   "text": "Plac Ratuszowy",
+   "x": 0.5738,
+   "y": 0.7389
+  },
+  {
+   "text": "Podcienia kuśnierskie",
+   "x": 0.533,
+   "y": 0.7333
+  },
+  {
+   "text": "Podcienia sukiennicze",
+   "x": 0.5563,
+   "y": 0.7509
+  },
+  {
+   "text": "Podcienia zbożowe",
+   "x": 0.6011,
+   "y": 0.7509
+  },
+  {
+   "text": "Poczta poczmistrz",
+   "x": 0.4356,
+   "y": 0.7587
+  },
+  {
+   "text": "ul. Druciana (d. ul. Druciana)",
+   "x": 0.497,
+   "y": 0.7905
+  },
+  {
+   "text": "ul. Długa",
+   "x": 0.5845,
+   "y": 0.799
+  }
  ]
 }
