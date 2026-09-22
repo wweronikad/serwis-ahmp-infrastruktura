@@ -14747,5 +14747,32 @@
    "x": 0.088,
    "y": 0.8
   }
+ ],
+ "ahmp_grudziadz_ii_2": [
+  {
+   "text": "Przedmieście Kwidzyńskie",
+   "x": 0.7219,
+   "y": 0.1721
+  },
+  {
+   "text": "Folwark Fijewo",
+   "x": 0.7125,
+   "y": 0.2515
+  },
+  {
+   "text": "Folwark Fryta",
+   "x": 0.7906,
+   "y": 0.6178
+  },
+  {
+   "text": "Przedmieście Toruńskie",
+   "x": 0.6781,
+   "y": 0.9312
+  },
+  {
+   "text": "Trynka",
+   "x": 0.6719,
+   "y": 0.8252
+  }
  ]
 }
