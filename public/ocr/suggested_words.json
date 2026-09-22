@@ -15992,5 +15992,317 @@
    "x": 0.5845,
    "y": 0.799
   }
+ ],
+ "ahmp_ketrzyn_1": [
+  {
+   "text": "Fr. Wilhelm Stift",
+   "x": 0.4436,
+   "y": 0.2342
+  },
+  {
+   "text": "Oberteich",
+   "x": 0.5775,
+   "y": 0.261
+  },
+  {
+   "text": "Posthalterei",
+   "x": 0.3311,
+   "y": 0.268
+  },
+  {
+   "text": "Staedtische Laendereien",
+   "x": 0.8633,
+   "y": 0.0873
+  },
+  {
+   "text": "Amtskrug",
+   "x": 0.0471,
+   "y": 0.4722
+  },
+  {
+   "text": "Scharfrichterei",
+   "x": 0.072,
+   "y": 0.5353
+  },
+  {
+   "text": "zum Amtskruge gehörig",
+   "x": 0.0794,
+   "y": 0.4185
+  },
+  {
+   "text": "Chaussee nach Loetzen",
+   "x": 0.1218,
+   "y": 0.4252
+  },
+  {
+   "text": "Königl. Damaine Rastenburg",
+   "x": 0.1707,
+   "y": 0.4011
+  },
+  {
+   "text": "von Loetzen",
+   "x": 0.2233,
+   "y": 0.346
+  },
+  {
+   "text": "Kirchhof",
+   "x": 0.2086,
+   "y": 0.442
+  },
+  {
+   "text": "Juden Kirchhof",
+   "x": 0.1366,
+   "y": 0.4735
+  },
+  {
+   "text": "Feldweg",
+   "x": 0.1994,
+   "y": 0.4762
+  },
+  {
+   "text": "Fischer Strasse",
+   "x": 0.4844,
+   "y": 0.4094
+  },
+  {
+   "text": "Die Freiheit",
+   "x": 0.4708,
+   "y": 0.4136
+  },
+  {
+   "text": "Königsberger Vorstadt",
+   "x": 0.4543,
+   "y": 0.4305
+  },
+  {
+   "text": "Königl. Gerichts Dep.",
+   "x": 0.4087,
+   "y": 0.391
+  },
+  {
+   "text": "Postamt",
+   "x": 0.4611,
+   "y": 0.4609
+  },
+  {
+   "text": "Hotel Gudovius",
+   "x": 0.4844,
+   "y": 0.4609
+  },
+  {
+   "text": "Landratsamt",
+   "x": 0.4941,
+   "y": 0.4658
+  },
+  {
+   "text": "Hotel de Königsberg",
+   "x": 0.5813,
+   "y": 0.4616
+  },
+  {
+   "text": "Angerburger Vorstadt",
+   "x": 0.5658,
+   "y": 0.4834
+  },
+  {
+   "text": "Mauer Strasse",
+   "x": 0.4708,
+   "y": 0.4743
+  },
+  {
+   "text": "Fabrik der Gebrüder Reschke",
+   "x": 0.4863,
+   "y": 0.4891
+  },
+  {
+   "text": "Ritter Platz",
+   "x": 0.4553,
+   "y": 0.4919
+  },
+  {
+   "text": "Kreis-Lazareth",
+   "x": 0.5038,
+   "y": 0.4891
+  },
+  {
+   "text": "Städtisches Krankenhaus",
+   "x": 0.4145,
+   "y": 0.4898
+  },
+  {
+   "text": "Scheunenstrasse",
+   "x": 0.3932,
+   "y": 0.4799
+  },
+  {
+   "text": "Magistrat",
+   "x": 0.4242,
+   "y": 0.5025
+  },
+  {
+   "text": "Turngarten",
+   "x": 0.3757,
+   "y": 0.5081
+  },
+  {
+   "text": "Kirchen Strasse",
+   "x": 0.4301,
+   "y": 0.5081
+  },
+  {
+   "text": "Markt",
+   "x": 0.4436,
+   "y": 0.5053
+  },
+  {
+   "text": "Ritter Strasse",
+   "x": 0.4572,
+   "y": 0.5081
+  },
+  {
+   "text": "Vordere Neustadt",
+   "x": 0.4941,
+   "y": 0.5025
+  },
+  {
+   "text": "Paradeplatz",
+   "x": 0.5154,
+   "y": 0.5025
+  },
+  {
+   "text": "Gymnasium",
+   "x": 0.3932,
+   "y": 0.5208
+  },
+  {
+   "text": "Hintere Neustadt",
+   "x": 0.4941,
+   "y": 0.5236
+  },
+  {
+   "text": "Schule",
+   "x": 0.5105,
+   "y": 0.5236
+  },
+  {
+   "text": "St. Georgen Kirche",
+   "x": 0.3874,
+   "y": 0.5434
+  },
+  {
+   "text": "Schule",
+   "x": 0.4165,
+   "y": 0.5476
+  },
+  {
+   "text": "Schloss Strasse",
+   "x": 0.4417,
+   "y": 0.5448
+  },
+  {
+   "text": "Polnische Kirche",
+   "x": 0.3951,
+   "y": 0.5547
+  },
+  {
+   "text": "Schloss - Hinter Strasse",
+   "x": 0.4417,
+   "y": 0.5554
+  },
+  {
+   "text": "Rollberg",
+   "x": 0.4708,
+   "y": 0.5582
+  },
+  {
+   "text": "Synagoge",
+   "x": 0.465,
+   "y": 0.5631
+  },
+  {
+   "text": "Das Amt",
+   "x": 0.5406,
+   "y": 0.5483
+  },
+  {
+   "text": "Ober Mühle",
+   "x": 0.5115,
+   "y": 0.5659
+  },
+  {
+   "text": "Hospital Strasse",
+   "x": 0.4417,
+   "y": 0.5702
+  },
+  {
+   "text": "Unter Mühle",
+   "x": 0.3932,
+   "y": 0.5709
+  },
+  {
+   "text": "Gemüsegarten",
+   "x": 0.5581,
+   "y": 0.73
+  },
+  {
+   "text": "Damm",
+   "x": 0.5813,
+   "y": 0.7095
+  },
+  {
+   "text": "nach Muhlack",
+   "x": 0.3331,
+   "y": 0.8322
+  },
+  {
+   "text": "von Sensburg",
+   "x": 0.5135,
+   "y": 0.9373
+  },
+  {
+   "text": "Laendereien des Dorfes Neuendorf",
+   "x": 0.4514,
+   "y": 0.9683
+  },
+  {
+   "text": "Amtsgarten",
+   "x": 0.7285,
+   "y": 0.6565
+  },
+  {
+   "text": "Mühlen Teich",
+   "x": 0.6915,
+   "y": 0.6995
+  },
+  {
+   "text": "Kirchensteig von Krausendorf",
+   "x": 0.8153,
+   "y": 0.6941
+  },
+  {
+   "text": "Mühlen Canal",
+   "x": 0.8116,
+   "y": 0.7089
+  },
+  {
+   "text": "Wiesen zur Königl. Damaine Rastenburg",
+   "x": 0.7802,
+   "y": 0.7283
+  },
+  {
+   "text": "Wiesen zur Königl. Damaine Rastenburg",
+   "x": 0.734,
+   "y": 0.7801
+  },
+  {
+   "text": "Trockenes Fluss Bette",
+   "x": 0.734,
+   "y": 0.7518
+  },
+  {
+   "text": "Die Guber",
+   "x": 0.7525,
+   "y": 0.819
+  }
  ]
 }
