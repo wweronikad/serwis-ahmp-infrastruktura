@@ -14813,5 +14813,137 @@
    "x": 0.7063,
    "y": 0.985
   }
+ ],
+ "ahmp_grudziadz_ii_11": [
+  {
+   "text": "Gruppe",
+   "x": 0.0544,
+   "y": 0.0758
+  },
+  {
+   "text": "Michlau",
+   "x": 0.1604,
+   "y": 0.0649
+  },
+  {
+   "text": "Bratfin",
+   "x": 0.0719,
+   "y": 0.117
+  },
+  {
+   "text": "der Weichsel Strohm",
+   "x": 0.1291,
+   "y": 0.1285
+  },
+  {
+   "text": "Stadtwald zu Graudentz gehoerig",
+   "x": 0.2121,
+   "y": 0.225
+  },
+  {
+   "text": "Vestung Graudenz",
+   "x": 0.409,
+   "y": 0.0418
+  },
+  {
+   "text": "Amt Graudenz",
+   "x": 0.3974,
+   "y": 0.0701
+  },
+  {
+   "text": "Graudenz",
+   "x": 0.3916,
+   "y": 0.093
+  },
+  {
+   "text": "pohl. Grudziundz",
+   "x": 0.3974,
+   "y": 0.1011
+  },
+  {
+   "text": "Kuntersteln",
+   "x": 0.4767,
+   "y": 0.0809
+  },
+  {
+   "text": "Tusch",
+   "x": 0.4651,
+   "y": 0.1213
+  },
+  {
+   "text": "Gatsch",
+   "x": 0.4689,
+   "y": 0.1942
+  },
+  {
+   "text": "Königlicher Wald Altheide genannt",
+   "x": 0.4515,
+   "y": 0.2494
+  },
+  {
+   "text": "Foswinkel",
+   "x": 0.7416,
+   "y": 0.0328
+  },
+  {
+   "text": "Owczarki",
+   "x": 0.6863,
+   "y": 0.072
+  },
+  {
+   "text": "Wesfarken",
+   "x": 0.6678,
+   "y": 0.0476
+  },
+  {
+   "text": "Eichen",
+   "x": 0.6669,
+   "y": 0.0958
+  },
+  {
+   "text": "Tarpen od. Tarpna",
+   "x": 0.6604,
+   "y": 0.1132
+  },
+  {
+   "text": "Klotken Mühle",
+   "x": 0.7786,
+   "y": 0.1158
+  },
+  {
+   "text": "Stanisławken od. Stanisławo",
+   "x": 0.714,
+   "y": 0.1479
+  },
+  {
+   "text": "Birken",
+   "x": 0.8099,
+   "y": 0.1531
+  },
+  {
+   "text": "Grabowitz",
+   "x": 0.7896,
+   "y": 0.1634
+  },
+  {
+   "text": "Paszczno See",
+   "x": 0.8025,
+   "y": 0.193
+  },
+  {
+   "text": "Nitzwalde",
+   "x": 0.8265,
+   "y": 0.2225
+  },
+  {
+   "text": "Kiehnen",
+   "x": 0.1291,
+   "y": 0.3291
+  },
+  {
+   "text": "Rudnik See",
+   "x": 0.1844,
+   "y": 0.3291
+  }
  ]
 }
