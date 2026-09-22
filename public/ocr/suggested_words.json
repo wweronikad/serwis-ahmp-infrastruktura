@@ -16760,5 +16760,302 @@
    "x": 0.8303,
    "y": 0.7831
   }
+ ],
+ "ahmp_ketrzyn_5": [
+  {
+   "text": "Wolken",
+   "x": 0.33,
+   "y": 0.2442
+  },
+  {
+   "text": "Burgersdorf",
+   "x": 0.0283,
+   "y": 0.1799
+  },
+  {
+   "text": "Prangnau",
+   "x": 0.0415,
+   "y": 0.1953
+  },
+  {
+   "text": "Mulak",
+   "x": 0.0962,
+   "y": 0.2313
+  },
+  {
+   "text": "Austek",
+   "x": 0.0302,
+   "y": 0.3149
+  },
+  {
+   "text": "Weitenksdorf",
+   "x": 0.4294,
+   "y": 0.1292
+  },
+  {
+   "text": "Powroncken",
+   "x": 0.5504,
+   "y": 0.1897
+  },
+  {
+   "text": "Scharfs",
+   "x": 0.6008,
+   "y": 0.1622
+  },
+  {
+   "text": "Philipsdorf",
+   "x": 0.5726,
+   "y": 0.2419
+  },
+  {
+   "text": "Drachenstein",
+   "x": 0.5101,
+   "y": 0.268
+  },
+  {
+   "text": "Prembock",
+   "x": 0.5908,
+   "y": 0.2749
+  },
+  {
+   "text": "Kukiklaken",
+   "x": 0.6412,
+   "y": 0.2832
+  },
+  {
+   "text": "Neuhof",
+   "x": 0.5101,
+   "y": 0.3299
+  },
+  {
+   "text": "Hevhuten",
+   "x": 0.6757,
+   "y": 0.1594
+  },
+  {
+   "text": "Neu Jolsdorf",
+   "x": 0.753,
+   "y": 0.1696
+  },
+  {
+   "text": "Schumflis",
+   "x": 0.8869,
+   "y": 0.1671
+  },
+  {
+   "text": "Bulmen",
+   "x": 0.7832,
+   "y": 0.1157
+  },
+  {
+   "text": "Altolsdorf",
+   "x": 0.7058,
+   "y": 0.2956
+  },
+  {
+   "text": "Pletniken",
+   "x": 0.7737,
+   "y": 0.3187
+  },
+  {
+   "text": "Godokeimb",
+   "x": 0.8586,
+   "y": 0.3084
+  },
+  {
+   "text": "Reimbsdorf",
+   "x": 0.2036,
+   "y": 0.3299
+  },
+  {
+   "text": "Burgersdorf",
+   "x": 0.2036,
+   "y": 0.3479
+  },
+  {
+   "text": "Lechmedigen",
+   "x": 0.1282,
+   "y": 0.4044
+  },
+  {
+   "text": "Glagestein",
+   "x": 0.2319,
+   "y": 0.4854
+  },
+  {
+   "text": "Weitschnuren",
+   "x": 0.3111,
+   "y": 0.4995
+  },
+  {
+   "text": "Pohlblen",
+   "x": 0.1056,
+   "y": 0.6409
+  },
+  {
+   "text": "Krautsendorf",
+   "x": 0.3488,
+   "y": 0.5561
+  },
+  {
+   "text": "Neudorf",
+   "x": 0.3951,
+   "y": 0.387
+  },
+  {
+   "text": "Rastemburgk",
+   "x": 0.4839,
+   "y": 0.3897
+  },
+  {
+   "text": "Karkeimb mikdnik",
+   "x": 0.6412,
+   "y": 0.4282
+  },
+  {
+   "text": "Godwuren",
+   "x": 0.5948,
+   "y": 0.4282
+  },
+  {
+   "text": "Borken",
+   "x": 0.6412,
+   "y": 0.5657
+  },
+  {
+   "text": "Selaken",
+   "x": 0.6815,
+   "y": 0.5877
+  },
+  {
+   "text": "Vplawcken",
+   "x": 0.4415,
+   "y": 0.6152
+  },
+  {
+   "text": "Reimbsdorf",
+   "x": 0.8416,
+   "y": 0.3222
+  },
+  {
+   "text": "Austek",
+   "x": 0.9774,
+   "y": 0.3222
+  },
+  {
+   "text": "Lamgarben",
+   "x": 0.7643,
+   "y": 0.3556
+  },
+  {
+   "text": "Kutiklaken",
+   "x": 0.6417,
+   "y": 0.3055
+  },
+  {
+   "text": "Godokeimb",
+   "x": 0.8548,
+   "y": 0.3479
+  },
+  {
+   "text": "Schumflis",
+   "x": 0.9246,
+   "y": 0.3016
+  },
+  {
+   "text": "Brauskeimb",
+   "x": 0.7172,
+   "y": 0.4378
+  },
+  {
+   "text": "Dublinen",
+   "x": 0.7982,
+   "y": 0.4661
+  },
+  {
+   "text": "Wilkinen",
+   "x": 0.8246,
+   "y": 0.407
+  },
+  {
+   "text": "Sdunkeimb",
+   "x": 0.868,
+   "y": 0.4995
+  },
+  {
+   "text": "Karkeimb",
+   "x": 0.6568,
+   "y": 0.5304
+  },
+  {
+   "text": "Borken",
+   "x": 0.6474,
+   "y": 0.5586
+  },
+  {
+   "text": "Selaken",
+   "x": 0.67,
+   "y": 0.5946
+  },
+  {
+   "text": "Podlatken",
+   "x": 0.736,
+   "y": 0.5535
+  },
+  {
+   "text": "Plapernick",
+   "x": 0.7643,
+   "y": 0.5689
+  },
+  {
+   "text": "Borschenen",
+   "x": 0.8209,
+   "y": 0.5586
+  },
+  {
+   "text": "Pohlblen",
+   "x": 0.0943,
+   "y": 0.6377
+  },
+  {
+   "text": "Wolka",
+   "x": 0.0943,
+   "y": 0.8896
+  },
+  {
+   "text": "Janowen",
+   "x": 0.2414,
+   "y": 0.851
+  },
+  {
+   "text": "Neu Rosensal",
+   "x": 0.4395,
+   "y": 0.693
+  },
+  {
+   "text": "Alt Rosenthiel",
+   "x": 0.5101,
+   "y": 0.6944
+  },
+  {
+   "text": "Roglaksnowa",
+   "x": 0.6008,
+   "y": 0.6738
+  },
+  {
+   "text": "Weglack",
+   "x": 0.615,
+   "y": 0.7122
+  },
+  {
+   "text": "Wenden",
+   "x": 0.6613,
+   "y": 0.7947
+  },
+  {
+   "text": "Snizluwken",
+   "x": 0.4092,
+   "y": 0.8112
+  }
  ]
 }
