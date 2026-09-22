@@ -15751,5 +15751,52 @@
    "x": 0.05,
    "y": 0.7094
   }
+ ],
+ "ahmp_jelenia_gora_ii_2": [
+  {
+   "text": "Goduszyn (Gotschdorf)",
+   "x": 0.2225,
+   "y": 0.1737
+  },
+  {
+   "text": "Kunice (Kunnersdorf)",
+   "x": 0.3179,
+   "y": 0.2031
+  },
+  {
+   "text": "Strupice (Straupitz)",
+   "x": 0.6358,
+   "y": 0.1487
+  },
+  {
+   "text": "Grabary (Hartau)",
+   "x": 0.6676,
+   "y": 0.175
+  },
+  {
+   "text": "Maciejowa (Malwadau)",
+   "x": 0.8856,
+   "y": 0.1269
+  },
+  {
+   "text": "Czarne (Schwarzbach)",
+   "x": 0.6676,
+   "y": 0.2562
+  },
+  {
+   "text": "Malinnik (Herichsdorf)",
+   "x": 0.3542,
+   "y": 0.3312
+  },
+  {
+   "text": "Cieplice Śląskie-Zdrój (Bad Warmbrunn)",
+   "x": 0.2997,
+   "y": 0.3581
+  },
+  {
+   "text": "Sobieszów (Hermsdorf)",
+   "x": 0.2316,
+   "y": 0.4094
+  }
  ]
 }
