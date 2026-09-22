@@ -17079,5 +17079,477 @@
    "x": 0.8984,
    "y": 0.3359
   }
+ ],
+ "ahmp_ketrzyn_11": [
+  {
+   "text": "Infanterie Kaserne",
+   "x": 0.1606,
+   "y": 0.0918
+  },
+  {
+   "text": "v. Bartenstein",
+   "x": 0.1108,
+   "y": 0.1704
+  },
+  {
+   "text": "Kaiserstraße",
+   "x": 0.1606,
+   "y": 0.2176
+  },
+  {
+   "text": "Sembeck-Stift",
+   "x": 0.2012,
+   "y": 0.2176
+  },
+  {
+   "text": "früher Lazarett",
+   "x": 0.12,
+   "y": 0.2439
+  },
+  {
+   "text": "Kasino",
+   "x": 0.1624,
+   "y": 0.236
+  },
+  {
+   "text": "Ehrenfried hof",
+   "x": 0.1292,
+   "y": 0.3016
+  },
+  {
+   "text": "Köskeimer Weg",
+   "x": 0.4844,
+   "y": 0.1515
+  },
+  {
+   "text": "Tannenwalder Weg",
+   "x": 0.5425,
+   "y": 0.124
+  },
+  {
+   "text": "Rosentaler Weg",
+   "x": 0.56,
+   "y": 0.1653
+  },
+  {
+   "text": "Proviantamt",
+   "x": 0.5581,
+   "y": 0.1571
+  },
+  {
+   "text": "Städt. Berufsschule u. Höhere Handelssch.",
+   "x": 0.5969,
+   "y": 0.1571
+  },
+  {
+   "text": "Artillerie-Kaserne",
+   "x": 0.6162,
+   "y": 0.1791
+  },
+  {
+   "text": "Schützengarten",
+   "x": 0.655,
+   "y": 0.1047
+  },
+  {
+   "text": "Hochmeister Platz",
+   "x": 0.5135,
+   "y": 0.2425
+  },
+  {
+   "text": "Schulstr.",
+   "x": 0.4999,
+   "y": 0.3113
+  },
+  {
+   "text": "Hochmeisterweg",
+   "x": 0.5542,
+   "y": 0.3086
+  },
+  {
+   "text": "Krankenhaus",
+   "x": 0.5813,
+   "y": 0.3251
+  },
+  {
+   "text": "Tennis-Plätze",
+   "x": 0.6609,
+   "y": 0.2976
+  },
+  {
+   "text": "Stadion",
+   "x": 0.6609,
+   "y": 0.2562
+  },
+  {
+   "text": "Heiligelinder Chaussee",
+   "x": 0.1108,
+   "y": 0.3792
+  },
+  {
+   "text": "Siedlung Rasthöhe",
+   "x": 0.1846,
+   "y": 0.4133
+  },
+  {
+   "text": "Rasthöhe",
+   "x": 0.2677,
+   "y": 0.3871
+  },
+  {
+   "text": "Gutshof",
+   "x": 0.2621,
+   "y": 0.3713
+  },
+  {
+   "text": "Georgstr.",
+   "x": 0.1661,
+   "y": 0.4815
+  },
+  {
+   "text": "z. Martinsschlucht",
+   "x": 0.1477,
+   "y": 0.5785
+  },
+  {
+   "text": "Hügelweg",
+   "x": 0.3046,
+   "y": 0.4684
+  },
+  {
+   "text": "Städt. Schlachthof",
+   "x": 0.3046,
+   "y": 0.61
+  },
+  {
+   "text": "früher Gen. Brauerei",
+   "x": 0.3389,
+   "y": 0.3497
+  },
+  {
+   "text": "Landwirtsch. Schule",
+   "x": 0.3913,
+   "y": 0.4021
+  },
+  {
+   "text": "Ober-Lyceum",
+   "x": 0.4533,
+   "y": 0.369
+  },
+  {
+   "text": "Amts-Gericht",
+   "x": 0.432,
+   "y": 0.4214
+  },
+  {
+   "text": "Hippel-Sch.",
+   "x": 0.4766,
+   "y": 0.4214
+  },
+  {
+   "text": "Bismarkstr.",
+   "x": 0.4708,
+   "y": 0.4544
+  },
+  {
+   "text": "Bergstr.",
+   "x": 0.5096,
+   "y": 0.3828
+  },
+  {
+   "text": "Friedr.-Wilhelm Stift",
+   "x": 0.5387,
+   "y": 0.3966
+  },
+  {
+   "text": "Städt. Anlagen",
+   "x": 0.6162,
+   "y": 0.369
+  },
+  {
+   "text": "Bürger Park",
+   "x": 0.6609,
+   "y": 0.3828
+  },
+  {
+   "text": "Oberteich",
+   "x": 0.5872,
+   "y": 0.4627
+  },
+  {
+   "text": "Seeweg",
+   "x": 0.5522,
+   "y": 0.4737
+  },
+  {
+   "text": "Ludwig-Diehlstraße",
+   "x": 0.6609,
+   "y": 0.4241
+  },
+  {
+   "text": "Hippelstr.",
+   "x": 0.4029,
+   "y": 0.4572
+  },
+  {
+   "text": "Moltkestr.",
+   "x": 0.3777,
+   "y": 0.5013
+  },
+  {
+   "text": "Gartenstr.",
+   "x": 0.432,
+   "y": 0.5013
+  },
+  {
+   "text": "Modricker Meierei",
+   "x": 0.3777,
+   "y": 0.5371
+  },
+  {
+   "text": "Rathaus",
+   "x": 0.4708,
+   "y": 0.5371
+  },
+  {
+   "text": "Herzog Albrecht Sch.",
+   "x": 0.4514,
+   "y": 0.5564
+  },
+  {
+   "text": "Kath. Kirche",
+   "x": 0.4999,
+   "y": 0.5839
+  },
+  {
+   "text": "Stadthof F.W.",
+   "x": 0.4126,
+   "y": 0.5839
+  },
+  {
+   "text": "Flora",
+   "x": 0.399,
+   "y": 0.6115
+  },
+  {
+   "text": "Wilhelmstr.",
+   "x": 0.4126,
+   "y": 0.6253
+  },
+  {
+   "text": "Schillerstr.",
+   "x": 0.4417,
+   "y": 0.639
+  },
+  {
+   "text": "Logenstr.",
+   "x": 0.4611,
+   "y": 0.6253
+  },
+  {
+   "text": "Königsbergerstr.",
+   "x": 0.5193,
+   "y": 0.6115
+  },
+  {
+   "text": "Colmarstr.",
+   "x": 0.5445,
+   "y": 0.5894
+  },
+  {
+   "text": "Fischerstr.",
+   "x": 0.5581,
+   "y": 0.5894
+  },
+  {
+   "text": "Landgestüt",
+   "x": 0.6609,
+   "y": 0.5151
+  },
+  {
+   "text": "Prov. Anstalt",
+   "x": 0.6356,
+   "y": 0.5702
+  },
+  {
+   "text": "Sembeckstr.",
+   "x": 0.655,
+   "y": 0.5977
+  },
+  {
+   "text": "Reitbahn",
+   "x": 0.8097,
+   "y": 0.5446
+  },
+  {
+   "text": "Friedhof",
+   "x": 0.7045,
+   "y": 0.6102
+  },
+  {
+   "text": "Die Guber",
+   "x": 0.2215,
+   "y": 0.8253
+  },
+  {
+   "text": "Feierabendhaus",
+   "x": 0.4126,
+   "y": 0.7024
+  },
+  {
+   "text": "St. Georgen K.",
+   "x": 0.4611,
+   "y": 0.6913
+  },
+  {
+   "text": "Georgental",
+   "x": 0.432,
+   "y": 0.7216
+  },
+  {
+   "text": "Klärwerk",
+   "x": 0.3738,
+   "y": 0.7354
+  },
+  {
+   "text": "Schloßstr.",
+   "x": 0.4999,
+   "y": 0.7051
+  },
+  {
+   "text": "Vordere Neustadt",
+   "x": 0.5193,
+   "y": 0.7024
+  },
+  {
+   "text": "Hintere Neustadt",
+   "x": 0.5387,
+   "y": 0.7024
+  },
+  {
+   "text": "Burgstr.",
+   "x": 0.5445,
+   "y": 0.7134
+  },
+  {
+   "text": "Lyzeum",
+   "x": 0.5581,
+   "y": 0.6941
+  },
+  {
+   "text": "Post",
+   "x": 0.5775,
+   "y": 0.7161
+  },
+  {
+   "text": "Schloß Schloß-Pl.",
+   "x": 0.5581,
+   "y": 0.7327
+  },
+  {
+   "text": "Königsplatz",
+   "x": 0.6259,
+   "y": 0.7024
+  },
+  {
+   "text": "Gasanst.",
+   "x": 0.655,
+   "y": 0.6913
+  },
+  {
+   "text": "Rollberg",
+   "x": 0.5154,
+   "y": 0.7244
+  },
+  {
+   "text": "Rastenburger Mühlen",
+   "x": 0.5154,
+   "y": 0.7464
+  },
+  {
+   "text": "Bahnhofstr.",
+   "x": 0.6065,
+   "y": 0.7712
+  },
+  {
+   "text": "Domänenstr.",
+   "x": 0.655,
+   "y": 0.7878
+  },
+  {
+   "text": "Freiheit",
+   "x": 0.5096,
+   "y": 0.7878
+  },
+  {
+   "text": "Die Guber",
+   "x": 0.5387,
+   "y": 0.8071
+  },
+  {
+   "text": "Sportplatz",
+   "x": 0.4417,
+   "y": 0.8346
+  },
+  {
+   "text": "Sensburger Chaussee",
+   "x": 0.4126,
+   "y": 0.909
+  },
+  {
+   "text": "Rheiner Weg",
+   "x": 0.4999,
+   "y": 0.8897
+  },
+  {
+   "text": "Baumschulenweg",
+   "x": 0.7414,
+   "y": 0.6995
+  },
+  {
+   "text": "Eichamt",
+   "x": 0.7045,
+   "y": 0.7231
+  },
+  {
+   "text": "Grüne Gasse",
+   "x": 0.7229,
+   "y": 0.731
+  },
+  {
+   "text": "Bankmannstr.",
+   "x": 0.7414,
+   "y": 0.7572
+  },
+  {
+   "text": "Gebr. Reschke",
+   "x": 0.7414,
+   "y": 0.7834
+  },
+  {
+   "text": "Reschkestr.",
+   "x": 0.7691,
+   "y": 0.7467
+  },
+  {
+   "text": "Haupt-Bf.",
+   "x": 0.7045,
+   "y": 0.8254
+  },
+  {
+   "text": "Klein-Bf.",
+   "x": 0.8097,
+   "y": 0.8648
+  },
+  {
+   "text": "Zuckerfabrik",
+   "x": 0.686,
+   "y": 0.9041
+  },
+  {
+   "text": "Krauseneck Siedlung",
+   "x": 0.8522,
+   "y": 0.6811
+  }
  ]
 }
