@@ -15216,5 +15216,52 @@
    "x": 0.6955,
    "y": 0.655
   }
+ ],
+ "ahmp_grudziadz_ii_15": [
+  {
+   "text": "Neudorfer Buden",
+   "x": 0.5039,
+   "y": 0.1552
+  },
+  {
+   "text": "Garnison Kirchhof",
+   "x": 0.7528,
+   "y": 0.3291
+  },
+  {
+   "text": "Schlosz-Campe",
+   "x": 0.6772,
+   "y": 0.5659
+  },
+  {
+   "text": "Grosz-Lubin",
+   "x": 0.0867,
+   "y": 0.7152
+  },
+  {
+   "text": "Klein-Lubin",
+   "x": 0.5774,
+   "y": 0.7695
+  },
+  {
+   "text": "Dragas",
+   "x": 0.8063,
+   "y": 0.7384
+  },
+  {
+   "text": "königl. Zopker Campe",
+   "x": 0.0498,
+   "y": 0.5402
+  },
+  {
+   "text": "Grosz-Lubiner Campe",
+   "x": 0.166,
+   "y": 0.6007
+  },
+  {
+   "text": "Weichsel Strom",
+   "x": 0.3863,
+   "y": 0.4719
+  }
  ]
 }
