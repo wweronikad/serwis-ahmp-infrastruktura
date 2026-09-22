@@ -16473,5 +16473,292 @@
    "x": 0.8522,
    "y": 0.6233
   }
+ ],
+ "ahmp_ketrzyn_4": [
+  {
+   "text": "Adl. Mickelnick",
+   "x": 0.0566,
+   "y": 0.0518
+  },
+  {
+   "text": "Seelack",
+   "x": 0.215,
+   "y": 0.0624
+  },
+  {
+   "text": "Kattkeim",
+   "x": 0.1791,
+   "y": 0.1035
+  },
+  {
+   "text": "Borken",
+   "x": 0.2451,
+   "y": 0.0863
+  },
+  {
+   "text": "Gr. Köskeim",
+   "x": 0.164,
+   "y": 0.1487
+  },
+  {
+   "text": "Erlenhof",
+   "x": 0.0754,
+   "y": 0.2071
+  },
+  {
+   "text": "zu Gr. Galbuhnen",
+   "x": 0.132,
+   "y": 0.1593
+  },
+  {
+   "text": "Gr. Schatten",
+   "x": 0.4536,
+   "y": 0.0383
+  },
+  {
+   "text": "Alt Rosenthal",
+   "x": 0.5706,
+   "y": 0.1207
+  },
+  {
+   "text": "Alt Schatten",
+   "x": 0.504,
+   "y": 0.1178
+  },
+  {
+   "text": "Borken",
+   "x": 0.377,
+   "y": 0.0923
+  },
+  {
+   "text": "Rastenburgshöfchen",
+   "x": 0.3689,
+   "y": 0.1988
+  },
+  {
+   "text": "Rastenburgsfelde",
+   "x": 0.3689,
+   "y": 0.2839
+  },
+  {
+   "text": "Rastenburgswalde",
+   "x": 0.4496,
+   "y": 0.2811
+  },
+  {
+   "text": "Teufels-B.",
+   "x": 0.3951,
+   "y": 0.1689
+  },
+  {
+   "text": "Tannenwalde",
+   "x": 0.3729,
+   "y": 0.1533
+  },
+  {
+   "text": "Alt Rosenthal",
+   "x": 0.6945,
+   "y": 0.1447
+  },
+  {
+   "text": "Neu Rosenthal",
+   "x": 0.8303,
+   "y": 0.1327
+  },
+  {
+   "text": "Neu Galbuhnen",
+   "x": 0.0943,
+   "y": 0.386
+  },
+  {
+   "text": "Moritzhof",
+   "x": 0.0943,
+   "y": 0.4112
+  },
+  {
+   "text": "Gr. Neuhof",
+   "x": 0.0603,
+   "y": 0.4152
+  },
+  {
+   "text": "Karlsberg",
+   "x": 0.1886,
+   "y": 0.4192
+  },
+  {
+   "text": "Rastenburgswiese",
+   "x": 0.2357,
+   "y": 0.3515
+  },
+  {
+   "text": "Gr. Neuhof",
+   "x": 0.0603,
+   "y": 0.5346
+  },
+  {
+   "text": "Kl. Neuhof",
+   "x": 0.1414,
+   "y": 0.5811
+  },
+  {
+   "text": "Neumühl",
+   "x": 0.0754,
+   "y": 0.6275
+  },
+  {
+   "text": "Tannenhof",
+   "x": 0.4637,
+   "y": 0.361
+  },
+  {
+   "text": "Ehem",
+   "x": 0.5403,
+   "y": 0.3681
+  },
+  {
+   "text": "Blinden",
+   "x": 0.5,
+   "y": 0.3944
+  },
+  {
+   "text": "Langenberg",
+   "x": 0.3689,
+   "y": 0.3724
+  },
+  {
+   "text": "Wilhelmshöhe",
+   "x": 0.3689,
+   "y": 0.388
+  },
+  {
+   "text": "RASTENBURG",
+   "x": 0.3951,
+   "y": 0.4264
+  },
+  {
+   "text": "Rasthöhe",
+   "x": 0.3245,
+   "y": 0.476
+  },
+  {
+   "text": "Charlottenberg",
+   "x": 0.5303,
+   "y": 0.4335
+  },
+  {
+   "text": "Krausenberg",
+   "x": 0.5686,
+   "y": 0.4491
+  },
+  {
+   "text": "Galgen-B.",
+   "x": 0.3649,
+   "y": 0.4817
+  },
+  {
+   "text": "Oberteich",
+   "x": 0.4657,
+   "y": 0.454
+  },
+  {
+   "text": "Zuckerfbr. Rastenburg",
+   "x": 0.5202,
+   "y": 0.4902
+  },
+  {
+   "text": "Vw. Georgenberg",
+   "x": 0.4597,
+   "y": 0.4931
+  },
+  {
+   "text": "Neuendorf",
+   "x": 0.5101,
+   "y": 0.5115
+  },
+  {
+   "text": "Woplaucken",
+   "x": 0.7549,
+   "y": 0.3979
+  },
+  {
+   "text": "Krausendorf",
+   "x": 0.7172,
+   "y": 0.4922
+  },
+  {
+   "text": "Siedlung Krauseneck",
+   "x": 0.67,
+   "y": 0.4776
+  },
+  {
+   "text": "Carlshof",
+   "x": 0.7737,
+   "y": 0.4709
+  },
+  {
+   "text": "Vro. Louisenthal",
+   "x": 0.7643,
+   "y": 0.4922
+  },
+  {
+   "text": "Wilhelmsdorf",
+   "x": 0.8397,
+   "y": 0.3515
+  },
+  {
+   "text": "Muhlack",
+   "x": 0.1886,
+   "y": 0.7167
+  },
+  {
+   "text": "Georgenfelde",
+   "x": 0.2451,
+   "y": 0.6809
+  },
+  {
+   "text": "Prangenau",
+   "x": 0.1886,
+   "y": 0.9318
+  },
+  {
+   "text": "Birkenwerder",
+   "x": 0.4697,
+   "y": 0.6874
+  },
+  {
+   "text": "Windtkeim",
+   "x": 0.4395,
+   "y": 0.7867
+  },
+  {
+   "text": "Kl. Neuendorf",
+   "x": 0.5,
+   "y": 0.7513
+  },
+  {
+   "text": "Muhlackshof",
+   "x": 0.3387,
+   "y": 0.8095
+  },
+  {
+   "text": "Reinsdorf",
+   "x": 0.5403,
+   "y": 0.808
+  },
+  {
+   "text": "Weischmuren",
+   "x": 0.7172,
+   "y": 0.6942
+  },
+  {
+   "text": "Friedrichswald",
+   "x": 0.8303,
+   "y": 0.8004
+  },
+  {
+   "text": "Hegewald-B.",
+   "x": 0.8303,
+   "y": 0.7831
+  }
  ]
 }
