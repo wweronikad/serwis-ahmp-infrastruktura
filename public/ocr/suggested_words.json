@@ -17057,5 +17057,27 @@
    "x": 0.4092,
    "y": 0.8112
   }
+ ],
+ "ahmp_ketrzyn_9": [
+  {
+   "text": "Der Oberteich",
+   "x": 0.2769,
+   "y": 0.139
+  },
+  {
+   "text": "Rastenburg",
+   "x": 0.4165,
+   "y": 0.3883
+  },
+  {
+   "text": "Domaine Rastenburg",
+   "x": 0.8245,
+   "y": 0.1522
+  },
+  {
+   "text": "Rastenburg",
+   "x": 0.8984,
+   "y": 0.3359
+  }
  ]
 }
