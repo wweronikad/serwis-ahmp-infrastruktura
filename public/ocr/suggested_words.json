@@ -15144,5 +15144,77 @@
    "x": 0.8128,
    "y": 0.7046
   }
+ ],
+ "ahmp_grudziadz_ii_14": [
+  {
+   "text": "Wafarcken",
+   "x": 0.2156,
+   "y": 0.2156
+  },
+  {
+   "text": "Swargotschin",
+   "x": 0.1199,
+   "y": 0.3283
+  },
+  {
+   "text": "Tarpe",
+   "x": 0.5347,
+   "y": 0.2343
+  },
+  {
+   "text": "Tusch",
+   "x": 0.8025,
+   "y": 0.2804
+  },
+  {
+   "text": "Parschke",
+   "x": 0.0553,
+   "y": 0.5804
+  },
+  {
+   "text": "Neudorf",
+   "x": 0.2121,
+   "y": 0.5227
+  },
+  {
+   "text": "Kalck Ofen",
+   "x": 0.1088,
+   "y": 0.665
+  },
+  {
+   "text": "Klein Tarpen",
+   "x": 0.5096,
+   "y": 0.4156
+  },
+  {
+   "text": "zu Kunterstein gehörig",
+   "x": 0.5676,
+   "y": 0.4681
+  },
+  {
+   "text": "Trincke Fluss",
+   "x": 0.6606,
+   "y": 0.4802
+  },
+  {
+   "text": "das Gericht",
+   "x": 0.4921,
+   "y": 0.466
+  },
+  {
+   "text": "Tuscheone",
+   "x": 0.666,
+   "y": 0.3598
+  },
+  {
+   "text": "Kunterstein",
+   "x": 0.7029,
+   "y": 0.5074
+  },
+  {
+   "text": "Colonie",
+   "x": 0.6955,
+   "y": 0.655
+  }
  ]
 }
