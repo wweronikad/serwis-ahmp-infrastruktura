@@ -15634,5 +15634,122 @@
    "x": 0.9221,
    "y": 0.9062
   }
+ ],
+ "ahmp_jelenia_gora_ii_1": [
+  {
+   "text": "Die Sechs Staedte",
+   "x": 0.5344,
+   "y": 0.0585
+  },
+  {
+   "text": "Bober Fluss (Bór)",
+   "x": 0.5437,
+   "y": 0.178
+  },
+  {
+   "text": "Kirch Berg",
+   "x": 0.8875,
+   "y": 0.2365
+  },
+  {
+   "text": "Ober Mühle",
+   "x": 0.6312,
+   "y": 0.2794
+  },
+  {
+   "text": "Mühlen Graben (Młynówka)",
+   "x": 0.6813,
+   "y": 0.2855
+  },
+  {
+   "text": "Bey denen Bruecken (ul. Pijarska)",
+   "x": 0.5437,
+   "y": 0.2837
+  },
+  {
+   "text": "Zapłen Gasse (ul. Jana Kilińskiego)",
+   "x": 0.6813,
+   "y": 0.3654
+  },
+  {
+   "text": "Vor dem Burg Thor (ul. Podwale)",
+   "x": 0.3594,
+   "y": 0.288
+  },
+  {
+   "text": "Rosenau (ul. Różana)",
+   "x": 0.0469,
+   "y": 0.3869
+  },
+  {
+   "text": "Ausen Gasse (ul. Jana III Sobieskiego)",
+   "x": 0.2344,
+   "y": 0.4342
+  },
+  {
+   "text": "Der Hirsch Graben",
+   "x": 0.5,
+   "y": 0.3396
+  },
+  {
+   "text": "Der Burg Graben",
+   "x": 0.3469,
+   "y": 0.4342
+  },
+  {
+   "text": "Der Schildauer Graben",
+   "x": 0.4938,
+   "y": 0.5847
+  },
+  {
+   "text": "Aeusserste Schildauer Gasse (ul. 1 Maja)",
+   "x": 0.7875,
+   "y": 0.4686
+  },
+  {
+   "text": "Ober Berg (ul. Górna)",
+   "x": 0.6312,
+   "y": 0.417
+  },
+  {
+   "text": "Herrn Gasse (ul. Króla)",
+   "x": 0.4313,
+   "y": 0.5245
+  },
+  {
+   "text": "Laden Gasse (ul. Sokola)",
+   "x": 0.475,
+   "y": 0.5202
+  },
+  {
+   "text": "Lange Gassen Thor",
+   "x": 0.4031,
+   "y": 0.5933
+  },
+  {
+   "text": "Vor dem Schild Thor (ul. Sudecka)",
+   "x": 0.375,
+   "y": 0.6191
+  },
+  {
+   "text": "Heller Gasse (ul. Groszowa)",
+   "x": 0.2,
+   "y": 0.6836
+  },
+  {
+   "text": "Hirten Gasse",
+   "x": 0.4719,
+   "y": 0.6707
+  },
+  {
+   "text": "ul. Marsz. Józefa Piłsudskiego",
+   "x": 0.5625,
+   "y": 0.6707
+  },
+  {
+   "text": "Auf dem Sande (ul. Jana Kasprowicza)",
+   "x": 0.05,
+   "y": 0.7094
+  }
  ]
 }
