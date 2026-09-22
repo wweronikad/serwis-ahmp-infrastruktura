@@ -13,7 +13,14 @@
 # carry "Skala 1:10 000" and an "Opracowali: <authors>" credit line in the
 # same cleanly-encoded caption font (the legend body itself uses a custom
 # font pdfplumber can't decode for Polish diacritics — skipped, not needed
-# here).
+# here). On a handful of Śląsk-tom sheets the citation line is set rotated
+# 180°, which pdfplumber reads back as reversed words in reverse order;
+# extract_page_text_variants() also tries the text reversed as a whole to
+# catch those.
+#
+# Maps whose PDF is itself a scanned image (no embedded text layer at all,
+# same as a plain JPG) can't be recovered this way — extraction needs a
+# real text layer to read, not pixels.
 #
 # Usage:
 #   py scripts/extract_map_metadata.py                 # all maps
@@ -40,7 +47,8 @@ PDF_CACHE = Path(r'C:\Users\wer\AppData\Local\Temp\ahmp_pdf_cache')
 PDF_CACHE.mkdir(parents=True, exist_ok=True)
 
 CITATION_RE = re.compile(
-    r'Atlas historyczny miast polskich\s*\(([IVXLCDM]+),\s*(\d+),\s*(\d{4})\)'
+    r'Atlas\s+historyczny\s+miast\s+polskich\s*\(([IVXLCDM]+),\s*(\d+),\s*(\d{4})\)',
+    re.I
 )
 REPRO_SCALE_RE = re.compile(r'\[\s*skala reprodukcji\s*([\d]+\s*%)\s*\]', re.I)
 MAP_SCALE_RE   = re.compile(r'Skala\s+(1\s*:\s*[\d\s]+?)(?:\s*\n|\s{2,}|Scale)', re.I)
@@ -89,6 +97,25 @@ def extract_page_text(pdf_path):
         return pdf.pages[0].extract_text(use_text_flow=True) or ''
 
 
+def extract_page_text_variants(pdf_path):
+    """All text renderings worth trying the citation regex against, cheapest
+    first. Some legends (mostly Śląsk-tom sheets) place the citation line
+    rotated 180°, which pdfplumber reads back as a run of individually
+    reversed words in reverse order — i.e. the *whole block* reversed
+    character-for-character. Reversing the extracted text the same way
+    (and folding the resulting newlines back to spaces) undoes that
+    without needing to touch the PDF's actual rotation."""
+    with pdfplumber.open(pdf_path) as pdf:
+        page = pdf.pages[0]
+        flow_true = page.extract_text(use_text_flow=True) or ''
+        flow_false = page.extract_text(use_text_flow=False) or ''
+    variants = [flow_true, flow_false]
+    for t in (flow_true, flow_false):
+        rev = re.sub(r'\s+', ' ', t[::-1])
+        variants.append(rev)
+    return flow_true, variants
+
+
 def extract_metadata(text):
     """Scale + authors only — independent of whether the citation line (at
     the very bottom, most prone to the overlap-interleaving above) parses."""
@@ -126,6 +153,16 @@ def extract_citation(text):
     return citations[-1] if citations else None
 
 
+def extract_citation_any(variants):
+    """Try extract_citation against each text rendering in turn (see
+    extract_page_text_variants) and return the first hit."""
+    for t in variants:
+        c = extract_citation(t)
+        if c:
+            return c
+    return None
+
+
 if __name__ == '__main__':
     only = set(sys.argv[1:]) or None
     maps = load_catalog()
@@ -159,11 +196,11 @@ if __name__ == '__main__':
                 print(f'PDF niedostępny ({e})')
                 n404 += 1
                 continue
-            text = extract_page_text(pdf_path)
-            page_text[map_id] = (text, city_id)
+            text, variants = extract_page_text_variants(pdf_path)
+            page_text[map_id] = (text, city_id, variants)
             per_map_meta[map_id] = extract_metadata(text)
             if city_id not in city_citation:
-                citation = extract_citation(text)
+                citation = extract_citation_any(variants)
                 if citation:
                     city_citation[city_id] = citation
             print(per_map_meta[map_id])
@@ -173,16 +210,16 @@ if __name__ == '__main__':
 
     # Second pass: a city whose first few maps all had a garbled citation
     # line still gets one, as long as ANY of its maps parsed cleanly.
-    missing_cities = {city_id for _, city_id in page_text.values()} - set(city_citation)
-    for map_id, (text, city_id) in page_text.items():
+    missing_cities = {city_id for _, city_id, _ in page_text.values()} - set(city_citation)
+    for map_id, (text, city_id, variants) in page_text.items():
         if city_id in missing_cities:
-            citation = extract_citation(text)
+            citation = extract_citation_any(variants)
             if citation:
                 city_citation[city_id] = citation
                 missing_cities.discard(city_id)
 
     ok = 0
-    for map_id, (_, city_id) in page_text.items():
+    for map_id, (_, city_id, _v) in page_text.items():
         meta = dict(per_map_meta[map_id])
         citation = city_citation.get(city_id)
         if citation:

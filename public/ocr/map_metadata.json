@@ -148,28 +148,245 @@
     "rokWydania": "2016"
   },
   "ahmp_brzeg_1": {
-    "skala": "1 : 2500"
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_10": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_11-12": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_13-14": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_19": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_2": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_20": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_21": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_28": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_3": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_31": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_32": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_33": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_34": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_35": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_36": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_38": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_39": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
   },
   "ahmp_brzeg_4": {
-    "skala": "1 : 2000"
+    "skala": "1 : 2000",
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_42": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_43": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_44": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_45": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_46": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_48": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_49": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
   },
   "ahmp_brzeg_5": {
-    "skala": "1 : 2500"
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_50": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_51": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_52": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_53": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_54": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_55": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_56": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
+  },
+  "ahmp_brzeg_7": {
+    "tom": "IV",
+    "zeszyt": "18",
+    "rokWydania": "2023"
   },
   "ahmp_jelenia_gora_ii_1": {
-    "skala": "1:2500"
+    "skala": "1:2500",
+    "tom": "IV",
+    "zeszyt": "14",
+    "rokWydania": "2017"
   },
   "ahmp_jelenia_gora_ii_2": {
-    "skala": "1:25 000"
+    "skala": "1:25 000",
+    "tom": "IV",
+    "zeszyt": "14",
+    "rokWydania": "2017"
+  },
+  "ahmp_jelenia_gora_ii_3": {
+    "skala": "1:2000",
+    "tom": "IV",
+    "zeszyt": "14",
+    "rokWydania": "2017"
+  },
+  "ahmp_jelenia_gora_ii_4": {
+    "skala": "1:2000",
+    "tom": "IV",
+    "zeszyt": "14",
+    "rokWydania": "2017"
   },
   "ahmp_milicz_ii_1": {
-    "skala": "1:2500"
+    "skala": "1:2500",
+    "tom": "IV",
+    "zeszyt": "7",
+    "rokWydania": "2017"
   },
   "ahmp_milicz_ii_2": {
-    "skala": "1:10 000"
+    "skala": "1:10 000",
+    "tom": "IV",
+    "zeszyt": "7",
+    "rokWydania": "2017"
+  },
+  "ahmp_milicz_ii_3": {
+    "tom": "IV",
+    "zeszyt": "7",
+    "rokWydania": "2017"
+  },
+  "ahmp_milicz_ii_4": {
+    "tom": "IV",
+    "zeszyt": "7",
+    "rokWydania": "2017"
+  },
+  "ahmp_namyslow_ii_2": {
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "11",
+    "rokWydania": "2015"
+  },
+  "ahmp_namyslow_ii_3": {
+    "tom": "IV",
+    "zeszyt": "11",
+    "rokWydania": "2015"
   },
   "ahmp_namyslow_ii_4": {
-    "skala": "1 : 2000"
+    "skala": "1 : 2000",
+    "tom": "IV",
+    "zeszyt": "11",
+    "rokWydania": "2015"
   },
   "ahmp_nowy_sacz_1_1": {
     "tom": "V",
@@ -229,7 +446,21 @@
     "rokWydania": "2023"
   },
   "ahmp_olawa_ii_1": {
-    "skala": "1:2500"
+    "skala": "1:2500",
+    "tom": "IV",
+    "zeszyt": "12",
+    "rokWydania": "2015"
+  },
+  "ahmp_olawa_ii_2": {
+    "tom": "IV",
+    "zeszyt": "12",
+    "rokWydania": "2015"
+  },
+  "ahmp_olawa_ii_4": {
+    "skala": "1:2000",
+    "tom": "IV",
+    "zeszyt": "12",
+    "rokWydania": "2015"
   },
   "ahmp_raciborz_ii_1": {
     "skala": "1 :2500"
@@ -313,24 +544,102 @@
     "rokWydania": "2018"
   },
   "ahmp_strzegom_ii_1": {
-    "skala": "1:2500"
+    "skala": "1:2500",
+    "tom": "IV",
+    "zeszyt": "6",
+    "rokWydania": "2015"
   },
   "ahmp_strzegom_ii_2": {
-    "skala": "1:10 000"
+    "skala": "1:10 000",
+    "tom": "IV",
+    "zeszyt": "6",
+    "rokWydania": "2015"
   },
   "ahmp_strzegom_ii_3": {
-    "skala": "1:2500"
+    "skala": "1:2500",
+    "tom": "IV",
+    "zeszyt": "6",
+    "rokWydania": "2015"
   },
   "ahmp_strzegom_ii_4": {
-    "skala": "1:2500"
+    "skala": "1:2500",
+    "tom": "IV",
+    "zeszyt": "6",
+    "rokWydania": "2015"
   },
   "ahmp_strzelin_ii_1": {
-    "skala": "1:2500"
+    "skala": "1:2500",
+    "tom": "IV",
+    "zeszyt": "10",
+    "rokWydania": "2017"
+  },
+  "ahmp_strzelin_ii_2": {
+    "tom": "IV",
+    "zeszyt": "10",
+    "rokWydania": "2017"
+  },
+  "ahmp_strzelin_ii_3": {
+    "tom": "IV",
+    "zeszyt": "10",
+    "rokWydania": "2017"
+  },
+  "ahmp_strzelin_ii_4": {
+    "tom": "IV",
+    "zeszyt": "10",
+    "rokWydania": "2017"
+  },
+  "ahmp_strzelin_ii_5": {
+    "tom": "IV",
+    "zeszyt": "10",
+    "rokWydania": "2017"
   },
   "ahmp_swidnica_ii_1": {
-    "skala": "1 : 2500"
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "5",
+    "rokWydania": "2008"
+  },
+  "ahmp_swidnica_ii_10": {
+    "tom": "IV",
+    "zeszyt": "5",
+    "rokWydania": "2008"
+  },
+  "ahmp_swidnica_ii_2": {
+    "tom": "IV",
+    "zeszyt": "5",
+    "rokWydania": "2008"
+  },
+  "ahmp_swidnica_ii_3": {
+    "tom": "IV",
+    "zeszyt": "5",
+    "rokWydania": "2008"
+  },
+  "ahmp_swidnica_ii_4": {
+    "tom": "IV",
+    "zeszyt": "5",
+    "rokWydania": "2008"
+  },
+  "ahmp_swidnica_ii_8": {
+    "tom": "IV",
+    "zeszyt": "5",
+    "rokWydania": "2008"
+  },
+  "ahmp_swidnica_ii_9": {
+    "tom": "IV",
+    "zeszyt": "5",
+    "rokWydania": "2008"
   },
   "ahmp_tarnow_1_1": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_10a": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_10b": {
     "tom": "V",
     "zeszyt": "6",
     "rokWydania": "2024"
@@ -395,6 +704,16 @@
     "zeszyt": "6",
     "rokWydania": "2024"
   },
+  "ahmp_tarnow_1_8a": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
+  "ahmp_tarnow_1_8b": {
+    "tom": "V",
+    "zeszyt": "6",
+    "rokWydania": "2024"
+  },
   "ahmp_tarnow_1_9": {
     "tom": "V",
     "zeszyt": "6",
@@ -428,14 +747,194 @@
     "zeszyt": "6",
     "rokWydania": "2024"
   },
+  "ahmp_wieliczka_b1_1": {
+    "skala": "1:2500",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wieliczka_b1_2": {
+    "skala": "1:10 000",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wieliczka_b3_1": {
+    "skala": "1:20 000",
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wieliczka_b3_2": {
+    "skala": "1:10 000",
+    "autorzy": "Antoni",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wieliczka_b3_3": {
+    "skala": "1:2500",
+    "autorzy": "Bogusław",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wieliczka_b3_4": {
+    "skala": "1:20 000",
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wieliczka_b3_5": {
+    "skala": "1:20 000",
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wieliczka_b3_6": {
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wieliczka_b3_7": {
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wieliczka_b3_8": {
+    "skala": "1:10 000",
+    "autorzy": "Zbigniew Beiersdorf, Bogusław Krasnowolski",
+    "tom": "V",
+    "zeszyt": "3",
+    "rokWydania": "2015"
+  },
+  "ahmp_wroclaw_2017_ii_10": {
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_11": {
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_12": {
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_13": {
+    "skala": "1:5000",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_14": {
+    "skala": "1:5000",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_15": {
+    "skala": "1:5000",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_16": {
+    "skala": "1:40 000",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_17": {
+    "skala": "1:40 000",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_18": {
+    "skala": "1:40 000",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_1a": {
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_1b": {
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_2": {
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_3": {
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_4a": {
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_4b": {
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_5": {
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
+  "ahmp_wroclaw_2017_ii_9": {
+    "skala": "1 : 4000",
+    "tom": "IV",
+    "zeszyt": "13",
+    "rokWydania": "2017"
+  },
   "ahmp_zabkowice_ii_1": {
-    "skala": "1 : 2500"
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "17",
+    "rokWydania": "2016"
+  },
+  "ahmp_zabkowice_ii_2": {
+    "tom": "IV",
+    "zeszyt": "17",
+    "rokWydania": "2016"
   },
   "ahmp_zabkowice_ii_3": {
-    "skala": "1 : 2500"
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "17",
+    "rokWydania": "2016"
   },
   "ahmp_zabkowice_ii_4": {
-    "skala": "1 : 2500"
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "17",
+    "rokWydania": "2016"
+  },
+  "ahmp_zabkowice_ii_5": {
+    "tom": "IV",
+    "zeszyt": "17",
+    "rokWydania": "2016"
   },
   "ahmp_zamosc_1_1": {
     "tom": "V",
@@ -517,9 +1016,30 @@
     "rokWydania": "2024"
   },
   "ahmp_ziebice_ii_1": {
-    "skala": "1 : 2500"
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "16",
+    "rokWydania": "2014"
   },
   "ahmp_ziebice_ii_2": {
-    "skala": "1 : 2500"
+    "skala": "1 : 2500",
+    "tom": "IV",
+    "zeszyt": "16",
+    "rokWydania": "2014"
+  },
+  "ahmp_ziebice_ii_3": {
+    "tom": "IV",
+    "zeszyt": "16",
+    "rokWydania": "2014"
+  },
+  "ahmp_ziebice_ii_5": {
+    "tom": "IV",
+    "zeszyt": "16",
+    "rokWydania": "2014"
+  },
+  "ahmp_ziebice_ii_6": {
+    "tom": "IV",
+    "zeszyt": "16",
+    "rokWydania": "2014"
   }
 }
