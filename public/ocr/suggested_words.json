@@ -16304,5 +16304,92 @@
    "x": 0.7525,
    "y": 0.819
   }
+ ],
+ "ahmp_ketrzyn_2": [
+  {
+   "text": "Osiedle Piastowskie",
+   "x": 0.6873,
+   "y": 0.075
+  },
+  {
+   "text": "Osiedle Sikorskiego",
+   "x": 0.2405,
+   "y": 0.4125
+  },
+  {
+   "text": "Osiedle Mielczarskiego",
+   "x": 0.3179,
+   "y": 0.5219
+  },
+  {
+   "text": "Osiedle Moniuszki",
+   "x": 0.3179,
+   "y": 0.6094
+  },
+  {
+   "text": "Osiedle Towarzystwa Budownictwa Społecznego",
+   "x": 0.0859,
+   "y": 0.6813
+  },
+  {
+   "text": "Górka Poznańska",
+   "x": 0.1117,
+   "y": 0.7625
+  },
+  {
+   "text": "Park miejski",
+   "x": 0.7302,
+   "y": 0.4813
+  },
+  {
+   "text": "Jezioro Górne",
+   "x": 0.6873,
+   "y": 0.5312
+  },
+  {
+   "text": "Przedmieście Chłopskie (Bauer Vorstadt)",
+   "x": 0.5756,
+   "y": 0.5625
+  },
+  {
+   "text": "Przedmieście Królewieckie (Königsberger Vorstadt)",
+   "x": 0.6873,
+   "y": 0.625
+  },
+  {
+   "text": "Przedmieście Węgorzewskie (Angerburger Vorstadt)",
+   "x": 0.7732,
+   "y": 0.6438
+  },
+  {
+   "text": "Miasto (ca. 1357)",
+   "x": 0.567,
+   "y": 0.675
+  },
+  {
+   "text": "Nowe Miasto (1378)",
+   "x": 0.6186,
+   "y": 0.6875
+  },
+  {
+   "text": "Zamek (Castle)",
+   "x": 0.6873,
+   "y": 0.6875
+  },
+  {
+   "text": "Wola (Freiheit)",
+   "x": 0.6014,
+   "y": 0.7625
+  },
+  {
+   "text": "Mühlen Teich",
+   "x": 0.7216,
+   "y": 0.7469
+  },
+  {
+   "text": "Rzeka Guber (The Guber River)",
+   "x": 0.6959,
+   "y": 0.7281
+  }
  ]
 }
