@@ -16391,5 +16391,87 @@
    "x": 0.6959,
    "y": 0.7281
   }
+ ],
+ "ahmp_ketrzyn_3": [
+  {
+   "text": "RASTENBURG",
+   "x": 0.4688,
+   "y": 0.5068
+  },
+  {
+   "text": "Neuhoff",
+   "x": 0.3447,
+   "y": 0.4875
+  },
+  {
+   "text": "Krausendorff",
+   "x": 0.5513,
+   "y": 0.5591
+  },
+  {
+   "text": "Wopłacken oder Woplaucken",
+   "x": 0.5484,
+   "y": 0.4544
+  },
+  {
+   "text": "Schwarzstein",
+   "x": 0.6376,
+   "y": 0.5151
+  },
+  {
+   "text": "Metirter Wald",
+   "x": 0.7229,
+   "y": 0.3478
+  },
+  {
+   "text": "Der May See",
+   "x": 0.6989,
+   "y": 0.479
+  },
+  {
+   "text": "Gartten",
+   "x": 0.7414,
+   "y": 0.5131
+  },
+  {
+   "text": "Der Kurze See",
+   "x": 0.6546,
+   "y": 0.5839
+  },
+  {
+   "text": "Mafchnen",
+   "x": 0.843,
+   "y": 0.4501
+  },
+  {
+   "text": "Birken",
+   "x": 0.9353,
+   "y": 0.4422
+  },
+  {
+   "text": "metirber Wald",
+   "x": 0.8799,
+   "y": 0.5131
+  },
+  {
+   "text": "Sanckendorff",
+   "x": 0.8338,
+   "y": 0.5577
+  },
+  {
+   "text": "Vw. alt Charlottenhoff",
+   "x": 0.843,
+   "y": 0.5787
+  },
+  {
+   "text": "Vw. neu Charlottenhoff",
+   "x": 0.8799,
+   "y": 0.5971
+  },
+  {
+   "text": "gr. Partsch",
+   "x": 0.8522,
+   "y": 0.6233
+  }
  ]
 }
