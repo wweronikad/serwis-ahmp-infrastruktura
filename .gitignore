@@ -16,6 +16,7 @@ dist-ssr
 .vscode/*
 !.vscode/extensions.json
 .idea
+.claude/
 
 # Adnotator map (scripts/annotator_server.py) — cache renderowanych stron PDF
 scripts/annotator/.cache

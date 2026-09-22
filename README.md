@@ -45,18 +45,19 @@ npm run lint
 
 ## Skrypty (`scripts/`)
 
-Wymagają Pythona 3.10+, Tesseracta 5 (modele `pol`, `deu`, `lat`) i Poppler (`pdftoppm`).
+Wymagają Pythona 3.10+, Tesseracta 5 (modele `pol`, `deu`, `lat`) i Poppler (`pdftoppm`). `measure_tiles.cjs` wymaga dodatkowo Node.js, pakietu `playwright-core` i zainstalowanej przeglądarki Edge.
 
 | Skrypt | Do czego służy |
 |---|---|
 | `ocr_maps.py` | automatyczne rozpoznawanie tekstu na mapach (`--shard=i/n` pozwala uruchomić kilka procesów) |
 | `ocr_build_index.py` | buduje `public/ocr/index.json` z wyników OCR i z `manual_words.json` |
 | `annotator_server.py`, `annotator/` | lokalne narzędzie do ręcznego opisywania map (`py scripts/annotator_server.py`, adres `http://localhost:8642`); zawiera tryb sprawdzania propozycji |
-| `suggest_tiles.py`, `suggest_convert.py` | pomocnicze: cięcie mapy na fragmenty z podziałką i zamiana odczytów na propozycje |
+| `suggest_tiles.py`, `suggest_convert.py`, `suggest_region_tiles.py` | pomocnicze: cięcie mapy (lub wybranego jej fragmentu) na powiększone kafle z podziałką i zamiana odczytów na propozycje |
+| `ocr_debug_visualize.py` | podgląd, które słowa Tesseract rozpoznał i które z nich przeszły filtry `ocr_maps.py` (kolor zielony/czerwony) |
 | `extract_map_metadata.py` | odczyt tomu, zeszytu, skali i autorów z warstwy tekstowej plików PDF |
 | `extract_fulltext.py`, `extract_pdfs_to_txt.py`, `ocr_text_pdfs.py` | wyodrębnianie tekstu opisowego zeszytów |
 | `fix_pdf_urls.py` | kontrola i naprawa odnośników do plików źródłowych na atlasmiast.umk.pl |
-| `ocr_generate_skeleton.py`, `ocr_compile_skeleton.py`, `ocr_debug_visualize.py` | starszy sposób ręcznego uzupełniania OCR (zastąpiony przez `annotator_server.py`) |
+| `measure_tiles.cjs` | pomiar transferu i czasu wczytania kafli IIIF w przeglądarce (Playwright) — dane do tabeli porównawczej z plikami PDF |
 
 ## Dane źródłowe
 
