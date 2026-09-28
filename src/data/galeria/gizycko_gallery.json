@@ -1,0 +1,134 @@
+[
+  {
+    "id": "widok_z_twierdzy_1859",
+    "file": "gizycko_widok_z_twierdzy_1859.webp",
+    "title": "Widok miasta z twierdzy",
+    "date": "1859",
+    "mapPin": [
+      21.751668,
+      54.033139
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_z_wiezy_cisnier_ok_1920",
+    "file": "gizycko_widok_z_wiezy_cisnier_ok_1920.webp",
+    "title": "Widok na miasto z wieży ciśnień",
+    "date": "ok. 1920",
+    "mapPin": [
+      21.779369,
+      54.036416
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_na_centrum_i_zamek_ok_1914",
+    "file": "gizycko_widok_na_centrum_i_zamek_ok_1914.webp",
+    "title": "Widok na centrum i zamek",
+    "date": "ok. 1914",
+    "mapPin": [
+      21.767905,
+      54.036342
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_strony_niegocina",
+    "file": "gizycko_widok_od_strony_niegocina.webp",
+    "title": "Widok od strony Niegocina",
+    "date": "b.d.",
+    "mapPin": [
+      21.766317,
+      54.030242
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_strony_zamku",
+    "file": "gizycko_widok_od_strony_zamku.webp",
+    "title": "Widok od strony zamku",
+    "date": "b.d.",
+    "mapPin": [
+      21.753683,
+      54.034981
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_na_rynek_ul_krolewiecka_1930",
+    "file": "gizycko_widok_na_rynek_ul_krolewiecka_1930.webp",
+    "title": "Widok na dawny rynek i ul. Królewiecką",
+    "date": "1930",
+    "mapPin": [
+      21.767656,
+      54.036268
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_na_ul_warszawska_1930",
+    "file": "gizycko_widok_na_ul_warszawska_1930.webp",
+    "title": "Widok na ul. Warszawską (d. Lyckerstrasse)",
+    "date": "1930",
+    "mapPin": [
+      21.770806,
+      54.036081
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_poludniowego_zachodu_ok_1930",
+    "file": "gizycko_widok_od_poludniowego_zachodu_ok_1930.webp",
+    "title": "Widok od strony płd.-zachodniej",
+    "date": "ok. 1930",
+    "mapPin": [
+      21.766832,
+      54.032334
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_zachodu",
+    "file": "gizycko_widok_od_zachodu.webp",
+    "title": "Widok od strony zachodniej",
+    "date": "b.d.",
+    "mapPin": [
+      21.752956,
+      54.027355
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_na_wschodnia_czesc",
+    "file": "gizycko_widok_na_wschodnia_czesc.webp",
+    "title": "Widok na wschodnią część miasta",
+    "date": "b.d.",
+    "mapPin": [
+      21.761168,
+      54.031603
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_na_wschodnia_strone_rynku_ok_1930",
+    "file": "gizycko_widok_na_wschodnia_strone_rynku_ok_1930.webp",
+    "title": "Widok na wsch. stronę pl. Grunwaldzkiego",
+    "date": "ok. 1930",
+    "mapPin": [
+      21.768347,
+      54.036224
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_na_zachodnia_strone_rynku_przed_1914",
+    "file": "gizycko_widok_na_zachodnia_strone_rynku_przed_1914.webp",
+    "title": "Widok na zach. stronę pl. Grunwaldzkiego",
+    "date": "przed 1914",
+    "mapPin": [
+      21.769879,
+      54.036014
+    ],
+    "imgPins": []
+  }
+]

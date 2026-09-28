@@ -1,0 +1,100 @@
+[
+  {
+    "id": "panorama_1657",
+    "file": "bydgoszcz_panorama_wraz_z_planem_miasta_1657.webp",
+    "title": "Panorama wraz z planem miasta",
+    "date": "1657",
+    "mapPin": [18.002734, 53.126276],
+    "imgPins": [
+      { "x": 54.4, "y": 18.6, "label": "Ratusz" },
+      { "x": 29.2, "y": 11.7, "label": "Katedra pw. św. Marcina" },
+      { "x": 47.7, "y": 18.5, "label": "Kościół Świętego Krzyża — jezuitów" },
+      { "x": 37.3, "y": 14.5, "label": "Kościół bernardynów" },
+      { "x": 81.7, "y": 22.9, "label": "Kościół karmelitów Najświętszej Marii Panny" },
+      { "x": 51.2, "y": 20.4, "label": "Kościół Ducha Świętego — klarysek" },
+      { "x": 99,   "y": 18.1, "label": "Szpital" },
+      { "x": 43.2, "y": 19.8, "label": "Kościół św. Idziego" },
+      { "x": 49.7, "y": 19.8, "label": "Kościół św. Stanisława" },
+      { "x": 94.2, "y": 22.1, "label": "Kościół Trójcy Świętej" },
+      { "x": 24.7, "y": 21.4, "label": "Mennica — „dom, gdzie bije się monetę\"" }
+    ]
+  },
+  {
+    "id": "panorama_1830",
+    "file": "bydgoszcz_panorama_1830_od_strony_poludniowo_wschodniej.webp",
+    "title": "Panorama od płd.-wsch.",
+    "date": "1830",
+    "mapPin": [18.003392, 53.118785],
+    "imgPins": [
+      { "x": 54.5, "y": 52.7, "label": "Kościół pojezuicki św. Ignacego Loyoli" },
+      { "x": 64.8, "y": 52,   "label": "Katedra św. Marcina i św. Mikołaja" },
+      { "x": 52.5, "y": 64.6, "label": "Kościół św. Idziego" },
+      { "x": 74.5, "y": 63.6, "label": "Kościół pobernardyński Najświętszej Maryi Panny Królowej Pokoju" },
+      { "x": 66.1, "y": 68.4, "label": "Domek loretański" }
+    ]
+  },
+  {
+    "id": "panorama_1854",
+    "file": "bydgoszcz_panorama_1854_od_strony_poludniowo_wschodniej.webp",
+    "title": "Panorama od płd.-wsch.",
+    "date": "1854",
+    "mapPin": [18.002128, 53.118707],
+    "imgPins": [
+      { "x": 41.2, "y": 57.8, "label": "Katedra św. Marcina i św. Mikołaja" },
+      { "x": 53.2, "y": 62.6, "label": "Kościół pobernardyński Najświętszej Maryi Panny Królowej Pokoju" }
+    ]
+  },
+  {
+    "id": "panorama_1860",
+    "file": "bydgoszcz_panorama_1860_od_strony_poludniowej.webp",
+    "title": "Panorama od strony południowej",
+    "date": "1860",
+    "mapPin": [17.99708, 53.119343],
+    "imgPins": [
+      { "x": 55.6, "y": 39.6, "label": "Katedra św. Marcina i św. Mikołaja" }
+    ]
+  },
+  {
+    "id": "tableau_1848_1853",
+    "file": "bydgoszcz_tableau_panorama_ok_1848_1853.webp",
+    "title": "Tableau z panoramą i widokami",
+    "date": "ok. 1848–1853",
+    "mapPin": [18.000583, 53.121888],
+    "imgPins": [
+      { "x": 84.6, "y": 89.1, "label": "budynki dawnego klasztoru Karmelitów" },
+      { "x": 13.7, "y": 10,   "label": "Budynek Rządowy" },
+      { "x": 15.5, "y": 25.5, "label": "Zakład leczniczo-wodny (sanatorium)" },
+      { "x": 17,   "y": 39.4, "label": "Młyn Rothera" },
+      { "x": 17.5, "y": 56.5, "label": "Budynek sądu śledczego" },
+      { "x": 18,   "y": 82.2, "label": "Dworzec kolejowy" },
+      { "x": 34.1, "y": 16.5, "label": "Most kolejowy" },
+      { "x": 56.6, "y": 82.9, "label": "Ruiny zamku bydgoskiego" },
+      { "x": 75.1, "y": 15.9, "label": "Rynek (plac targowy)" },
+      { "x": 90.7, "y": 8.3,  "label": "Kościół ewangelicki" },
+      { "x": 92.6, "y": 25.4, "label": "Lazaret wojskowy (szpital polowy)" },
+      { "x": 82.6, "y": 41.3, "label": "Szósta śluza (na Kanale Bydgoskim)" },
+      { "x": 84.1, "y": 60.5, "label": "Kościół farny i pojezuicki" },
+      { "x": 95,   "y": 92.8, "label": "Teatr i Szkoła Realna" }
+    ]
+  },
+  {
+    "id": "stare_miasto",
+    "file": "bydgoszcz_stare_miasto_widok_ogolny_od_strony_poludniowej.webp",
+    "title": "Stare Miasto od południa",
+    "date": "b.d.",
+    "mapPin": [18.000429, 53.121899],
+    "imgPins": [
+      { "x": 43.1, "y": 43.7, "label": "Rynek" }
+    ]
+  },
+  {
+    "id": "widok_polnocno_wschodni",
+    "file": "bydgoszcz_widok_od_strony_polnocno_wschodniej.webp",
+    "title": "Widok od płn.-wsch.",
+    "date": "b.d.",
+    "mapPin": [18.000473, 53.121887],
+    "imgPins": [
+      { "x": 57.4, "y": 27.7, "label": "Rynek" }
+    ]
+  }
+]

@@ -1,0 +1,63 @@
+[
+  {
+    "id": "miasto_i_okolice_1660_1678",
+    "file": "ketrzyn_miasto_i_okolice_1660_1678.webp",
+    "title": "Miasto i okolice, 1660–1678 (fragment)",
+    "date": "1660–1678",
+    "mapPin": [
+      21.372185,
+      54.073468
+    ],
+    "imgPins": [
+      {
+        "x": 46.6,
+        "y": 41.7,
+        "label": "Kętrzyn"
+      }
+    ]
+  },
+  {
+    "id": "widok_od_polnocy_1684",
+    "file": "ketrzyn_widok_od_polnocy_1684.webp",
+    "title": "Widok miasta od strony północnej",
+    "date": "1684",
+    "mapPin": [
+      21.375425,
+      54.074027
+    ],
+    "imgPins": [
+      {
+        "x": 28.2,
+        "y": 27.4,
+        "label": "Zamek zakonu niemieckiego"
+      },
+      {
+        "x": 72.7,
+        "y": 29.7,
+        "label": "Kościół św. Jerzego"
+      }
+    ]
+  },
+  {
+    "id": "widok_od_poludnia",
+    "file": "ketrzyn_widok_od_poludnia.webp",
+    "title": "Widok od strony południowej (dawne Nowe Miasto)",
+    "date": "b.d.",
+    "mapPin": [
+      21.374223,
+      54.07375
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_ogolny_od_polnocy",
+    "file": "ketrzyn_widok_ogolny_od_polnocy.webp",
+    "title": "Widok ogólny od strony północnej",
+    "date": "b.d.",
+    "mapPin": [
+      21.378085,
+      54.078509
+    ],
+    "imgPins": []
+  }
+]

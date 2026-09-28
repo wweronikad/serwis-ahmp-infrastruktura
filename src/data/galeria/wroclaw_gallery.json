@@ -1,0 +1,54 @@
+[
+  {
+    "id": "architektura_mieszczanska",
+    "file": "wroclaw_architektura_mieszczanska.webp",
+    "title": "Architektura mieszczańska przy rynku",
+    "date": "b.d.",
+    "mapPin": null,
+    "imgPins": []
+  },
+  {
+    "id": "dzialki_przyrynkowe",
+    "file": "wroclaw_dzialki_przyrynkowe.webp",
+    "title": "Kształtowanie działek przyrynkowych (XIII–XV w.)",
+    "date": "b.d.",
+    "mapPin": [
+      17.031292,
+      51.110618
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zabudowa_bloki",
+    "file": "wroclaw_zabudowa_bloki.webp",
+    "title": "Zabudowa bloków na zachód od rynku",
+    "date": "b.d.",
+    "mapPin": [
+      17.029674,
+      51.110506
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "studium_parcelacyjne",
+    "file": "wroclaw_studium_parcelacyjne.webp",
+    "title": "Studium przekształceń parcelacyjnych",
+    "date": "b.d.",
+    "mapPin": [
+      17.02866,
+      51.110706
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zamek_ksiazеcy",
+    "file": "wroclaw_zamek_ksiazеcy.webp",
+    "title": "Zamek książęcy — fazy rozwoju (XII–XV w.)",
+    "date": "b.d.",
+    "mapPin": [
+      17.043104,
+      51.116062
+    ],
+    "imgPins": []
+  }
+]

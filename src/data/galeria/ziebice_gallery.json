@@ -1,0 +1,107 @@
+[
+  {
+    "id": "mapa_ksiestwa",
+    "file": "ziebice_mapa_ksiestwa.webp",
+    "title": "Mapa księstwa ziębickiego",
+    "date": "poł. XVIII w.",
+    "mapPin": [ 17.040725, 50.600902 ],
+    "imgPins": []
+  },
+  {
+    "id": "mapa_otoczenia_rolnego",
+    "file": "ziebice_mapa_otoczenia_rolnego_1768.webp",
+    "title": "Mapa otoczenia rolnego",
+    "date": "1768",
+    "mapPin": [ 17.04167, 50.600902 ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_z_lotu_ptaka_1762",
+    "file": "ziebice_widok_z_lotu_ptaka_1762.webp",
+    "title": "Miasto — widok z lotu ptaka",
+    "date": "1762–1771",
+    "mapPin": [ 17.041413, 50.601132 ],
+    "imgPins": [
+      { "x": 63.7, "y": 56.2, "label": "Kościół parafialny św. Jerzego" },
+      { "x": 32.2, "y": 27.2, "label": "Zrujnowany kościół klasztorny" },
+      { "x": 48.2, "y": 53.2, "label": "Ratusz" },
+      { "x": 75.6, "y": 56.2, "label": "Plebania" },
+      { "x": 74.3, "y": 63.5, "label": "Karczma / Gospoda" },
+      { "x": 51.7, "y": 17,   "label": "Ruiny starego zamku" },
+      { "x": 56.1, "y": 10.3, "label": "Brama Zamkowa" },
+      { "x": 82.8, "y": 41.9, "label": "Zamek" },
+      { "x": 92.1, "y": 59.6, "label": "Brama Nyska" },
+      { "x": 97.8, "y": 56.5, "label": "Kościół cmentarny" },
+      { "x": 32.2, "y": 90.6, "label": "Brama Paczkowska" },
+      { "x": 5.3,  "y": 58.4, "label": "Brama Młyńska" },
+      { "x": 18,   "y": 39.4, "label": "Brama Wrocławska" },
+      { "x": 10.5, "y": 40.4, "label": "Komandoria Krzyżowców" }
+    ]
+  },
+  {
+    "id": "panorama_od_sw_1738",
+    "file": "ziebice_panorama_od_sw_1738.webp",
+    "title": "Panorama od południowego zachodu",
+    "date": "1738",
+    "mapPin": [ 17.037164, 50.598056 ],
+    "imgPins": [
+      { "x": 19.5, "y": 44.7, "label": "Probostwo Krzyżowców" },
+      { "x": 29.3, "y": 40.6, "label": "Brama Wrocławska" },
+      { "x": 39.8, "y": 37.2, "label": "Stary klasztor" },
+      { "x": 45.5, "y": 39.7, "label": "Brama Zamkowa" },
+      { "x": 54.5, "y": 34.7, "label": "Wieża ratuszowa" },
+      { "x": 61.5, "y": 32.2, "label": "Kościół parafialny" },
+      { "x": 67.6, "y": 42.1, "label": "Stary zamek książęcy" },
+      { "x": 71.6, "y": 41.7, "label": "Brama Nyska" },
+      { "x": 75.1, "y": 41.3, "label": "Kościółek cmentarny" },
+      { "x": 86.2, "y": 43.2, "label": "Brama Paczkowska" }
+    ]
+  },
+  {
+    "id": "plan_miasta_1762",
+    "file": "ziebice_plan_miasta_1762.webp",
+    "title": "Plan miasta",
+    "date": "1762–1771",
+    "mapPin": [ 17.040425, 50.597565 ],
+    "imgPins": [
+      { "x": 51.3, "y": 48.1, "label": "Ratusz" },
+      { "x": 72.3, "y": 48.4, "label": "Kościół parafialny św. Jerzego" },
+      { "x": 90.1, "y": 38,   "label": "Zamek" },
+      { "x": 52.2, "y": 15.7, "label": "Ruiny starego zamku" },
+      { "x": 38.2, "y": 27.8, "label": "Kościół klasztorny" },
+      { "x": 9.9,  "y": 40.9, "label": "Probostwo Krzyżowców" }
+    ]
+  },
+  {
+    "id": "kosciol_sw_jerzego",
+    "file": "ziebice_kosciol_sw_jerzego.webp",
+    "title": "Kościół pw. św. Jerzego — rzut i przekrój",
+    "date": "przed 1904",
+    "mapPin": [ 17.042093, 50.60004 ],
+    "imgPins": []
+  },
+  {
+    "id": "fasada_kosciol_sw_jerzego",
+    "file": "ziebice_fasada_kosciol_sw_jerzego.webp",
+    "title": "Kościół Św. Jerzego — fasada zachodnia",
+    "date": "pocz. XX w.",
+    "mapPin": [ 17.04229, 50.599953 ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_poludnia_1928",
+    "file": "ziebice_widok_od_poludnia_1928.webp",
+    "title": "Widok od południa",
+    "date": "1928",
+    "mapPin": [ 17.032657, 50.599489 ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_sw_1928",
+    "file": "ziebice_widok_od_sw_1928.webp",
+    "title": "Widok od południowego zachodu",
+    "date": "1928",
+    "mapPin": [ 17.042313, 50.597048 ],
+    "imgPins": []
+  }
+]

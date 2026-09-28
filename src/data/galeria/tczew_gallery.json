@@ -1,0 +1,95 @@
+[
+  {
+    "id": "widok_od_poludnia",
+    "file": "tczew_widok_od_poludnia.webp",
+    "title": "Widok od południa",
+    "date": "b.d.",
+    "mapPin": [
+      18.79711,
+      54.076743
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_polnocy",
+    "file": "tczew_widok_od_polnocy.webp",
+    "title": "Widok od północy",
+    "date": "b.d.",
+    "mapPin": [
+      18.818417,
+      54.116245
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_polnocy_2",
+    "file": "tczew_widok_od_polnocy_2.webp",
+    "title": "Widok od północy",
+    "date": "b.d.",
+    "mapPin": [
+      18.790371,
+      54.097513
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_wschodu",
+    "file": "tczew_widok_od_wschodu.webp",
+    "title": "Widok od wschodu",
+    "date": "b.d.",
+    "mapPin": [
+      18.805997,
+      54.086518
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "panorama_od_wschodu_1855",
+    "file": "tczew_panorama_od_wschodu_1855.webp",
+    "title": "Panorama od wschodu",
+    "date": "1855",
+    "mapPin": [
+      18.805293,
+      54.087355
+    ],
+    "imgPins": [
+      {
+        "x": 80,
+        "y": 38.6,
+        "label": "Kościół pw. Podwyższenia Krzyża Świętego"
+      },
+      {
+        "x": 70.6,
+        "y": 43.4,
+        "label": "Kościół pw. św. Stanisława Kostki"
+      },
+      {
+        "x": 53.6,
+        "y": 45.9,
+        "label": "Ratusz"
+      }
+    ]
+  },
+  {
+    "id": "zdjecia_lotnicze_2013",
+    "file": "tczew_zdjecia_lotnicze_2013.webp",
+    "title": "Zdjęcia lotnicze",
+    "date": "2013",
+    "mapPin": [
+      18.754323,
+      54.095072
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zdjecia_lotnicze_2013_2",
+    "file": "tczew_zdjecia_lotnicze_2013_2.webp",
+    "title": "Zdjęcia lotnicze",
+    "date": "2013",
+    "mapPin": [
+      18.810068,
+      54.092563
+    ],
+    "imgPins": []
+  }
+]

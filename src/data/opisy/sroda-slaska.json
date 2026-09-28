@@ -1,0 +1,54 @@
+{
+  "cityId": "sroda-slaska",
+  "epoka": "XIII–XX w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Kolonizacja na prawie flamandzkim ok. 1210 r. przez Henryka I Brodatego, prawa miejskie magdeburskie przed 1214 r. Wzmiankowana w 1223 r. pod nazwą „Novum Forum” (Nowy Targ).",
+      "tekst": "Ok. 1210 r. Henryk I Brodaty osadził w miejscu dzisiejszej Środy Śląskiej kolonistów na prawie flamandzkim, a jeszcze przed 1214 r. miejscowość otrzymała magdeburskie prawo miejskie — jest więc jednym z najwcześniej lokowanych miast na Śląsku. W dokumencie z 1223 r. określono ją łacińską nazwą „Novum Forum” (Nowy Targ), co odzwierciedla jej pierwotną funkcję handlową.\n\nJuż w XIII w. miasto stało się jednym z ważniejszych ośrodków handlu solą na Śląsku, co silnie ukształtowało jego układ przestrzenny wokół centralnego rynku.",
+      "mapy": ["ahmp_sroda_slaska_ii_5", "ahmp_sroda_slaska_ii_1"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Mury obronne z fosą z przełomu XIII/XIV w. Zamek, dziś zachowany jako ruina, wzniesiony w 2. połowie XIII w.",
+      "tekst": "Miasto otoczono murami obronnymi z fosą pod koniec XIII w. W tym samym okresie (2. poł. XIII w. – XIV w.) wzniesiono także zamek, z którego do dziś zachowały się jedynie ruiny.",
+      "mapy": ["ahmp_sroda_slaska_ii_4"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Kościół św. Andrzeja Apostoła — wielokrotnie przebudowywana świątynia parafialna. Kościół szpitalny NMP (ok. 1220 r.) i klasztor franciszkanów (poł. XIV w.).",
+      "tekst": "Główną świątynią parafialną miasta jest **kościół św. Andrzeja Apostoła**, wielokrotnie przebudowywany na przestrzeni wieków. Już ok. 1220 r. istniał kościół szpitalny pw. Najświętszej Marii Panny. W połowie XIV w. osiedlili się w mieście franciszkanie, wznosząc kościół Podwyższenia Krzyża Świętego wraz z klasztorem; w 1726 r. w mieście działał także klasztor dominikanów.",
+      "mapy": []
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "500 mieszczan spalonych w 1248 r. za sprzyjanie księciu wrocławskiemu — jeden z dramatycznych epizodów wczesnej historii miasta. Dziś ok. 9,5 tys. mieszkańców.",
+      "tekst": "Z wczesnej historii miasta zachował się dramatyczny przekaz o wydarzeniach z 1248 r., gdy podczas konfliktu książąt piastowskich spalono ok. 500 mieszczan Środy oskarżonych o sprzyjanie księciu wrocławskiemu — epizod ten ilustruje skalę i intensywność ówczesnych sporów dynastycznych na Śląsku. Współcześnie (2025 r.) miasto liczy 9526 mieszkańców.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Handel solą jako filar średniowiecznej gospodarki miasta. Od XV w. uprawa winorośli i browarnictwo, w XVIII w. manufaktura tytoniowa. Połączenie kolejowe z Legnicą od 1844 r.",
+      "tekst": "Przez cały okres średniowiecza gospodarkę Środy Śląskiej zdominował handel solą, uzupełniany rozwijającym się tkactwem. Od XV w. znaczenia nabrały uprawa winorośli, winiarstwo i browarnictwo. W XVIII w. w mieście działała manufaktura tytoniowa. Włączenie miasta w sieć kolejową — połączenie ze stacją w Legnicy uruchomiono w 1844 r. — otworzyło nowy etap rozwoju gospodarczego w XIX w.",
+      "mapy": ["ahmp_sroda_slaska_ii_6"]
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Od 1245 r. w księstwie legnickim Bolesława II Rogatki. Miejsce śmierci na wygnaniu Władysława III Laskonogiego (1231 r.). Kolejno pod Czechami (od 1392), Habsburgami (od 1526) i Prusami (od 1742 r.).",
+      "tekst": "W 1231 r. w Środzie Śląskiej zmarł na wygnaniu książę Władysław III Laskonogi, zwierzchni książę Polski. W 1245 r. miasto zostało włączone do księstwa legnickiego przez Bolesława II Rogatkę. W 1392 r., wraz z resztą Śląska, przeszło pod zwierzchnictwo Korony Czeskiej, w 1526 r. znalazło się pod panowaniem Habsburgów, a w 1742 r., po pierwszej wojnie śląskiej, weszło w skład państwa pruskiego.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Położenie nad Średzką Wodą, lewym dopływem Odry, na wysokości 103–144 m n.p.m. Powierzchnia miasta 14,94 km².",
+      "tekst": "Miasto leży nad Średzką Wodą, lewym dopływem Odry, na wysokości od 103 do 144 m n.p.m. Zajmuje powierzchnię 14,94 km².",
+      "mapy": []
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Opracowanie na podstawie polskiej Wikipedii. Dla Środy Śląskiej AHMP nie opublikował osobnej części opisowej — dostępne są wyłącznie plansze kartograficzne. Osobno warto wspomnieć o Skarbie Środy Śląskiej — słynnym znalezisku sprzed korony i biżuterii z XIII/XIV w., odkrytym w 1985 i 1988 r. i przechowywanym w Muzeum Regionalnym w tutejszym ratuszu.",
+      "tekst": "**Uwaga:** podobnie jak w przypadku kilku innych miast śląskich w serwisie, dla Środy Śląskiej Atlas Historyczny Miast Polskich nie wydał osobnej „części opisowej” — dostępne są tylko plansze kartograficzne (AHMP II). Powyższe karty są więc odrębnym opracowaniem redakcyjnym, a nie tłumaczeniem/streszczeniem zeszytu AHMP.\n\n**Skarb Środy Śląskiej:** w latach 1985 i 1988 w mieście odkryto wyjątkowe znalezisko — tzw. koronę średzką oraz inne przedmioty złotnicze datowane na przełom XIII/XIV w., dziś uznawane za jeden z najcenniejszych zabytków złotnictwa średniowiecznego w Polsce. Zbiór przechowywany jest w Muzeum Regionalnym w ratuszu w Środzie Śląskiej.\n\n**Źródła:**\n- [Środa Śląska — Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Aroda_%C5%9Al%C4%85ska)\n- Katalog map: [atlasmiast.umk.pl/atlasy/sroda-slaska](https://atlasmiast.umk.pl/atlasy/sroda-slaska/)",
+      "mapy": []
+    }
+  }
+}

@@ -1,0 +1,54 @@
+{
+  "cityId": "swidnica",
+  "epoka": "XIII–XX w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Miasto lokacyjne od 1267 r., już na przełomie XIII/XIV w. drugie co do wielkości miasto Śląska po Wrocławiu — z gęstą zabudową w obrębie ok. 500 budynków na 0,9 km².",
+      "tekst": "Osada w miejscu dzisiejszej Świdnicy wzmiankowana jest od 1243 r.; prawa miejskie miasto otrzymało 3 września 1267 r. Rozwijało się bardzo szybko — na początku XIV w. było już trzecim co do wielkości miastem Śląska (ok. 9,5 tys. mieszkańców), a pod koniec tego stulecia ustępowało wielkością jedynie Wrocławiowi: w obrębie murów o powierzchni 0,9 km² stało wówczas ok. 500 budynków, zamieszkanych przez 6–8 tys. osób.\n\nUkład urbanistyczny wielokrotnie niszczyły pożary — największe w 1528 r. (spłonęła zachodnia część miasta wraz z ratuszem i zamkiem) i w 1716 r. Do 1914 r. zabudowa wyraźnie wykroczyła poza obręb dawnych murów, przyjmując charakter wielkomiejski, typowy dla przemysłowego miasta prowincjonalnego Rzeszy.",
+      "mapy": ["ahmp_swidnica_ii_3"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Mury miejskie od 1285 r. z siedmioma bramami. Nowożytna twierdza rozbudowana w 1741 r., zlikwidowana po 1867 r., gdy miasto ogłoszono otwartym.",
+      "tekst": "Budowę murów miejskich rozpoczęto w 1285 r.; docelowo miasto otaczało siedem bram: Dolna, Strzegomska, Witoszowska, Kraszowicka, Poszewnicza, Kapturowa i Mikołajska. W 1741 r., po przejęciu Śląska przez Prusy, fortyfikacje zmodernizowano i znacząco rozbudowano, tworząc nowożytną twierdzę.\n\nZnaczenie militarne miasto straciło po wojnie prusko-austriackiej — w 1867 r. ogłoszono je „miastem otwartym”, po czym rozpoczęto systematyczną likwidację przestarzałych już umocnień, częściowo zastępując je zielenią miejską w miejscu dawnych obwarowań.",
+      "mapy": ["ahmp_swidnica_ii_4", "ahmp_swidnica_ii_8", "ahmp_swidnica_ii_9"]
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Kościół Pokoju — drewniana świątynia z 1657 r. wpisana w 2001 r. na listę światowego dziedzictwa UNESCO. Gotycka katedra św. Stanisława i św. Wacława, jedna z największych na Dolnym Śląsku.",
+      "tekst": "Najważniejszym zabytkiem sakralnym miasta jest **Kościół Pokoju** — wzniesiona w 1657 r. drewniana świątynia w konstrukcji szachulcowej, jedna z trzech tego typu na Śląsku wybudowanych po pokoju westfalskim dla protestantów, bez prawa użycia trwałych materiałów budowlanych ani wieży. W 2001 r. obiekt wpisano na Listę Światowego Dziedzictwa UNESCO.\n\nGotycka **katedra pw. św. Stanisława i św. Wacława**, wzniesiona w XIV w., należy do największych świątyń na Dolnym Śląsku. Do miasta wcześnie, bo już w 1284 r., przybyli też franciszkanie. W 1905 r. wzniesiono ponadto cerkiew pw. św. Mikołaja Cudotwórcy w stylu neoromańsko-bizantyjskim, świadectwo obecności ludności prawosławnej związanej z garnizonem.",
+      "mapy": []
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Ok. 9,5 tys. mieszkańców już w XIV w. Wojna trzydziestoletnia zmniejszyła populację o 40%. W 1945 r. całkowita wymiana ludności — dziś ok. 53 tys. mieszkańców.",
+      "tekst": "Świdnica należała do najludniejszych miast średniowiecznego Śląska — ok. 9,5 tys. mieszkańców na początku XIV w., a w 1612 r. wciąż ok. 9 tys. mieszkańców, w tym 1188 zarejestrowanych rzemieślników. Wojna trzydziestoletnia (1618–1648) była dla miasta katastrofą demograficzną — populacja spadła o ok. 40%.\n\nW 1910 r. miasto liczyło 31 329 mieszkańców, w większości ewangelików (61%), z 38,5% katolików i niewielką społecznością żydowską (0,5%). Rok 1945 przyniósł całkowitą wymianę ludności: dotychczasowych niemieckich mieszkańców wysiedlono, a miasto zasiedliła ludność polska — w 1950 r. aż 95,7% mieszkańców stanowili osadnicy napływowi, głównie zza dawnej granicy wschodniej (ZSRR) oraz z województwa krakowskiego. W 1961 r. miasto liczyło 40 873 mieszkańców, w 2011 r. — 60 213, a w 2023 r. — 53 423.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Piwo świdnickie — słynne w całej średniowiecznej Europie, eksportowane aż do Pragi, Wiednia i Piotrogrodu. Mennica miejska bijąca własną monetę (1517–1528). W XIX w. jeden z większych ośrodków przemysłu browarniczego na Śląsku.",
+      "tekst": "Przez stulecia najsłynniejszym produktem Świdnicy było **piwo świdnickie**, eksportowane do najodleglejszych zakątków Europy — do Pragi, Torunia, Wrocławia, Krakowa, Heidelbergu czy Pizy; w wielu miastach europejskich funkcjonowały wyspecjalizowane „Piwnice Świdnickie”. Konflikt handlowy z lat 1380–1382 tylko umocnił pozycję świdnickiego piwa na rynkach europejskich.\n\nMiasto miało też własną mennicę — w piwnicach ratusza w latach 1517–1528 wybito 77 mln sztuk półgroszy świdnickich. Rozwijało się sukiennictwo, płóciennictwo i nożownictwo; od 1504 r. działała w Świdnicy jedna z najstarszych na Śląsku loterii miejskich, a od 1505 r. — pierwszy młyn papierniczy.\n\nW XIX w. rozwinął się przede wszystkim przemysł browarniczy na skalę przemysłową (m.in. duży kompleks parowego browaru „Braukommune” z 1871 r.) oraz włókienniczy; miasto stało się też siedzibą fabryk sprzętu dla browarnictwa i liczników elektrycznych, a w okresie międzywojennym mieściła się tu największa na Śląsku spółka handlu artykułami kolonialnymi.",
+      "mapy": []
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Stolica niezależnego księstwa świdnicko-jaworskiego 1291–1392 — jednego z najpotężniejszych na Śląsku. Później pod Czechami, Habsburgami (od 1526 r.) i Prusami (od 1741 r.).",
+      "tekst": "Ziemia świdnicka została włączona do państwa Polan przez Mieszka I ok. 990 r.; od 1164 r. należała do księstwa wrocławskiego. W latach 1291–1392 Świdnica była stolicą samodzielnego **księstwa świdnicko-jaworskiego** — jednego z najpotężniejszych i najdłużej niezależnych księstw piastowskich na Śląsku. Po śmierci ostatniej władczyni, księżnej Agnieszki, w 1392 r. księstwo przeszło pod panowanie królów czeskich; w 1429 r. miasto skutecznie obroniło się przed husytami.\n\nOd 1526 r., wraz z całym Śląskiem, miasto znalazło się pod panowaniem Habsburgów, a po pierwszej wojnie śląskiej w 1741 r. przeszło pod panowanie pruskie. Po 1945 r. Świdnicę zajęły wojska 1. Frontu Ukraińskiego Armii Czerwonej; w latach 1945–1975 należała do województwa wrocławskiego, 1975–1998 do wałbrzyskiego, a od 1999 r. wchodzi w skład województwa dolnośląskiego.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Równina Świdnicka nad Bystrzycą, u progu Sudetów i Gór Wałbrzyskich, ok. 250 m n.p.m. Najwyższa gęstość zaludnienia w województwie dolnośląskim.",
+      "tekst": "Świdnica leży na Równinie Świdnickiej, nad rzeką Bystrzycą (dopływem Odry), na wysokości od ok. 225 do 266 m n.p.m., u progu Sudetów i Gór Wałbrzyskich. Miasto zajmuje powierzchnię 21,76 km²; przy obecnej liczbie mieszkańców gęstość zaludnienia (ok. 2455 os./km²) należy do najwyższych w województwie dolnośląskim. Użytki rolne stanowią ok. 41% powierzchni miasta, leśne — zaledwie 1%.",
+      "mapy": []
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Opracowanie na podstawie polskiej Wikipedii. Dla Świdnicy AHMP nie opublikował osobnej części opisowej — dostępne są wyłącznie plansze kartograficzne.",
+      "tekst": "**Uwaga:** podobnie jak w przypadku kilku innych miast śląskich w serwisie, dla Świdnicy Atlas Historyczny Miast Polskich nie wydał osobnej „części opisowej” — dostępne są tylko plansze kartograficzne (AHMP II). Powyższe karty są więc odrębnym opracowaniem redakcyjnym, a nie tłumaczeniem/streszczeniem zeszytu AHMP.\n\n**Źródła:**\n- [Świdnica — Wikipedia](https://pl.wikipedia.org/wiki/%C5%9Awidnica)\n- Katalog map: [atlasmiast.umk.pl/atlasy/swidnica](https://atlasmiast.umk.pl/atlasy/swidnica/)",
+      "mapy": []
+    }
+  }
+}

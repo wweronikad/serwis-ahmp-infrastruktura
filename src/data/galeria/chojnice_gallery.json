@@ -1,0 +1,184 @@
+[
+  {
+    "id": "plan_widok_1724",
+    "file": "chojnice_plan_miasta_i_widok_1724.webp",
+    "title": "Plan miasta i widok",
+    "date": "1724",
+    "mapPin": null,
+    "imgPins": [
+      {
+        "x": 38,
+        "y": 27.1,
+        "label": "Brama Człuchowska"
+      },
+      {
+        "x": 76,
+        "y": 28.5,
+        "label": "Brama Gdańska"
+      },
+      {
+        "x": 27.3,
+        "y": 56.8,
+        "label": "Brama Młyńska"
+      },
+      {
+        "x": 62.1,
+        "y": 78.3,
+        "label": "Brama Gdańska"
+      },
+      {
+        "x": 24.7,
+        "y": 77.3,
+        "label": "Brama Człuchowska"
+      },
+      {
+        "x": 48.1,
+        "y": 91.7,
+        "label": "Furta Mnichów"
+      },
+      {
+        "x": 43.7,
+        "y": 68.2,
+        "label": "Ewangelicki Kościół Miejski pw. Świętej Trójcy"
+      },
+      {
+        "x": 34.7,
+        "y": 89.6,
+        "label": "Ewangelicka Szkoła Miejska"
+      },
+      {
+        "x": 46,
+        "y": 63,
+        "label": "Ratusz Miejski"
+      },
+      {
+        "x": 56.7,
+        "y": 65.2,
+        "label": "Kolegium Jezuitów"
+      },
+      {
+        "x": 56.2,
+        "y": 70.8,
+        "label": "Kościół parafialny pw. św. Jana"
+      },
+      {
+        "x": 52.9,
+        "y": 90,
+        "label": "Wieża Więzienna"
+      },
+      {
+        "x": 40.9,
+        "y": 69.5,
+        "label": "Rynek (Plac Targowy)"
+      },
+      {
+        "x": 51.4,
+        "y": 24.7,
+        "label": "Ewangelicki Kościół Miejski pw. Świętej Trójcy"
+      },
+      {
+        "x": 24.3,
+        "y": 34.9,
+        "label": "Kościół ewangelicki i szpital pw. Świętego Ducha"
+      },
+      {
+        "x": 64.6,
+        "y": 23.5,
+        "label": "Kościół parafialny pw. św. Jana"
+      },
+      {
+        "x": 83.1,
+        "y": 34.4,
+        "label": "Kościół Augustianów"
+      }
+    ]
+  },
+  {
+    "id": "czesc_poludniowa",
+    "file": "chojnice_czesc_poludniowa.webp",
+    "title": "Część południowa Chojnic",
+    "date": "b.d.",
+    "mapPin": [
+      17.557909,
+      53.694641
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "czesc_polnocna",
+    "file": "chojnice_czesc_polnocna.webp",
+    "title": "Część północna miasta",
+    "date": "b.d.",
+    "mapPin": [
+      17.55942,
+      53.691964
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_polnocy",
+    "file": "chojnice_widok_od_polnocy.webp",
+    "title": "Widok od strony północnej",
+    "date": "b.d.",
+    "mapPin": [
+      17.55972,
+      53.698392
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_wschodu",
+    "file": "chojnice_widok_od_wschodu.webp",
+    "title": "Widok na stare miasto od wschodu",
+    "date": "b.d.",
+    "mapPin": [
+      17.563629,
+      53.695166
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_zachodu_brama",
+    "file": "chojnice_widok_od_zachodu_brama.webp",
+    "title": "Widok od zachodu — Brama Człuchowska",
+    "date": "b.d.",
+    "mapPin": [
+      17.560897,
+      53.695451
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "pierzeja_wschodnia_kosciol_gimnazjum",
+    "file": "chojnice_pierzeja_wschodnia_kosciol_gimnazjum.webp",
+    "title": "Pierzeja wschodnia rynku — kościoły i gimnazjum",
+    "date": "b.d.",
+    "mapPin": [
+      17.562408,
+      53.695421
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_poludnia_augustianie_rynek",
+    "file": "chojnice_widok_od_poludnia_augustianie_rynek.webp",
+    "title": "Widok od południa — augustianie, rynek",
+    "date": "b.d.",
+    "mapPin": [
+      17.561131,
+      53.694062
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_zachodu_przedmiescie",
+    "file": "chojnice_widok_od_zachodu_przedmiescie.webp",
+    "title": "Widok od zachodu — Przedmieście Człuchowskie",
+    "date": "b.d.",
+    "mapPin": [
+      17.557878,
+      53.694476
+    ],
+    "imgPins": []
+  }
+]

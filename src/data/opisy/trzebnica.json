@@ -1,0 +1,48 @@
+{
+  "cityId": "trzebnica",
+  "epoka": "V–XX w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Osadnictwo od V w., pierwsza wzmianka pisana w 1138 r. Prawa miejskie od 1250 r. Miasto rozwinęło się na skrzyżowaniu szlaków z Wrocławia do Poznania i z Milicza do Kalisza i Gniezna.",
+      "tekst": "Osadnictwo na terenie Trzebnicy sięga V w., a pierwsza pisemna wzmianka o miejscowości pochodzi z dokumentu z 1138 r. Prawa miejskie Trzebnica otrzymała w 1250 r., trzy lata po tym jak w 1247 r. wykupiła od klasztoru cysterek wójtostwo, uzyskując znaczną samodzielność gospodarczą.\n\nMiasto ukształtowało się na skrzyżowaniu ważnych szlaków komunikacyjnych — z Wrocławia przez Żmigród do Poznania oraz z Milicza do Kalisza i Gniezna — na wschodnim skraju Wzgórz Trzebnickich, na obrzeżu rozległej puszczy, co czyniło je istotnym punktem wymiany handlowej.",
+      "mapy": ["ahmp_trzebnica_ii_4", "ahmp_trzebnica_ii_3"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Mury obronne z XIII/XIV w. (relikty zachowane m.in. przy Bramie Trębaczy). Zamek wzniesiony w latach 1294–1300 przez Henryka Głogowskiego.",
+      "tekst": "Zachowane fragmenty miejskich murów obronnych, m.in. w rejonie Bramy Trębaczy i ul. Marcinowskiej, datowane są na przełom XIII i XIV w. W latach 1294–1300 książę Henryk Głogowski wzniósł w Trzebnicy zamek, poświadczony źródłowo w dokumentach z 1322 i 1323 r. Badania archeologiczne odsłoniły także relikty rezydencji wójtowskiej z końca XIII w., oddzielonej od miasta suchą fosą i drewnianą palisadą.",
+      "mapy": []
+    },
+    "koscioly": {
+      "dostepne": true,
+      "zajawka": "Pierwszy żeński klasztor cysterski na ziemiach polskich — ufundowany w 1202 r. przez Henryka Brodatego i św. Jadwigę Śląską. Od XIV w. ośrodek kultu św. Jadwigi, do dziś jedno z ważniejszych sanktuariów w Polsce.",
+      "tekst": "Najważniejszym wydarzeniem w historii Trzebnicy była fundacja w 1202 r. przez księcia Henryka I Brodatego kościoła i klasztoru dla sprowadzonych z Bambergu cysterek — pierwszego żeńskiego klasztoru cysterskiego na ziemiach polskich. Romański kościół klasztorny ukończono w 1218 r. Fundatorką i pierwszą przełożoną wspólnoty była żona Henryka, św. Jadwiga Śląska, której szczątki — podobnie jak szczątki samego księcia — spoczywają w trzebnickiej świątyni.\n\nOd XIV w. Trzebnica jest ważnym ośrodkiem kultu św. Jadwigi Śląskiej, ściągającym pielgrzymów z całej Polski i Europy Środkowej; funkcję tę pełni nieprzerwanie do dziś.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Jarmark przeniesiony z Cerekwicy w 1146 r. Rozwój tkactwa lnianego pod koniec XVII w. Przemysł włókienniczy i połączenie kolejowe z Wrocławiem od 1886 r.",
+      "tekst": "Już w 1146 r. przeniesiono do Trzebnicy jarmark odbywający się wcześniej w pobliskiej Cerekwicy, co wzmocniło handlową rolę osady jeszcze przed lokacją miejską. Po zniszczeniach wojny trzydziestoletniej niewielkie ożywienie gospodarcze nastąpiło pod koniec XVII w., gdy ocalała ludność zajęła się uprawą lnu, co dało początek miejscowemu tkactwu.\n\nW XIX w. miasto przeżyło wyraźny rozkwit gospodarczy — rozbudował się przemysł włókienniczy, powstały bank i drukarnia, a w 1886 r. Trzebnica uzyskała połączenie kolejowe z Wrocławiem.",
+      "mapy": []
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Miasto klasztorne — własność opactwa cysterek od fundacji w 1202 r. Samodzielność gospodarcza (wykup wójtostwa) od 1247 r., prawa miejskie od 1250 r.",
+      "tekst": "Od momentu fundacji klasztoru w 1202 r. Trzebnica pozostawała miastem silnie związanym z opactwem cysterek, które przez stulecia było tu główną siłą gospodarczą i administracyjną. Znaczący krok ku samodzielności miasto uczyniło w 1247 r., wykupując od klasztoru wójtostwo, co dało mieszczanom większą niezależność gospodarczą jeszcze przed formalną lokacją miejską w 1250 r.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Wzgórza Trzebnickie, na skraju dawnej wielkiej puszczy oddzielającej Śląsk od Wielkopolski. Powierzchnia miasta 10,61 km², wysokość 150–253 m n.p.m.",
+      "tekst": "Trzebnica leży we wschodniej części Wzgórz Trzebnickich, w miejscu historycznie stanowiącym skraj rozległej puszczy oddzielającej ziemie śląskie od wielkopolskich — stąd rola miasta jako punktu wymiany handlowej na styku dwóch krain. Miasto zajmuje powierzchnię 10,61 km², a rzeźba terenu waha się od 150 do 253 m n.p.m.",
+      "mapy": []
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Opracowanie na podstawie polskiej Wikipedii oraz materiałów gminy Trzebnica. Dla Trzebnicy AHMP nie opublikował osobnej części opisowej — dostępne są wyłącznie plansze kartograficzne.",
+      "tekst": "**Uwaga:** podobnie jak w przypadku kilku innych miast śląskich w serwisie, dla Trzebnicy Atlas Historyczny Miast Polskich nie wydał osobnej „części opisowej” — dostępne są tylko plansze kartograficzne (AHMP II). Powyższe karty są więc odrębnym opracowaniem redakcyjnym, a nie tłumaczeniem/streszczeniem zeszytu AHMP.\n\n**Źródła:**\n- [Trzebnica — Wikipedia](https://pl.wikipedia.org/wiki/Trzebnica)\n- [Lokalizacja i historia — BIP Gmina Trzebnica](https://bip.trzebnica.pl/artykul/28/673/lokalizacja-i-historia)\n- Katalog map: [atlasmiast.umk.pl/atlasy/trzebnica](https://atlasmiast.umk.pl/atlasy/trzebnica/)",
+      "mapy": []
+    }
+  }
+}

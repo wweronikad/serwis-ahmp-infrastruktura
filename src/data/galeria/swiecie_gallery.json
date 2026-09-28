@@ -1,0 +1,144 @@
+[
+  {
+    "id": "czesc_poludniowa",
+    "file": "swiecie_czesc_poludniowa.webp",
+    "title": "Część południowa miasta",
+    "date": "b.d.",
+    "mapPin": [
+      18.451144,
+      53.404188
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "czesc_polnocna",
+    "file": "swiecie_czesc_polnocna.webp",
+    "title": "Część północna miasta",
+    "date": "b.d.",
+    "mapPin": [
+      18.446355,
+      53.412419
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "panorama_nowego_miasta",
+    "file": "swiecie_panorama_nowego_miasta.webp",
+    "title": "Panorama Nowego Miasta od zachodu",
+    "date": "b.d.",
+    "mapPin": [
+      18.445395,
+      53.407331
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "kosciol_ewangelicki",
+    "file": "swiecie_kosciol_ewangelicki.webp",
+    "title": "Dawny kościół ewangelicki (ob. św. A. Boboli)",
+    "date": "b.d.",
+    "mapPin": [
+      18.445742,
+      53.407373
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "klasztor_bernardynow",
+    "file": "swiecie_klasztor_bernardynow.webp",
+    "title": "Dawny kościół i klasztor bernardynów",
+    "date": "b.d.",
+    "mapPin": [
+      18.455972,
+      53.409027
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "zamek_krzyzacki",
+    "file": "swiecie_zamek_krzyzacki.webp",
+    "title": "Dawny zamek krzyżacki",
+    "date": "b.d.",
+    "mapPin": [
+      18.458339,
+      53.404558
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "kosciol_nmp",
+    "file": "swiecie_kosciol_nmp.webp",
+    "title": "Kościół NMP i Stare Miasto",
+    "date": "b.d.",
+    "mapPin": [
+      18.448611,
+      53.400589
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "rynek_ratusz",
+    "file": "swiecie_rynek_ratusz.webp",
+    "title": "Rynek i ratusz",
+    "date": "b.d.",
+    "mapPin": [
+      18.451729,
+      53.408472
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "plan_ruin_zamku_1795",
+    "file": "swiecie_plan_ruin_zamku_1795.webp",
+    "title": "Plan ruin zamku i wieża zamkowa",
+    "date": "ok. 1795",
+    "mapPin": [
+      18.459009,
+      53.404614
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_od_zachodu_xix",
+    "file": "swiecie_widok_od_zachodu_xix.webp",
+    "title": "Widok miasta od zachodu",
+    "date": "pocz. XIX w.",
+    "mapPin": [
+      18.445635,
+      53.400342
+    ],
+    "imgPins": [
+      {
+        "x": 79.2,
+        "y": 41.4,
+        "label": "Zamek Krzyżacki"
+      },
+      {
+        "x": 10.5,
+        "y": 45,
+        "label": "kościół i klasztor bernardynów"
+      },
+      {
+        "x": 45.9,
+        "y": 40.7,
+        "label": "kościół parafialny"
+      },
+      {
+        "x": 64,
+        "y": 40.5,
+        "label": "kościół ewangelicki"
+      }
+    ]
+  },
+  {
+    "id": "widok_zamku_1656",
+    "file": "swiecie_widok_zamku_1656.webp",
+    "title": "Widok zamku od południa",
+    "date": "1656",
+    "mapPin": [
+      18.459247,
+      53.40394
+    ],
+    "imgPins": []
+  }
+]

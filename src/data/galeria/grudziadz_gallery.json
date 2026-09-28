@@ -1,0 +1,299 @@
+[
+  {
+    "id": "widok_1656",
+    "file": "grudziadz_widok_1656.webp",
+    "title": "Widok Grudziądza",
+    "date": "1656",
+    "mapPin": [
+      18.748712,
+      53.492259
+    ],
+    "imgPins": [
+      {
+        "x": 68,
+        "y": 39.2,
+        "label": "Kościół zamkowy"
+      },
+      {
+        "x": 47,
+        "y": 58.5,
+        "label": "Brama"
+      },
+      {
+        "x": 44.6,
+        "y": 47.6,
+        "label": "Kościół miejski (farny)"
+      },
+      {
+        "x": 32.6,
+        "y": 56.4,
+        "label": "Ratusz"
+      },
+      {
+        "x": 20.2,
+        "y": 52.7,
+        "label": "Klasztor"
+      },
+      {
+        "x": 17.1,
+        "y": 56,
+        "label": "Brama Wiślana (Wodna)"
+      },
+      {
+        "x": 15,
+        "y": 55.1,
+        "label": "Brama Toruńska"
+      },
+      {
+        "x": 13.3,
+        "y": 55.1,
+        "label": "Wodociąg (w odniesieniu do Grudziądza – Kanał Trynka)"
+      },
+      {
+        "x": 6.3,
+        "y": 55.1,
+        "label": "Rzeka Wisła"
+      },
+      {
+        "x": 67.5,
+        "y": 73.7,
+        "label": "Szańce szwedzkie"
+      },
+      {
+        "x": 42,
+        "y": 71.7,
+        "label": "Szańce szwedzkie"
+      },
+      {
+        "x": 25.1,
+        "y": 74.6,
+        "label": "Szańce szwedzkie"
+      }
+    ]
+  },
+  {
+    "id": "plan_miasta_1756",
+    "file": "grudziadz_plan_miasta_1756.webp",
+    "title": "Plan miasta",
+    "date": "1756",
+    "mapPin": [
+      18.748637,
+      53.492481
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "plan_miasta_1772",
+    "file": "grudziadz_plan_miasta_1772.webp",
+    "title": "Plan miasta",
+    "date": "1772",
+    "mapPin": [
+      18.74913,
+      53.492217
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "plan_miasta_ok_1800",
+    "file": "grudziadz_plan_miasta_ok_1800.webp",
+    "title": "Plan miasta",
+    "date": "ok. 1800",
+    "mapPin": [
+      18.747286,
+      53.492624
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "oblezenie_1807",
+    "file": "grudziadz_oblezenie_1807.webp",
+    "title": "Oblężenie Grudziądza, lipiec 1807 r.",
+    "date": "1807",
+    "mapPin": [
+      18.738628,
+      53.475589
+    ],
+    "imgPins": [
+      {
+        "x": 42.1,
+        "y": 50.8,
+        "label": "Wieża Klimek"
+      },
+      {
+        "x": 58.8,
+        "y": 56.6,
+        "label": "Kościół Ducha Św."
+      },
+      {
+        "x": 42.7,
+        "y": 53.9,
+        "label": "Kościół farny św. Mikołaja"
+      },
+      {
+        "x": 50,
+        "y": 54.3,
+        "label": "Ratusz"
+      }
+    ]
+  },
+  {
+    "id": "model_miasta_ok_2pol_xviii_w",
+    "file": "grudziadz_model_miasta_ok_2pol_xviii_w.webp",
+    "title": "Model miasta (ok. II poł. XVIII w.)",
+    "date": "ok. 2. poł. XVIII w.",
+    "mapPin": [
+      18.747159,
+      53.492968
+    ],
+    "imgPins": [
+      {
+        "x": 11.7,
+        "y": 30.3,
+        "label": "Zamek krzyżacki"
+      },
+      {
+        "x": 34.5,
+        "y": 29.8,
+        "label": "Brama Łacińska"
+      },
+      {
+        "x": 23.2,
+        "y": 15.2,
+        "label": "Kościół i Klasztor Reformatorów"
+      },
+      {
+        "x": 45.3,
+        "y": 40.6,
+        "label": "Kolegium jezuickie"
+      },
+      {
+        "x": 46.2,
+        "y": 32,
+        "label": "Kościół św. Franciszka Ksawerego"
+      },
+      {
+        "x": 52.7,
+        "y": 39.4,
+        "label": "Kościół farny św. Mikołaja"
+      },
+      {
+        "x": 61.3,
+        "y": 31.1,
+        "label": "Ratusz"
+      },
+      {
+        "x": 84.8,
+        "y": 33.8,
+        "label": "Kościół Ducha Św."
+      },
+      {
+        "x": 91.3,
+        "y": 32.3,
+        "label": "Brama Toruńska"
+      },
+      {
+        "x": 64.2,
+        "y": 20.5,
+        "label": "Brama Boczna"
+      },
+      {
+        "x": 67,
+        "y": 50.1,
+        "label": "Spichrze"
+      }
+    ]
+  },
+  {
+    "id": "widok_ok_1837",
+    "file": "grudziadz_widok_ok_1837.webp",
+    "title": "Widok na Grudziądz",
+    "date": "ok. 1837",
+    "mapPin": [
+      18.748704,
+      53.494601
+    ],
+    "imgPins": [
+      {
+        "x": 41.9,
+        "y": 48.4,
+        "label": "Kościół św. Franciszka Ksawerego"
+      },
+      {
+        "x": 30.4,
+        "y": 45.2,
+        "label": "Kolegium jezuickie"
+      },
+      {
+        "x": 48.9,
+        "y": 42.5,
+        "label": "Kościół farny pw. św. Mikołaja"
+      }
+    ]
+  },
+  {
+    "id": "widok_z_kepy_strzemiecinskiej_1869",
+    "file": "grudziadz_widok_z_kepy_strzemiecinskiej_1869.webp",
+    "title": "Widok z Kępy Strzemięcińskiej",
+    "date": "1869",
+    "mapPin": [
+      18.73409,
+      53.469288
+    ],
+    "imgPins": [
+      {
+        "x": 35.4,
+        "y": 51.5,
+        "label": "Zamek krzyżacki"
+      },
+      {
+        "x": 32.4,
+        "y": 53.3,
+        "label": "Kościół farny pw. św. Mikołaja"
+      }
+    ]
+  },
+  {
+    "id": "i_gora_zamkowa_od_zachodu",
+    "file": "grudziadz_i_gora_zamkowa_od_zachodu.webp",
+    "title": "Grudziądz i Góra Zamkowa od zachodu",
+    "date": "b.d.",
+    "mapPin": [
+      18.749102,
+      53.495246
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "gora_zamkowa_od_polnocy",
+    "file": "grudziadz_gora_zamkowa_od_polnocy.webp",
+    "title": "Góra Zamkowa od strony północnej",
+    "date": "b.d.",
+    "mapPin": [
+      18.749434,
+      53.496108
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "od_poludniowego_wschodu",
+    "file": "grudziadz_od_poludniowego_wschodu.webp",
+    "title": "Grudziądz od strony płd.-wschodniej",
+    "date": "b.d.",
+    "mapPin": [
+      18.751794,
+      53.49021
+    ],
+    "imgPins": []
+  },
+  {
+    "id": "widok_ogolny_od_poludniowego_zachodu",
+    "file": "grudziadz_widok_ogolny_od_poludniowego_zachodu.webp",
+    "title": "Widok ogólny od strony płd.-zachodniej",
+    "date": "b.d.",
+    "mapPin": [
+      18.73777,
+      53.482446
+    ],
+    "imgPins": []
+  }
+]

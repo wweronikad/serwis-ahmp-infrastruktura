@@ -1,0 +1,48 @@
+{
+  "cityId": "legnica",
+  "epoka": "X–XX w.",
+  "karty": {
+    "uklad_przestrzenny": {
+      "dostepne": true,
+      "zajawka": "Gród piastowski od X w., lokacja na prawie magdeburskim w 1264 r. Stolica księstwa legnickiego od 1248 r. — funkcję tę pełniła przez 427 lat, do 1675 r.",
+      "tekst": "Ślady osadnictwa na terenie Legnicy sięgają VIII w. — na wzniesieniu w rejonie dzisiejszej ul. Spokojnej istniał wczesny gród obronny Słowian. Ok. 985 r., za panowania Mieszka I, wzniesiono w tym miejscu tzw. gród piastowski, rozbudowywany w 2. poł. XII w. przez Bolesława I Wysokiego i w 1. poł. XIII w. przez Henryka Brodatego. Pierwsza pisemna wzmianka o nazwie miasta pochodzi z dokumentu Bolesława Kędzierzawego z 1149 r.\n\nU stóp zamku, dzięki nadanym prawom miejskim (prawo magdeburskie od 1264 r.; miasto lokacyjne od tego roku), Legnica zaczęła dynamicznie się rozwijać — leżała na skrzyżowaniu szlaków handlowych łączących Niemcy przez Wrocław i Kraków z Kijowem oraz Wielkopolskę z południem Europy. W 1248 r. Legnica stała się stolicą wydzielonego księstwa legnickiego, funkcję tę (od 1274 r. jako księstwo legnicko-brzeskie) pełniła nieprzerwanie do 1675 r., czyli do wygaśnięcia linii Piastów śląskich.\n\nW XIX i XX w. miasto znacząco rozrosło się poza obręb dawnych murów — wraz z rozwojem przemysłu i koleją, a od lat 60. XX w. w związku z odkryciem złóż miedzi i powstaniem Legnicko-Głogowskiego Okręgu Miedziowego.",
+      "mapy": ["ahmp_legnica_ii_2", "ahmp_legnica_ii_5", "ahmp_legnica_ii_8"]
+    },
+    "fortyfikacje": {
+      "dostepne": true,
+      "zajawka": "Zamek piastowski — jeden z najstarszych murowanych zamków w Polsce. Mury miejskie z 1312 r. (26 baszt, 4 bramy). Fortyfikacje nowożytne zlikwidowane przez Prusaków w 1758 r.",
+      "tekst": "Zamek Piastowski w Legnicy należy do najstarszych zamków w Polsce i najstarszego murowanego zamku na Śląsku — wzniesiono go na przełomie XII i XIII w. w miejscu wcześniejszego grodu, jako główną siedzibę Bolesława I Wysokiego, a później Henryka Brodatego.\n\nMiejskie mury obronne zaczęto wznosić w 1312 r.; docelowo obejmowały 26 baszt i 4 bramy wjazdowe. W XVI i pierwszej połowie XVII w., pod panowaniem Habsburgów, prowadzono intensywną rozbudowę fortyfikacji (m.in. nową bramę wschodnią zamku w 1533 r.), zwłaszcza za księcia Fryderyka I. Po wojnie trzydziestoletniej miasto pozostawało pod stałą obsadą wojsk cesarskich aż do 1945 r. Po przejęciu Śląska przez Prusy władze pruskie zarządziły w 1758 r. likwidację przestarzałej już twierdzy legnickiej.",
+      "mapy": []
+    },
+    "ludnosc": {
+      "dostepne": true,
+      "zajawka": "Ponad 10 tys. mieszkańców już w 1329 r. — jedno z większych miast średniowiecznego Śląska. Gwałtowny wzrost w XIX/XX w. (23 tys. w 1871 r., 70 tys. w 1914 r.). W 1945 r. całkowita wymiana ludności niemieckiej na polską.",
+      "tekst": "Legnica należała do liczniejszych miast średniowiecznego Śląska — już w 1329 r. liczyła ponad 10 tys. mieszkańców. Na początku XIX w. w obrębie murów i na przedmieściach mieszkało ok. 7 tys. osób; wraz z uprzemysłowieniem liczba ludności rosła gwałtownie: ponad 23 tys. w 1871 r. i ponad 70 tys. w 1914 r.\n\nLato 1945 r. przyniosło skokową zmianę struktury narodowościowej miasta — w mieście przebywało wówczas równocześnie ok. 16,7 tys. Polaków, 12,8 tys. Niemców oraz ponad 60 tys. żołnierzy i osadników radzieckich (Legnica była do 1993 r. siedzibą Północnej Grupy Wojsk Armii Radzieckiej). W kolejnych latach ludność niemiecka została wysiedlona, a miasto zasiedlili głównie Polacy z centralnej Polski oraz zza dawnej granicy wschodniej. W latach 1985–1990 miasto przekroczyło próg 100 tys. mieszkańców.",
+      "mapy": []
+    },
+    "gospodarka": {
+      "dostepne": true,
+      "zajawka": "Ośrodek handlu i rzemiosła cechowego od średniowiecza, wczesny ośrodek drukarstwa (od 1528 r.). Od 1952 r. Huta Miedzi Legnica i rdzeń Legnicko-Głogowskiego Okręgu Miedziowego po odkryciu złóż w latach 60. XX w.",
+      "tekst": "Gospodarczy rozkwit średniowiecznej Legnicy wiązał się z jej położeniem na skrzyżowaniu szlaków handlowych. Rozwijało się rzemiosło cechowe, sukiennictwo, folusze i farbiarnie. Miasto było też wcześnie ośrodkiem drukarstwa — pierwszą drukarnię założył tu w 1528 r. Semprecht Sorg z Zurychu, a w kolejnych dekadach działały tu warsztaty Pawła Aszera Hekcze i Nicolausa Schneidera.\n\nW XIX w. nastąpiła industrializacja: w 1787 r. działały już wytwórnia skór i manufaktura sukiennicza, a w mieście funkcjonowało 41 cechów rzemieślniczych; od lat 50.–60. XIX w. rozwijał się przemysł na większą skalę (zakłady mechaniczne, fabryka przewodów, fabryka fortepianów).\n\nPrzełomowe znaczenie miało odkrycie w latach 60. XX w. bogatych złóż rud miedzi w regionie — powstał wówczas Legnicko-Głogowski Okręg Miedziowy, a w 1952 r. uruchomiono Hutę Miedzi Legnica, która na dekady zdefiniowała profil gospodarczy miasta.",
+      "mapy": ["ahmp_legnica_ii_9"]
+    },
+    "wladza": {
+      "dostepne": true,
+      "zajawka": "Stolica własnego księstwa Piastów śląskich 1248–1675. Od 1741 r. pod panowaniem pruskim, siedziba rejencji legnickiej. W latach 1975–1998 miasto wojewódzkie.",
+      "tekst": "Od 1248 do 1675 r. Legnica była stolicą kolejno księstwa legnickiego i legnicko-brzeskiego — jednego z księstw piastowskich, którym władała nieprzerwanie miejscowa linia dynastii Piastów śląskich, aż do jej wygaśnięcia w 1675 r. wraz ze śmiercią ostatniego księcia, Jerzego Wilhelma.\n\nPo I wojnie śląskiej, w 1741 r., Legnica przeszła pod panowanie pruskie; rok później stała się miastem garnizonowym. Na przełomie XVIII i XIX w. do Legnicy przeniesiono siedzibę rejencji (wcześniej mieszczącej się w Głogowie), co uczyniło miasto ważnym ośrodkiem administracyjnym prowincji śląskiej aż do 1945 r.\n\nPo wojnie, w ramach reformy administracyjnej z 1975 r., Legnica została siedzibą odrębnego województwa legnickiego; status ten utraciła 1 stycznia 1999 r. wraz z reformą powiatową, wchodząc w skład województwa dolnośląskiego.",
+      "mapy": []
+    },
+    "srodowisko": {
+      "dostepne": true,
+      "zajawka": "Nieopodal Legnicy, 9 kwietnia 1241 r., wojska mongolskie pokonały siły Henryka II Pobożnego, który zginął w bitwie — jedno z najbardziej znanych starć średniowiecznej Europy Środkowej.",
+      "tekst": "9 kwietnia 1241 r., w trakcie najazdu mongolskiego na Europę, kilka kilometrów od Legnicy rozegrała się bitwa między ok. 10-tysięczną armią śląsko-polską pod wodzą księcia Henryka II Pobożnego a liczniejszymi siłami mongolskimi. Mongołowie, stosując taktykę pozorowanej ucieczki i wywabiania oddziałów z szyku, doprowadzili do rozbicia wojsk chrześcijańskich; sam Henryk II zginął, a jego ciało (po odnalezieniu ścięte) stało się elementem mongolskiej wojny psychologicznej wobec okolicznych miast.\n\nTradycyjnie miejsce bitwy łączy się z Legnickim Polem, choć część historyków lokalizuje je precyzyjniej w rejonie dzisiejszego Dobrego Pola, ok. 7 km na południowy wschód od Legnicy. Mongołowie, mimo zwycięstwa, zawrócili wkrótce na wschód i nie kontynuowali marszu w głąb Europy — bitwa pozostaje jednym z najbardziej rozpoznawalnych wydarzeń średniowiecznej historii regionu.",
+      "mapy": []
+    },
+    "zrodla": {
+      "dostepne": true,
+      "zajawka": "Opracowanie na podstawie polskiej Wikipedii oraz stron poświęconych Zamkowi Piastowskiemu — dla Legnicy AHMP nie opublikował osobnej części opisowej, więc te karty nie są tłumaczeniem zeszytu atlasowego, tylko odrębnym opracowaniem redakcyjnym serwisu.",
+      "tekst": "**Uwaga:** w przeciwieństwie do większości miast w serwisie, dla Legnicy Atlas Historyczny Miast Polskich nie wydał osobnej „części opisowej” (zeszytu z narracją historyczną) — dostępne są tylko plansze kartograficzne. Treść powyższych kart została więc przygotowana redakcyjnie na podstawie ogólnodostępnych źródeł, nie jest tłumaczeniem/streszczeniem publikacji AHMP.\n\n**Źródła:**\n- [Historia Legnicy — Wikipedia](https://pl.wikipedia.org/wiki/Historia_Legnicy)\n- [Zamek Piastowski w Legnicy — Wikipedia](https://pl.wikipedia.org/wiki/Zamek_Piastowski_w_Legnicy)\n- [Bitwa pod Legnicą — Wikipedia](https://pl.wikipedia.org/wiki/Bitwa_pod_Legnic%C4%85)\n- [Stowarzyszenie Zamek Piastowski w Legnicy — Historia](http://zamek.legnica.pl/2016/10/historia/)\n- Katalog map: [atlasmiast.umk.pl/atlasy/legnica](https://atlasmiast.umk.pl/atlasy/legnica/)",
+      "mapy": []
+    }
+  }
+}
